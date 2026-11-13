@@ -333,3 +333,7 @@ details.srcs summary { display: inline; cursor: pointer; }
   .chart .hv, .chart .gv, .chart .vlabel, .chart .dot, .chart .elabel, .chart .evalue { opacity: 1 !important; animation: none !important; }
   .chart .ln { stroke-dashoffset: 0 !important; animation: none !important; }
 }
+
+#tb-fichas th, #tb-fichas td { padding: 6px 9px; font-size: 12.5px; }
+#tb-fichas tbody th, #tb-fichas thead th:first-child { position: sticky; left: 0; background: var(--surface); z-index: 1; max-width: 190px; white-space: normal; }
+#tb-fichas tbody th small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 170px; }
