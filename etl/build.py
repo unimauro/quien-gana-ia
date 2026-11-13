@@ -546,6 +546,116 @@ for c in companies:
 studies = [{"org": x.get("org"), "title": x.get("title"), "date": x.get("date"), "url": x["url"], "pdf": bool(x.get("is_pdf")),
             "ok": bool(x.get("verified"))} for x in docs_raw.get("studies", []) if x.get("url")]
 
+# ───────────────────────── historia anual desde 2017 ─────────────────────────
+import datetime as _dt
+
+HP, HM = RAW / "historia.json", RAW / "historia_mercado.json"
+hist = None
+if HP.exists() and HM.exists():
+    HJ, MJ = json.loads(HP.read_text()), json.loads(HM.read_text())
+    FX = MJ.get("fx", {}).get("rates", {})
+    YEARS = list(range(2017, 2026))
+
+    def pdate(x):
+        for f in ("%Y-%m-%d", "%b %d, %Y", "%B %d, %Y"):
+            try:
+                return _dt.datetime.strptime(str(x), f)
+            except ValueError:
+                pass
+        return None
+
+    def cal_year(label, period_end):
+        d = pdate(period_end)
+        if d is None:
+            return int(str(label)[:4])
+        return d.year - 1 if d.month <= 5 else d.year  # años fiscales que cierran ene–may cubren sobre todo el año anterior
+
+    def to_usd_b(v, cur, unit, year):
+        if v is None:
+            return None
+        u = str(unit or "millions").lower()
+        k = 1.0 if "billion" in u else 1e-6 if "thousand" in u else 1e-3
+        if cur and cur != "USD":
+            r = (FX.get(cur) or {}).get(str(year))
+            if not r:
+                return None
+            v = v / r
+        return round(v * k, 3)
+
+    meta = {c["id"]: c for c in companies}
+    hco = []
+    for h in HJ.get("companies", []):
+        c = meta.get(h["id"])
+        if not c:
+            continue
+        rows = {}
+        for lab, y in (h.get("years") or {}).items():
+            cy = cal_year(lab, y.get("period_end"))
+            if cy not in YEARS:
+                continue
+            row = {k: to_usd_b(y.get(k), h.get("currency"), h.get("unit"), cy) for k in ("revenue", "gross_profit", "operating_income", "net_income", "capex", "fcf")}
+            if row["capex"] is not None:
+                row["capex"] = abs(row["capex"])
+            row["fy"] = str(lab)
+            rows[cy] = row
+        if rows:
+            hco.append({"id": c["id"], "name": c["name"], "cat": c["cat"], "fx": h.get("currency") not in (None, "USD"),
+                        "rows": {str(y): rows[y] for y in sorted(rows)}, "src": [u for u in (h.get("source_income"), h.get("source_cashflow")) if u]})
+
+    def gsum(cat, key):
+        out, n = [], []
+        for y in YEARS:
+            vals = [x["rows"].get(str(y), {}).get(key) for x in hco if cat in (None, x["cat"])]
+            vals = [v for v in vals if v is not None]
+            out.append(round(sum(vals), 1) if vals else None)
+            n.append(len(vals))
+        return out, n
+
+    groups = {}
+    for cat in ("chips", "big", "soft", None):
+        g = {}
+        for key in ("capex", "net_income", "gross_profit", "fcf", "revenue"):
+            g[key], g[key + "_n"] = gsum(cat, key)
+        groups[cat or "all"] = g
+
+    totals = []
+    for x in hco:
+        t = {}
+        for key in ("capex", "net_income", "gross_profit", "fcf", "revenue"):
+            vals = [x["rows"].get(str(y), {}).get(key) for y in YEARS]
+            vals = [v for v in vals if v is not None]
+            t[key] = round(sum(vals), 1) if vals else None
+        yrs = [y for y in YEARS if x["rows"].get(str(y), {}).get("revenue") is not None]
+        t["first"], t["years"] = (min(yrs) if yrs else None), len(yrs)
+        totals.append({"id": x["id"], "name": x["name"], "cat": x["cat"], "fx": x["fx"], **t, "src": x["src"]})
+
+    mc_rows = []
+    for m in MJ.get("market_cap", []):
+        c = meta.get(m["id"])
+        if not c:
+            continue
+        ye = {}
+        for y in range(2016, 2026):
+            v = (m.get("year_end") or {}).get(str(y))
+            if v is None:
+                continue
+            u = str(m.get("unit", "billions")).lower()
+            v = v * (1e-3 if "million" in u else 1.0)
+            cur = m.get("currency", "USD")
+            if cur != "USD":
+                r = (FX.get(cur) or {}).get(str(y))
+                v = v / r if r else None
+            if v is not None:
+                ye[str(y)] = round(v, 1)
+        mc_rows.append({"id": c["id"], "name": c["name"], "cat": c["cat"], "ye": ye, "src": [m.get("source")] if m.get("source") else []})
+    mcap_groups = {}
+    for cat in ("chips", "big", "soft"):
+        mcap_groups[cat] = [round(sum(r["ye"].get(str(y), 0) for r in mc_rows if r["cat"] == cat), 0) for y in range(2016, 2026)]
+
+    hist = {"years": YEARS, "companies": hco, "groups": groups, "totals": totals, "mcap": mc_rows, "mcap_groups": mcap_groups,
+            "fx_src": [MJ["fx"]["source"]] if MJ.get("fx", {}).get("source") else [],
+            "milestones": [x for x in MJ.get("milestones", []) if x.get("url")]}
+
 out = {
     "as_of": "2026-11-13",
     "companies": companies, "soft_ytd": soft_ytd,
@@ -555,7 +665,7 @@ out = {
     "valuations": valuations, "runrate": runrate, "lab_money": lab_money, "lab_pnl": lab_pnl,
     "multiples": multiples, "labs_table": labs_table, "failures": failures,
     "ai_metrics": ai_metrics, "flows": flows, "paper_gains": paper_gains,
-    "pnl_top": pnl_top, "net": {"nodes": net_nodes, "edges": net_edges}, "roi": roi, "events": events, "risks": risks, "studies": studies,
+    "pnl_top": pnl_top, "net": {"nodes": net_nodes, "edges": net_edges}, "roi": roi, "events": events, "risks": risks, "studies": studies, "hist": hist,
 }
 (ROOT / "data" / "dashboard.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
 allu = set()
@@ -581,5 +691,10 @@ for c in companies:
         elif isinstance(v, dict):
             allu.add(v["url"])
 allu.update(x["url"] for x in studies)
+if hist:
+    for x in hist["companies"] + hist["mcap"]:
+        allu.update(x["src"])
+    allu.update(hist["fx_src"])
+    allu.update(m["url"] for m in hist["milestones"])
 (ROOT / "data" / "fuentes.txt").write_text("\n".join(sorted(allu)) + "\n")
 print(f"OK: {len(companies)} empresas cotizadas, {len(labs_table)} labs/startups, {len(allu)} fuentes distintas")

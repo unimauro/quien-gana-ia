@@ -168,14 +168,14 @@
             const h = Math.max(0, y0 - y1 - 2);
             g.appendChild(svg('path', { d: roundTop(cx - bw / 2, y1, bw, h, last ? 4 : 0), fill: `var(${se.color})`, opacity: o.catNote && o.catNote[i] ? 0.55 : 1 }));
           });
-          s.appendChild(svg('text', { x: cx, y: y(totals[i]) - 6, class: 'vlabel', 'text-anchor': 'middle' }, fs(totals[i])));
+          if (o.labels !== false) s.appendChild(svg('text', { x: cx, y: y(totals[i]) - 6, class: 'vlabel', 'text-anchor': 'middle' }, fs(totals[i])));
         } else {
           const n = o.series.length, bw = Math.min(24, (band * 0.7) / n - 2), gw = n * bw + (n - 1) * 2;
           o.series.forEach((se, k) => {
             const v = se.values[i]; if (v == null) return;
             const x = cx - gw / 2 + k * (bw + 2), y1 = y(Math.max(v, 0)), h = Math.abs(y(v) - y(0));
             g.appendChild(svg('path', { d: v >= 0 ? roundTop(x, y1, bw, h, 4) : roundBottom(x, y(0), bw, h, 4), fill: `var(${se.color})`, opacity: o.catNote && o.catNote[i] ? 0.55 : 1 }));
-            if (band > 70 || n === 1) s.appendChild(svg('text', { x: x + bw / 2, y: (v >= 0 ? y1 - 6 : y(v) + 14), class: 'vlabel', 'text-anchor': 'middle' }, fs(v)));
+            if (o.labels !== false && (band > 70 || n === 1)) s.appendChild(svg('text', { x: x + bw / 2, y: (v >= 0 ? y1 - 6 : y(v) + 14), class: 'vlabel', 'text-anchor': 'middle' }, fs(v)));
           });
         }
         g.appendChild(svg('rect', { x: m.l + band * i, y: m.t, width: band, height: ph, fill: 'transparent' }));

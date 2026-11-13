@@ -112,6 +112,104 @@
     drawInv('capex'); $('c-inv').classList.remove('inview');
   } else { $('c-inv').closest('.card').hidden = true; }
 
+  /* ---------- desde 2017 ---------- */
+  const H = D.hist;
+  if (H) {
+    const Y = H.years.map(String), G = H.groups, last = Y.length - 1;
+    const tot = k => G.all[k].reduce((t, v) => t + (v || 0), 0);
+    const totC = (c, k) => G[c][k].reduce((t, v) => t + (v || 0), 0);
+    [
+      ['Inversión de capital 2017–2025', fmt.usdB(tot('capex')), `las 42 empresas; ${fmt.usdB(G.all.capex[0])} en 2017 y ${fmt.usdB(G.all.capex[last])} en 2025`],
+      ['Utilidad neta 2017–2025', fmt.usdB(tot('net_income')), `${fmt.num(tot('net_income') / tot('capex'), 2)} dólares de utilidad por cada dólar invertido`],
+      ['Gigantes: invirtieron', fmt.usdB(totC('big', 'capex')), `y ganaron ${fmt.usdB(totC('big', 'net_income'))} netos en el mismo periodo`],
+      ['Chips: invirtieron', fmt.usdB(totC('chips', 'capex')), `y ganaron ${fmt.usdB(totC('chips', 'net_income'))} netos en el mismo periodo`]
+    ].forEach(t => $('h-tiles').appendChild(tile(...t)));
+    const allSrc = H.companies.flatMap(c => c.src);
+    src('s-htiles', allSrc.concat(H.fx_src), 'Estados financieros por empresa');
+
+    columns($('c-hcapex'), {
+      cats: Y, series: ['big', 'chips', 'soft'].map(k => ({ name: CAT[k].name, color: CAT[k].color, values: G[k].capex })),
+      height: 320, aria: 'Inversión de capital por año y grupo, 2017 a 2025'
+    });
+    src('s-hcapex', allSrc, 'Fuentes por empresa');
+
+    function drawFlow(k) {
+      const g = G[k];
+      columns($('c-hflow'), {
+        cats: Y, grouped: true, labels: false, height: 320, aria: 'Inversión, utilidad neta y caja libre por año',
+        series: [{ name: 'Inversión (sale)', color: '--out', values: g.capex.map(v => v == null ? null : -v) },
+          { name: 'Utilidad neta', color: '--s3', values: g.net_income }, { name: 'Caja libre', color: '--s4', values: g.fcf }]
+      });
+      $('c-hflow').classList.add('inview');
+    }
+    [['all', 'Todos'], ['big', 'Gigantes'], ['chips', 'Chips'], ['soft', 'Software']].forEach(([v, label], i) => {
+      const b = el('button', { type: 'button', 'aria-pressed': String(i === 0), text: label });
+      b.addEventListener('click', () => { $('f-hgrp').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawFlow(v); });
+      $('f-hgrp').appendChild(b);
+    });
+    drawFlow('all'); $('c-hflow').classList.remove('inview');
+    src('s-hflow', allSrc, 'Fuentes por empresa');
+
+    const byName = H.companies.slice().sort((a, b) => a.name.localeCompare(b.name));
+    byName.forEach(c => $('f-hco').appendChild(el('option', { value: c.id, text: c.name + (c.fx ? ' *' : '') })));
+    function drawCo(id) {
+      const c = H.companies.find(x => x.id === id), r = y => c.rows[y] || {};
+      const t = H.totals.find(x => x.id === id);
+      $('h-cosub').textContent = `Miles de millones de US$ por año.${c.fx ? ' Reporta en otra moneda: convertido con el tipo de cambio promedio de cada año (estimado).' : ''} Total ${t.first || ''}–2025: inversión ${fmt.usdB(t.capex)}, utilidad neta ${fmt.usdB(t.net_income)}, caja libre ${fmt.usdB(t.fcf)}.`;
+      columns($('c-hco'), {
+        cats: Y, grouped: true, labels: false, height: 300, aria: 'Serie anual de ' + c.name,
+        series: [{ name: 'Inversión (sale)', color: '--out', values: Y.map(y => r(y).capex == null ? null : -r(y).capex) },
+          { name: 'Ganancia bruta', color: '--s1', values: Y.map(y => r(y).gross_profit) },
+          { name: 'Utilidad neta', color: '--s3', values: Y.map(y => r(y).net_income) },
+          { name: 'Caja libre', color: '--s4', values: Y.map(y => r(y).fcf) }]
+      });
+      $('c-hco').classList.add('inview');
+      src('s-hco', c.src);
+    }
+    $('f-hco').value = 'amazon' in Object.fromEntries(H.companies.map(c => [c.id, 1])) ? 'amazon' : byName[0].id;
+    $('f-hco').addEventListener('change', e => drawCo(e.target.value));
+    drawCo($('f-hco').value); $('c-hco').classList.remove('inview');
+
+    const TOT = {
+      capex: ['Las que más invirtieron', l => l.filter(x => x.capex != null).sort((a, b) => b.capex - a.capex)],
+      ni: ['Las que más ganaron', l => l.filter(x => x.net_income != null).sort((a, b) => b.net_income - a.net_income)],
+      ratio: ['Más utilidad por dólar invertido', l => l.filter(x => x.capex > 1 && x.net_income != null).sort((a, b) => b.net_income / b.capex - a.net_income / a.capex)],
+      worst: ['Menos utilidad por dólar invertido', l => l.filter(x => x.capex > 1 && x.net_income != null).sort((a, b) => a.net_income / a.capex - b.net_income / b.capex)]
+    };
+    function drawTot(k) {
+      const list = TOT[k][1](H.totals).slice(0, 15);
+      hgroup($('c-htot'), {
+        groups: list.map(x => ({
+          label: x.name + (x.fx ? '*' : ''), sub: `${CAT[x.cat].name} · ${x.first && x.first > 2017 ? 'desde ' + x.first : '2017–2025'}`,
+          tip: x.capex ? `Utilidad neta por cada dólar invertido: ${fmt.num(x.net_income / x.capex, 2)}` : '',
+          bars: [{ name: 'Inversión acumulada', value: x.capex == null ? null : -x.capex, shown: x.capex, color: '--out' },
+            { name: 'Ganancia bruta acumulada', value: x.gross_profit, color: '--s1' },
+            { name: 'Utilidad neta acumulada', value: x.net_income, color: '--s3' },
+            { name: 'Caja libre acumulada', value: x.fcf, color: '--s4' }]
+        })),
+        legend: [{ name: 'Inversión (sale)', color: '--out' }, { name: 'Ganancia bruta', color: '--s1' }, { name: 'Utilidad neta', color: '--s3' }, { name: 'Caja libre', color: '--s4' }]
+      });
+      $('c-htot').classList.add('inview');
+      src('s-htot', list.flatMap(x => x.src), '* Convertido de otra moneda (estimado). Fuentes por empresa');
+    }
+    Object.entries(TOT).forEach(([k, [label]], i) => {
+      const b = el('button', { type: 'button', 'aria-pressed': String(i === 0), text: label });
+      b.addEventListener('click', () => { $('f-htot').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawTot(k); });
+      $('f-htot').appendChild(b);
+    });
+    drawTot('capex'); $('c-htot').classList.remove('inview');
+
+    const MY = ['2016'].concat(Y);
+    line($('c-hmcap'), {
+      series: ['big', 'chips', 'soft'].map(k => ({ name: CAT[k].name, short: CAT[k].name.split(' ')[0], color: CAT[k].color, points: MY.map((y, i) => ({ x: +y, y: H.mcap_groups[k][i] })).filter(p => p.y) })),
+      fmt: v => fmt.usdB(v), height: 320, valueHead: 'Capitalización', aria: 'Capitalización bursátil por grupo al cierre de cada año'
+    });
+    src('s-hmcap', H.mcap.flatMap(m => m.src), 'Fuentes por empresa');
+
+    if (H.milestones.length) table('tb-hito', ['Fecha', 'Hito'], H.milestones.map(m => [fdate(m.date), `<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)}</a>`]));
+    else $('tb-hito').closest('.card').hidden = true;
+  } else { $('historia').hidden = true; }
+
   /* ---------- 1. la apuesta ---------- */
   columns($('c-capex'), {
     cats: D.capex.cats, catNote: [null, null, null, null, 'guía de las empresas, no gasto realizado'],

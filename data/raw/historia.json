@@ -1,0 +1,2974 @@
+{
+ "as_of": "2026-11-13",
+ "companies": [
+  {
+   "id": "nvidia",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 16675,
+     "gross_profit": 10557,
+     "operating_income": 4721,
+     "net_income": 4332,
+     "capex": 1128,
+     "operating_cash_flow": 5822,
+     "fcf": 4694,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-01-30",
+     "revenue": 26914,
+     "gross_profit": 17475,
+     "operating_income": 10041,
+     "net_income": 9752,
+     "capex": 976,
+     "operating_cash_flow": 9108,
+     "fcf": 8132
+    },
+    "2023": {
+     "period_end": "2023-01-29",
+     "revenue": 26974,
+     "gross_profit": 15356,
+     "operating_income": 5577,
+     "net_income": 4368,
+     "capex": 1833,
+     "operating_cash_flow": 5641,
+     "fcf": 3808
+    },
+    "2024": {
+     "period_end": "2024-01-28",
+     "revenue": 60922,
+     "gross_profit": 44301,
+     "operating_income": 32972,
+     "net_income": 29760,
+     "capex": 1069,
+     "operating_cash_flow": 28090,
+     "fcf": 27021
+    },
+    "2025": {
+     "period_end": "2025-01-26",
+     "revenue": 130497,
+     "gross_profit": 97858,
+     "operating_income": 81453,
+     "net_income": 72880,
+     "capex": 3236,
+     "operating_cash_flow": 64089,
+     "fcf": 60853
+    },
+    "2026": {
+     "period_end": "2026-01-25",
+     "revenue": 215938,
+     "gross_profit": 153463,
+     "operating_income": 130387,
+     "net_income": 120067,
+     "capex": 6042,
+     "operating_cash_flow": 102718,
+     "fcf": 96676
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/nvda/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/",
+   "notes": "Fiscal year: February - January. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "amd",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 9763,
+     "gross_profit": 4347,
+     "operating_income": 1369,
+     "net_income": 2490,
+     "capex": 294,
+     "operating_cash_flow": 1071,
+     "fcf": 777,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-25",
+     "revenue": 16434,
+     "gross_profit": 7929,
+     "operating_income": 3648,
+     "net_income": 3162,
+     "capex": 301,
+     "operating_cash_flow": 3521,
+     "fcf": 3220
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 23601,
+     "gross_profit": 12051,
+     "operating_income": 1264,
+     "net_income": 1320,
+     "capex": 450,
+     "operating_cash_flow": 3565,
+     "fcf": 3115
+    },
+    "2023": {
+     "period_end": "2023-12-30",
+     "revenue": 22680,
+     "gross_profit": 11402,
+     "operating_income": 401,
+     "net_income": 854,
+     "capex": 546,
+     "operating_cash_flow": 1667,
+     "fcf": 1121
+    },
+    "2024": {
+     "period_end": "2024-12-28",
+     "revenue": 25785,
+     "gross_profit": 13671,
+     "operating_income": 2086,
+     "net_income": 1641,
+     "capex": 636,
+     "operating_cash_flow": 3041,
+     "fcf": 2405
+    },
+    "2025": {
+     "period_end": "2025-12-27",
+     "revenue": 34639,
+     "gross_profit": 18183,
+     "operating_income": 3741,
+     "net_income": 4335,
+     "capex": 974,
+     "operating_cash_flow": 7709,
+     "fcf": 6735
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/amd/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/amd/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "broadcom",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 23888,
+     "gross_profit": 17370,
+     "operating_income": 4361,
+     "net_income": 2960,
+     "capex": 463,
+     "operating_cash_flow": 12061,
+     "fcf": 11598,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-10-31",
+     "revenue": 27450,
+     "gross_profit": 20288,
+     "operating_income": 8684,
+     "net_income": 6736,
+     "capex": 443,
+     "operating_cash_flow": 13764,
+     "fcf": 13321
+    },
+    "2022": {
+     "period_end": "2022-10-30",
+     "revenue": 33203,
+     "gross_profit": 24947,
+     "operating_income": 14286,
+     "net_income": 11495,
+     "capex": 424,
+     "operating_cash_flow": 16736,
+     "fcf": 16312
+    },
+    "2023": {
+     "period_end": "2023-10-29",
+     "revenue": 35819,
+     "gross_profit": 26547,
+     "operating_income": 16706,
+     "net_income": 14082,
+     "capex": 452,
+     "operating_cash_flow": 18085,
+     "fcf": 17633
+    },
+    "2024": {
+     "period_end": "2024-11-03",
+     "revenue": 51574,
+     "gross_profit": 38786,
+     "operating_income": 15798,
+     "net_income": 5895,
+     "capex": 548,
+     "operating_cash_flow": 19962,
+     "fcf": 19414
+    },
+    "2025": {
+     "period_end": "2025-11-02",
+     "revenue": 63887,
+     "gross_profit": 49401,
+     "operating_income": 26367,
+     "net_income": 23126,
+     "capex": 623,
+     "operating_cash_flow": 27537,
+     "fcf": 26914
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/avgo/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/avgo/financials/cash-flow-statement/",
+   "notes": "Fiscal year: December - November. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "tsmc",
+   "currency": "TWD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 1339255,
+     "gross_profit": 711130,
+     "operating_income": 566784,
+     "net_income": 510744,
+     "capex": 507239,
+     "operating_cash_flow": 822666,
+     "fcf": 315428,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 1587415,
+     "gross_profit": 819537,
+     "operating_income": 650255,
+     "net_income": 592359,
+     "capex": 839196,
+     "operating_cash_flow": 1112161,
+     "fcf": 272965
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 2263891,
+     "gross_profit": 1348355,
+     "operating_income": 1122070,
+     "net_income": 992923,
+     "capex": 1082672,
+     "operating_cash_flow": 1610599,
+     "fcf": 527927
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 2161736,
+     "gross_profit": 1175111,
+     "operating_income": 921466,
+     "net_income": 851740,
+     "capex": 949817,
+     "operating_cash_flow": 1241967,
+     "fcf": 292151
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 2894308,
+     "gross_profit": 1624354,
+     "operating_income": 1323204,
+     "net_income": 1158380,
+     "capex": 956007,
+     "operating_cash_flow": 1826177,
+     "fcf": 870171
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 3809054,
+     "gross_profit": 2281294,
+     "operating_income": 1936874,
+     "net_income": 1697604,
+     "capex": 1272411,
+     "operating_cash_flow": 2274976,
+     "fcf": 1002565
+    }
+   },
+   "source_income": "https://stockanalysis.com/quote/tpe/2330/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/tpe/2330/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "micron",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 27705,
+     "gross_profit": 10472,
+     "operating_income": 6796,
+     "net_income": 5861,
+     "capex": 10030,
+     "operating_cash_flow": 12468,
+     "fcf": 2438,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-09-01",
+     "revenue": 30758,
+     "gross_profit": 13898,
+     "operating_income": 9709,
+     "net_income": 8687,
+     "capex": 12067,
+     "operating_cash_flow": 15181,
+     "fcf": 3114
+    },
+    "2023": {
+     "period_end": "2023-08-31",
+     "revenue": 15540,
+     "gross_profit": 415,
+     "operating_income": -3574,
+     "net_income": -5833,
+     "capex": 7676,
+     "operating_cash_flow": 1559,
+     "fcf": -6117
+    },
+    "2024": {
+     "period_end": "2024-08-29",
+     "revenue": 25111,
+     "gross_profit": 5613,
+     "operating_income": 1304,
+     "net_income": 778,
+     "capex": 8386,
+     "operating_cash_flow": 8507,
+     "fcf": 121
+    },
+    "2025": {
+     "period_end": "2025-08-28",
+     "revenue": 37378,
+     "gross_profit": 14873,
+     "operating_income": 9770,
+     "net_income": 8539,
+     "capex": 15857,
+     "operating_cash_flow": 17525,
+     "fcf": 1668
+    },
+    "2026": {
+     "period_end": "2026-09-03",
+     "revenue": 133188,
+     "gross_profit": 107504,
+     "operating_income": 99340,
+     "net_income": 84969,
+     "capex": 30712,
+     "operating_cash_flow": 89675,
+     "fcf": 58963
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/mu/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/",
+   "notes": "Fiscal year: October - September. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "skhynix",
+   "currency": "KRW",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 31900418,
+     "gross_profit": 10810629,
+     "operating_income": 5012624,
+     "net_income": 4755102,
+     "capex": 10068662,
+     "operating_cash_flow": 12314571,
+     "fcf": 2245909,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 42997792,
+     "gross_profit": 18952192,
+     "operating_income": 12410340,
+     "net_income": 9602316,
+     "capex": 12486635,
+     "operating_cash_flow": 19797648,
+     "fcf": 7311013
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 44621568,
+     "gross_profit": 15627855,
+     "operating_income": 6809417,
+     "net_income": 2229560,
+     "capex": 19010261,
+     "operating_cash_flow": 14780517,
+     "fcf": -4229744
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 32765719,
+     "gross_profit": -533448,
+     "operating_income": -7730313,
+     "net_income": -9112428,
+     "capex": 8325138,
+     "operating_cash_flow": 4278191,
+     "fcf": -4046947
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 66192960,
+     "gross_profit": 31828146,
+     "operating_income": 23467319,
+     "net_income": 19788681,
+     "capex": 15945534,
+     "operating_cash_flow": 29795885,
+     "fcf": 13850351
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 97146675,
+     "gross_profit": 58690790,
+     "operating_income": 47206319,
+     "net_income": 42919287,
+     "capex": 27518924,
+     "operating_cash_flow": 53373126,
+     "fcf": 25854202
+    }
+   },
+   "source_income": "https://stockanalysis.com/quote/krx/000660/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/krx/000660/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "samsung",
+   "currency": "KRW",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 236806988,
+     "gross_profit": 92318692,
+     "operating_income": 35993876,
+     "net_income": 26090846,
+     "capex": 37592034,
+     "operating_cash_flow": 65287009,
+     "fcf": 27694975,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 279604799,
+     "gross_profit": 113193457,
+     "operating_income": 51633856,
+     "net_income": 39243791,
+     "capex": 47122106,
+     "operating_cash_flow": 65105448,
+     "fcf": 17983342
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 302231360,
+     "gross_profit": 112189590,
+     "operating_income": 43376630,
+     "net_income": 54730018,
+     "capex": 49430428,
+     "operating_cash_flow": 62181346,
+     "fcf": 12750918
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 258935494,
+     "gross_profit": 78546914,
+     "operating_income": 6566976,
+     "net_income": 14473401,
+     "capex": 57611292,
+     "operating_cash_flow": 44137427,
+     "fcf": -13473865
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 300870903,
+     "gross_profit": 114308635,
+     "operating_income": 32725961,
+     "net_income": 33621363,
+     "capex": 51406355,
+     "operating_cash_flow": 72982621,
+     "fcf": 21576266
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 333605938,
+     "gross_profit": 131370425,
+     "operating_income": 43601051,
+     "net_income": 44260956,
+     "capex": 47522179,
+     "operating_cash_flow": 85315148,
+     "fcf": 37792969
+    }
+   },
+   "source_income": "https://stockanalysis.com/quote/krx/005930/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/krx/005930/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "asml",
+   "currency": "EUR",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 13979,
+     "gross_profit": 6797,
+     "operating_income": 4052,
+     "net_income": 3554,
+     "capex": 962,
+     "operating_cash_flow": 4628,
+     "fcf": 3666,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 18611,
+     "gross_profit": 9809,
+     "operating_income": 6536,
+     "net_income": 5883,
+     "capex": 900.7,
+     "operating_cash_flow": 10846,
+     "fcf": 9945
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 21173,
+     "gross_profit": 10700,
+     "operating_income": 6501,
+     "net_income": 5624,
+     "capex": 1282,
+     "operating_cash_flow": 8487,
+     "fcf": 7205
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 27559,
+     "gross_profit": 14136,
+     "operating_income": 9042,
+     "net_income": 7839,
+     "capex": 2156,
+     "operating_cash_flow": 5443,
+     "fcf": 3288
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 28263,
+     "gross_profit": 14492,
+     "operating_income": 9023,
+     "net_income": 7572,
+     "capex": 2067,
+     "operating_cash_flow": 11166,
+     "fcf": 9099
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 32667,
+     "gross_profit": 17258,
+     "operating_income": 11301,
+     "net_income": 9609,
+     "capex": 1574,
+     "operating_cash_flow": 12659,
+     "fcf": 11085
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/asml/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "intel",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 77867,
+     "gross_profit": 43612,
+     "operating_income": 23876,
+     "net_income": 20899,
+     "capex": 14453,
+     "operating_cash_flow": 35864,
+     "fcf": 21411,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-25",
+     "revenue": 79024,
+     "gross_profit": 43815,
+     "operating_income": 22082,
+     "net_income": 19868,
+     "capex": 20329,
+     "operating_cash_flow": 29456,
+     "fcf": 9127
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 63054,
+     "gross_profit": 28446,
+     "operating_income": 3916,
+     "net_income": 8014,
+     "capex": 24844,
+     "operating_cash_flow": 15433,
+     "fcf": -9411
+    },
+    "2023": {
+     "period_end": "2023-12-30",
+     "revenue": 54228,
+     "gross_profit": 21711,
+     "operating_income": 31,
+     "net_income": 1689,
+     "capex": 25750,
+     "operating_cash_flow": 11471,
+     "fcf": -14279
+    },
+    "2024": {
+     "period_end": "2024-12-28",
+     "revenue": 53101,
+     "gross_profit": 20645,
+     "operating_income": -1408,
+     "net_income": -18756,
+     "capex": 23944,
+     "operating_cash_flow": 8288,
+     "fcf": -15656
+    },
+    "2025": {
+     "period_end": "2025-12-27",
+     "revenue": 52853,
+     "gross_profit": 19325,
+     "operating_income": 927,
+     "net_income": -267,
+     "capex": 14646,
+     "operating_cash_flow": 9697,
+     "fcf": -4949
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/intc/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/intc/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "marvell",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 2969,
+     "gross_profit": 1515,
+     "operating_income": -24.7,
+     "net_income": -277.3,
+     "capex": 106.8,
+     "operating_cash_flow": 817.3,
+     "fcf": 710.5,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-01-29",
+     "revenue": 4462,
+     "gross_profit": 2258,
+     "operating_income": -59.1,
+     "net_income": -421,
+     "capex": 169.2,
+     "operating_cash_flow": 819.3,
+     "fcf": 650.1
+    },
+    "2023": {
+     "period_end": "2023-01-28",
+     "revenue": 5920,
+     "gross_profit": 3026,
+     "operating_income": 398.3,
+     "net_income": -163.5,
+     "capex": 206.2,
+     "operating_cash_flow": 1289,
+     "fcf": 1083
+    },
+    "2024": {
+     "period_end": "2024-02-03",
+     "revenue": 5508,
+     "gross_profit": 2294,
+     "operating_income": -436.6,
+     "net_income": -933.4,
+     "capex": 336.3,
+     "operating_cash_flow": 1371,
+     "fcf": 1034
+    },
+    "2025": {
+     "period_end": "2025-02-01",
+     "revenue": 5767,
+     "gross_profit": 2740,
+     "operating_income": -8.5,
+     "net_income": -885,
+     "capex": 284.6,
+     "operating_cash_flow": 1681,
+     "fcf": 1397
+    },
+    "2026": {
+     "period_end": "2026-01-31",
+     "revenue": 8195,
+     "gross_profit": 4181,
+     "operating_income": 1339,
+     "net_income": 2670,
+     "capex": 354.1,
+     "operating_cash_flow": 1751,
+     "fcf": 1396
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/mrvl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/mrvl/financials/cash-flow-statement/",
+   "notes": "Fiscal year: February - January. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "arm",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 2027,
+     "gross_profit": 1882,
+     "operating_income": 242,
+     "net_income": 388,
+     "capex": 104,
+     "operating_cash_flow": 1233,
+     "fcf": 1129,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-03-31",
+     "revenue": 2703,
+     "gross_profit": 2572,
+     "operating_income": 679.8,
+     "net_income": 549,
+     "capex": 34,
+     "operating_cash_flow": 458,
+     "fcf": 424
+    },
+    "2023": {
+     "period_end": "2023-03-31",
+     "revenue": 2679,
+     "gross_profit": 2573,
+     "operating_income": 712.5,
+     "net_income": 524,
+     "capex": 64,
+     "operating_cash_flow": 739,
+     "fcf": 675
+    },
+    "2024": {
+     "period_end": "2024-03-31",
+     "revenue": 3233,
+     "gross_profit": 3079,
+     "operating_income": 76.5,
+     "net_income": 306,
+     "capex": 92,
+     "operating_cash_flow": 1090,
+     "fcf": 998
+    },
+    "2025": {
+     "period_end": "2025-03-31",
+     "revenue": 4007,
+     "gross_profit": 3886,
+     "operating_income": 831,
+     "net_income": 792,
+     "capex": 219,
+     "operating_cash_flow": 397,
+     "fcf": 178
+    },
+    "2026": {
+     "period_end": "2026-03-31",
+     "revenue": 4920,
+     "gross_profit": 4799,
+     "operating_income": 908,
+     "net_income": 904,
+     "capex": 545,
+     "operating_cash_flow": 1524,
+     "fcf": 979
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/arm/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/arm/financials/cash-flow-statement/",
+   "notes": "Fiscal year: April - March. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 6 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "dell",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 86670,
+     "gross_profit": 20140,
+     "operating_income": 3685,
+     "net_income": 3250,
+     "capex": 2082,
+     "operating_cash_flow": 11407,
+     "fcf": 9325,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-01-28",
+     "revenue": 101197,
+     "gross_profit": 21920,
+     "operating_income": 4793,
+     "net_income": 5563,
+     "capex": 2796,
+     "operating_cash_flow": 10307,
+     "fcf": 7511
+    },
+    "2023": {
+     "period_end": "2023-02-03",
+     "revenue": 102301,
+     "gross_profit": 22794,
+     "operating_income": 6298,
+     "net_income": 2442,
+     "capex": 3003,
+     "operating_cash_flow": 3565,
+     "fcf": 562
+    },
+    "2024": {
+     "period_end": "2024-02-02",
+     "revenue": 88425,
+     "gross_profit": 21155,
+     "operating_income": 6059,
+     "net_income": 3388,
+     "capex": 2756,
+     "operating_cash_flow": 8676,
+     "fcf": 5920
+    },
+    "2025": {
+     "period_end": "2025-01-31",
+     "revenue": 95567,
+     "gross_profit": 21405,
+     "operating_income": 6930,
+     "net_income": 4592,
+     "capex": 2652,
+     "operating_cash_flow": 4521,
+     "fcf": 1869
+    },
+    "2026": {
+     "period_end": "2026-01-30",
+     "revenue": 113538,
+     "gross_profit": 22849,
+     "operating_income": 8718,
+     "net_income": 5936,
+     "capex": 2633,
+     "operating_cash_flow": 11185,
+     "fcf": 8552
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/dell/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/dell/financials/cash-flow-statement/",
+   "notes": "Fiscal year: February - January. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "supermicro",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 3557,
+     "gross_profit": 534.54,
+     "operating_income": 123.95,
+     "net_income": 111.87,
+     "capex": 58.02,
+     "operating_cash_flow": 122.96,
+     "fcf": 64.94,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-06-30",
+     "revenue": 5196,
+     "gross_profit": 800,
+     "operating_income": 335.17,
+     "net_income": 285.16,
+     "capex": 45.18,
+     "operating_cash_flow": -440.8,
+     "fcf": -485.98
+    },
+    "2023": {
+     "period_end": "2023-06-30",
+     "revenue": 7123,
+     "gross_profit": 1283,
+     "operating_income": 761.14,
+     "net_income": 640,
+     "capex": 36.79,
+     "operating_cash_flow": 663.58,
+     "fcf": 626.79
+    },
+    "2024": {
+     "period_end": "2024-06-30",
+     "revenue": 14989,
+     "gross_profit": 2061,
+     "operating_income": 1211,
+     "net_income": 1153,
+     "capex": 124.28,
+     "operating_cash_flow": -2486,
+     "fcf": -2610
+    },
+    "2025": {
+     "period_end": "2025-06-30",
+     "revenue": 21972,
+     "gross_profit": 2430,
+     "operating_income": 1253,
+     "net_income": 1049,
+     "capex": 127.21,
+     "operating_cash_flow": 1660,
+     "fcf": 1532
+    },
+    "2026": {
+     "period_end": "2026-06-30",
+     "revenue": 39063,
+     "gross_profit": 4227,
+     "operating_income": 2770,
+     "net_income": 2230,
+     "capex": 162,
+     "operating_cash_flow": -6810,
+     "fcf": -6972
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/smci/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/smci/financials/cash-flow-statement/",
+   "notes": "Fiscal year: July - June. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "arista",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 2318,
+     "gross_profit": 1482,
+     "operating_income": 703.88,
+     "net_income": 634.56,
+     "capex": 15.38,
+     "operating_cash_flow": 735.11,
+     "fcf": 719.73,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 2948,
+     "gross_profit": 1881,
+     "operating_income": 924.74,
+     "net_income": 840.85,
+     "capex": 64.74,
+     "operating_cash_flow": 1016,
+     "fcf": 951.12
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 4381,
+     "gross_profit": 2676,
+     "operating_income": 1527,
+     "net_income": 1352,
+     "capex": 44.64,
+     "operating_cash_flow": 492.81,
+     "fcf": 448.17
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 5860,
+     "gross_profit": 3630,
+     "operating_income": 2257,
+     "net_income": 2087,
+     "capex": 34.4,
+     "operating_cash_flow": 2034,
+     "fcf": 2000
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 7003,
+     "gross_profit": 4491,
+     "operating_income": 2945,
+     "net_income": 2852,
+     "capex": 32,
+     "operating_cash_flow": 3708,
+     "fcf": 3676
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 9006,
+     "gross_profit": 5769,
+     "operating_income": 3856,
+     "net_income": 3511,
+     "capex": 119.5,
+     "operating_cash_flow": 4372,
+     "fcf": 4252
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/anet/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/anet/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "vertiv",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 4371,
+     "gross_profit": 1474,
+     "operating_income": 335.1,
+     "net_income": -327.3,
+     "capex": 44.4,
+     "operating_cash_flow": 208.9,
+     "fcf": 164.5,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 4998,
+     "gross_profit": 1523,
+     "operating_income": 273.2,
+     "net_income": 119.6,
+     "capex": 73.4,
+     "operating_cash_flow": 210.9,
+     "fcf": 137.5
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 5692,
+     "gross_profit": 1616,
+     "operating_income": 227.4,
+     "net_income": 76.6,
+     "capex": 100,
+     "operating_cash_flow": -152.8,
+     "fcf": -252.8
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 6863,
+     "gross_profit": 2401,
+     "operating_income": 917.6,
+     "net_income": 460.2,
+     "capex": 127.9,
+     "operating_cash_flow": 900.5,
+     "fcf": 772.6
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 8012,
+     "gross_profit": 2934,
+     "operating_income": 1385,
+     "net_income": 495.8,
+     "capex": 167,
+     "operating_cash_flow": 1319,
+     "fcf": 1152
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 10230,
+     "gross_profit": 3715,
+     "operating_income": 1899,
+     "net_income": 1333,
+     "capex": 220,
+     "operating_cash_flow": 2114,
+     "fcf": 1894
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/vrt/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/vrt/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "coreweave",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 15.83,
+     "gross_profit": 3.71,
+     "operating_income": -22.88,
+     "net_income": -31.06,
+     "capex": 72.4,
+     "operating_cash_flow": 0.91,
+     "fcf": -71.49
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 229,
+     "gross_profit": 160,
+     "operating_income": -14,
+     "net_income": -594,
+     "capex": 2943,
+     "operating_cash_flow": 1833,
+     "fcf": -1110
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 1915,
+     "gross_profit": 1422,
+     "operating_income": 324,
+     "net_income": -863,
+     "capex": 8702,
+     "operating_cash_flow": 2749,
+     "fcf": -5953
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 5131,
+     "gross_profit": 3678,
+     "operating_income": -17,
+     "net_income": -1167,
+     "capex": 10309,
+     "operating_cash_flow": 3058,
+     "fcf": -7251
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/crwv/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/crwv/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2022-2025. Page metadata says 4 annual periods exist; all are shown."
+  },
+  {
+   "id": "nebius",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 2953,
+     "gross_profit": 1793,
+     "operating_income": 211.91,
+     "net_income": 334.19,
+     "capex": 331.99,
+     "operating_cash_flow": 440.89,
+     "fcf": 108.9,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 4746,
+     "gross_profit": 2428,
+     "operating_income": -176.93,
+     "net_income": -195.48,
+     "capex": 594.63,
+     "operating_cash_flow": 123.84,
+     "fcf": -470.79
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 13.5,
+     "gross_profit": -14.9,
+     "operating_income": -158,
+     "net_income": 745.6,
+     "capex": 14.6,
+     "operating_cash_flow": 697,
+     "fcf": 682.4
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 9.8,
+     "gross_profit": -9.8,
+     "operating_income": -285.7,
+     "net_income": 241.3,
+     "capex": 82.9,
+     "operating_cash_flow": 829.8,
+     "fcf": 746.9
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 91.5,
+     "gross_profit": 47.8,
+     "operating_income": -399.6,
+     "net_income": -641.4,
+     "capex": 807.5,
+     "operating_cash_flow": 245.6,
+     "fcf": -561.9
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 529.8,
+     "gross_profit": 363.6,
+     "operating_income": -611.7,
+     "net_income": 82.5,
+     "capex": 4066,
+     "operating_cash_flow": 384.8,
+     "fcf": -3681
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/nbis/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/nbis/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "smic",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 3907,
+     "gross_profit": 920.91,
+     "operating_income": -52.54,
+     "net_income": 715.55,
+     "capex": 5275,
+     "operating_cash_flow": 1660,
+     "fcf": -3614,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 5443,
+     "gross_profit": 1676,
+     "operating_income": 734.58,
+     "net_income": 1702,
+     "capex": 4120,
+     "operating_cash_flow": 3012,
+     "fcf": -1108
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 7273,
+     "gross_profit": 2762,
+     "operating_income": 1647,
+     "net_income": 1818,
+     "capex": 6172,
+     "operating_cash_flow": 5348,
+     "fcf": -824.19
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 6322,
+     "gross_profit": 1218,
+     "operating_income": 120.87,
+     "net_income": 902.53,
+     "capex": 7630,
+     "operating_cash_flow": 3358,
+     "fcf": -4272
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 8030,
+     "gross_profit": 1448,
+     "operating_income": 285.96,
+     "net_income": 492.75,
+     "capex": 7664,
+     "operating_cash_flow": 3176,
+     "fcf": -4489
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 9327,
+     "gross_profit": 1957,
+     "operating_income": 637.33,
+     "net_income": 685.13,
+     "capex": 8400,
+     "operating_cash_flow": 3194,
+     "fcf": -5206
+    }
+   },
+   "source_income": "https://stockanalysis.com/quote/hkg/0981/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/hkg/0981/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "cambricon",
+   "currency": "CNY",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 458.93,
+     "gross_profit": 291.57,
+     "operating_income": -691.11,
+     "net_income": -434.51,
+     "capex": 259.58,
+     "operating_cash_flow": -132.15,
+     "fcf": -391.73,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 721.05,
+     "gross_profit": 427.06,
+     "operating_income": -1184,
+     "net_income": -824.95,
+     "capex": 505,
+     "operating_cash_flow": -873.14,
+     "fcf": -1378
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 729.03,
+     "gross_profit": 287.46,
+     "operating_income": -1693,
+     "net_income": -1256,
+     "capex": 284.14,
+     "operating_cash_flow": -1330,
+     "fcf": -1614
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 709.39,
+     "gross_profit": 364.97,
+     "operating_income": -1137,
+     "net_income": -848.44,
+     "capex": 100.38,
+     "operating_cash_flow": -595.54,
+     "fcf": -695.92
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 1174,
+     "gross_profit": 632.6,
+     "operating_income": -717.64,
+     "net_income": -452.34,
+     "capex": 366.05,
+     "operating_cash_flow": -1618,
+     "fcf": -1984
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 6497,
+     "gross_profit": 3450,
+     "operating_income": 1792,
+     "net_income": 2059,
+     "capex": 568.7,
+     "operating_cash_flow": -498.4,
+     "fcf": -1067
+    }
+   },
+   "source_income": "https://stockanalysis.com/quote/sha/688256/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/sha/688256/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 9 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "microsoft",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 168088,
+     "gross_profit": 115856,
+     "operating_income": 69916,
+     "net_income": 61271,
+     "capex": 20622,
+     "operating_cash_flow": 76740,
+     "fcf": 56118,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-06-30",
+     "revenue": 198270,
+     "gross_profit": 135620,
+     "operating_income": 83383,
+     "net_income": 72738,
+     "capex": 23886,
+     "operating_cash_flow": 89035,
+     "fcf": 65149
+    },
+    "2023": {
+     "period_end": "2023-06-30",
+     "revenue": 211915,
+     "gross_profit": 146052,
+     "operating_income": 88523,
+     "net_income": 72361,
+     "capex": 28107,
+     "operating_cash_flow": 87582,
+     "fcf": 59475
+    },
+    "2024": {
+     "period_end": "2024-06-30",
+     "revenue": 245122,
+     "gross_profit": 171008,
+     "operating_income": 109433,
+     "net_income": 88136,
+     "capex": 44477,
+     "operating_cash_flow": 118548,
+     "fcf": 74071
+    },
+    "2025": {
+     "period_end": "2025-06-30",
+     "revenue": 281724,
+     "gross_profit": 193893,
+     "operating_income": 128528,
+     "net_income": 101832,
+     "capex": 64551,
+     "operating_cash_flow": 136162,
+     "fcf": 71611
+    },
+    "2026": {
+     "period_end": "2026-06-30",
+     "revenue": 331839,
+     "gross_profit": 225465,
+     "operating_income": 155237,
+     "net_income": 133749,
+     "capex": 115948,
+     "operating_cash_flow": 182935,
+     "fcf": 66987
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/msft/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
+   "notes": "Fiscal year: July - June. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "alphabet",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 182527,
+     "gross_profit": 97795,
+     "operating_income": 41224,
+     "net_income": 40269,
+     "capex": 22281,
+     "operating_cash_flow": 65124,
+     "fcf": 42843,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 257637,
+     "gross_profit": 146698,
+     "operating_income": 78714,
+     "net_income": 76033,
+     "capex": 24640,
+     "operating_cash_flow": 91652,
+     "fcf": 67012
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 282836,
+     "gross_profit": 156633,
+     "operating_income": 74842,
+     "net_income": 59972,
+     "capex": 31485,
+     "operating_cash_flow": 91495,
+     "fcf": 60010
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 307394,
+     "gross_profit": 174062,
+     "operating_income": 84293,
+     "net_income": 73795,
+     "capex": 32251,
+     "operating_cash_flow": 101746,
+     "fcf": 69495
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 350018,
+     "gross_profit": 203712,
+     "operating_income": 112390,
+     "net_income": 100118,
+     "capex": 52535,
+     "operating_cash_flow": 125299,
+     "fcf": 72764
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 402836,
+     "gross_profit": 240301,
+     "operating_income": 129039,
+     "net_income": 132170,
+     "capex": 91447,
+     "operating_cash_flow": 164713,
+     "fcf": 73266
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/googl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "amazon",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 386064,
+     "gross_profit": 152757,
+     "operating_income": 22899,
+     "net_income": 21331,
+     "capex": 40140,
+     "operating_cash_flow": 66064,
+     "fcf": 25924,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 469822,
+     "gross_profit": 197478,
+     "operating_income": 24879,
+     "net_income": 33364,
+     "capex": 61053,
+     "operating_cash_flow": 46327,
+     "fcf": -14726
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 513983,
+     "gross_profit": 225152,
+     "operating_income": 13348,
+     "net_income": -2722,
+     "capex": 63645,
+     "operating_cash_flow": 46752,
+     "fcf": -16893
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 574785,
+     "gross_profit": 270046,
+     "operating_income": 36852,
+     "net_income": 30425,
+     "capex": 52729,
+     "operating_cash_flow": 84946,
+     "fcf": 32217
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 637959,
+     "gross_profit": 311671,
+     "operating_income": 68593,
+     "net_income": 59248,
+     "capex": 82999,
+     "operating_cash_flow": 115877,
+     "fcf": 32878
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 716924,
+     "gross_profit": 360510,
+     "operating_income": 79975,
+     "net_income": 77670,
+     "capex": 131819,
+     "operating_cash_flow": 139514,
+     "fcf": 7695
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/amzn/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "meta",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 85965,
+     "gross_profit": 69273,
+     "operating_income": 32671,
+     "net_income": 29146,
+     "capex": 15163,
+     "operating_cash_flow": 38747,
+     "fcf": 23584,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 117929,
+     "gross_profit": 95280,
+     "operating_income": 46753,
+     "net_income": 39370,
+     "capex": 18690,
+     "operating_cash_flow": 57683,
+     "fcf": 38993
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 116609,
+     "gross_profit": 92855,
+     "operating_income": 33555,
+     "net_income": 23200,
+     "capex": 31186,
+     "operating_cash_flow": 50475,
+     "fcf": 19289
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 134902,
+     "gross_profit": 108943,
+     "operating_income": 46751,
+     "net_income": 39098,
+     "capex": 27045,
+     "operating_cash_flow": 71113,
+     "fcf": 44068
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 164501,
+     "gross_profit": 134340,
+     "operating_income": 69380,
+     "net_income": 62360,
+     "capex": 37256,
+     "operating_cash_flow": 91328,
+     "fcf": 54072
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 200966,
+     "gross_profit": 164791,
+     "operating_income": 83276,
+     "net_income": 60458,
+     "capex": 69691,
+     "operating_cash_flow": 115800,
+     "fcf": 46109
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/meta/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "apple",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 365817,
+     "gross_profit": 152836,
+     "operating_income": 108949,
+     "net_income": 94680,
+     "capex": 11085,
+     "operating_cash_flow": 104038,
+     "fcf": 92953,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-09-24",
+     "revenue": 394328,
+     "gross_profit": 170782,
+     "operating_income": 119437,
+     "net_income": 99803,
+     "capex": 10708,
+     "operating_cash_flow": 122151,
+     "fcf": 111443
+    },
+    "2023": {
+     "period_end": "2023-09-30",
+     "revenue": 383285,
+     "gross_profit": 169148,
+     "operating_income": 114301,
+     "net_income": 96995,
+     "capex": 10959,
+     "operating_cash_flow": 110543,
+     "fcf": 99584
+    },
+    "2024": {
+     "period_end": "2024-09-28",
+     "revenue": 391035,
+     "gross_profit": 180683,
+     "operating_income": 123216,
+     "net_income": 93736,
+     "capex": 9447,
+     "operating_cash_flow": 118254,
+     "fcf": 108807
+    },
+    "2025": {
+     "period_end": "2025-09-27",
+     "revenue": 416161,
+     "gross_profit": 195201,
+     "operating_income": 133050,
+     "net_income": 112010,
+     "capex": 12715,
+     "operating_cash_flow": 111482,
+     "fcf": 98767
+    },
+    "2026": {
+     "period_end": "2026-09-26",
+     "revenue": 478834,
+     "gross_profit": 233602,
+     "operating_income": 158063,
+     "net_income": 132175,
+     "capex": 9041,
+     "operating_cash_flow": 145097,
+     "fcf": 136056
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/aapl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+   "notes": "Fiscal year: October - September. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "oracle",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 40479,
+     "gross_profit": 32624,
+     "operating_income": 15653,
+     "net_income": 13746,
+     "capex": 2135,
+     "operating_cash_flow": 15887,
+     "fcf": 13752,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-05-31",
+     "revenue": 42440,
+     "gross_profit": 33563,
+     "operating_income": 15836,
+     "net_income": 6717,
+     "capex": 4511,
+     "operating_cash_flow": 9539,
+     "fcf": 5028
+    },
+    "2023": {
+     "period_end": "2023-05-31",
+     "revenue": 49954,
+     "gross_profit": 36390,
+     "operating_income": 13670,
+     "net_income": 8503,
+     "capex": 8695,
+     "operating_cash_flow": 17165,
+     "fcf": 8470
+    },
+    "2024": {
+     "period_end": "2024-05-31",
+     "revenue": 52961,
+     "gross_profit": 37818,
+     "operating_income": 15757,
+     "net_income": 10467,
+     "capex": 6866,
+     "operating_cash_flow": 18673,
+     "fcf": 11807
+    },
+    "2025": {
+     "period_end": "2025-05-31",
+     "revenue": 57399,
+     "gross_profit": 40472,
+     "operating_income": 17977,
+     "net_income": 12443,
+     "capex": 21215,
+     "operating_cash_flow": 20821,
+     "fcf": -394
+    },
+    "2026": {
+     "period_end": "2026-05-31",
+     "revenue": 67357,
+     "gross_profit": 44336,
+     "operating_income": 22385,
+     "net_income": 17087,
+     "capex": 55663,
+     "operating_cash_flow": 31977,
+     "fcf": -23686
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/orcl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+   "notes": "Fiscal year: June - May. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "alibaba",
+   "currency": "CNY",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 717289,
+     "gross_profit": 297772,
+     "operating_income": 109594,
+     "net_income": 150578,
+     "capex": 41450,
+     "operating_cash_flow": 231786,
+     "fcf": 190336,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-03-31",
+     "revenue": 853062,
+     "gross_profit": 314357,
+     "operating_income": 96497,
+     "net_income": 62249,
+     "capex": 53309,
+     "operating_cash_flow": 142759,
+     "fcf": 89450
+    },
+    "2023": {
+     "period_end": "2023-03-31",
+     "revenue": 868687,
+     "gross_profit": 320125,
+     "operating_income": 106120,
+     "net_income": 72783,
+     "capex": 34330,
+     "operating_cash_flow": 199752,
+     "fcf": 165422
+    },
+    "2024": {
+     "period_end": "2024-03-31",
+     "revenue": 941168,
+     "gross_profit": 354845,
+     "operating_income": 138718,
+     "net_income": 80009,
+     "capex": 32087,
+     "operating_cash_flow": 182593,
+     "fcf": 150506
+    },
+    "2025": {
+     "period_end": "2025-03-31",
+     "revenue": 996347,
+     "gross_profit": 398062,
+     "operating_income": 151687,
+     "net_income": 130109,
+     "capex": 85972,
+     "operating_cash_flow": 163509,
+     "fcf": 77537
+    },
+    "2026": {
+     "period_end": "2026-03-31",
+     "revenue": 1023670,
+     "gross_profit": 407534,
+     "operating_income": 62983,
+     "net_income": 103592,
+     "capex": 126063,
+     "operating_cash_flow": 76213,
+     "fcf": -49850
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/baba/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+   "notes": "Fiscal year: April - March. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "tencent",
+   "currency": "CNY",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 482064,
+     "gross_profit": 221624,
+     "operating_income": 125382,
+     "net_income": 159847,
+     "capex": 34070,
+     "operating_cash_flow": 194119,
+     "fcf": 160049,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 560118,
+     "gross_profit": 245931,
+     "operating_income": 123850,
+     "net_income": 224822,
+     "capex": 29302,
+     "operating_cash_flow": 175186,
+     "fcf": 145884
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 554552,
+     "gross_profit": 238887,
+     "operating_income": 110880,
+     "net_income": 188243,
+     "capex": 22679,
+     "operating_cash_flow": 146091,
+     "fcf": 123412
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 609015,
+     "gross_profit": 293112,
+     "operating_income": 162964,
+     "net_income": 115216,
+     "capex": 21008,
+     "operating_cash_flow": 221962,
+     "fcf": 200954
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 660257,
+     "gross_profit": 349298,
+     "operating_income": 207957,
+     "net_income": 194073,
+     "capex": 62927,
+     "operating_cash_flow": 258521,
+     "fcf": 195594
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 751766,
+     "gross_profit": 422870,
+     "operating_income": 245628,
+     "net_income": 224842,
+     "capex": 87482,
+     "operating_cash_flow": 303052,
+     "fcf": 215570
+    }
+   },
+   "source_income": "https://stockanalysis.com/quote/hkg/0700/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "baidu",
+   "currency": "CNY",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 107074,
+     "gross_profit": 52266,
+     "operating_income": 14690,
+     "net_income": 22472,
+     "capex": 5084,
+     "operating_cash_flow": 24200,
+     "fcf": 19116,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 124493,
+     "gross_profit": 60340,
+     "operating_income": 10679,
+     "net_income": 10226,
+     "capex": 10896,
+     "operating_cash_flow": 20122,
+     "fcf": 9226
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 123675,
+     "gross_profit": 59808,
+     "operating_income": 15979,
+     "net_income": 7559,
+     "capex": 8286,
+     "operating_cash_flow": 26170,
+     "fcf": 17884
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 134598,
+     "gross_profit": 69567,
+     "operating_income": 21856,
+     "net_income": 20315,
+     "capex": 11190,
+     "operating_cash_flow": 36615,
+     "fcf": 25425
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 133125,
+     "gross_profit": 67023,
+     "operating_income": 21270,
+     "net_income": 23760,
+     "capex": 8134,
+     "operating_cash_flow": 21234,
+     "fcf": 13100
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 129079,
+     "gross_profit": 56643,
+     "operating_income": 10367,
+     "net_income": 5589,
+     "capex": 12073,
+     "operating_cash_flow": -3013,
+     "fcf": -15086
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/bidu/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "palantir",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 1093,
+     "gross_profit": 740.13,
+     "operating_income": -1174,
+     "net_income": -1166,
+     "capex": 12.24,
+     "operating_cash_flow": -296.61,
+     "fcf": -308.84,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 1542,
+     "gross_profit": 1202,
+     "operating_income": -411.05,
+     "net_income": -520.38,
+     "capex": 12.63,
+     "operating_cash_flow": 333.85,
+     "fcf": 321.22
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 1906,
+     "gross_profit": 1497,
+     "operating_income": -161.2,
+     "net_income": -373.71,
+     "capex": 40.03,
+     "operating_cash_flow": 223.74,
+     "fcf": 183.71
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 2225,
+     "gross_profit": 1794,
+     "operating_income": 119.97,
+     "net_income": 209.83,
+     "capex": 15.11,
+     "operating_cash_flow": 712.18,
+     "fcf": 697.07
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 2866,
+     "gross_profit": 2300,
+     "operating_income": 310.4,
+     "net_income": 462.19,
+     "capex": 12.63,
+     "operating_cash_flow": 1154,
+     "fcf": 1141
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 4475,
+     "gross_profit": 3686,
+     "operating_income": 1414,
+     "net_income": 1625,
+     "capex": 33.88,
+     "operating_cash_flow": 2134,
+     "fcf": 2101
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/pltr/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/pltr/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 8 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "salesforce",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 21252,
+     "gross_profit": 15814,
+     "operating_income": 455,
+     "net_income": 4072,
+     "capex": 710,
+     "operating_cash_flow": 4801,
+     "fcf": 4091,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-01-31",
+     "revenue": 26492,
+     "gross_profit": 19466,
+     "operating_income": 548,
+     "net_income": 1444,
+     "capex": 717,
+     "operating_cash_flow": 6000,
+     "fcf": 5283
+    },
+    "2023": {
+     "period_end": "2023-01-31",
+     "revenue": 31352,
+     "gross_profit": 22992,
+     "operating_income": 1858,
+     "net_income": 208,
+     "capex": 798,
+     "operating_cash_flow": 7111,
+     "fcf": 6313
+    },
+    "2024": {
+     "period_end": "2024-01-31",
+     "revenue": 34857,
+     "gross_profit": 26316,
+     "operating_income": 5999,
+     "net_income": 4136,
+     "capex": 736,
+     "operating_cash_flow": 10234,
+     "fcf": 9498
+    },
+    "2025": {
+     "period_end": "2025-01-31",
+     "revenue": 37895,
+     "gross_profit": 29252,
+     "operating_income": 7666,
+     "net_income": 6197,
+     "capex": 658,
+     "operating_cash_flow": 13092,
+     "fcf": 12434
+    },
+    "2026": {
+     "period_end": "2026-01-31",
+     "revenue": 41525,
+     "gross_profit": 32255,
+     "operating_income": 8917,
+     "net_income": 7457,
+     "capex": 594,
+     "operating_cash_flow": 14996,
+     "fcf": 14402
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/crm/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/crm/financials/cash-flow-statement/",
+   "notes": "Fiscal year: February - January. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "servicenow",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 4519,
+     "gross_profit": 3532,
+     "operating_income": 199,
+     "net_income": 119,
+     "capex": 419,
+     "operating_cash_flow": 1786,
+     "fcf": 1367,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 5896,
+     "gross_profit": 4543,
+     "operating_income": 257,
+     "net_income": 230,
+     "capex": 392,
+     "operating_cash_flow": 2191,
+     "fcf": 1799
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 7245,
+     "gross_profit": 5672,
+     "operating_income": 379,
+     "net_income": 325,
+     "capex": 550,
+     "operating_cash_flow": 2723,
+     "fcf": 2173
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 8971,
+     "gross_profit": 7050,
+     "operating_income": 800,
+     "net_income": 1731,
+     "capex": 694,
+     "operating_cash_flow": 3398,
+     "fcf": 2704
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 10984,
+     "gross_profit": 8697,
+     "operating_income": 1397,
+     "net_income": 1425,
+     "capex": 852,
+     "operating_cash_flow": 4267,
+     "fcf": 3415
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 13278,
+     "gross_profit": 10295,
+     "operating_income": 2000,
+     "net_income": 1748,
+     "capex": 868,
+     "operating_cash_flow": 5444,
+     "fcf": 4576
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/now/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/now/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "adobe",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 12868,
+     "gross_profit": 11146,
+     "operating_income": 4237,
+     "net_income": 5260,
+     "capex": 419,
+     "operating_cash_flow": 5727,
+     "fcf": 5308,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-03",
+     "revenue": 15785,
+     "gross_profit": 13920,
+     "operating_income": 5802,
+     "net_income": 4822,
+     "capex": 348,
+     "operating_cash_flow": 7230,
+     "fcf": 6882
+    },
+    "2022": {
+     "period_end": "2022-12-02",
+     "revenue": 17606,
+     "gross_profit": 15441,
+     "operating_income": 6098,
+     "net_income": 4756,
+     "capex": 442,
+     "operating_cash_flow": 7838,
+     "fcf": 7396
+    },
+    "2023": {
+     "period_end": "2023-12-01",
+     "revenue": 19409,
+     "gross_profit": 17055,
+     "operating_income": 6650,
+     "net_income": 5428,
+     "capex": 360,
+     "operating_cash_flow": 7302,
+     "fcf": 6942
+    },
+    "2024": {
+     "period_end": "2024-11-29",
+     "revenue": 21505,
+     "gross_profit": 19147,
+     "operating_income": 7819,
+     "net_income": 5560,
+     "capex": 183,
+     "operating_cash_flow": 8056,
+     "fcf": 7873
+    },
+    "2025": {
+     "period_end": "2025-11-28",
+     "revenue": 23769,
+     "gross_profit": 21218,
+     "operating_income": 8706,
+     "net_income": 7130,
+     "capex": 179,
+     "operating_cash_flow": 10031,
+     "fcf": 9852
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/adbe/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/adbe/financials/cash-flow-statement/",
+   "notes": "Fiscal year: December - November. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "sap",
+   "currency": "EUR",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 27338,
+     "gross_profit": 19453,
+     "operating_income": 6427,
+     "net_income": 5145,
+     "capex": 816,
+     "operating_cash_flow": 7194,
+     "fcf": 6378,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 26953,
+     "gross_profit": 19734,
+     "operating_income": 6388,
+     "net_income": 5256,
+     "capex": 701,
+     "operating_cash_flow": 6223,
+     "fcf": 5522
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 29520,
+     "gross_profit": 21482,
+     "operating_income": 6051,
+     "net_income": 2284,
+     "capex": 877,
+     "operating_cash_flow": 5647,
+     "fcf": 4770
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 31207,
+     "gross_profit": 22533,
+     "operating_income": 6013,
+     "net_income": 6139,
+     "capex": 785,
+     "operating_cash_flow": 6246,
+     "fcf": 5461
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 34176,
+     "gross_profit": 25012,
+     "operating_income": 8153,
+     "net_income": 3124,
+     "capex": 797,
+     "operating_cash_flow": 5207,
+     "fcf": 4410
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 36800,
+     "gross_profit": 27145,
+     "operating_income": 10418,
+     "net_income": 7161,
+     "capex": 739,
+     "operating_cash_flow": 9156,
+     "fcf": 8417
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/sap/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/sap/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "ibm",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 55179,
+     "gross_profit": 30865,
+     "operating_income": 4662,
+     "net_income": 5590,
+     "capex": 2618,
+     "operating_cash_flow": 18197,
+     "fcf": 15579,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 57351,
+     "gross_profit": 31486,
+     "operating_income": 5583,
+     "net_income": 5743,
+     "capex": 2062,
+     "operating_cash_flow": 12796,
+     "fcf": 10734
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 60530,
+     "gross_profit": 32688,
+     "operating_income": 7521,
+     "net_income": 1639,
+     "capex": 1346,
+     "operating_cash_flow": 10435,
+     "fcf": 9089
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 61860,
+     "gross_profit": 34300,
+     "operating_income": 9421,
+     "net_income": 7502,
+     "capex": 1245,
+     "operating_cash_flow": 13931,
+     "fcf": 12686
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 62753,
+     "gross_profit": 35552,
+     "operating_income": 9788,
+     "net_income": 6023,
+     "capex": 1048,
+     "operating_cash_flow": 13445,
+     "fcf": 12397
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 67535,
+     "gross_profit": 39296,
+     "operating_income": 12622,
+     "net_income": 10593,
+     "capex": 1091,
+     "operating_cash_flow": 13193,
+     "fcf": 12102
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/ibm/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/ibm/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "snowflake",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 592.05,
+     "gross_profit": 349.46,
+     "operating_income": -543.94,
+     "net_income": -539.1,
+     "capex": 35.04,
+     "operating_cash_flow": -45.42,
+     "fcf": -80.45,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-01-31",
+     "revenue": 1219,
+     "gross_profit": 760.89,
+     "operating_income": -715.04,
+     "net_income": -679.95,
+     "capex": 16.22,
+     "operating_cash_flow": 110.18,
+     "fcf": 93.96
+    },
+    "2023": {
+     "period_end": "2023-01-31",
+     "revenue": 2066,
+     "gross_profit": 1348,
+     "operating_income": -836.97,
+     "net_income": -796.71,
+     "capex": 25.13,
+     "operating_cash_flow": 545.64,
+     "fcf": 520.51
+    },
+    "2024": {
+     "period_end": "2024-01-31",
+     "revenue": 2806,
+     "gross_profit": 1908,
+     "operating_income": -1088,
+     "net_income": -836.1,
+     "capex": 35.09,
+     "operating_cash_flow": 848.12,
+     "fcf": 813.04
+    },
+    "2025": {
+     "period_end": "2025-01-31",
+     "revenue": 3626,
+     "gross_profit": 2412,
+     "operating_income": -1456,
+     "net_income": -1286,
+     "capex": 46.28,
+     "operating_cash_flow": 959.76,
+     "fcf": 913.49
+    },
+    "2026": {
+     "period_end": "2026-01-31",
+     "revenue": 4684,
+     "gross_profit": 3146,
+     "operating_income": -1326,
+     "net_income": -1332,
+     "capex": 101.63,
+     "operating_cash_flow": 1222,
+     "fcf": 1120
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/snow/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/",
+   "notes": "Fiscal year: February - January. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 8 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "workday",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 4318,
+     "gross_profit": 3120,
+     "operating_income": -248.6,
+     "net_income": -282.43,
+     "capex": 253.38,
+     "operating_cash_flow": 1268,
+     "fcf": 1015,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-01-31",
+     "revenue": 5139,
+     "gross_profit": 3711,
+     "operating_income": -116,
+     "net_income": 29,
+     "capex": 264,
+     "operating_cash_flow": 1651,
+     "fcf": 1387
+    },
+    "2023": {
+     "period_end": "2023-01-31",
+     "revenue": 6216,
+     "gross_profit": 4506,
+     "operating_income": -182,
+     "net_income": -367,
+     "capex": 364,
+     "operating_cash_flow": 1657,
+     "fcf": 1293
+    },
+    "2024": {
+     "period_end": "2024-01-31",
+     "revenue": 7259,
+     "gross_profit": 5488,
+     "operating_income": 183,
+     "net_income": 1381,
+     "capex": 232,
+     "operating_cash_flow": 2149,
+     "fcf": 1917
+    },
+    "2025": {
+     "period_end": "2025-01-31",
+     "revenue": 8446,
+     "gross_profit": 6377,
+     "operating_income": 499,
+     "net_income": 526,
+     "capex": 269,
+     "operating_cash_flow": 2461,
+     "fcf": 2192
+    },
+    "2026": {
+     "period_end": "2026-01-31",
+     "revenue": 9552,
+     "gross_profit": 7231,
+     "operating_income": 1024,
+     "net_income": 693,
+     "capex": 162,
+     "operating_cash_flow": 2939,
+     "fcf": 2777
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/wday/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/wday/financials/cash-flow-statement/",
+   "notes": "Fiscal year: February - January. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "intuit",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 9633,
+     "gross_profit": 8000,
+     "operating_income": 2531,
+     "net_income": 2062,
+     "capex": 53,
+     "operating_cash_flow": 3250,
+     "fcf": 3197,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-07-31",
+     "revenue": 12726,
+     "gross_profit": 10460,
+     "operating_income": 2634,
+     "net_income": 2066,
+     "capex": 157,
+     "operating_cash_flow": 3889,
+     "fcf": 3732
+    },
+    "2023": {
+     "period_end": "2023-07-31",
+     "revenue": 14368,
+     "gross_profit": 11388,
+     "operating_income": 3141,
+     "net_income": 2384,
+     "capex": 210,
+     "operating_cash_flow": 5046,
+     "fcf": 4836
+    },
+    "2024": {
+     "period_end": "2024-07-31",
+     "revenue": 16285,
+     "gross_profit": 12966,
+     "operating_income": 3853,
+     "net_income": 2963,
+     "capex": 191,
+     "operating_cash_flow": 4884,
+     "fcf": 4693
+    },
+    "2025": {
+     "period_end": "2025-07-31",
+     "revenue": 18831,
+     "gross_profit": 15139,
+     "operating_income": 4938,
+     "net_income": 3869,
+     "capex": 84,
+     "operating_cash_flow": 6207,
+     "fcf": 6123
+    },
+    "2026": {
+     "period_end": "2026-07-31",
+     "revenue": 21448,
+     "gross_profit": 17369,
+     "operating_income": 6177,
+     "net_income": 4566,
+     "capex": 175,
+     "operating_cash_flow": 8838,
+     "fcf": 8663
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/intu/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/intu/financials/cash-flow-statement/",
+   "notes": "Fiscal year: August - July. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "accenture",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2021": {
+     "period_end": null,
+     "revenue": 50533,
+     "gross_profit": 16364,
+     "operating_income": 7622,
+     "net_income": 5907,
+     "capex": 580.13,
+     "operating_cash_flow": 8975,
+     "fcf": 8395,
+     "not_a_displayed_column": true
+    },
+    "2022": {
+     "period_end": "2022-08-31",
+     "revenue": 61594,
+     "gross_profit": 19702,
+     "operating_income": 9367,
+     "net_income": 6877,
+     "capex": 718,
+     "operating_cash_flow": 9541,
+     "fcf": 8823
+    },
+    "2023": {
+     "period_end": "2023-08-31",
+     "revenue": 64112,
+     "gross_profit": 20732,
+     "operating_income": 9873,
+     "net_income": 6872,
+     "capex": 528.17,
+     "operating_cash_flow": 9524,
+     "fcf": 8996
+    },
+    "2024": {
+     "period_end": "2024-08-31",
+     "revenue": 64896,
+     "gross_profit": 21162,
+     "operating_income": 10034,
+     "net_income": 7265,
+     "capex": 516.51,
+     "operating_cash_flow": 9131,
+     "fcf": 8615
+    },
+    "2025": {
+     "period_end": "2025-08-31",
+     "revenue": 69673,
+     "gross_profit": 22235,
+     "operating_income": 10854,
+     "net_income": 7678,
+     "capex": 600.04,
+     "operating_cash_flow": 11474,
+     "fcf": 10874
+    },
+    "2026": {
+     "period_end": "2026-08-31",
+     "revenue": 74183,
+     "gross_profit": 23776,
+     "operating_income": 12180,
+     "net_income": 8367,
+     "capex": 742.75,
+     "operating_cash_flow": 12363,
+     "fcf": 11621
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/acn/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/acn/financials/cash-flow-statement/",
+   "notes": "Fiscal year: September - August. Columns shown on page: FY 2022-2026. FY 2021 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "duolingo",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 161.7,
+     "gross_profit": 115.71,
+     "operating_income": -16.01,
+     "net_income": -15.78,
+     "capex": 3.38,
+     "operating_cash_flow": 17.71,
+     "fcf": 14.33,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 250.77,
+     "gross_profit": 181.59,
+     "operating_income": -60.01,
+     "net_income": -60.14,
+     "capex": 3.59,
+     "operating_cash_flow": 9.17,
+     "fcf": 5.58
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 369.5,
+     "gross_profit": 270.06,
+     "operating_income": -65.2,
+     "net_income": -59.57,
+     "capex": 5.56,
+     "operating_cash_flow": 53.66,
+     "fcf": 48.09
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 531.11,
+     "gross_profit": 389,
+     "operating_income": -13.26,
+     "net_income": 16.07,
+     "capex": 3.19,
+     "operating_cash_flow": 153.61,
+     "fcf": 150.42
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 748.02,
+     "gross_profit": 544.38,
+     "operating_income": 63.81,
+     "net_income": 88.57,
+     "capex": 12.12,
+     "operating_cash_flow": 285.51,
+     "fcf": 273.4
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 1038,
+     "gross_profit": 749.46,
+     "operating_income": 141.24,
+     "net_income": 414.07,
+     "capex": 18.1,
+     "operating_cash_flow": 387.82,
+     "fcf": 369.73
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/duol/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/duol/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 7 annual periods exist; only these are served on the free page. FY 2022 operating_income: embedded raw value is -65194999.99999999 (float artifact); the page table displays -65.20, recorded as displayed."
+  },
+  {
+   "id": "applovin",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 1451,
+     "gross_profit": 895.51,
+     "operating_income": 28.92,
+     "net_income": -125.19,
+     "capex": 3.24,
+     "operating_cash_flow": 222.88,
+     "fcf": 219.64,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 2793,
+     "gross_profit": 1805,
+     "operating_income": 166.67,
+     "net_income": 35.45,
+     "capex": 1.39,
+     "operating_cash_flow": 361.85,
+     "fcf": 360.46
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 2817,
+     "gross_profit": 1561,
+     "operating_income": -19.51,
+     "net_income": -192.75,
+     "capex": 0.66,
+     "operating_cash_flow": 412.77,
+     "fcf": 412.11
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 1842,
+     "gross_profit": 1485,
+     "operating_income": 772.41,
+     "net_income": 356.71,
+     "capex": null,
+     "operating_cash_flow": 1062,
+     "fcf": 1062
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 3224,
+     "gross_profit": 2703,
+     "operating_income": 1911,
+     "net_income": 1580,
+     "capex": null,
+     "operating_cash_flow": 2099,
+     "fcf": 2099
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 5481,
+     "gross_profit": 4816,
+     "operating_income": 4152,
+     "net_income": 3334,
+     "capex": null,
+     "operating_cash_flow": 4015,
+     "fcf": 4015
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/app/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 8 annual periods exist; only these are served on the free page. Null lines: capex (2023,2024,2025)."
+  },
+  {
+   "id": "shopify",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 2929,
+     "gross_profit": 1542,
+     "operating_income": 173.63,
+     "net_income": 319.51,
+     "capex": 41.73,
+     "operating_cash_flow": 424.96,
+     "fcf": 383.23,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 4612,
+     "gross_profit": 2481,
+     "operating_income": 380.51,
+     "net_income": 2915,
+     "capex": 50.79,
+     "operating_cash_flow": 535.71,
+     "fcf": 484.92
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 5600,
+     "gross_profit": 2754,
+     "operating_income": -476,
+     "net_income": -3460,
+     "capex": 50,
+     "operating_cash_flow": -136,
+     "fcf": -186
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 7060,
+     "gross_profit": 3515,
+     "operating_income": 260,
+     "net_income": 132,
+     "capex": 39,
+     "operating_cash_flow": 944,
+     "fcf": 905
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 8880,
+     "gross_profit": 4472,
+     "operating_income": 1247,
+     "net_income": 2019,
+     "capex": 19,
+     "operating_cash_flow": 1616,
+     "fcf": 1597
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 11556,
+     "gross_profit": 5555,
+     "operating_income": 1898,
+     "net_income": 1231,
+     "capex": 26,
+     "operating_cash_flow": 2033,
+     "fcf": 2007
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/shop/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/shop/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  },
+  {
+   "id": "tesla",
+   "currency": "USD",
+   "unit": "millions",
+   "years": {
+    "2020": {
+     "period_end": null,
+     "revenue": 31536,
+     "gross_profit": 6630,
+     "operating_income": 1951,
+     "net_income": 721,
+     "capex": 3232,
+     "operating_cash_flow": 5943,
+     "fcf": 2711,
+     "not_a_displayed_column": true
+    },
+    "2021": {
+     "period_end": "2021-12-31",
+     "revenue": 53823,
+     "gross_profit": 13606,
+     "operating_income": 6523,
+     "net_income": 5519,
+     "capex": 6514,
+     "operating_cash_flow": 11497,
+     "fcf": 4983
+    },
+    "2022": {
+     "period_end": "2022-12-31",
+     "revenue": 81462,
+     "gross_profit": 20853,
+     "operating_income": 13692,
+     "net_income": 12556,
+     "capex": 7163,
+     "operating_cash_flow": 14724,
+     "fcf": 7561
+    },
+    "2023": {
+     "period_end": "2023-12-31",
+     "revenue": 96773,
+     "gross_profit": 17660,
+     "operating_income": 8891,
+     "net_income": 14997,
+     "capex": 8899,
+     "operating_cash_flow": 13256,
+     "fcf": 4357
+    },
+    "2024": {
+     "period_end": "2024-12-31",
+     "revenue": 97690,
+     "gross_profit": 17450,
+     "operating_income": 7659,
+     "net_income": 7091,
+     "capex": 11342,
+     "operating_cash_flow": 14923,
+     "fcf": 3581
+    },
+    "2025": {
+     "period_end": "2025-12-31",
+     "revenue": 94827,
+     "gross_profit": 17094,
+     "operating_income": 4355,
+     "net_income": 3794,
+     "capex": 8527,
+     "operating_cash_flow": 14747,
+     "fcf": 6220
+    }
+   },
+   "source_income": "https://stockanalysis.com/stocks/tsla/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/",
+   "notes": "Fiscal year: January - December. Columns shown on page: FY 2021-2025. FY 2020 is not a displayed column: values come from the page's embedded prior-year comparison block (no period end date given). Page metadata says 10 annual periods exist; only these are served on the free page."
+  }
+ ],
+ "notes": [
+  "Source: StockAnalysis.com annual income-statement and cash-flow-statement pages, fetched 2026-11-13 (84 pages, all HTTP 200). No currency conversion, nothing computed, nothing filled from memory or other sites.",
+  "COVERAGE GAP: the free pages serve only the 5 most recent fiscal-year columns (plus TTM, not recorded). FY 2017 through FY 2019/2020 are NOT available from these pages and are absent from 'years' (not null-filled). Page metadata (full_count) indicates up to 10 annual periods exist for most companies, but they are not in the served page; no other endpoint was queried.",
+  "All values (income and cash-flow lines) are taken from the data payload embedded in each page (financialData block), which is in raw currency units; divided by 1,000,000 and rounded the way the page displays them ('Financials in millions <currency>': whole millions when |value| >= 1,000, two decimals below that). Every displayed-column value was cross-checked against the server-rendered HTML table where the row is rendered (income rows, Operating Cash Flow, and on most pages capex/FCF).",
+  "One extra earlier year per company (flagged \"not_a_displayed_column\": true, period_end null) comes from the embedded prior-year comparison block the page uses to compute growth rates; it is not a visible column. Drop those entries if only displayed columns are wanted.",
+  "Field mapping: revenue=revenue, gross_profit=gp, operating_income=opinc, net_income=netinc, operating_cash_flow=ncfo, capex=capex (page shows negative; stored positive), fcf=fcf.",
+  "Years are keyed by the page's fiscal-year label ('FY 2022' -> \"2022\"); for offset fiscal years see period_end and per-company notes."
+ ]
+}
