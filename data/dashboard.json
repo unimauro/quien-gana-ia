@@ -22,7 +22,14 @@
     "https://stockanalysis.com/stocks/nvda/financials/",
     "https://stockanalysis.com/stocks/nvda/market-cap/",
     "https://finance.yahoo.com/quote/NVDA/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "amd",
@@ -45,7 +52,14 @@
     "https://stockanalysis.com/stocks/amd/financials/",
     "https://stockanalysis.com/stocks/amd/market-cap/",
     "https://finance.yahoo.com/quote/AMD/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "broadcom",
@@ -68,7 +82,14 @@
     "https://stockanalysis.com/stocks/avgo/financials/",
     "https://stockanalysis.com/stocks/avgo/market-cap/",
     "https://finance.yahoo.com/quote/AVGO/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "tsmc",
@@ -91,7 +112,14 @@
     "https://stockanalysis.com/quote/tpe/2330/financials/",
     "https://stockanalysis.com/stocks/tsm/market-cap/",
     "https://finance.yahoo.com/quote/TSM/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "micron",
@@ -114,7 +142,14 @@
     "https://stockanalysis.com/stocks/mu/financials/",
     "https://stockanalysis.com/stocks/mu/market-cap/",
     "https://finance.yahoo.com/quote/MU/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "skhynix",
@@ -137,7 +172,14 @@
     "https://stockanalysis.com/quote/krx/000660/financials/",
     "https://stockanalysis.com/quote/krx/000660/market-cap/",
     "https://finance.yahoo.com/quote/000660.KS/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "samsung",
@@ -160,7 +202,14 @@
     "https://stockanalysis.com/quote/krx/005930/financials/",
     "https://stockanalysis.com/quote/krx/005930/market-cap/",
     "https://finance.yahoo.com/quote/005930.KS/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "asml",
@@ -183,7 +232,14 @@
     "https://stockanalysis.com/stocks/asml/financials/",
     "https://stockanalysis.com/stocks/asml/market-cap/",
     "https://finance.yahoo.com/quote/ASML/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "intel",
@@ -206,7 +262,14 @@
     "https://stockanalysis.com/stocks/intc/financials/",
     "https://stockanalysis.com/stocks/intc/market-cap/",
     "https://finance.yahoo.com/quote/INTC/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "marvell",
@@ -229,7 +292,14 @@
     "https://stockanalysis.com/stocks/mrvl/financials/",
     "https://stockanalysis.com/stocks/mrvl/market-cap/",
     "https://finance.yahoo.com/quote/MRVL/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "arm",
@@ -252,7 +322,14 @@
     "https://stockanalysis.com/stocks/arm/financials/",
     "https://stockanalysis.com/stocks/arm/market-cap/",
     "https://finance.yahoo.com/quote/ARM/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "dell",
@@ -275,7 +352,14 @@
     "https://stockanalysis.com/stocks/dell/financials/",
     "https://stockanalysis.com/stocks/dell/market-cap/",
     "https://finance.yahoo.com/quote/DELL/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "supermicro",
@@ -298,7 +382,14 @@
     "https://stockanalysis.com/stocks/smci/financials/",
     "https://stockanalysis.com/stocks/smci/market-cap/",
     "https://finance.yahoo.com/quote/SMCI/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "arista",
@@ -321,7 +412,14 @@
     "https://stockanalysis.com/stocks/anet/financials/",
     "https://stockanalysis.com/stocks/anet/market-cap/",
     "https://finance.yahoo.com/quote/ANET/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "vertiv",
@@ -344,7 +442,14 @@
     "https://stockanalysis.com/stocks/vrt/financials/",
     "https://stockanalysis.com/stocks/vrt/market-cap/",
     "https://finance.yahoo.com/quote/VRT/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "coreweave",
@@ -367,7 +472,14 @@
     "https://stockanalysis.com/stocks/crwv/financials/",
     "https://stockanalysis.com/stocks/crwv/market-cap/",
     "https://finance.yahoo.com/quote/CRWV/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "nebius",
@@ -390,7 +502,14 @@
     "https://stockanalysis.com/stocks/nbis/financials/",
     "https://stockanalysis.com/stocks/nbis/market-cap/",
     "https://finance.yahoo.com/quote/NBIS/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "smic",
@@ -413,7 +532,14 @@
     "https://stockanalysis.com/quote/hkg/0981/financials/",
     "https://stockanalysis.com/quote/hkg/0981/market-cap/",
     "https://finance.yahoo.com/quote/0981.HK/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "cambricon",
@@ -436,7 +562,14 @@
     "https://stockanalysis.com/quote/sha/688256/financials/",
     "https://stockanalysis.com/quote/sha/688256/market-cap/",
     "https://finance.yahoo.com/quote/688256.SS/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "microsoft",
@@ -459,7 +592,14 @@
     "https://stockanalysis.com/stocks/msft/financials/",
     "https://stockanalysis.com/stocks/msft/market-cap/",
     "https://finance.yahoo.com/quote/MSFT/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "alphabet",
@@ -482,7 +622,14 @@
     "https://stockanalysis.com/stocks/googl/financials/",
     "https://stockanalysis.com/stocks/googl/market-cap/",
     "https://finance.yahoo.com/quote/GOOGL/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "amazon",
@@ -505,7 +652,14 @@
     "https://stockanalysis.com/stocks/amzn/financials/",
     "https://stockanalysis.com/stocks/amzn/market-cap/",
     "https://finance.yahoo.com/quote/AMZN/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "meta",
@@ -528,7 +682,14 @@
     "https://stockanalysis.com/stocks/meta/financials/",
     "https://stockanalysis.com/stocks/meta/market-cap/",
     "https://finance.yahoo.com/quote/META/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "apple",
@@ -551,7 +712,14 @@
     "https://stockanalysis.com/stocks/aapl/financials/",
     "https://stockanalysis.com/stocks/aapl/market-cap/",
     "https://finance.yahoo.com/quote/AAPL/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "oracle",
@@ -574,7 +742,14 @@
     "https://stockanalysis.com/stocks/orcl/financials/",
     "https://stockanalysis.com/stocks/orcl/market-cap/",
     "https://finance.yahoo.com/quote/ORCL/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "alibaba",
@@ -597,7 +772,14 @@
     "https://stockanalysis.com/stocks/baba/financials/",
     "https://stockanalysis.com/stocks/baba/market-cap/",
     "https://finance.yahoo.com/quote/BABA/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "tencent",
@@ -620,7 +802,14 @@
     "https://stockanalysis.com/quote/hkg/0700/financials/",
     "https://stockanalysis.com/quote/hkg/0700/market-cap/",
     "https://finance.yahoo.com/quote/0700.HK/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "baidu",
@@ -643,7 +832,14 @@
     "https://stockanalysis.com/stocks/bidu/financials/",
     "https://stockanalysis.com/stocks/bidu/market-cap/",
     "https://finance.yahoo.com/quote/BIDU/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "palantir",
@@ -666,7 +862,14 @@
     "https://stockanalysis.com/stocks/pltr/financials/",
     "https://stockanalysis.com/stocks/pltr/market-cap/",
     "https://finance.yahoo.com/quote/PLTR/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "salesforce",
@@ -689,7 +892,14 @@
     "https://stockanalysis.com/stocks/crm/financials/",
     "https://stockanalysis.com/stocks/crm/market-cap/",
     "https://finance.yahoo.com/quote/CRM/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "servicenow",
@@ -712,7 +922,14 @@
     "https://stockanalysis.com/stocks/now/financials/",
     "https://stockanalysis.com/stocks/now/market-cap/",
     "https://finance.yahoo.com/quote/NOW/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "adobe",
@@ -735,7 +952,14 @@
     "https://stockanalysis.com/stocks/adbe/financials/",
     "https://stockanalysis.com/stocks/adbe/market-cap/",
     "https://finance.yahoo.com/quote/ADBE/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "sap",
@@ -758,7 +982,14 @@
     "https://stockanalysis.com/stocks/sap/financials/",
     "https://stockanalysis.com/stocks/sap/market-cap/",
     "https://finance.yahoo.com/quote/SAP/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "ibm",
@@ -781,7 +1012,14 @@
     "https://stockanalysis.com/stocks/ibm/financials/",
     "https://stockanalysis.com/stocks/ibm/market-cap/",
     "https://finance.yahoo.com/quote/IBM/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "snowflake",
@@ -804,7 +1042,14 @@
     "https://stockanalysis.com/stocks/snow/financials/",
     "https://stockanalysis.com/stocks/snow/market-cap/",
     "https://finance.yahoo.com/quote/SNOW/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "workday",
@@ -827,7 +1072,14 @@
     "https://stockanalysis.com/stocks/wday/financials/",
     "https://stockanalysis.com/stocks/wday/market-cap/",
     "https://finance.yahoo.com/quote/WDAY/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "intuit",
@@ -850,7 +1102,14 @@
     "https://stockanalysis.com/stocks/intu/financials/",
     "https://stockanalysis.com/stocks/intu/market-cap/",
     "https://finance.yahoo.com/quote/INTU/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "accenture",
@@ -873,7 +1132,14 @@
     "https://stockanalysis.com/stocks/acn/financials/",
     "https://stockanalysis.com/stocks/acn/market-cap/",
     "https://finance.yahoo.com/quote/ACN/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "duolingo",
@@ -896,7 +1162,14 @@
     "https://stockanalysis.com/stocks/duol/financials/",
     "https://stockanalysis.com/stocks/duol/market-cap/",
     "https://finance.yahoo.com/quote/DUOL/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "applovin",
@@ -919,7 +1192,14 @@
     "https://stockanalysis.com/stocks/app/financials/",
     "https://stockanalysis.com/stocks/app/market-cap/",
     "https://finance.yahoo.com/quote/APP/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "shopify",
@@ -942,7 +1222,14 @@
     "https://stockanalysis.com/stocks/shop/financials/",
     "https://stockanalysis.com/stocks/shop/market-cap/",
     "https://finance.yahoo.com/quote/SHOP/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   },
   {
    "id": "tesla",
@@ -965,7 +1252,14 @@
     "https://stockanalysis.com/stocks/tsla/financials/",
     "https://stockanalysis.com/stocks/tsla/market-cap/",
     "https://finance.yahoo.com/quote/TSLA/history/"
-   ]
+   ],
+   "links": {
+    "fin": null,
+    "cash": null,
+    "ir": null,
+    "annual": null,
+    "quarterly": null
+   }
   }
  ],
  "soft_ytd": [
@@ -2605,6 +2899,228 @@
    ]
   }
  ],
+ "pnl_top": [
+  {
+   "name": "Alphabet (Google)",
+   "cat": "big",
+   "value": 235.69,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Utilidad inflada por ganancias contables en Anthropic y SpaceX (~US$ 98 mil M solo en el 2T-2026).",
+   "src": [
+    "https://stockanalysis.com/stocks/googl/financials/"
+   ]
+  },
+  {
+   "name": "Nvidia",
+   "cat": "chips",
+   "value": 192.88,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/nvda/financials/"
+   ]
+  },
+  {
+   "name": "Samsung Electronics",
+   "cat": "chips",
+   "value": 146.17,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Toda la empresa (teléfonos, TV, chips); casi toda la utilidad del 3T-2026 vino de memoria.",
+   "src": [
+    "https://stockanalysis.com/quote/krx/005930/financials/"
+   ]
+  },
+  {
+   "name": "Microsoft",
+   "cat": "big",
+   "value": 142.63,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Año fiscal a junio; 12 meses a sep-2026.",
+   "src": [
+    "https://stockanalysis.com/stocks/msft/financials/"
+   ]
+  },
+  {
+   "name": "Amazon",
+   "cat": "big",
+   "value": 134.78,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Utilidad inflada por la revalorización contable de su participación en Anthropic.",
+   "src": [
+    "https://stockanalysis.com/stocks/amzn/financials/"
+   ]
+  },
+  {
+   "name": "Apple",
+   "cat": "big",
+   "value": 132.18,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/aapl/financials/"
+   ]
+  },
+  {
+   "name": "SK Hynix",
+   "cat": "chips",
+   "value": 129.9,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Utilidad de 12 meses según agregador; el 3T-2026 incluyó una gran pérdida no operativa.",
+   "src": [
+    "https://stockanalysis.com/quote/krx/000660/financials/"
+   ]
+  },
+  {
+   "name": "Micron",
+   "cat": "chips",
+   "value": 84.97,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/mu/financials/"
+   ]
+  },
+  {
+   "name": "TSMC",
+   "cat": "chips",
+   "value": 80.1,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/quote/tpe/2330/financials/"
+   ]
+  },
+  {
+   "name": "Meta",
+   "cat": "big",
+   "value": 75.25,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/meta/financials/"
+   ]
+  },
+  {
+   "name": "Broadcom",
+   "cat": "chips",
+   "value": 38.27,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/avgo/financials/"
+   ]
+  },
+  {
+   "name": "Tencent",
+   "cat": "big",
+   "value": 34.62,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Cifras en CNY convertidas a USD (estimado); último dato: jun-2026.",
+   "src": [
+    "https://stockanalysis.com/quote/hkg/0700/financials/"
+   ]
+  },
+  {
+   "name": "Oracle",
+   "cat": "big",
+   "value": 18.74,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Año fiscal a mayo; 12 meses a ago-2026.",
+   "src": [
+    "https://stockanalysis.com/stocks/orcl/financials/"
+   ]
+  },
+  {
+   "name": "ASML",
+   "cat": "chips",
+   "value": 15.65,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/asml/financials/"
+   ]
+  },
+  {
+   "name": "Dell",
+   "cat": "chips",
+   "value": 11.38,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/dell/financials/"
+   ]
+  },
+  {
+   "name": "Baidu",
+   "cat": "big",
+   "value": -0.69,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Cifras en CNY convertidas a USD (estimado); último dato: jun-2026.",
+   "src": [
+    "https://stockanalysis.com/stocks/bidu/financials/"
+   ]
+  },
+  {
+   "name": "Snowflake",
+   "cat": "soft",
+   "value": -1.09,
+   "sub": "utilidad neta, 12 meses",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/snow/financials/"
+   ]
+  },
+  {
+   "name": "Anthropic",
+   "cat": "labs",
+   "value": -1.26,
+   "sub": "resultado operativo, 9 meses de 2026",
+   "note": "Según resúmenes de su prospecto; la pérdida neta contable es mucho mayor por ajustes sin salida de caja.",
+   "src": [
+    "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english"
+   ]
+  },
+  {
+   "name": "CoreWeave",
+   "cat": "chips",
+   "value": -2.53,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Cambio desde su salida a bolsa (mar-2025).",
+   "src": [
+    "https://stockanalysis.com/stocks/crwv/financials/"
+   ]
+  },
+  {
+   "name": "xAI",
+   "cat": "labs",
+   "value": -6.4,
+   "sub": "resultado operativo, 2025",
+   "note": "Según el prospecto de SpaceX, que la absorbió en 2026.",
+   "src": [
+    "https://goodfest.westfield.com/2026/05/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/"
+   ]
+  },
+  {
+   "name": "Intel",
+   "cat": "chips",
+   "value": -12.03,
+   "sub": "utilidad neta, 12 meses",
+   "note": "Utilidad de 12 meses aún negativa pese a un 3T-2026 con ganancia.",
+   "src": [
+    "https://stockanalysis.com/stocks/intc/financials/"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "cat": "labs",
+   "value": -20.9,
+   "sub": "resultado operativo, 2025",
+   "note": "Cifras filtradas a la prensa, no auditadas públicamente.",
+   "src": [
+    "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626"
+   ]
+  }
+ ],
  "roi": [
   {
    "value": "95 %",
@@ -2741,5 +3257,6 @@
     "https://investinglive.com/stocks/morgan-stanley-says-buy-the-ai-dip-sees-3-4-trillion-in-hyperscaler-spending-through-2028/"
    ]
   }
- }
+ },
+ "studies": []
 }

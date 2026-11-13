@@ -37,12 +37,14 @@
       <a href="#apuesta">La apuesta</a>
       <a href="#sepaga">¿Se paga?</a>
       <a href="#ranking">Ranking</a>
+      <a href="#fichas">Fichas</a>
       <a href="#chips">Chips</a>
       <a href="#gigantes">Gigantes</a>
       <a href="#labs">Labs y startups</a>
       <a href="#software">Software</a>
       <a href="#circular">Dinero circular</a>
       <a href="#riesgos">Riesgos</a>
+      <a href="#documentos">Documentos</a>
       <a href="#metodo">Método</a>
     </nav>
     <button class="theme" id="theme" type="button" aria-label="Cambiar entre tema claro y oscuro">Tema</button>
@@ -61,6 +63,12 @@
   </div>
 
   <div class="verdict" id="verdict"></div>
+  <div class="card" style="margin-top:14px">
+    <h3>Ganancias y pérdidas en una sola imagen</h3>
+    <p class="sub">Las 15 empresas que más ganan y todas las que pierden, en miles de millones de US$. Barras a la derecha: ganancia; a la izquierda: pérdida. Cotizadas: utilidad neta de los últimos 12 meses. Laboratorios: resultado operativo del último periodo conocido.</p>
+    <div id="c-pnl"></div>
+    <p class="src" id="s-pnl"></p>
+  </div>
   <p class="asof">Cifras en dólares de EE. UU. «Billón» significa un millón de millones. El corte cae en medio de una caída fuerte de las acciones de IA (5 de noviembre de 2026): los porcentajes de bolsa son sensibles a esa fecha.</p>
 </div>
 
@@ -132,8 +140,24 @@
   </div>
 </div></section>
 
+<section id="fichas"><div class="wrap">
+  <p class="sec-n">4 · Ficha por empresa</p>
+  <h2>Inversión, ganancia bruta y rentabilidad, empresa por empresa</h2>
+  <p class="sec-lede">Últimos 12 meses disponibles de cada empresa. La ganancia bruta es lo que queda de las ventas tras el costo directo de producir; el margen neto, lo que queda al final para el accionista. Cada fila enlaza a sus estados financieros y a su informe oficial.</p>
+  <div class="grid">
+    <div class="card wide">
+      <div class="controls">
+        <div class="seg" id="f-fcat" role="group" aria-label="Grupo"><span class="lbl">Grupo</span></div>
+        <span class="muted" style="font-size:13px">Toca un encabezado para ordenar.</span>
+      </div>
+      <div class="dt" id="tb-fichas"></div>
+      <p class="src">Miles de millones de US$ salvo los porcentajes. «2022 → hoy» compara el margen del año fiscal 2022 con el de los últimos 12 meses. Las empresas marcadas con * reportan en otra moneda: sus montos en dólares son una conversión estimada; los márgenes no dependen del tipo de cambio. Fuente de las cifras: el enlace «Estados» de cada fila.</p>
+    </div>
+  </div>
+</div></section>
+
 <section id="chips"><div class="wrap">
-  <p class="sec-n">4 · Chips e infraestructura</p>
+  <p class="sec-n">5 · Chips e infraestructura</p>
   <h2>El negocio seguro: vender las palas</h2>
   <p class="sec-lede">Nvidia pasó de US$ 15 mil millones a casi US$ 194 mil millones de ventas a centros de datos en tres años fiscales. En 2026 el mayor salto fue de la memoria: Micron y SK Hynix operan con márgenes cercanos a 75 %. Quien ensambla servidores vende mucho y gana poco, y las nubes de GPU siguen en pérdida.</p>
   <div class="tiles" id="t-chips"></div>
@@ -155,7 +179,7 @@
 </div></section>
 
 <section id="gigantes"><div class="wrap">
-  <p class="sec-n">5 · Gigantes tecnológicos</p>
+  <p class="sec-n">6 · Gigantes tecnológicos</p>
   <h2>La nube crece como nunca y la caja libre se evapora</h2>
   <p class="sec-lede">Los contratos firmados son reales: cuatro empresas acumulan cerca de US$ 2.5 billones en pedidos pendientes. El costo también: el flujo de caja libre de Amazon y Oracle ya es negativo, y el de Alphabet cayó de US$ 73 mil millones a menos de 20 mil millones.</p>
   <div class="tiles" id="t-cloud"></div>
@@ -177,7 +201,7 @@
 </div></section>
 
 <section id="labs"><div class="wrap">
-  <p class="sec-n">6 · Laboratorios y startups</p>
+  <p class="sec-n">7 · Laboratorios y startups</p>
   <h2>Ingresos que se duplican cada pocos meses, y cuentas por pagar aún mayores</h2>
   <p class="sec-lede">Anthropic superó a OpenAI en valoración e ingresos en 2026 y tuvo su primer trimestre con utilidad operativa. OpenAI proyecta flujo de caja negativo acumulado de US$ 278 mil millones hasta 2030. Ambas firmaron compromisos de cómputo de un orden de magnitud por encima de lo que facturan.</p>
   <p class="warn">Casi todo en esta sección viene de prensa, documentos filtrados o resúmenes del prospecto de Anthropic, no de estados auditados. Los ingresos de OpenAI (netos de lo que se quedan sus socios de nube) y los de Anthropic (brutos) no son comparables de forma directa.</p>
@@ -223,7 +247,7 @@
 </div></section>
 
 <section id="software"><div class="wrap">
-  <p class="sec-n">7 · Software y negocios que usan IA</p>
+  <p class="sec-n">8 · Software y negocios que usan IA</p>
   <h2>2026 fue el año en que el mercado castigó al software</h2>
   <p class="sec-lede">Las empresas de software venden más y ganan más que en 2022, pero la bolsa duda de que sus licencias sobrevivan a los agentes de IA. Doce de las catorce que seguimos perdieron valor este año. Las que ganan (Palantir, AppLovin) hicieron de la IA el producto, no un añadido.</p>
   <div class="grid two">
@@ -243,7 +267,7 @@
 </div></section>
 
 <section id="circular"><div class="wrap">
-  <p class="sec-n">8 · Dinero circular</p>
+  <p class="sec-n">9 · Dinero circular</p>
   <h2>Proveedores que financian a sus clientes, que les compran con ese dinero</h2>
   <p class="sec-lede">Gran parte de la demanda de chips y nube viene de dos laboratorios financiados por los mismos proveedores. Mientras las valoraciones suben, todos anotan ganancias; si bajan, el circuito funciona al revés.</p>
   <div class="grid two">
@@ -262,7 +286,7 @@
 </div></section>
 
 <section id="riesgos"><div class="wrap">
-  <p class="sec-n">9 · Riesgos</p>
+  <p class="sec-n">10 · Riesgos</p>
   <h2>Deuda, energía y un mercado que ya dio el primer aviso</h2>
   <p class="sec-lede">La inversión dejó de pagarse solo con caja: se financia con bonos, crédito privado y vehículos fuera de balance. El FMI y el Banco de Inglaterra advirtieron en octubre de una corrección; el 5 de noviembre llegó la primera.</p>
   <div class="tiles" id="t-risk"></div>
@@ -276,8 +300,24 @@
   </div>
 </div></section>
 
+<section id="documentos"><div class="wrap">
+  <p class="sec-n">11 · Documentos originales</p>
+  <h2>Para ir a la fuente: informes, prospectos y estudios</h2>
+  <p class="sec-lede">Enlaces directos a los documentos primarios detrás de las cifras. Los marcados como PDF abren el archivo original.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Estudios, prospectos e informes de organismos</h3>
+      <ul class="doclist" id="doc-studies"></ul>
+    </div>
+    <div class="card">
+      <h3>Informes anuales y resultados por empresa</h3>
+      <ul class="doclist" id="doc-cos"></ul>
+    </div>
+  </div>
+</div></section>
+
 <section id="metodo"><div class="wrap">
-  <p class="sec-n">10 · Método y límites</p>
+  <p class="sec-n">12 · Método y límites</p>
   <h2>Cómo leer estas cifras</h2>
   <ul class="notes">
     <li><b>Qué es y qué no.</b> Es una recopilación de cifras públicas con su fuente, no una recomendación de inversión. Los datos se reunieron el 13 de noviembre de 2026 con ayuda de IA para la búsqueda y se consolidaron con un script reproducible (<a href="https://github.com/unimauro/quien-gana-ia/blob/main/etl/build.py">etl/build.py</a>); no se interpoló ningún número.</li>

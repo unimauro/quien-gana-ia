@@ -254,3 +254,23 @@ details.srcs summary { display: inline; cursor: pointer; }
 @keyframes draw { to { stroke-dashoffset: 0; } }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+
+/* ---------- fichas y documentos ---------- */
+#tb-fichas table { min-width: 1080px; }
+#tb-fichas th, #tb-fichas td { white-space: nowrap; }
+#tb-fichas td.n, #tb-fichas th.n { text-align: right; }
+#tb-fichas thead th { cursor: pointer; user-select: none; position: sticky; top: 0; }
+#tb-fichas thead th[aria-sort]::after { content: " ↓"; }
+#tb-fichas thead th[aria-sort="ascending"]::after { content: " ↑"; }
+#tb-fichas tbody th small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+#tb-fichas .neg { color: var(--bad); }
+#tb-fichas .lk a { margin-right: 8px; font-size: 12.5px; color: var(--s1); text-decoration: none; }
+#tb-fichas .lk a:hover { text-decoration: underline; }
+.mm { color: var(--muted); font-size: 12px; }
+.doclist { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; font-size: 14px; }
+.doclist li { padding: 8px 0; border-bottom: 1px solid var(--grid); }
+.doclist li:last-child { border-bottom: 0; }
+.doclist .o { display: block; font-size: 12px; color: var(--muted); }
+.doclist a { color: var(--ink); font-weight: 600; text-decoration-color: var(--axis); }
+.doclist .lk a { font-weight: 400; color: var(--s1); margin-right: 10px; font-size: 13px; text-decoration: none; }
+.pill.pdf { border-color: var(--bad); color: var(--bad); font-size: 10.5px; padding: 0 6px; margin-left: 6px; vertical-align: 1px; }

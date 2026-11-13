@@ -449,6 +449,65 @@ risks = {
     "forecast_2027": {"goldman": val(gs27), "morgan": val(ms27), "src": urls(gs27, 1) + urls(ms27, 1)},
 }
 
+# ───────────────────────── ganancias y pérdidas en un solo gráfico ─────────────────────────
+xai_op = loss("xai", "2025", "operating_loss")
+pnl_top = [{"name": c["name"], "cat": c["cat"], "value": c["ni"], "sub": "utilidad neta, 12 meses", "note": c.get("note"), "src": c["src"][:1]}
+           for c in companies if c["ni"] is not None]
+pnl_top.sort(key=lambda x: -x["value"])
+pnl_top = pnl_top[:15] + [x for x in pnl_top[15:] if x["value"] < 0]
+pnl_top += [
+    {"name": "Anthropic", "cat": "labs", "value": -val(ant_op), "sub": "resultado operativo, 9 meses de 2026", "note": "Según resúmenes de su prospecto; la pérdida neta contable es mucho mayor por ajustes sin salida de caja.", "src": urls(ant_op, 1)},
+    {"name": "xAI", "cat": "labs", "value": -val(xai_op), "sub": "resultado operativo, 2025", "note": "Según el prospecto de SpaceX, que la absorbió en 2026.", "src": urls(xai_op, 1)},
+    {"name": "OpenAI", "cat": "labs", "value": -val(oai_op), "sub": "resultado operativo, 2025", "note": "Cifras filtradas a la prensa, no auditadas públicamente.", "src": urls(oai_op, 1)},
+]
+pnl_top.sort(key=lambda x: -x["value"])
+
+# ───────────────────────── ficha de rentabilidad y documentos primarios ─────────────────────────
+RP, DP = RAW / "rentabilidad.json", RAW / "documentos.json"
+rent = {c["id"]: c for c in json.loads(RP.read_text())["companies"]} if RP.exists() else {}
+docs_raw = json.loads(DP.read_text()) if DP.exists() else {"companies": [], "studies": []}
+dco = {c["id"]: c for c in docs_raw.get("companies", [])}
+
+
+def ratio(a, b):
+    return None if a is None or not b else round(a / b * 100, 1)
+
+
+def link(x):
+    if not isinstance(x, dict) or not x.get("url"):
+        return None
+    return {"url": x["url"], "title": x.get("title"), "pdf": bool(x.get("is_pdf")), "ok": bool(x.get("verified"))}
+
+
+for c in companies:
+    rr = rent.get(c["id"]) or {}
+    t, y = rr.get("ttm") or {}, rr.get("fy2022") or {}
+    if t.get("revenue"):
+        usd = rr.get("currency") == "USD"
+        u = str(rr.get("unit", "millions")).lower()
+        unit = 1.0 if "billion" in u else 1e-6 if "thousand" in u else 1e-3
+        k = unit if usd else (c["rev"] / t["revenue"] if c["rev"] else None)
+
+        def conv(v, k=k):
+            return None if v is None or k is None else round(v * k, 2)
+
+        cap = t.get("capex")
+        cap = abs(cap) if cap is not None else None
+        c["f"] = {
+            "rev": conv(t.get("revenue")), "gp": conv(t.get("gross_profit")), "oi": conv(t.get("operating_income")),
+            "ni": conv(t.get("net_income")), "rd": conv(t.get("rd")), "capex": conv(cap), "fcf": conv(t.get("fcf")),
+            "gm": ratio(t.get("gross_profit"), t["revenue"]), "om": ratio(t.get("operating_income"), t["revenue"]),
+            "nm": ratio(t.get("net_income"), t["revenue"]), "capex_pct": ratio(cap, t["revenue"]),
+            "gm22": ratio(y.get("gross_profit"), y.get("revenue")), "om22": ratio(y.get("operating_income"), y.get("revenue")),
+            "nm22": ratio(y.get("net_income"), y.get("revenue")),
+            "period": t.get("period_end"), "fx": not usd, "currency": rr.get("currency"),
+        }
+    d = dco.get(c["id"]) or {}
+    c["links"] = {"fin": rr.get("source_income"), "cash": rr.get("source_cashflow"), "ir": link(d.get("ir")),
+                  "annual": link(d.get("annual")), "quarterly": link(d.get("quarterly"))}
+studies = [{"org": x.get("org"), "title": x.get("title"), "date": x.get("date"), "url": x["url"], "pdf": bool(x.get("is_pdf")),
+            "ok": bool(x.get("verified"))} for x in docs_raw.get("studies", []) if x.get("url")]
+
 out = {
     "as_of": "2026-11-13",
     "companies": companies, "soft_ytd": soft_ytd,
@@ -458,7 +517,7 @@ out = {
     "valuations": valuations, "runrate": runrate, "lab_money": lab_money, "lab_pnl": lab_pnl,
     "multiples": multiples, "labs_table": labs_table, "failures": failures,
     "ai_metrics": ai_metrics, "flows": flows, "paper_gains": paper_gains,
-    "roi": roi, "events": events, "risks": risks,
+    "pnl_top": pnl_top, "roi": roi, "events": events, "risks": risks, "studies": studies,
 }
 (ROOT / "data" / "dashboard.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
 allu = set()
@@ -477,5 +536,12 @@ def collect(x):
 
 
 collect(out)
+for c in companies:
+    for v in c["links"].values():
+        if isinstance(v, str):
+            allu.add(v)
+        elif isinstance(v, dict):
+            allu.add(v["url"])
+allu.update(x["url"] for x in studies)
 (ROOT / "data" / "fuentes.txt").write_text("\n".join(sorted(allu)) + "\n")
 print(f"OK: {len(companies)} empresas cotizadas, {len(labs_table)} labs/startups, {len(allu)} fuentes distintas")

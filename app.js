@@ -70,6 +70,13 @@
   });
   $('heroN').textContent = fmt.num(D.gap[0].value / D.gap[1].value, 1) + '×';
 
+  hbar($('c-pnl'), {
+    rows: D.pnl_top.map(r => ({ label: r.name, sub: r.sub, value: r.value, color: CAT[r.cat].color, tip: r.note || '', extra: [CAT[r.cat].name, r.sub] })),
+    legend: ['chips', 'big', 'labs', 'soft'].map(k => ({ name: CAT[k].name, color: CAT[k].color })),
+    valueHead: 'Ganancia o pérdida', extraHead: ['Grupo', 'Qué mide']
+  });
+  src('s-pnl', D.pnl_top.flatMap(r => r.src), 'Fuentes por empresa');
+
   /* ---------- 1. la apuesta ---------- */
   columns($('c-capex'), {
     cats: D.capex.cats, catNote: [null, null, null, null, 'guía de las empresas, no gasto realizado'],
@@ -117,7 +124,11 @@
   const METRICS = {
     chg: { name: 'Precio de la acción', f: c => c.chg, fmt: fmt.pct, head: 'Cambio', sub: 'Cambio en el precio de la acción del 30 de noviembre de 2022 al 12–13 de noviembre de 2026, sin dividendos.' },
     gain: { name: 'Valor creado', f: c => (c.mc0 && c.mc1 ? c.mc1 - c.mc0 : null), fmt: fmt.usdB, head: 'Valor creado', sub: 'Aumento de la capitalización bursátil desde el 30 de noviembre de 2022. Sin dato para las que no cotizaban.' },
-    ni: { name: 'Utilidad neta', f: c => c.ni, fmt: fmt.usdB, head: 'Utilidad neta', sub: 'Utilidad neta de los últimos 12 meses disponibles (o último año fiscal).' }
+    ni: { name: 'Utilidad neta', f: c => c.ni, fmt: fmt.usdB, head: 'Utilidad neta', sub: 'Utilidad neta de los últimos 12 meses disponibles (o último año fiscal).' },
+    gp: { name: 'Ganancia bruta', f: c => c.f && c.f.gp, fmt: fmt.usdB, head: 'Ganancia bruta', sub: 'Ventas menos costo directo de lo vendido, últimos 12 meses.' },
+    gm: { name: 'Margen bruto', f: c => c.f && c.f.gm, fmt: fmt.pctPlain, head: 'Margen bruto', sub: 'Ganancia bruta como porcentaje de las ventas, últimos 12 meses.' },
+    nm: { name: 'Margen neto', f: c => c.f && c.f.nm, fmt: fmt.pctPlain, head: 'Margen neto', sub: 'Utilidad neta como porcentaje de las ventas, últimos 12 meses.' },
+    capex: { name: 'Inversión (capex)', f: c => c.f && c.f.capex, fmt: fmt.usdB, head: 'Inversión de capital', sub: 'Inversión de capital de los últimos 12 meses (toda la empresa, no solo IA).' }
   };
   const state = { metric: 'chg', cat: 'all' };
   function drawRank() {
@@ -142,9 +153,57 @@
       $(id).appendChild(b);
     });
   }
-  seg('f-metric', Object.entries(METRICS).map(([k, m]) => [k, m.name]), 'metric');
+  seg('f-metric', Object.entries(METRICS).filter(([k, m]) => D.companies.some(c => m.f(c) != null)).map(([k, m]) => [k, m.name]), 'metric');
   seg('f-cat', [['all', 'Todos'], ['chips', 'Chips'], ['big', 'Gigantes'], ['soft', 'Software']], 'cat');
   drawRank();
+
+  /* ---------- fichas ---------- */
+  const A = (l, text) => l ? `<a href="${esc(typeof l === 'string' ? l : l.url)}" target="_blank" rel="noopener">${text}${l.pdf ? ' <span class="pill pdf">PDF</span>' : ''}</a>` : '';
+  const fs = { cat: 'all', key: 'rev', dir: -1 };
+  const money = v => v == null ? '<span class="muted">s/d</span>' : `<span class="${v < 0 ? 'neg' : ''}">${esc(fmt.usdB(v).replace('US$ ', ''))}</span>`;
+  const pc = v => v == null ? '<span class="muted">s/d</span>' : `<span class="${v < 0 ? 'neg' : ''}">${esc(fmt.pctPlain(v))}</span>`;
+  const was = (a, b) => b == null ? pc(b) : (a == null ? '' : `<span class="mm">${esc(fmt.pctPlain(a))} → </span>`) + pc(b);
+  const COLS = [
+    ['Empresa', 'name'], ['Ingresos', 'rev'], ['Ganancia bruta', 'gp'], ['Margen bruto 2022 → hoy', 'gm'], ['Margen operativo', 'om'],
+    ['Utilidad neta', 'ni'], ['Margen neto 2022 → hoy', 'nm'], ['Inversión (capex)', 'capex'], ['Capex / ingresos', 'capex_pct'], ['Flujo de caja libre', 'fcf'], ['Más detalle', null]
+  ];
+  function drawFichas() {
+    const host = $('tb-fichas'); host.innerHTML = '';
+    const list = D.companies.filter(c => c.f && (fs.cat === 'all' || c.cat === fs.cat));
+    const val = c => fs.key === 'name' ? c.name : c.f[fs.key];
+    list.sort((a, b) => { const x = val(a), y = val(b); if (x == null) return 1; if (y == null) return -1; return (typeof x === 'string' ? x.localeCompare(y) : x - y) * fs.dir; });
+    const t = el('table'), hr = el('tr');
+    COLS.forEach(([h, k], i) => {
+      const th = el('th', { text: h, class: i ? 'n' : '' });
+      if (k) { if (k === fs.key) th.setAttribute('aria-sort', fs.dir < 0 ? 'descending' : 'ascending'); th.tabIndex = 0;
+        const go = () => { fs.dir = fs.key === k ? -fs.dir : (k === 'name' ? 1 : -1); fs.key = k; drawFichas(); };
+        th.addEventListener('click', go); th.addEventListener('keydown', e => { if (e.key === 'Enter') go(); }); }
+      hr.appendChild(th);
+    });
+    t.appendChild(el('thead', {}, hr));
+    t.appendChild(el('tbody', {}, list.map(c => { const f = c.f, L = c.links || {}; return el('tr', {}, [
+      el('th', { html: `<span class="dotc" style="background:var(${CAT[c.cat].color})"></span>${esc(c.name)}${f.fx ? '*' : ''}<small>${esc(c.sub || '')}</small>` }),
+      el('td', { class: 'n', html: money(f.rev) }), el('td', { class: 'n', html: money(f.gp) }), el('td', { class: 'n', html: was(f.gm22, f.gm) }),
+      el('td', { class: 'n', html: pc(f.om) }), el('td', { class: 'n', html: money(f.ni) }), el('td', { class: 'n', html: was(f.nm22, f.nm) }),
+      el('td', { class: 'n', html: money(f.capex) }), el('td', { class: 'n', html: pc(f.capex_pct) }), el('td', { class: 'n', html: money(f.fcf) }),
+      el('td', { class: 'lk', html: A(L.fin, 'Estados') + A(L.annual, 'Informe anual') + A(L.quarterly, 'Resultados') + A(L.ir, 'Inversionistas') })
+    ]); })));
+    host.appendChild(t);
+  }
+  if (D.companies.some(c => c.f)) {
+    [['all', 'Todos'], ['chips', 'Chips'], ['big', 'Gigantes'], ['soft', 'Software']].forEach(([v, label]) => {
+      const b = el('button', { type: 'button', 'aria-pressed': String(fs.cat === v), text: label });
+      b.addEventListener('click', () => { fs.cat = v; $('f-fcat').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawFichas(); });
+      $('f-fcat').appendChild(b);
+    });
+    drawFichas();
+  } else { $('fichas').hidden = true; }
+
+  /* ---------- documentos ---------- */
+  (D.studies || []).forEach(d => $('doc-studies').appendChild(el('li', { html: `<span class="o">${esc(d.org || '')}${d.date ? ' · ' + esc(fdate(d.date)) : ''}</span><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title || d.url)}</a>${d.pdf ? '<span class="pill pdf">PDF</span>' : ''}` })));
+  D.companies.filter(c => c.links && (c.links.annual || c.links.quarterly || c.links.ir)).forEach(c => { const L = c.links;
+    $('doc-cos').appendChild(el('li', { html: `<b>${esc(c.name)}</b> <span class="lk">${A(L.annual, esc((L.annual && L.annual.title) || 'Informe anual'))}${A(L.quarterly, 'Últimos resultados')}${A(L.ir, 'Inversionistas')}</span>` })); });
+  if (!$('doc-studies').children.length && !$('doc-cos').children.length) $('documentos').hidden = true;
 
   /* ---------- 4. chips ---------- */
   const nv = co('nvidia'), mu = co('micron'), dell = co('dell'), cw = co('coreweave');
@@ -279,6 +338,8 @@
   }
   addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
   onScroll();
+
+  document.querySelectorAll('section[hidden]').forEach(x => { const l = document.querySelector(`.nav a[href="#${x.id}"]`); if (l) l.remove(); });
 
   /* ---------- tema ---------- */
   $('theme').addEventListener('click', () => {
