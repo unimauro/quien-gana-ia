@@ -1,0 +1,2745 @@
+{
+ "as_of": "2026-11-13",
+ "companies": [
+  {
+   "id": "nvidia",
+   "name": "Nvidia",
+   "ticker": "NVDA",
+   "cat": "chips",
+   "sub": "GPU / aceleradores",
+   "rev": 302.97,
+   "ni": 192.88,
+   "fin_period": "Jul 26, 2026",
+   "op_margin": 65.2,
+   "gross_margin": 74.7,
+   "mc0": 416.3,
+   "mc1": 4010.0,
+   "mc_date": "Nov 12, 2026",
+   "chg": 882.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/nvda/financials/",
+    "https://stockanalysis.com/stocks/nvda/market-cap/",
+    "https://finance.yahoo.com/quote/NVDA/history/"
+   ]
+  },
+  {
+   "id": "amd",
+   "name": "AMD",
+   "ticker": "AMD",
+   "cat": "chips",
+   "sub": "GPU / aceleradores",
+   "rev": 45.44,
+   "ni": 7.62,
+   "fin_period": "Sep 26, 2026",
+   "op_margin": 17.8,
+   "gross_margin": 56.0,
+   "mc0": 125.2,
+   "mc1": 959.9,
+   "mc_date": "Nov 12, 2026",
+   "chg": 654.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/amd/financials/",
+    "https://stockanalysis.com/stocks/amd/market-cap/",
+    "https://finance.yahoo.com/quote/AMD/history/"
+   ]
+  },
+  {
+   "id": "broadcom",
+   "name": "Broadcom",
+   "ticker": "AVGO",
+   "cat": "chips",
+   "sub": "chips a medida y redes",
+   "rev": 89.1,
+   "ni": 38.27,
+   "fin_period": "Aug 2, 2026",
+   "op_margin": 48.8,
+   "gross_margin": 75.5,
+   "mc0": 230.3,
+   "mc1": 1740.0,
+   "mc_date": "Nov 12, 2026",
+   "chg": 561.2,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/avgo/financials/",
+    "https://stockanalysis.com/stocks/avgo/market-cap/",
+    "https://finance.yahoo.com/quote/AVGO/history/"
+   ]
+  },
+  {
+   "id": "tsmc",
+   "name": "TSMC",
+   "ticker": "TSM / 2330.TW",
+   "cat": "chips",
+   "sub": "fundición",
+   "rev": 156.71,
+   "ni": 80.1,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 58.0,
+   "gross_margin": 65.8,
+   "mc0": 421.7,
+   "mc1": 1840.0,
+   "mc_date": "Nov 12, 2026",
+   "chg": 388.7,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/quote/tpe/2330/financials/",
+    "https://stockanalysis.com/stocks/tsm/market-cap/",
+    "https://finance.yahoo.com/quote/TSM/history/"
+   ]
+  },
+  {
+   "id": "micron",
+   "name": "Micron",
+   "ticker": "MU",
+   "cat": "chips",
+   "sub": "memoria",
+   "rev": 133.19,
+   "ni": 84.97,
+   "fin_period": "Sep 3, 2026",
+   "op_margin": 74.6,
+   "gross_margin": 80.7,
+   "mc0": 62.9,
+   "mc1": 903.4,
+   "mc_date": "Nov 12, 2026",
+   "chg": 1285.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/mu/financials/",
+    "https://stockanalysis.com/stocks/mu/market-cap/",
+    "https://finance.yahoo.com/quote/MU/history/"
+   ]
+  },
+  {
+   "id": "skhynix",
+   "name": "SK Hynix",
+   "ticker": "000660.KS",
+   "cat": "chips",
+   "sub": "memoria",
+   "rev": 184.86,
+   "ni": 129.9,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 74.5,
+   "gross_margin": 77.4,
+   "mc0": 44.1,
+   "mc1": 658.9,
+   "mc_date": "Nov 13, 2026",
+   "chg": 1325.9,
+   "since": "2022-11-30",
+   "note": "Utilidad de 12 meses según agregador; el 3T-2026 incluyó una gran pérdida no operativa.",
+   "src": [
+    "https://stockanalysis.com/quote/krx/000660/financials/",
+    "https://stockanalysis.com/quote/krx/000660/market-cap/",
+    "https://finance.yahoo.com/quote/000660.KS/history/"
+   ]
+  },
+  {
+   "id": "samsung",
+   "name": "Samsung Electronics",
+   "ticker": "005930.KS",
+   "cat": "chips",
+   "sub": "memoria",
+   "rev": 408.02,
+   "ni": 146.17,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 46.1,
+   "gross_margin": 64.0,
+   "mc0": 315.4,
+   "mc1": 992.4,
+   "mc_date": "Nov 13, 2026",
+   "chg": 232.4,
+   "since": "2022-11-30",
+   "note": "Toda la empresa (teléfonos, TV, chips); casi toda la utilidad del 3T-2026 vino de memoria.",
+   "src": [
+    "https://stockanalysis.com/quote/krx/005930/financials/",
+    "https://stockanalysis.com/quote/krx/005930/market-cap/",
+    "https://finance.yahoo.com/quote/005930.KS/history/"
+   ]
+  },
+  {
+   "id": "asml",
+   "name": "ASML",
+   "ticker": "ASML",
+   "cat": "chips",
+   "sub": "equipos de litografía",
+   "rev": 45.85,
+   "ni": 15.65,
+   "fin_period": "Sep 27, 2026",
+   "op_margin": 38.5,
+   "gross_margin": 54.3,
+   "mc0": 240.9,
+   "mc1": 573.5,
+   "mc_date": "Nov 12, 2026",
+   "chg": 146.2,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/asml/financials/",
+    "https://stockanalysis.com/stocks/asml/market-cap/",
+    "https://finance.yahoo.com/quote/ASML/history/"
+   ]
+  },
+  {
+   "id": "intel",
+   "name": "Intel",
+   "ticker": "INTC",
+   "cat": "chips",
+   "sub": "CPU y fundición",
+   "rev": 59.89,
+   "ni": -12.03,
+   "fin_period": "Sep 26, 2026",
+   "op_margin": 10.3,
+   "gross_margin": 40.1,
+   "mc0": 124.1,
+   "mc1": 325.3,
+   "mc_date": "Nov 12, 2026",
+   "chg": 103.5,
+   "since": "2022-11-30",
+   "note": "Utilidad de 12 meses aún negativa pese a un 3T-2026 con ganancia.",
+   "src": [
+    "https://stockanalysis.com/stocks/intc/financials/",
+    "https://stockanalysis.com/stocks/intc/market-cap/",
+    "https://finance.yahoo.com/quote/INTC/history/"
+   ]
+  },
+  {
+   "id": "marvell",
+   "name": "Marvell",
+   "ticker": "MRVL",
+   "cat": "chips",
+   "sub": "chips a medida y redes",
+   "rev": 9.45,
+   "ni": 2.64,
+   "fin_period": "Aug 1, 2026",
+   "op_margin": 16.8,
+   "gross_margin": 52.2,
+   "mc0": 39.7,
+   "mc1": 144.4,
+   "mc_date": "Nov 12, 2026",
+   "chg": 253.5,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/mrvl/financials/",
+    "https://stockanalysis.com/stocks/mrvl/market-cap/",
+    "https://finance.yahoo.com/quote/MRVL/history/"
+   ]
+  },
+  {
+   "id": "arm",
+   "name": "Arm",
+   "ticker": "ARM",
+   "cat": "chips",
+   "sub": "licencias de diseño",
+   "rev": 5.46,
+   "ni": 0.94,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 17.0,
+   "gross_margin": 97.4,
+   "mc0": null,
+   "mc1": 213.8,
+   "mc_date": "Nov 12, 2026",
+   "chg": 214.2,
+   "since": "2023-09-14",
+   "note": "Cambio desde su salida a bolsa (sep-2023).",
+   "src": [
+    "https://stockanalysis.com/stocks/arm/financials/",
+    "https://stockanalysis.com/stocks/arm/market-cap/",
+    "https://finance.yahoo.com/quote/ARM/history/"
+   ]
+  },
+  {
+   "id": "dell",
+   "name": "Dell",
+   "ticker": "DELL",
+   "cat": "chips",
+   "sub": "servidores",
+   "rev": 151.2,
+   "ni": 11.38,
+   "fin_period": "Jul 31, 2026",
+   "op_margin": 9.9,
+   "gross_margin": 19.9,
+   "mc0": 32.1,
+   "mc1": 236.0,
+   "mc_date": "Nov 12, 2026",
+   "chg": 728.7,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/dell/financials/",
+    "https://stockanalysis.com/stocks/dell/market-cap/",
+    "https://finance.yahoo.com/quote/DELL/history/"
+   ]
+  },
+  {
+   "id": "supermicro",
+   "name": "Super Micro",
+   "ticker": "SMCI",
+   "cat": "chips",
+   "sub": "servidores",
+   "rev": 53.99,
+   "ni": 3.29,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 8.3,
+   "gross_margin": 11.4,
+   "mc0": 4.8,
+   "mc1": 17.8,
+   "mc_date": "Nov 12, 2026",
+   "chg": 199.1,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/smci/financials/",
+    "https://stockanalysis.com/stocks/smci/market-cap/",
+    "https://finance.yahoo.com/quote/SMCI/history/"
+   ]
+  },
+  {
+   "id": "arista",
+   "name": "Arista",
+   "ticker": "ANET",
+   "cat": "chips",
+   "sub": "redes",
+   "rev": 11.89,
+   "ni": 4.75,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 43.8,
+   "gross_margin": 62.9,
+   "mc0": 42.6,
+   "mc1": 261.1,
+   "mc_date": "Nov 12, 2026",
+   "chg": 493.3,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/anet/financials/",
+    "https://stockanalysis.com/stocks/anet/market-cap/",
+    "https://finance.yahoo.com/quote/ANET/history/"
+   ]
+  },
+  {
+   "id": "vertiv",
+   "name": "Vertiv",
+   "ticker": "VRT",
+   "cat": "chips",
+   "sub": "energía y enfriamiento",
+   "rev": 13.12,
+   "ni": 2.1,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 21.1,
+   "gross_margin": 38.1,
+   "mc0": 5.2,
+   "mc1": 80.7,
+   "mc_date": "Nov 12, 2026",
+   "chg": 1413.6,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/vrt/financials/",
+    "https://stockanalysis.com/stocks/vrt/market-cap/",
+    "https://finance.yahoo.com/quote/VRT/history/"
+   ]
+  },
+  {
+   "id": "coreweave",
+   "name": "CoreWeave",
+   "ticker": "CRWV",
+   "cat": "chips",
+   "sub": "nube de GPU (neocloud)",
+   "rev": 9.89,
+   "ni": -2.53,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": -0.5,
+   "gross_margin": 66.8,
+   "mc0": null,
+   "mc1": 31.5,
+   "mc_date": "Nov 12, 2026",
+   "chg": 41.5,
+   "since": "2025-03-28",
+   "note": "Cambio desde su salida a bolsa (mar-2025).",
+   "src": [
+    "https://stockanalysis.com/stocks/crwv/financials/",
+    "https://stockanalysis.com/stocks/crwv/market-cap/",
+    "https://finance.yahoo.com/quote/CRWV/history/"
+   ]
+  },
+  {
+   "id": "nebius",
+   "name": "Nebius",
+   "ticker": "NBIS",
+   "cat": "chips",
+   "sub": "nube de GPU (neocloud)",
+   "rev": 1.35,
+   "ni": 0.04,
+   "fin_period": "Jun 30, 2026",
+   "op_margin": -37.4,
+   "gross_margin": 74.3,
+   "mc0": null,
+   "mc1": 35.3,
+   "mc_date": "Nov 12, 2026",
+   "chg": 543.2,
+   "since": "2024-10-21",
+   "note": "Cambio desde que volvió a cotizar (oct-2024).",
+   "src": [
+    "https://stockanalysis.com/stocks/nbis/financials/",
+    "https://stockanalysis.com/stocks/nbis/market-cap/",
+    "https://finance.yahoo.com/quote/NBIS/history/"
+   ]
+  },
+  {
+   "id": "smic",
+   "name": "SMIC",
+   "ticker": "0981.HK / 688981.SS",
+   "cat": "chips",
+   "sub": "fundición",
+   "rev": 10.98,
+   "ni": 1.21,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 10.9,
+   "gross_margin": 23.3,
+   "mc0": 24.8,
+   "mc1": 79.6,
+   "mc_date": "Nov 13, 2026",
+   "chg": 185.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/quote/hkg/0981/financials/",
+    "https://stockanalysis.com/quote/hkg/0981/market-cap/",
+    "https://finance.yahoo.com/quote/0981.HK/history/"
+   ]
+  },
+  {
+   "id": "cambricon",
+   "name": "Cambricon",
+   "ticker": "688256.SS",
+   "cat": "chips",
+   "sub": "GPU / aceleradores",
+   "rev": 1.66,
+   "ni": 0.6,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": 36.8,
+   "gross_margin": 55.1,
+   "mc0": 3.5,
+   "mc1": 92.2,
+   "mc_date": "Nov 13, 2026",
+   "chg": 2195.4,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/quote/sha/688256/financials/",
+    "https://stockanalysis.com/quote/sha/688256/market-cap/",
+    "https://finance.yahoo.com/quote/688256.SS/history/"
+   ]
+  },
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "ticker": "MSFT",
+   "cat": "big",
+   "sub": "Azure, Copilot, socio de OpenAI",
+   "rev": 346.44,
+   "ni": 142.63,
+   "fin_period": "TTM to 2026-09-30",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 1904.3,
+   "mc1": 3880.0,
+   "mc_date": "2026-11-12",
+   "chg": 105.0,
+   "since": "2022-11-30",
+   "note": "Año fiscal a junio; 12 meses a sep-2026.",
+   "src": [
+    "https://stockanalysis.com/stocks/msft/financials/",
+    "https://stockanalysis.com/stocks/msft/market-cap/",
+    "https://finance.yahoo.com/quote/MSFT/history/"
+   ]
+  },
+  {
+   "id": "alphabet",
+   "name": "Alphabet (Google)",
+   "ticker": "GOOGL",
+   "cat": "big",
+   "sub": "Gemini, Google Cloud, chips TPU",
+   "rev": 471.1,
+   "ni": 235.69,
+   "fin_period": "TTM to 2026-09-30",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 1304.9,
+   "mc1": 3670.0,
+   "mc_date": "2026-11-12",
+   "chg": 195.8,
+   "since": "2022-11-30",
+   "note": "Utilidad inflada por ganancias contables en Anthropic y SpaceX (~US$ 98 mil M solo en el 2T-2026).",
+   "src": [
+    "https://stockanalysis.com/stocks/googl/financials/",
+    "https://stockanalysis.com/stocks/googl/market-cap/",
+    "https://finance.yahoo.com/quote/GOOGL/history/"
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "ticker": "AMZN",
+   "cat": "big",
+   "sub": "AWS, Bedrock, socio de Anthropic",
+   "rev": 797.46,
+   "ni": 134.78,
+   "fin_period": "TTM to 2026-09-30",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 984.9,
+   "mc1": 2890.0,
+   "mc_date": "2026-11-12",
+   "chg": 177.0,
+   "since": "2022-11-30",
+   "note": "Utilidad inflada por la revalorización contable de su participación en Anthropic.",
+   "src": [
+    "https://stockanalysis.com/stocks/amzn/financials/",
+    "https://stockanalysis.com/stocks/amzn/market-cap/",
+    "https://finance.yahoo.com/quote/AMZN/history/"
+   ]
+  },
+  {
+   "id": "meta",
+   "name": "Meta",
+   "ticker": "META",
+   "cat": "big",
+   "sub": "Llama, Meta AI, anuncios con IA",
+   "rev": 241.6,
+   "ni": 75.25,
+   "fin_period": "TTM to 2026-09-30",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 313.2,
+   "mc1": 1590.0,
+   "mc_date": "2026-11-12",
+   "chg": 428.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/meta/financials/",
+    "https://stockanalysis.com/stocks/meta/market-cap/",
+    "https://finance.yahoo.com/quote/META/history/"
+   ]
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "ticker": "AAPL",
+   "cat": "big",
+   "sub": "Apple Intelligence (caso control: casi sin capex de IA)",
+   "rev": 478.83,
+   "ni": 132.18,
+   "fin_period": "TTM = FY2026 (ended 2026-09-26)",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 2358.4,
+   "mc1": 5160.0,
+   "mc_date": "2026-11-12",
+   "chg": 139.7,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/aapl/financials/",
+    "https://stockanalysis.com/stocks/aapl/market-cap/",
+    "https://finance.yahoo.com/quote/AAPL/history/"
+   ]
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle",
+   "ticker": "ORCL",
+   "cat": "big",
+   "sub": "nube OCI para OpenAI y otros",
+   "rev": 71.78,
+   "ni": 18.74,
+   "fin_period": "TTM to 2026-08-31",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 223.9,
+   "mc1": 396.3,
+   "mc_date": "2026-11-12",
+   "chg": 53.1,
+   "since": "2022-11-30",
+   "note": "Año fiscal a mayo; 12 meses a ago-2026.",
+   "src": [
+    "https://stockanalysis.com/stocks/orcl/financials/",
+    "https://stockanalysis.com/stocks/orcl/market-cap/",
+    "https://finance.yahoo.com/quote/ORCL/history/"
+   ]
+  },
+  {
+   "id": "alibaba",
+   "name": "Alibaba",
+   "ticker": "BABA / 9988.HK",
+   "cat": "big",
+   "sub": "Qwen, Alibaba Cloud",
+   "rev": 153.6,
+   "ni": 10.78,
+   "fin_period": "TTM to 2026-06-30",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 231.6,
+   "mc1": 234.5,
+   "mc_date": "2026-11-12",
+   "chg": 7.8,
+   "since": "2022-11-30",
+   "note": "Cifras en CNY convertidas a USD (estimado); último dato: jun-2026.",
+   "src": [
+    "https://stockanalysis.com/stocks/baba/financials/",
+    "https://stockanalysis.com/stocks/baba/market-cap/",
+    "https://finance.yahoo.com/quote/BABA/history/"
+   ]
+  },
+  {
+   "id": "tencent",
+   "name": "Tencent",
+   "ticker": "0700.HK / TCEHY",
+   "cat": "big",
+   "sub": "Hunyuan, Yuanbao",
+   "rev": 115.9,
+   "ni": 34.62,
+   "fin_period": "TTM to 2026-06-30",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 345.7,
+   "mc1": 443.6,
+   "mc_date": "2026-11-13",
+   "chg": 41.7,
+   "since": "2022-11-30",
+   "note": "Cifras en CNY convertidas a USD (estimado); último dato: jun-2026.",
+   "src": [
+    "https://stockanalysis.com/quote/hkg/0700/financials/",
+    "https://stockanalysis.com/quote/hkg/0700/market-cap/",
+    "https://finance.yahoo.com/quote/0700.HK/history/"
+   ]
+  },
+  {
+   "id": "baidu",
+   "name": "Baidu",
+   "ticker": "BIDU / 9888.HK",
+   "cat": "big",
+   "sub": "Ernie, Baidu AI Cloud",
+   "rev": 18.71,
+   "ni": -0.69,
+   "fin_period": "TTM to 2026-06-30",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 37.9,
+   "mc1": 25.6,
+   "mc_date": "2026-11-12",
+   "chg": -28.5,
+   "since": "2022-11-30",
+   "note": "Cifras en CNY convertidas a USD (estimado); último dato: jun-2026.",
+   "src": [
+    "https://stockanalysis.com/stocks/bidu/financials/",
+    "https://stockanalysis.com/stocks/bidu/market-cap/",
+    "https://finance.yahoo.com/quote/BIDU/history/"
+   ]
+  },
+  {
+   "id": "palantir",
+   "name": "Palantir",
+   "ticker": "PLTR",
+   "cat": "soft",
+   "sub": "plataforma AIP",
+   "rev": 7.29,
+   "ni": 3.67,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 15.6,
+   "mc1": 413.4,
+   "mc_date": "2026-11-12",
+   "chg": 2187.7,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/pltr/financials/",
+    "https://stockanalysis.com/stocks/pltr/market-cap/",
+    "https://finance.yahoo.com/quote/PLTR/history/"
+   ]
+  },
+  {
+   "id": "salesforce",
+   "name": "Salesforce",
+   "ticker": "CRM",
+   "cat": "soft",
+   "sub": "Agentforce",
+   "rev": 43.94,
+   "ni": 9.66,
+   "fin_period": "Jul 31, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 160.2,
+   "mc1": 179.1,
+   "mc_date": "2026-11-12",
+   "chg": 35.8,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/crm/financials/",
+    "https://stockanalysis.com/stocks/crm/market-cap/",
+    "https://finance.yahoo.com/quote/CRM/history/"
+   ]
+  },
+  {
+   "id": "servicenow",
+   "name": "ServiceNow",
+   "ticker": "NOW",
+   "cat": "soft",
+   "sub": "Now Assist",
+   "rev": 15.43,
+   "ni": 1.45,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 84.1,
+   "mc1": 104.5,
+   "mc_date": "2026-11-12",
+   "chg": 20.9,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/now/financials/",
+    "https://stockanalysis.com/stocks/now/market-cap/",
+    "https://finance.yahoo.com/quote/NOW/history/"
+   ]
+  },
+  {
+   "id": "adobe",
+   "name": "Adobe",
+   "ticker": "ADBE",
+   "cat": "soft",
+   "sub": "Firefly",
+   "rev": 25.97,
+   "ni": 7.28,
+   "fin_period": "Aug 28, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 160.4,
+   "mc1": 92.8,
+   "mc_date": "2026-11-12",
+   "chg": -30.8,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/adbe/financials/",
+    "https://stockanalysis.com/stocks/adbe/market-cap/",
+    "https://finance.yahoo.com/quote/ADBE/history/"
+   ]
+  },
+  {
+   "id": "sap",
+   "name": "SAP",
+   "ticker": "SAP",
+   "cat": "soft",
+   "sub": "Joule / Business AI",
+   "rev": null,
+   "ni": null,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 130.8,
+   "mc1": 269.2,
+   "mc_date": "2026-11-12",
+   "chg": 111.1,
+   "since": "2022-11-30",
+   "note": "Estados financieros en euros: no se incluye en los gráficos en dólares.",
+   "src": [
+    "https://stockanalysis.com/stocks/sap/financials/",
+    "https://stockanalysis.com/stocks/sap/market-cap/",
+    "https://finance.yahoo.com/quote/SAP/history/"
+   ]
+  },
+  {
+   "id": "ibm",
+   "name": "IBM",
+   "ticker": "IBM",
+   "cat": "soft",
+   "sub": "watsonx y consultoría",
+   "rev": 69.87,
+   "ni": 11.17,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 134.6,
+   "mc1": 231.2,
+   "mc_date": "2026-11-12",
+   "chg": 64.3,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/ibm/financials/",
+    "https://stockanalysis.com/stocks/ibm/market-cap/",
+    "https://finance.yahoo.com/quote/IBM/history/"
+   ]
+  },
+  {
+   "id": "snowflake",
+   "name": "Snowflake",
+   "ticker": "SNOW",
+   "cat": "soft",
+   "sub": "datos y Cortex",
+   "rev": 5.44,
+   "ni": -1.09,
+   "fin_period": "Jul 31, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 46.0,
+   "mc1": 105.3,
+   "mc_date": "2026-11-12",
+   "chg": 109.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/snow/financials/",
+    "https://stockanalysis.com/stocks/snow/market-cap/",
+    "https://finance.yahoo.com/quote/SNOW/history/"
+   ]
+  },
+  {
+   "id": "workday",
+   "name": "Workday",
+   "ticker": "WDAY",
+   "cat": "soft",
+   "sub": "agentes de RR. HH.",
+   "rev": 10.15,
+   "ni": 1.25,
+   "fin_period": "Jul 31, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 43.1,
+   "mc1": 45.9,
+   "mc_date": "2026-11-12",
+   "chg": 13.5,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/wday/financials/",
+    "https://stockanalysis.com/stocks/wday/market-cap/",
+    "https://finance.yahoo.com/quote/WDAY/history/"
+   ]
+  },
+  {
+   "id": "intuit",
+   "name": "Intuit",
+   "ticker": "INTU",
+   "cat": "soft",
+   "sub": "asistentes financieros",
+   "rev": 21.45,
+   "ni": 4.57,
+   "fin_period": "Jul 31, 2026 (latest fiscal year is the trailing twelve months)",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 114.5,
+   "mc1": 90.9,
+   "mc_date": "2026-11-12",
+   "chg": -16.5,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/intu/financials/",
+    "https://stockanalysis.com/stocks/intu/market-cap/",
+    "https://finance.yahoo.com/quote/INTU/history/"
+   ]
+  },
+  {
+   "id": "accenture",
+   "name": "Accenture",
+   "ticker": "ACN",
+   "cat": "soft",
+   "sub": "consultoría de IA",
+   "rev": 74.18,
+   "ni": 8.37,
+   "fin_period": "Aug 31, 2026 (latest fiscal year is the trailing twelve months)",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 198.3,
+   "mc1": 169.7,
+   "mc_date": "2026-11-11",
+   "chg": -16.9,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/acn/financials/",
+    "https://stockanalysis.com/stocks/acn/market-cap/",
+    "https://finance.yahoo.com/quote/ACN/history/"
+   ]
+  },
+  {
+   "id": "duolingo",
+   "name": "Duolingo",
+   "ticker": "DUOL",
+   "cat": "soft",
+   "sub": "app con IA",
+   "rev": 1.18,
+   "ni": 0.15,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 2.8,
+   "mc1": 7.4,
+   "mc_date": "2026-11-12",
+   "chg": 126.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/duol/financials/",
+    "https://stockanalysis.com/stocks/duol/market-cap/",
+    "https://finance.yahoo.com/quote/DUOL/history/"
+   ]
+  },
+  {
+   "id": "applovin",
+   "name": "AppLovin",
+   "ticker": "APP",
+   "cat": "soft",
+   "sub": "publicidad con IA (Axon)",
+   "rev": 7.61,
+   "ni": 5.01,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 5.3,
+   "mc1": 130.4,
+   "mc_date": "2026-11-12",
+   "chg": 2632.0,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/app/financials/",
+    "https://stockanalysis.com/stocks/app/market-cap/",
+    "https://finance.yahoo.com/quote/APP/history/"
+   ]
+  },
+  {
+   "id": "shopify",
+   "name": "Shopify",
+   "ticker": "SHOP",
+   "cat": "soft",
+   "sub": "comercio con IA",
+   "rev": 14.17,
+   "ni": 2.13,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 52.0,
+   "mc1": 188.8,
+   "mc_date": "2026-11-12",
+   "chg": 259.1,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/shop/financials/",
+    "https://stockanalysis.com/stocks/shop/market-cap/",
+    "https://finance.yahoo.com/quote/SHOP/history/"
+   ]
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "ticker": "TSLA",
+   "cat": "soft",
+   "sub": "conducción autónoma y robots",
+   "rev": 103.57,
+   "ni": 3.22,
+   "fin_period": "Sep 30, 2026",
+   "op_margin": null,
+   "gross_margin": null,
+   "mc0": 614.8,
+   "mc1": 1570.0,
+   "mc_date": "2026-11-12",
+   "chg": 104.1,
+   "since": "2022-11-30",
+   "note": null,
+   "src": [
+    "https://stockanalysis.com/stocks/tsla/financials/",
+    "https://stockanalysis.com/stocks/tsla/market-cap/",
+    "https://finance.yahoo.com/quote/TSLA/history/"
+   ]
+  }
+ ],
+ "soft_ytd": [
+  {
+   "id": "palantir",
+   "name": "Palantir",
+   "pct": -2.4,
+   "mc_2025": 423.66,
+   "mc_now": 413.42,
+   "src": [
+    "https://stockanalysis.com/stocks/pltr/market-cap/"
+   ]
+  },
+  {
+   "id": "salesforce",
+   "name": "Salesforce",
+   "pct": -27.9,
+   "mc_2025": 248.22,
+   "mc_now": 179.06,
+   "src": [
+    "https://stockanalysis.com/stocks/crm/market-cap/"
+   ]
+  },
+  {
+   "id": "servicenow",
+   "name": "ServiceNow",
+   "pct": -34.4,
+   "mc_2025": 159.32,
+   "mc_now": 104.48,
+   "src": [
+    "https://stockanalysis.com/stocks/now/market-cap/"
+   ]
+  },
+  {
+   "id": "adobe",
+   "name": "Adobe",
+   "pct": -36.6,
+   "mc_2025": 146.51,
+   "mc_now": 92.84,
+   "src": [
+    "https://stockanalysis.com/stocks/adbe/market-cap/"
+   ]
+  },
+  {
+   "id": "sap",
+   "name": "SAP",
+   "pct": -4.8,
+   "mc_2025": 282.75,
+   "mc_now": 269.17,
+   "src": [
+    "https://stockanalysis.com/stocks/sap/market-cap/"
+   ]
+  },
+  {
+   "id": "ibm",
+   "name": "IBM",
+   "pct": -16.5,
+   "mc_2025": 276.88,
+   "mc_now": 231.24,
+   "src": [
+    "https://stockanalysis.com/stocks/ibm/market-cap/"
+   ]
+  },
+  {
+   "id": "snowflake",
+   "name": "Snowflake",
+   "pct": 40.3,
+   "mc_2025": 75.06,
+   "mc_now": 105.28,
+   "src": [
+    "https://stockanalysis.com/stocks/snow/market-cap/"
+   ]
+  },
+  {
+   "id": "workday",
+   "name": "Workday",
+   "pct": -18.7,
+   "mc_2025": 56.49,
+   "mc_now": 45.94,
+   "src": [
+    "https://stockanalysis.com/stocks/wday/market-cap/"
+   ]
+  },
+  {
+   "id": "intuit",
+   "name": "Intuit",
+   "pct": -50.7,
+   "mc_2025": 184.42,
+   "mc_now": 90.91,
+   "src": [
+    "https://stockanalysis.com/stocks/intu/market-cap/"
+   ]
+  },
+  {
+   "id": "accenture",
+   "name": "Accenture",
+   "pct": -4.3,
+   "mc_2025": 177.28,
+   "mc_now": 169.7,
+   "src": [
+    "https://stockanalysis.com/stocks/acn/market-cap/"
+   ]
+  },
+  {
+   "id": "duolingo",
+   "name": "Duolingo",
+   "pct": -8.4,
+   "mc_2025": 8.11,
+   "mc_now": 7.43,
+   "src": [
+    "https://stockanalysis.com/stocks/duol/market-cap/"
+   ]
+  },
+  {
+   "id": "applovin",
+   "name": "AppLovin",
+   "pct": -42.7,
+   "mc_2025": 227.72,
+   "mc_now": 130.43,
+   "src": [
+    "https://stockanalysis.com/stocks/app/market-cap/"
+   ]
+  },
+  {
+   "id": "shopify",
+   "name": "Shopify",
+   "pct": -9.9,
+   "mc_2025": 209.56,
+   "mc_now": 188.84,
+   "src": [
+    "https://stockanalysis.com/stocks/shop/market-cap/"
+   ]
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "pct": 4.7,
+   "mc_2025": 1500.0,
+   "mc_now": 1570.0,
+   "src": [
+    "https://stockanalysis.com/stocks/tsla/market-cap/"
+   ]
+  }
+ ],
+ "capex": {
+  "cats": [
+   "2022",
+   "2023",
+   "2024",
+   "2025",
+   "2026 (guía)"
+  ],
+  "series": [
+   {
+    "id": "amazon",
+    "name": "Amazon",
+    "values": [
+     63.6,
+     52.7,
+     83.0,
+     131.8,
+     220
+    ]
+   },
+   {
+    "id": "alphabet",
+    "name": "Alphabet (Google)",
+    "values": [
+     31.5,
+     32.3,
+     52.5,
+     91.4,
+     200.0
+    ]
+   },
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "values": [
+     24.8,
+     35.2,
+     55.6,
+     83.1,
+     175
+    ]
+   },
+   {
+    "id": "meta",
+    "name": "Meta",
+    "values": [
+     31.2,
+     27.0,
+     37.3,
+     69.7,
+     140.0
+    ]
+   }
+  ],
+  "src": [
+   "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/",
+   "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock",
+   "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/",
+   "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr",
+   "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/?p=quarterly",
+   "https://www.thestar.com.my/business/business-news/2026/07/31/microsoft-sees-strong-cash-flow-lower-capex",
+   "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+   "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+  ],
+  "totals": [
+   151.0,
+   147.0,
+   228.0,
+   376.0,
+   735.0
+  ]
+ },
+ "fcf": {
+  "series": [
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "points": [
+     {
+      "x": "2022-06",
+      "y": 65.1,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2023-06",
+      "y": 59.5,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2024-06",
+      "y": 74.1,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2025-06",
+      "y": 71.6,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2026-06",
+      "y": 67.0,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2026-09",
+      "y": 60.0,
+      "note": "últimos 12 meses"
+     }
+    ]
+   },
+   {
+    "id": "alphabet",
+    "name": "Alphabet (Google)",
+    "points": [
+     {
+      "x": "2022-12",
+      "y": 60.0,
+      "note": null
+     },
+     {
+      "x": "2023-12",
+      "y": 69.5,
+      "note": null
+     },
+     {
+      "x": "2024-12",
+      "y": 72.8,
+      "note": null
+     },
+     {
+      "x": "2025-12",
+      "y": 73.3,
+      "note": null
+     },
+     {
+      "x": "2026-09",
+      "y": 19.7,
+      "note": "últimos 12 meses"
+     }
+    ]
+   },
+   {
+    "id": "amazon",
+    "name": "Amazon",
+    "points": [
+     {
+      "x": "2022-12",
+      "y": -16.9,
+      "note": null
+     },
+     {
+      "x": "2023-12",
+      "y": 32.2,
+      "note": null
+     },
+     {
+      "x": "2024-12",
+      "y": 32.9,
+      "note": null
+     },
+     {
+      "x": "2025-12",
+      "y": 7.7,
+      "note": null
+     },
+     {
+      "x": "2026-09",
+      "y": -46.9,
+      "note": "últimos 12 meses"
+     }
+    ]
+   },
+   {
+    "id": "meta",
+    "name": "Meta",
+    "points": [
+     {
+      "x": "2022-12",
+      "y": 19.3,
+      "note": null
+     },
+     {
+      "x": "2023-12",
+      "y": 44.1,
+      "note": null
+     },
+     {
+      "x": "2024-12",
+      "y": 54.1,
+      "note": null
+     },
+     {
+      "x": "2025-12",
+      "y": 46.1,
+      "note": null
+     },
+     {
+      "x": "2026-09",
+      "y": 28.6,
+      "note": "últimos 12 meses"
+     }
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "points": [
+     {
+      "x": "2022-05",
+      "y": 5.0,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2023-05",
+      "y": 8.5,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2024-05",
+      "y": 11.8,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2025-05",
+      "y": -0.4,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2026-05",
+      "y": -23.7,
+      "note": "año fiscal"
+     },
+     {
+      "x": "2026-08",
+      "y": -28.7,
+      "note": "últimos 12 meses"
+     }
+    ]
+   }
+  ],
+  "src": [
+   "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
+   "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/",
+   "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/",
+   "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+   "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/"
+  ]
+ },
+ "backlog": [
+  {
+   "name": "Microsoft (nube comercial)",
+   "cat": "big",
+   "value": 677,
+   "note": "+73 % en un año",
+   "src": [
+    "https://www.microsoft.com/en-us/investor/earnings/FY-2027-Q1/press-release-webcast"
+   ]
+  },
+  {
+   "name": "Oracle",
+   "cat": "big",
+   "value": 664,
+   "note": "gran parte es el contrato con OpenAI",
+   "src": [
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+   ]
+  },
+  {
+   "name": "Amazon AWS",
+   "cat": "big",
+   "value": 578,
+   "note": "más del doble en un año",
+   "src": [
+    "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock"
+   ]
+  },
+  {
+   "name": "Google Cloud",
+   "cat": "big",
+   "value": 560.8,
+   "note": "",
+   "src": [
+    "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr"
+   ]
+  },
+  {
+   "name": "CoreWeave",
+   "cat": "chips",
+   "value": 132.5,
+   "note": "US$ 55.6 mil M un año antes",
+   "src": [
+    "https://siliconangle.com/2026/11/10/coreweave-arrests-stock-slide-after-posting-a-strong-earnings-beat-and-raising-its-full-year-guidance/"
+   ]
+  },
+  {
+   "name": "Dell (servidores de IA)",
+   "cat": "chips",
+   "value": 95.0,
+   "note": "a jul-2026",
+   "src": [
+    "https://www.storagenewsletter.com/2026/09/03/dell-technologies-fiscal-2q27-financial-results/"
+   ]
+  },
+  {
+   "name": "Nebius",
+   "cat": "chips",
+   "value": 38.7,
+   "note": "",
+   "src": [
+    "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126008/tm2629571d1_ex99-2.htm"
+   ]
+  }
+ ],
+ "cloud_q": [
+  {
+   "name": "AWS",
+   "rev": 45.984,
+   "growth": 39,
+   "op": 17.773,
+   "src": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+   ]
+  },
+  {
+   "name": "Azure",
+   "rev": 33.165,
+   "growth": 48,
+   "op": null,
+   "src": [
+    "https://www.microsoft.com/en-us/investor/earnings/FY-2027-Q1/press-release-webcast"
+   ]
+  },
+  {
+   "name": "Google Cloud",
+   "rev": 30.709,
+   "growth": 103,
+   "op": 11.121,
+   "src": [
+    "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm"
+   ]
+  },
+  {
+   "name": "Oracle OCI",
+   "rev": 7.4,
+   "growth": 121,
+   "op": null,
+   "src": [
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+   ]
+  }
+ ],
+ "gap": [
+  {
+   "name": "Capex 2026 de Amazon, Alphabet, Microsoft y Meta",
+   "sub": "guía oficial, punto medio",
+   "value": 735.0,
+   "hl": true,
+   "src": [
+    "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/",
+    "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock",
+    "https://www.fool.com/research/ai-companies-spending-on-data-centers"
+   ]
+  },
+  {
+   "name": "Ingresos de toda la IA generativa (sin China)",
+   "sub": "ritmo anual a mediados de 2026, estimado de Exponential View",
+   "value": 175,
+   "src": [
+    "https://www.agendadigitale.eu/?p=271370"
+   ]
+  },
+  {
+   "name": "Anthropic",
+   "sub": "ritmo anual a oct-2026 (bruto, según su prospecto)",
+   "value": 81.0,
+   "src": [
+    "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "sub": "ritmo anual a sep-2026 (neto de socios de nube)",
+   "value": 50.0,
+   "src": [
+    "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/"
+   ]
+  },
+  {
+   "name": "Gasto de empresas en IA generativa en 2025",
+   "sub": "Menlo Ventures",
+   "value": 37,
+   "src": [
+    "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/"
+   ]
+  }
+ ],
+ "cahn": [
+  {
+   "year": "2023",
+   "value": 200,
+   "src": [
+    "https://dcahn.substack.com/p/ais-15t-question"
+   ]
+  },
+  {
+   "year": "2024",
+   "value": 600,
+   "src": [
+    "https://dcahn.substack.com/p/ais-15t-question"
+   ]
+  },
+  {
+   "year": "2025",
+   "value": 840,
+   "src": [
+    "https://dcahn.substack.com/p/ais-15t-question"
+   ]
+  },
+  {
+   "year": "2026",
+   "value": 1500,
+   "src": [
+    "https://dcahn.substack.com/p/ais-15t-question"
+   ]
+  }
+ ],
+ "bain": {
+  "need_2031": 6000,
+  "missing_2031": 4200,
+  "src": [
+   "https://thenextweb.com/news/bain-ai-6-trillion-revenue-2031-data-centres"
+  ]
+ },
+ "nvda_dc": {
+  "cats": [
+   "AF 2023",
+   "AF 2024",
+   "AF 2025",
+   "AF 2026"
+  ],
+  "values": [
+   15.01,
+   47.5,
+   115.2,
+   193.7
+  ],
+  "src": [
+   "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2023",
+   "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2024",
+   "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000021/q4fy25cfocommentary.htm",
+   "https://www.storagenewsletter.com/2026/03/04/nvidia-fiscal-4q26-and-fy26-financial-results/"
+  ],
+  "latest_q": {
+   "value": 89.0,
+   "src": [
+    "https://pulse2.com/nvidia-operating-income-jumps-124-to-63-7-billion-as-revenue-doubles-and-q3-outlook-hits-108-billion/"
+   ]
+  }
+ },
+ "nvda_conc_src": [
+  "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm"
+ ],
+ "nvda_portfolio_src": [
+  "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000075/nvda-20260726.htm"
+ ],
+ "valuations": {
+  "series": [
+   {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "points": [
+     {
+      "x": "2023-05",
+      "y": 4.1,
+      "note": null
+     },
+     {
+      "x": "2024-02",
+      "y": 18.4,
+      "note": null
+     },
+     {
+      "x": "2025-03",
+      "y": 61.5,
+      "note": null
+     },
+     {
+      "x": "2025-09",
+      "y": 183,
+      "note": null
+     },
+     {
+      "x": "2025-11-18",
+      "y": 350,
+      "note": null
+     },
+     {
+      "x": "2026-02-12",
+      "y": 380,
+      "note": null
+     },
+     {
+      "x": "2026-05-28",
+      "y": 965,
+      "note": null
+     }
+    ]
+   },
+   {
+    "id": "openai",
+    "name": "OpenAI",
+    "points": [
+     {
+      "x": "2023-04",
+      "y": 29,
+      "note": null
+     },
+     {
+      "x": "2024-02",
+      "y": 86,
+      "note": null
+     },
+     {
+      "x": "2024-10",
+      "y": 157,
+      "note": null
+     },
+     {
+      "x": "2025-03",
+      "y": 300,
+      "note": null
+     },
+     {
+      "x": "2025-10",
+      "y": 500,
+      "note": null
+     },
+     {
+      "x": "2026-03-31",
+      "y": 852,
+      "note": null
+     }
+    ]
+   },
+   {
+    "id": "xai",
+    "name": "xAI",
+    "points": [
+     {
+      "x": "2024-05",
+      "y": 24,
+      "note": null
+     },
+     {
+      "x": "2024-12",
+      "y": 50,
+      "note": null
+     },
+     {
+      "x": "2025-03",
+      "y": 80,
+      "note": null
+     },
+     {
+      "x": "2025-09",
+      "y": 200,
+      "note": null
+     },
+     {
+      "x": "2026-01",
+      "y": 230,
+      "note": null
+     },
+     {
+      "x": "2026-02-02",
+      "y": 250,
+      "note": null
+     }
+    ]
+   }
+  ],
+  "src": [
+   "https://siliconangle.com/2026/02/12/anthropic-closes-30b-round-annualized-revenue-tops-14b",
+   "https://finance.yahoo.com/sectors/technology/articles/anthropic-vaults-965-billion-valuation-191826779.html",
+   "https://finance.yahoo.com/markets/stocks/articles/openai-closes-122-billion-funding-010940572.html",
+   "https://thenextweb.com/news/openai-valuation-1-4tn-30bn-round-revenue-70bn",
+   "https://sacra.com/c/xai/",
+   "https://fintool.com/news/xai-20-billion-series-e-nvidia"
+  ]
+ },
+ "runrate": {
+  "series": [
+   {
+    "id": "anthropic",
+    "name": "Anthropic (bruto)",
+    "points": [
+     {
+      "x": "2025-08",
+      "y": 5.0,
+      "note": null
+     },
+     {
+      "x": "2025-12",
+      "y": 9.0,
+      "note": null
+     },
+     {
+      "x": "2026-02",
+      "y": 14.0,
+      "note": null
+     },
+     {
+      "x": "2026-04",
+      "y": 30.0,
+      "note": null
+     },
+     {
+      "x": "2026-05",
+      "y": 47.0,
+      "note": null
+     },
+     {
+      "x": "2026-07-31",
+      "y": 65.0,
+      "note": null
+     },
+     {
+      "x": "2026-09-30",
+      "y": 71.0,
+      "note": "estimado"
+     },
+     {
+      "x": "2026-10-31",
+      "y": 81.0,
+      "note": null
+     }
+    ]
+   },
+   {
+    "id": "openai",
+    "name": "OpenAI (neto)",
+    "points": [
+     {
+      "x": "2022-12",
+      "y": 0.2,
+      "note": "estimado"
+     },
+     {
+      "x": "2023-12",
+      "y": 2.0,
+      "note": "estimado"
+     },
+     {
+      "x": "2024-12",
+      "y": 6.0,
+      "note": "estimado"
+     },
+     {
+      "x": "2025-06",
+      "y": 10.0,
+      "note": null
+     },
+     {
+      "x": "2025-12",
+      "y": 20.0,
+      "note": null
+     },
+     {
+      "x": "2026-02",
+      "y": 25.0,
+      "note": null
+     },
+     {
+      "x": "2026-08",
+      "y": 40.0,
+      "note": null
+     },
+     {
+      "x": "2026-09-30",
+      "y": 50.0,
+      "note": null
+     }
+    ]
+   }
+  ],
+  "src": [
+   "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english",
+   "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+   "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/",
+   "https://thenextweb.com/news/openai-valuation-1-4tn-30bn-round-revenue-70bn"
+  ]
+ },
+ "lab_money": [
+  {
+   "name": "Anthropic: compromisos de cómputo",
+   "sub": "compras y arriendos hasta 2045, según prospecto",
+   "value": 900.9,
+   "kind": "commit",
+   "src": [
+    "https://www.midgardfinance.com/research/anthropic/"
+   ]
+  },
+  {
+   "name": "OpenAI: gasto de nube planeado",
+   "sub": "hasta 2030 (prensa, sep-2026)",
+   "value": 750,
+   "kind": "commit",
+   "src": [
+    "https://247wallst.com/investing/2026/09/09/openai-to-spend-750-billion-on-compute-by-2030-but-its-short-on-capacity/"
+   ]
+  },
+  {
+   "name": "Anthropic: ingresos",
+   "sub": "ritmo anual a oct-2026 (bruto)",
+   "value": 81.0,
+   "kind": "rev",
+   "src": [
+    "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   ]
+  },
+  {
+   "name": "OpenAI: ingresos",
+   "sub": "ritmo anual a sep-2026 (neto)",
+   "value": 50.0,
+   "kind": "rev",
+   "src": [
+    "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/"
+   ]
+  }
+ ],
+ "lab_pnl": {
+  "openai": {
+   "rev_2025": 13.07,
+   "op_loss_2025": 20.9,
+   "burn_2026": 27.0,
+   "neg_fcf_2026_2030": 278.0,
+   "src": [
+    "https://www.kucoin.com/news/flash/leaked-documents-reveal-openai-s-2025-financials-13-07b-revenue-38-53b-net-loss",
+    "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
+    "https://sacra.com/c/openai/"
+   ]
+  },
+  "anthropic": {
+   "rev_9m_2026": 33.242,
+   "op_loss_9m_2026": 1.26,
+   "op_cash_9m_2026": 6.569,
+   "src": [
+    "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english"
+   ]
+  }
+ },
+ "multiples": [
+  {
+   "name": "Anthropic",
+   "cat": "labs",
+   "mult": 11.9,
+   "val": 965,
+   "val_date": "2026-05-28",
+   "rev": 81.0,
+   "rev_date": "2026-10-31",
+   "src": [
+    "https://finance.yahoo.com/sectors/technology/articles/anthropic-vaults-965-billion-valuation-191826779.html",
+    "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "cat": "labs",
+   "mult": 17.0,
+   "val": 852,
+   "val_date": "2026-03-31",
+   "rev": 50.0,
+   "rev_date": "2026-09-30",
+   "src": [
+    "https://finance.yahoo.com/markets/stocks/articles/openai-closes-122-billion-funding-010940572.html",
+    "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/"
+   ]
+  },
+  {
+   "name": "Databricks",
+   "cat": "labs",
+   "mult": 27.1,
+   "val": 190.0,
+   "val_date": "2026-08-13",
+   "rev": 7.0,
+   "rev_date": "2026-08",
+   "src": [
+    "https://w.media/us-5-billion-funding-round-pushes-databrick-valuation-to-us-190-billion/",
+    "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales"
+   ]
+  },
+  {
+   "name": "Cursor",
+   "cat": "labs",
+   "mult": 30.0,
+   "val": 60.0,
+   "val_date": "2026-06-16",
+   "rev": 2.0,
+   "rev_date": "2026-02",
+   "src": [
+    "https://www.verdict.co.uk/spacex-strikes-deal-cursor/",
+    "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding"
+   ]
+  },
+  {
+   "name": "Cognition (Devin)",
+   "cat": "labs",
+   "mult": 53.3,
+   "val": 48.0,
+   "val_date": "2026-09",
+   "rev": 0.9,
+   "rev_date": "2026-08",
+   "src": [
+    "https://www.channelinsider.com/ai/news-cognition-devin-2b-funding-48b-valuation/",
+    "https://cryptobriefing.com/cognition-900m-arr-800m-cash-burn/"
+   ]
+  },
+  {
+   "name": "Mistral",
+   "cat": "labs",
+   "mult": 60.0,
+   "val": 24.0,
+   "val_date": "2026-09-08",
+   "rev": 0.4,
+   "rev_date": "2026-01",
+   "src": [
+    "https://www.thestar.com.my/tech/tech-news/2026/09/08/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round",
+    "https://sacra.com/research/mistral"
+   ]
+  },
+  {
+   "name": "Perplexity",
+   "cat": "labs",
+   "mult": 46.0,
+   "val": 23.0,
+   "val_date": "2026-01",
+   "rev": 0.5,
+   "rev_date": "2026-04",
+   "src": [
+    "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/",
+    "https://sacra.com/c/perplexity"
+   ]
+  },
+  {
+   "name": "ElevenLabs",
+   "cat": "labs",
+   "mult": 44.0,
+   "val": 22.0,
+   "val_date": "2026-09-30",
+   "rev": 0.5,
+   "rev_date": "2026-04",
+   "src": [
+    "https://cryptobriefing.com/elevenlabs-doubles-valuation-22b-tender-offer/",
+    "https://sacra.com/c/elevenlabs/"
+   ]
+  },
+  {
+   "name": "Sierra",
+   "cat": "labs",
+   "mult": 79.0,
+   "val": 15.8,
+   "val_date": "2026-05-04",
+   "rev": 0.2,
+   "rev_date": "2026-05",
+   "src": [
+    "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious",
+    "https://sacra.com/c/sierra/"
+   ]
+  },
+  {
+   "name": "Harvey",
+   "cat": "labs",
+   "mult": 38.8,
+   "val": 15.5,
+   "val_date": "2026-10-01",
+   "rev": 0.4,
+   "rev_date": "2026-10",
+   "src": [
+    "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95",
+    "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95"
+   ]
+  },
+  {
+   "name": "Lovable",
+   "cat": "labs",
+   "mult": 22.2,
+   "val": 13.3,
+   "val_date": "2026-08-12",
+   "rev": 0.6,
+   "rev_date": "2026-09-24",
+   "src": [
+    "https://www.techrepublic.com/article/news-lovable-400m-funding-13-3b-valuation/",
+    "https://aimagazine.com/news/lovable-europes-vibe-coding-platform-crosses-us-600m-arr"
+   ]
+  },
+  {
+   "name": "Replit",
+   "cat": "labs",
+   "mult": 17.1,
+   "val": 9.0,
+   "val_date": "2026-03-11",
+   "rev": 0.525,
+   "rev_date": "2026-04",
+   "src": [
+    "https://www.trendingtopics.eu/replit-raises-400m-tripling-its-valuation-to-9-billion-in-six-months/",
+    "https://www.sacra.com/c/replit"
+   ]
+  },
+  {
+   "name": "Glean",
+   "cat": "labs",
+   "mult": 24.0,
+   "val": 7.2,
+   "val_date": "2025-06",
+   "rev": 0.3,
+   "rev_date": "2026-05",
+   "src": [
+    "https://www.glean.com/blog/glean-series-f-announcement",
+    "https://www.kucoin.com/news/flash/glean-hits-300m-arr-amid-ai-budget-cuts-valued-at-7-2b"
+   ]
+  },
+  {
+   "name": "Nvidia",
+   "cat": "chips",
+   "mult": 13.2,
+   "val": 4010.0,
+   "val_date": "2026-11-12",
+   "rev": 302.97,
+   "rev_date": "12 meses",
+   "src": [
+    "https://stockanalysis.com/stocks/nvda/financials/",
+    "https://stockanalysis.com/stocks/nvda/market-cap/"
+   ]
+  },
+  {
+   "name": "Microsoft",
+   "cat": "big",
+   "mult": 11.2,
+   "val": 3880.0,
+   "val_date": "2026-11-12",
+   "rev": 346.44,
+   "rev_date": "12 meses",
+   "src": [
+    "https://stockanalysis.com/stocks/msft/financials/",
+    "https://stockanalysis.com/stocks/msft/market-cap/"
+   ]
+  },
+  {
+   "name": "Palantir",
+   "cat": "soft",
+   "mult": 56.7,
+   "val": 413.4,
+   "val_date": "2026-11-12",
+   "rev": 7.29,
+   "rev_date": "12 meses",
+   "src": [
+    "https://stockanalysis.com/stocks/pltr/financials/",
+    "https://stockanalysis.com/stocks/pltr/market-cap/"
+   ]
+  },
+  {
+   "name": "Alphabet (Google)",
+   "cat": "big",
+   "mult": 7.8,
+   "val": 3670.0,
+   "val_date": "2026-11-12",
+   "rev": 471.1,
+   "rev_date": "12 meses",
+   "src": [
+    "https://stockanalysis.com/stocks/googl/financials/",
+    "https://stockanalysis.com/stocks/googl/market-cap/"
+   ]
+  }
+ ],
+ "labs_table": [
+  {
+   "name": "Anthropic",
+   "what": "Claude",
+   "val": 965,
+   "val_date": "2026-05-28",
+   "val_est": false,
+   "rev": 81.0,
+   "rev_date": "2026-10-31",
+   "src": [
+    "https://finance.yahoo.com/sectors/technology/articles/anthropic-vaults-965-billion-valuation-191826779.html",
+    "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   ]
+  },
+  {
+   "name": "OpenAI",
+   "what": "ChatGPT, GPT",
+   "val": 852,
+   "val_date": "2026-03-31",
+   "val_est": false,
+   "rev": 50.0,
+   "rev_date": "2026-09-30",
+   "src": [
+    "https://finance.yahoo.com/markets/stocks/articles/openai-closes-122-billion-funding-010940572.html",
+    "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/"
+   ]
+  },
+  {
+   "name": "xAI (hoy dentro de SpaceX)",
+   "what": "Grok",
+   "val": 250,
+   "val_date": "2026-02-02",
+   "val_est": false,
+   "rev": 0.5,
+   "rev_date": "2025-12",
+   "src": [
+    "https://sacra.com/c/xai/",
+    "https://sacra.com/c/xai/"
+   ]
+  },
+  {
+   "name": "Databricks",
+   "what": "plataforma de datos e IA",
+   "val": 190.0,
+   "val_date": "2026-08-13",
+   "val_est": false,
+   "rev": 7.0,
+   "rev_date": "2026-08",
+   "src": [
+    "https://w.media/us-5-billion-funding-round-pushes-databrick-valuation-to-us-190-billion/",
+    "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales"
+   ]
+  },
+  {
+   "name": "Cursor (comprada por SpaceX)",
+   "what": "editor de código con IA",
+   "val": 60.0,
+   "val_date": "2026-06-16",
+   "val_est": false,
+   "rev": 2.0,
+   "rev_date": "2026-02",
+   "src": [
+    "https://www.verdict.co.uk/spacex-strikes-deal-cursor/",
+    "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding"
+   ]
+  },
+  {
+   "name": "Cognition",
+   "what": "agente programador Devin",
+   "val": 48.0,
+   "val_date": "2026-09",
+   "val_est": false,
+   "rev": 0.9,
+   "rev_date": "2026-08",
+   "src": [
+    "https://www.channelinsider.com/ai/news-cognition-devin-2b-funding-48b-valuation/",
+    "https://cryptobriefing.com/cognition-900m-arr-800m-cash-burn/"
+   ]
+  },
+  {
+   "name": "Project Prometheus",
+   "what": "IA física",
+   "val": 41.0,
+   "val_date": "2026-06",
+   "val_est": true,
+   "rev": null,
+   "rev_date": null,
+   "src": [
+    "https://valueaddvc.com/blog/biggest-ai-funding-rounds-of-2026-so-far-ranked"
+   ]
+  },
+  {
+   "name": "Moonshot (Kimi)",
+   "what": "modelos, China",
+   "val": 35.0,
+   "val_date": "2026-07-30",
+   "val_est": false,
+   "rev": null,
+   "rev_date": null,
+   "src": [
+    "https://www2.yicaiglobal.com/news/moonshot-ais-latest-fundraiser-lifts-valuation-to-usd35-billion-amid-kimis-silicon-valley-buzz"
+   ]
+  },
+  {
+   "name": "Safe Superintelligence",
+   "what": "sin producto",
+   "val": 32.0,
+   "val_date": "2026-07-27",
+   "val_est": false,
+   "rev": null,
+   "rev_date": null,
+   "src": [
+    "https://www.wionews.com/world/nvidia-just-put-5-billion-into-a-company-that-has-never-shipped-a-product-1785872919506"
+   ]
+  },
+  {
+   "name": "Figure AI",
+   "what": "robots humanoides",
+   "val": 30.23,
+   "val_date": "2026-10-29",
+   "val_est": true,
+   "rev": null,
+   "rev_date": null,
+   "src": [
+    "https://defillama.com/pre-ipo/figure-ai"
+   ]
+  },
+  {
+   "name": "Cohere",
+   "what": "modelos para empresas",
+   "val": 25.5,
+   "val_date": "2026-10-29",
+   "val_est": false,
+   "rev": 0.24,
+   "rev_date": "2025-12",
+   "src": [
+    "https://aimagazine.com/news/cohere-hits-us-25bn-as-canada-nvidia-fund-sovereign-ai",
+    "https://sacra.com/c/cohere/"
+   ]
+  },
+  {
+   "name": "Mistral AI",
+   "what": "modelos, Francia",
+   "val": 24.0,
+   "val_date": "2026-09-08",
+   "val_est": false,
+   "rev": 0.4,
+   "rev_date": "2026-01",
+   "src": [
+    "https://www.thestar.com.my/tech/tech-news/2026/09/08/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round",
+    "https://sacra.com/research/mistral"
+   ]
+  },
+  {
+   "name": "Perplexity",
+   "what": "buscador con IA",
+   "val": 23.0,
+   "val_date": "2026-01",
+   "val_est": false,
+   "rev": 0.5,
+   "rev_date": "2026-04",
+   "src": [
+    "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/",
+    "https://sacra.com/c/perplexity"
+   ]
+  },
+  {
+   "name": "ElevenLabs",
+   "what": "voz sintética",
+   "val": 22.0,
+   "val_date": "2026-09-30",
+   "val_est": false,
+   "rev": 0.5,
+   "rev_date": "2026-04",
+   "src": [
+    "https://cryptobriefing.com/elevenlabs-doubles-valuation-22b-tender-offer/",
+    "https://sacra.com/c/elevenlabs/"
+   ]
+  },
+  {
+   "name": "Sierra",
+   "what": "agentes de atención",
+   "val": 15.8,
+   "val_date": "2026-05-04",
+   "val_est": false,
+   "rev": 0.2,
+   "rev_date": "2026-05",
+   "src": [
+    "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious",
+    "https://sacra.com/c/sierra/"
+   ]
+  },
+  {
+   "name": "Harvey",
+   "what": "IA legal",
+   "val": 15.5,
+   "val_date": "2026-10-01",
+   "val_est": false,
+   "rev": 0.4,
+   "rev_date": "2026-10",
+   "src": [
+    "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95",
+    "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95"
+   ]
+  },
+  {
+   "name": "Lovable",
+   "what": "crear apps con IA",
+   "val": 13.3,
+   "val_date": "2026-08-12",
+   "val_est": false,
+   "rev": 0.6,
+   "rev_date": "2026-09-24",
+   "src": [
+    "https://www.techrepublic.com/article/news-lovable-400m-funding-13-3b-valuation/",
+    "https://aimagazine.com/news/lovable-europes-vibe-coding-platform-crosses-us-600m-arr"
+   ]
+  },
+  {
+   "name": "Thinking Machines Lab",
+   "what": "sin producto público",
+   "val": 12.0,
+   "val_date": "2025-07",
+   "val_est": false,
+   "rev": null,
+   "rev_date": null,
+   "src": [
+    "https://fourweekmba.com/thinking-machines-lab-officially-closes-2b-at-12b-valuation-teases-first-product-launch/"
+   ]
+  },
+  {
+   "name": "Replit",
+   "what": "programación con IA",
+   "val": 9.0,
+   "val_date": "2026-03-11",
+   "val_est": false,
+   "rev": 0.525,
+   "rev_date": "2026-04",
+   "src": [
+    "https://www.trendingtopics.eu/replit-raises-400m-tripling-its-valuation-to-9-billion-in-six-months/",
+    "https://www.sacra.com/c/replit"
+   ]
+  },
+  {
+   "name": "Glean",
+   "what": "búsqueda empresarial",
+   "val": 7.2,
+   "val_date": "2025-06",
+   "val_est": false,
+   "rev": 0.3,
+   "rev_date": "2026-05",
+   "src": [
+    "https://www.glean.com/blog/glean-series-f-announcement",
+    "https://www.kucoin.com/news/flash/glean-hits-300m-arr-amid-ai-budget-cuts-valued-at-7-2b"
+   ]
+  },
+  {
+   "name": "Runway",
+   "what": "video generativo",
+   "val": 5.3,
+   "val_date": "2026-02",
+   "val_est": false,
+   "rev": 0.3,
+   "rev_date": "2026",
+   "src": [
+    "https://multiples.vc/private-comps/runway",
+    "https://multiples.vc/private-comps/runway"
+   ]
+  }
+ ],
+ "failures": [
+  {
+   "name": "Inflection AI",
+   "year": 2024,
+   "what": "Microsoft pagó unos US$ 650 M por una licencia y se llevó al CEO y a casi todo el equipo; quedó un cascarón.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Inflection_AI"
+   ]
+  },
+  {
+   "name": "Character.AI",
+   "year": 2026,
+   "what": "Tras licenciar su tecnología a Google por ~US$ 2.7 mil M (2024), se acogió a la ley de quiebras en octubre de 2026 en medio de demandas.",
+   "src": [
+    "https://edition.cnn.com/2026/10/13/tech/character-ai-bankruptcy-filing"
+   ]
+  },
+  {
+   "name": "Windsurf",
+   "year": 2025,
+   "what": "Se cayó su compra por OpenAI (~US$ 3 mil M); Google pagó US$ 2.4 mil M por licencia y fichajes, y Cognition compró el resto.",
+   "src": [
+    "https://techcrunch.com/2025/07/11/windsurfs-ceo-goes-to-google-openais-acquisition-falls-apart"
+   ]
+  },
+  {
+   "name": "Humane",
+   "year": 2025,
+   "what": "Descontinuó su AI Pin; HP compró los restos por US$ 116 M, menos de la mitad del capital levantado.",
+   "src": [
+    "https://www.buildmvpfast.com/blog/failed-ai-startups-what-went-wrong-lessons-founders-2026"
+   ]
+  },
+  {
+   "name": "Builder.ai",
+   "year": 2025,
+   "what": "Valorada en más de US$ 1 mil M, entró en insolvencia tras descubrirse ingresos sobrestimados.",
+   "src": [
+    "https://en.wikipedia.org/wiki/Builder.ai"
+   ]
+  },
+  {
+   "name": "xAI",
+   "year": 2026,
+   "what": "Quemaba ~US$ 1 mil M al mes; fue absorbida por SpaceX en una operación que analistas llamaron «rescate instantáneo».",
+   "src": [
+    "https://dataconomy.com/2026/02/04/analysts-label-spacex-xai-merger-as-an-instant-bailout-for-musks-ai-firm/"
+   ]
+  },
+  {
+   "name": "Aleph Alpha",
+   "year": 2026,
+   "what": "El aspirante a campeón alemán de IA aceptó ser absorbido por Cohere (~10 % de la empresa combinada).",
+   "src": [
+    "https://sifted.eu/articles/aleph-alpha-strikes-20bn-merger-deal-with-canadas-cohere"
+   ]
+  },
+  {
+   "name": "Sora (app de OpenAI)",
+   "year": 2026,
+   "what": "OpenAI cerró su app de video para consumidores por el costo de cómputo y la baja retención.",
+   "src": [
+    "https://tech.yahoo.com/ai/articles/ai-graveyard-running-list-projects-190000724.html"
+   ]
+  }
+ ],
+ "ai_metrics": [
+  {
+   "co": "Palantir",
+   "metric": "Ingresos comerciales en EE. UU., 3T-2026",
+   "value": "US$ 984 M (+148 %)",
+   "src": [
+    "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+   ]
+  },
+  {
+   "co": "Salesforce",
+   "metric": "Ingreso anual recurrente de Agentforce, jul-2026",
+   "value": "> US$ 1.5 mil M",
+   "src": [
+    "https://pulse2.com/salesforce-net-income-jumps-87-as-agentforce-and-data-360-arr-surges-more-than-210-to-nearly-3-9-billion/amp/"
+   ]
+  },
+  {
+   "co": "ServiceNow",
+   "metric": "Meta de contratos anuales de IA para fin de 2026",
+   "value": "> US$ 1.7 mil M",
+   "src": [
+    "https://www.constellationr.com/insights/news/servicenow-q3-mixed-strong-control-tower-demand"
+   ]
+  },
+  {
+   "co": "IBM",
+   "metric": "Cartera de IA generativa acumulada (último dato, 4T-2025)",
+   "value": "> US$ 12.5 mil M; dejó de publicarla",
+   "src": [
+    "https://siliconangle.com/2026/01/28/ibm-stock-soars-hours-strong-revenue-performance/"
+   ]
+  },
+  {
+   "co": "Accenture",
+   "metric": "Ingresos de IA avanzada, año fiscal 2025",
+   "value": "US$ 2.7 mil M; dejó de publicarlos",
+   "src": [
+    "https://www.outlookbusiness.com/corporate/accentures-fy25-revenue-up-7-yoy-ai-deal-bookings-double-to-59-billion"
+   ]
+  },
+  {
+   "co": "Workday",
+   "metric": "Parte de los contratos nuevos impulsada por IA",
+   "value": "> 25 %",
+   "src": [
+    "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results"
+   ]
+  },
+  {
+   "co": "Adobe, SAP, Intuit, Snowflake",
+   "metric": "Ingresos de IA en dólares",
+   "value": "no los publican",
+   "src": []
+  }
+ ],
+ "flows": [
+  {
+   "a": "Nvidia",
+   "b": "OpenAI",
+   "amt": "US$ 30 mil M",
+   "kind": "inversión",
+   "what": "La carta de intención de 2025 por «hasta US$ 100 mil M» nunca se firmó; quedó en una inversión de US$ 30 mil M en la ronda de 2026. OpenAI gasta en chips de Nvidia.",
+   "src": [
+    "https://www.bloomberg.com/news/articles/2026-03-04/nvidia-s-jensen-huang-rules-out-100-billion-openai-investment",
+    "https://fortune.com/2026/02/02/jensen-huang-nvidia-ceo-on-openai-investment-never-a-commitment/"
+   ]
+  },
+  {
+   "a": "OpenAI",
+   "b": "Oracle",
+   "amt": "≈ US$ 300 mil M",
+   "kind": "contrato de nube, ~5 años",
+   "what": "Sostiene buena parte de la cartera de pedidos de Oracle, que a su vez se endeuda para construir.",
+   "src": [
+    "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+   ]
+  },
+  {
+   "a": "OpenAI",
+   "b": "Microsoft Azure",
+   "amt": "US$ 250 mil M",
+   "kind": "contrato de nube",
+   "what": "Microsoft posee cerca de una cuarta parte de OpenAI y le vende el cómputo.",
+   "src": [
+    "https://tomtunguz.com/openai-hardware-spending-2025-2035/",
+    "https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai/"
+   ]
+  },
+  {
+   "a": "Amazon",
+   "b": "Anthropic",
+   "amt": "US$ 13 mil M",
+   "kind": "inversión (hasta ~33 mil M)",
+   "what": "Anthropic se comprometió a gastar al menos US$ 110 mil M en AWS hasta 2036. Amazon anotó US$ 53.4 mil M de ganancia contable por esa participación solo en el 2T-2026.",
+   "src": [
+    "https://siliconangle.com/2026/04/20/amazon-invest-25b-anthropic-part-expanded-cloud-partnership/",
+    "https://www.midgardfinance.com/research/anthropic/"
+   ]
+  },
+  {
+   "a": "Google",
+   "b": "Anthropic",
+   "amt": "hasta US$ 40 mil M",
+   "kind": "inversión, abr-2026",
+   "what": "Anthropic le debe a Google unos US$ 121 mil M en cómputo hasta 2033.",
+   "src": [
+    "https://www.techrepublic.com/article/news-google-anthropic-40b-investment/",
+    "https://www.midgardfinance.com/research/anthropic/"
+   ]
+  },
+  {
+   "a": "Microsoft y Nvidia",
+   "b": "Anthropic",
+   "amt": "hasta US$ 15 mil M",
+   "kind": "inversión, nov-2025",
+   "what": "A cambio, Anthropic comprometió US$ 30 mil M de Azure sobre sistemas de Nvidia.",
+   "src": [
+    "https://www.khaleejtimes.com/business/tech/microsoft-nvidia-to-invest-in-anthropic-as-claude-maker-commits-30-billion-to-azure"
+   ]
+  },
+  {
+   "a": "AMD",
+   "b": "OpenAI",
+   "amt": "160 M de acciones",
+   "kind": "opciones (warrants)",
+   "what": "AMD le entrega opciones sobre ~10 % de la empresa a medida que OpenAI despliega hasta 6 GW de sus chips.",
+   "src": [
+    "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189dex991.htm"
+   ]
+  },
+  {
+   "a": "Nvidia",
+   "b": "CoreWeave",
+   "amt": "US$ 2 mil M",
+   "kind": "inversión, ene-2026",
+   "what": "CoreWeave compra GPU de Nvidia con deuda y las alquila, entre otros, a OpenAI.",
+   "src": [
+    "https://letsdatascience.com/news/nvidia-expands-equity-holdings-across-ai-sector-4e66c14a"
+   ]
+  }
+ ],
+ "paper_gains": [
+  {
+   "name": "Alphabet · 2T-2026",
+   "sub": "Anthropic y SpaceX",
+   "value": 98,
+   "src": [
+    "https://www.mediapost.com/publications/article/416750/anthropic-spacex-hand-google-profit-windfall.html"
+   ]
+  },
+  {
+   "name": "Amazon · 2T-2026",
+   "sub": "Anthropic",
+   "value": 53.4,
+   "src": [
+    "https://fourweekmba.com/ai-amazon-aws-q2-2026-anthropic-gain-ai-infrastructure/"
+   ]
+  },
+  {
+   "name": "Alphabet · 1T-2026",
+   "sub": "valores de renta variable",
+   "value": 36.9,
+   "src": [
+    "https://fortune.com/2026/04/30/google-amazon-ai-profits-anthropic-stake-bubble-earnings-2026/"
+   ]
+  },
+  {
+   "name": "Amazon · 1T-2026",
+   "sub": "Anthropic",
+   "value": 16.8,
+   "src": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/"
+   ]
+  },
+  {
+   "name": "Microsoft · año fiscal 2026",
+   "sub": "OpenAI",
+   "value": 6.5,
+   "src": [
+    "https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai/"
+   ]
+  }
+ ],
+ "roi": [
+  {
+   "value": "95 %",
+   "label": "de las organizaciones no obtuvo retorno medible de sus pilotos de IA generativa (MIT NANDA, 2025)",
+   "src": [
+    "https://finance.yahoo.com/news/mit-report-95-generative-ai-105412686.html"
+   ]
+  },
+  {
+   "value": "6 %",
+   "label": "de las empresas atribuye a la IA al menos 5 % de su utilidad operativa; igual que en 2025 (McKinsey, 2026)",
+   "src": [
+    "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+   ]
+  },
+  {
+   "value": "37 %",
+   "label": "reporta algún impacto de la IA en su utilidad operativa (McKinsey, 2026)",
+   "src": [
+    "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+   ]
+  },
+  {
+   "value": "19.8 %",
+   "label": "de las empresas de EE. UU. usó IA en las últimas dos semanas (Oficina del Censo, may-2026)",
+   "src": [
+    "https://census.gov/library/stories/2026/05/ai-use-businesses.html"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "date": "abr 2026",
+   "what": "«SaaSpocalipsis»: el índice de software IGV cae más de 27 % en el año; su peor trimestre desde 2008.",
+   "src": [
+    "https://www.bloomberg.com/news/articles/2026-04-09/software-slumps-again-with-growth-hopes-dashed-on-the-rocks"
+   ]
+  },
+  {
+   "date": "jul 2026",
+   "what": "Resultados del 2T: Microsoft sube 15 % en un día; Alphabet cae tras su primer flujo de caja libre negativo.",
+   "src": [
+    "https://www.wealthprofessional.ca/investments/equity-markets/big-techs-ai-spending-clouds-the-earnings-picture/393161"
+   ]
+  },
+  {
+   "date": "ago 2026",
+   "what": "Intuit recorta su guía y despide al 17 % de su plantilla.",
+   "src": [
+    "https://fortune.com/2026/08/26/intuit-hits-record-milestone-20-billion-revenue-sets-stage-strategic-pullback-cfo/"
+   ]
+  },
+  {
+   "date": "oct 2026",
+   "what": "El FMI y el Banco de Inglaterra advierten de una corrección brusca ligada a la IA.",
+   "src": [
+    "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/execsum.pdf"
+   ]
+  },
+  {
+   "date": "26 oct 2026",
+   "what": "Anthropic presenta su prospecto para salir a bolsa en Nasdaq.",
+   "src": [
+    "https://www.wealthprofessional.ca/investments/equity-markets/anthropic-files-for-ipo-as-ai-giant-nears-1t-valuation/392598"
+   ]
+  },
+  {
+   "date": "29 oct 2026",
+   "what": "Alphabet cae 12.6 % en un día, su peor jornada desde 2004, pese al crecimiento de su nube.",
+   "src": [
+    "https://fortune.com/2026/10/29/alphabet-stock-worst-day-sp-500-nasdaq-dow/"
+   ]
+  },
+  {
+   "date": "3 nov 2026",
+   "what": "Elecciones en EE. UU.: 38 de 41 consultas locales aprueban frenos a los centros de datos.",
+   "src": [
+    "https://www.fastcompany.com/91635527/"
+   ]
+  },
+  {
+   "date": "5 nov 2026",
+   "what": "Desplome de la IA: S&P 500 −4.4 %, Nasdaq −5.5 %, Nvidia −9.3 %, AMD −17.3 %.",
+   "src": [
+    "https://www.boston.com/news/national-news/2026/11/05/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-4-4/"
+   ]
+  },
+  {
+   "date": "9 nov 2026",
+   "what": "Rebote parcial: Nasdaq +2.7 %, S&P 500 +2.4 %.",
+   "src": [
+    "https://www.zacks.com/stock/news/3026944/stock-market-news-for-nov-10-2026"
+   ]
+  }
+ ],
+ "risks": {
+  "bonds_2025": {
+   "value": 121,
+   "src": [
+    "https://cryptobriefing.com/ai-hyperscalers-159b-debt-issuance/"
+   ]
+  },
+  "bonds_2026_5m": {
+   "value": 159,
+   "src": [
+    "https://cryptobriefing.com/ai-hyperscalers-159b-debt-issuance/"
+   ]
+  },
+  "amazon_debt": {
+   "from": 65.6,
+   "to": 173.1,
+   "src": [
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+   ]
+  },
+  "coreweave_debt": {
+   "value": 47.0,
+   "src": [
+    "https://siliconangle.com/2026/11/10/coreweave-arrests-stock-slide-after-posting-a-strong-earnings-beat-and-raising-its-full-year-guidance/"
+   ]
+  },
+  "iea": {
+   "y2025": 485,
+   "y2030": 950,
+   "src": [
+    "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary"
+   ]
+  },
+  "forecast_2027": {
+   "goldman": 1200,
+   "morgan": 1580,
+   "src": [
+    "https://www.pymnts.com/big-tech/2026/goldman-sachs-projects-big-tech-ai-infrastructure-spending-to-hit-1-2-trillion-in-2027/",
+    "https://investinglive.com/stocks/morgan-stanley-says-buy-the-ai-dip-sees-3-4-trillion-in-hyperscaler-spending-through-2028/"
+   ]
+  }
+ }
+}

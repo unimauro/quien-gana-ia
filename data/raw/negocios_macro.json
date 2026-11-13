@@ -1,0 +1,4238 @@
+{
+  "as_of": "2026-11-13",
+  "status_legend": {
+    "reported": "published actual figure (company filing/release, statistical agency, or market data; may be relayed by a secondary outlet named in source_name)",
+    "guidance": "company outlook/target",
+    "forecast": "third-party projection",
+    "estimate": "third-party or derived estimate of a quantity not directly reported",
+    "not disclosed": "company does not publish this metric (value is null)"
+  },
+  "companies": [
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "ticker": "PLTR",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 1542.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2022": {
+          "value": 1906.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2023": {
+          "value": 2225.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2024": {
+          "value": 2866.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2025": {
+          "value": 4475.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "TTM": {
+          "value": 7288.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": -520.38,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2022": {
+          "value": -373.71,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2023": {
+          "value": 209.83,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2024": {
+          "value": 462.19,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "FY2025": {
+          "value": 1625.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        },
+        "TTM": {
+          "value": 3669.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Q3 2026 total revenue (up 96% YoY; first quarter above $2B)",
+          "value": 2.31,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "metric": "US commercial revenue (up 148% YoY, +29% QoQ; surpassed US government revenue of $953M for the first time)",
+          "value": 984,
+          "unit": "USD millions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "metric": "US commercial revenue YoY growth",
+          "value": 148,
+          "unit": "percent",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "metric": "US commercial remaining deal value (up 79% YoY)",
+          "value": 6.517,
+          "unit": "USD billions",
+          "period": "as of 2026-09-30",
+          "status": "reported",
+          "source": "https://siliconangle.com/?p=852767"
+        },
+        {
+          "metric": "FY2026 revenue guidance (midpoint of $8.530-8.534B; raised from $8.150-8.158B in August)",
+          "value": 8.532,
+          "unit": "USD billions",
+          "period": "FY2026",
+          "status": "guidance",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "metric": "FY2026 US commercial revenue guidance (in excess of; implies >=143% growth)",
+          "value": 3.559,
+          "unit": "USD billions",
+          "period": "FY2026",
+          "status": "guidance",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        },
+        {
+          "metric": "AIP-specific revenue (Palantir does not break out AIP revenue; US commercial is the usual proxy)",
+          "value": null,
+          "unit": "USD",
+          "period": "n/a",
+          "status": "not disclosed",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000045/a2026q3ex991pressrelease.htm"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 15.6,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (13.35B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 7.5/6.42 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/pltr/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 13.35,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 423.66,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 413.42,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 7.5,
+        "price_to": 171.58,
+        "currency": "USD",
+        "value": 2187.7,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/PLTR/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -2.42,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/pltr/market-cap/"
+        }
+      },
+      "notes": [
+        "Clearest 'AI application' winner in this group: revenue x3.8 from FY2022 to TTM Sep-2026 and net income from -$374M to +$3.7B.",
+        "Stock closed $171.58 on 2026-11-12, below its 52-week high of $212.94 (Yahoo Finance)."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "ticker": "CRM",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2022": {
+          "value": 26492.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2023": {
+          "value": 31352.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2024": {
+          "value": 34857.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2025": {
+          "value": 37895.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2026": {
+          "value": 41525.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "TTM": {
+          "value": 43938.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        }
+      },
+      "net_income": {
+        "FY2022": {
+          "value": 1444.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2023": {
+          "value": 208.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2024": {
+          "value": 4136.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2025": {
+          "value": 6197.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "FY2026": {
+          "value": 7457.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        },
+        "TTM": {
+          "value": 9662.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Agentforce ARR (>$1.5B, up >240% YoY; from Q2 FY27 the metric also includes Slackbot and Headless 360, so not comparable with earlier quarters)",
+          "value": 1.5,
+          "unit": "USD billions",
+          "period": "Q2 FY2027 (quarter ended 2026-07-31)",
+          "status": "reported",
+          "source": "https://pulse2.com/salesforce-net-income-jumps-87-as-agentforce-and-data-360-arr-surges-more-than-210-to-nearly-3-9-billion/amp/"
+        },
+        {
+          "metric": "Agentforce + Data 360 ARR (nearly $3.9B, up >210% YoY)",
+          "value": 3.9,
+          "unit": "USD billions",
+          "period": "Q2 FY2027 (quarter ended 2026-07-31)",
+          "status": "reported",
+          "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "metric": "Q2 FY2027 revenue (up 11% YoY)",
+          "value": 11.3,
+          "unit": "USD billions",
+          "period": "Q2 FY2027",
+          "status": "reported",
+          "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "metric": "Current RPO (up 14% YoY)",
+          "value": 33.5,
+          "unit": "USD billions",
+          "period": "as of 2026-07-31",
+          "status": "reported",
+          "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        },
+        {
+          "metric": "FY2027 revenue guidance, low-high $46.1-46.4B (midpoint shown; conditional on closing of pending acquisitions)",
+          "value": 46.25,
+          "unit": "USD billions",
+          "period": "FY2027",
+          "status": "guidance",
+          "source": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 160.25,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (132.59B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 160.25/132.59 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/crm/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 132.59,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 248.22,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 179.06,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 160.25,
+        "price_to": 217.57,
+        "currency": "USD",
+        "value": 35.8,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/CRM/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -27.86,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/crm/market-cap/"
+        }
+      },
+      "notes": [
+        "Fiscal year ends Jan 31: FY2023 = Feb-2022..Jan-2023. Latest reported quarter is Q2 FY2027 (ended 2026-07-31); Q3 FY2027 not yet reported as of 2026-11-13.",
+        "Market cap down 27.9% in 2026 YTD (stockanalysis) despite record revenue and net income: a core name in the 2026 'SaaSpocalypse / AI eats software' sell-off."
+      ],
+      "fiscal_year_definition": "Fiscal year is February - January."
+    },
+    {
+      "id": "servicenow",
+      "name": "ServiceNow",
+      "ticker": "NOW",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 5896.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2022": {
+          "value": 7245.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2023": {
+          "value": 8971.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2024": {
+          "value": 10984.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2025": {
+          "value": 13278.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "TTM": {
+          "value": 15431.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": 230.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2022": {
+          "value": 325.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2023": {
+          "value": 1731.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2024": {
+          "value": 1425.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "FY2025": {
+          "value": 1748.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        },
+        "TTM": {
+          "value": 1445.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "2026 AI ACV target (raised twice in 2026: $1.0B at start of year, $1.5B in May, >$1.7B in October). Company-wide AI ACV target, not Now Assist only",
+          "value": 1.7,
+          "unit": "USD billions",
+          "period": "year-end 2026",
+          "status": "guidance",
+          "source": "https://www.constellationr.com/insights/news/servicenow-q3-mixed-strong-control-tower-demand"
+        },
+        {
+          "metric": "AI net new ACV growth YoY",
+          "value": 65,
+          "unit": "percent",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.constellationr.com/insights/news/servicenow-q3-mixed-strong-control-tower-demand"
+        },
+        {
+          "metric": "Now Assist-only net new ACV (not broken out in Q3 2026 materials found)",
+          "value": null,
+          "unit": "USD",
+          "period": "Q3 2026",
+          "status": "not disclosed",
+          "source": "https://finviz.com/news/410638/servicenow-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "metric": "Q3 2026 subscription revenue (up 21% YoY)",
+          "value": 3.988,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://finviz.com/news/410638/servicenow-reports-third-quarter-2026-financial-results"
+        },
+        {
+          "metric": "Q3 2026 GAAP net income (down from $502M a year earlier)",
+          "value": 277,
+          "unit": "USD millions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://finviz.com/news/410638/servicenow-reports-third-quarter-2026-financial-results"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 84.09,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (78.43B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 83.26/77.654 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/now/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 78.43,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 159.32,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 104.48,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 83.26,
+        "price_to": 100.66,
+        "currency": "USD",
+        "value": 20.9,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/NOW/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -34.42,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/now/market-cap/"
+        }
+      },
+      "notes": [
+        "5-for-1 stock split in Dec 2025; prices are split-adjusted.",
+        "Market cap down 34.4% in 2026 YTD and stock only +20.9% vs 2022-11-30 even though revenue more than doubled; TTM net income ($1.445B) is below FY2025 ($1.748B)."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "ticker": "ADBE",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 15785.0,
+          "unit": "USD millions",
+          "period_end": "Dec 3, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2022": {
+          "value": 17606.0,
+          "unit": "USD millions",
+          "period_end": "Dec 2, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2023": {
+          "value": 19409.0,
+          "unit": "USD millions",
+          "period_end": "Dec 1, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2024": {
+          "value": 21505.0,
+          "unit": "USD millions",
+          "period_end": "Nov 29, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2025": {
+          "value": 23769.0,
+          "unit": "USD millions",
+          "period_end": "Nov 28, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "TTM": {
+          "value": 25970.0,
+          "unit": "USD millions",
+          "period_end": "Aug 28, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": 4822.0,
+          "unit": "USD millions",
+          "period_end": "Dec 3, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2022": {
+          "value": 4756.0,
+          "unit": "USD millions",
+          "period_end": "Dec 2, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2023": {
+          "value": 5428.0,
+          "unit": "USD millions",
+          "period_end": "Dec 1, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2024": {
+          "value": 5560.0,
+          "unit": "USD millions",
+          "period_end": "Nov 29, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "FY2025": {
+          "value": 7130.0,
+          "unit": "USD millions",
+          "period_end": "Nov 28, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        },
+        "TTM": {
+          "value": 7284.0,
+          "unit": "USD millions",
+          "period_end": "Aug 28, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "AI-first ARR growth YoY (>150%; absolute dollar base not disclosed in the release)",
+          "value": 150,
+          "unit": "percent",
+          "period": "Q3 FY2026 (quarter ended 2026-08-28)",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm"
+        },
+        {
+          "metric": "AI-first ARR absolute value",
+          "value": null,
+          "unit": "USD",
+          "period": "Q3 FY2026",
+          "status": "not disclosed",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm"
+        },
+        {
+          "metric": "AI-influenced ARR (metric not found in FY2026 Q3 release)",
+          "value": null,
+          "unit": "USD",
+          "period": "Q3 FY2026",
+          "status": "not disclosed",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm"
+        },
+        {
+          "metric": "Total Adobe ARR exiting Q3 FY2026",
+          "value": 27.5,
+          "unit": "USD billions",
+          "period": "as of 2026-08-28",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm"
+        },
+        {
+          "metric": "Q3 FY2026 revenue (up 13% YoY, record)",
+          "value": 6.76,
+          "unit": "USD billions",
+          "period": "Q3 FY2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000147/adbeex991q326.htm"
+        },
+        {
+          "metric": "Q4 FY2026 revenue guidance $6.80-6.85B (midpoint shown)",
+          "value": 6.825,
+          "unit": "USD billions",
+          "period": "Q4 FY2026",
+          "status": "guidance",
+          "source": "https://pulse2.com/adobe-q3-revenue-rises-13-to-record-6-76-billion-and-company-raises-fy2026-targets/"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 160.36,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (156.45B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 344.93/336.53 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/adbe/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 156.45,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 146.51,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 92.84,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 344.93,
+        "price_to": 238.54,
+        "currency": "USD",
+        "value": -30.8,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/ADBE/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -36.63,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/adbe/market-cap/"
+        }
+      },
+      "notes": [
+        "Stock is BELOW its 2022-11-30 level (-30.8%) despite revenue +47% FY2022->TTM; market cap down 36.6% in 2026 YTD. CEO transition: Anil Chakravarthy to succeed Shantanu Narayen effective 2026-12-01.",
+        "Fiscal year ends late Nov/early Dec; FY2026 not yet reported."
+      ],
+      "fiscal_year_definition": "Fiscal year is December - November."
+    },
+    {
+      "id": "sap",
+      "name": "SAP",
+      "ticker": "SAP",
+      "country": "DE",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 26953.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2022": {
+          "value": 29520.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2023": {
+          "value": 31207.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2024": {
+          "value": 34176.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2025": {
+          "value": 36800.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "TTM": {
+          "value": 39387.0,
+          "unit": "EUR millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": 5256.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2022": {
+          "value": 2284.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2023": {
+          "value": 6139.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2024": {
+          "value": 3124.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "FY2025": {
+          "value": 7161.0,
+          "unit": "EUR millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        },
+        "TTM": {
+          "value": 8040.0,
+          "unit": "EUR millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Current cloud backlog (up 28%, 26% at constant currency)",
+          "value": 24.1,
+          "unit": "EUR billions",
+          "period": "as of 2026-09-30",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001000184/000110465926118617/tm2628113d1_ex99-1.htm"
+        },
+        {
+          "metric": "Q3 2026 cloud revenue (up 26%)",
+          "value": 6.668,
+          "unit": "EUR billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001000184/000110465926118617/tm2628113d1_ex99-1.htm"
+        },
+        {
+          "metric": "Business AI / Joule revenue or share of cloud deals including AI (not disclosed in Q3 2026 statement)",
+          "value": null,
+          "unit": "EUR",
+          "period": "Q3 2026",
+          "status": "not disclosed",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001000184/000110465926118617/tm2628113d1_ex99-1.htm"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 130.78,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (121.72B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 110.87/103.19 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/sap/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 121.72,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 282.75,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 269.17,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 110.87,
+        "price_to": 234.06,
+        "currency": "USD",
+        "value": 111.1,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/SAP/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -4.8,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/sap/market-cap/"
+        }
+      },
+      "notes": [
+        "Financials in EUR millions (IFRS); market cap and share price refer to the NYSE ADR in USD.",
+        "SAP does not disclose Business AI revenue."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "ticker": "IBM",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 57351.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2022": {
+          "value": 60530.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2023": {
+          "value": 61860.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2024": {
+          "value": 62753.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2025": {
+          "value": 67535.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "TTM": {
+          "value": 69868.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": 5743.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2022": {
+          "value": 1639.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2023": {
+          "value": 7502.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2024": {
+          "value": 6023.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "FY2025": {
+          "value": 10593.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        },
+        "TTM": {
+          "value": 11171.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Generative AI book of business, inception to date (>$12.5B; up from >$9.5B in Q3 2025). Last disclosed dollar figure: IBM stopped reporting it as a separate metric from Q1 2026",
+          "value": 12.5,
+          "unit": "USD billions",
+          "period": "inception to date as of Q4 2025",
+          "status": "reported",
+          "source": "https://siliconangle.com/2026/01/28/ibm-stock-soars-hours-strong-revenue-performance/"
+        },
+        {
+          "metric": "Generative AI book of business, inception to date",
+          "value": 9.5,
+          "unit": "USD billions",
+          "period": "inception to date as of Q3 2025",
+          "status": "reported",
+          "source": "https://siliconangle.com/?p=717662"
+        },
+        {
+          "metric": "Share of Consulting backlog with generative AI embedded (single secondary source; no dollar total given)",
+          "value": 35,
+          "unit": "percent",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://fourweekmba.com/ai-ibm-raises-cash-goal-genai-in-35-of-its-consulting-backlog/"
+        },
+        {
+          "metric": "Q3 2026 revenue (sources disagree on growth: +5.7% vs +4.7%)",
+          "value": 17.1,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.constellationr.com/insights/news/ibm-delivers-strong-q3-sees-4-5-revenue-growth-2026"
+        },
+        {
+          "metric": "Q3 2026 Software revenue (up 8%)",
+          "value": 7.8,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.constellationr.com/insights/news/ibm-delivers-strong-q3-sees-4-5-revenue-growth-2026"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 134.62,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (127.38B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 148.9/140.89 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/ibm/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 127.38,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 276.88,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 231.24,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 148.9,
+        "price_to": 244.67,
+        "currency": "USD",
+        "value": 64.3,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/IBM/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -16.48,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/ibm/market-cap/"
+        }
+      },
+      "notes": [
+        "IBM stopped disclosing the generative-AI book of business after Q4 2025 ($12.5B inception-to-date). The metric mixes software transactional revenue, SaaS ACV and consulting signings, so it is not revenue.",
+        "Market cap down 16.5% in 2026 YTD."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "snowflake",
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2022": {
+          "value": 1219.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2023": {
+          "value": 2066.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2024": {
+          "value": 2806.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2025": {
+          "value": 3626.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2026": {
+          "value": 4684.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "TTM": {
+          "value": 5435.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        }
+      },
+      "net_income": {
+        "FY2022": {
+          "value": -679.95,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2023": {
+          "value": -796.71,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2024": {
+          "value": -836.1,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2025": {
+          "value": -1286.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "FY2026": {
+          "value": -1332.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        },
+        "TTM": {
+          "value": -1091.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Q2 FY2027 product revenue (up 37% YoY; third straight quarter of acceleration; management attributed roughly half of the acceleration to AI per press coverage)",
+          "value": 1.49,
+          "unit": "USD billions",
+          "period": "Q2 FY2027 (quarter ended 2026-07-31)",
+          "status": "reported",
+          "source": "https://seekingalpha.com/pr/20639002"
+        },
+        {
+          "metric": "AI revenue run-rate (no dollar figure disclosed)",
+          "value": null,
+          "unit": "USD",
+          "period": "Q2 FY2027",
+          "status": "not disclosed",
+          "source": "https://www.saastr.com/5-interesting-learnings-from-snowflake-at-6-billion-in-revenue-37-growth-and-accelerating-126-nrr-and-a-gross-margin-guided-down-to-pay-for-ai/"
+        },
+        {
+          "metric": "Accounts using Cortex Code (CoCo), average of last 4 weeks of quarter",
+          "value": 9100,
+          "unit": "accounts",
+          "period": "Q2 FY2027",
+          "status": "reported",
+          "source": "https://seekingalpha.com/pr/20639002"
+        },
+        {
+          "metric": "Remaining performance obligations (up 30%)",
+          "value": 9.0,
+          "unit": "USD billions",
+          "period": "as of 2026-07-31",
+          "status": "reported",
+          "source": "https://seekingalpha.com/pr/20639002"
+        },
+        {
+          "metric": "Net revenue retention",
+          "value": 126,
+          "unit": "percent",
+          "period": "Q2 FY2027",
+          "status": "reported",
+          "source": "https://seekingalpha.com/pr/20639002"
+        },
+        {
+          "metric": "FY2027 product revenue guidance (raised from $5.84B)",
+          "value": 6.07,
+          "unit": "USD billions",
+          "period": "FY2027",
+          "status": "guidance",
+          "source": "https://seekingalpha.com/pr/20639002"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 45.95,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (46.16B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 142.9/143.54 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/snow/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 46.16,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 75.06,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 105.28,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 142.9,
+        "price_to": 298.7,
+        "currency": "USD",
+        "value": 109.0,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/SNOW/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": 40.25,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/snow/market-cap/"
+        }
+      },
+      "notes": [
+        "Fiscal year ends Jan 31. Still GAAP loss-making (TTM net loss $1.09B); management reaffirmed GAAP profitability target for Q4 FY2028.",
+        "One of the few software names up in 2026 (market cap +40.3% YTD) as AI workloads accelerate consumption revenue."
+      ],
+      "fiscal_year_definition": "Fiscal year is February - January."
+    },
+    {
+      "id": "workday",
+      "name": "Workday",
+      "ticker": "WDAY",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2022": {
+          "value": 5139.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2023": {
+          "value": 6216.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2024": {
+          "value": 7259.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2025": {
+          "value": 8446.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2026": {
+          "value": 9552.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "TTM": {
+          "value": 10155.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        }
+      },
+      "net_income": {
+        "FY2022": {
+          "value": 29.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2023": {
+          "value": -367.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2024": {
+          "value": 1381.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2025": {
+          "value": 526.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "FY2026": {
+          "value": 693.0,
+          "unit": "USD millions",
+          "period_end": "Jan 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        },
+        "TTM": {
+          "value": 1251.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Share of new ACV driven by AI (>25%)",
+          "value": 25,
+          "unit": "percent",
+          "period": "Q2 FY2027 (quarter ended 2026-07-31)",
+          "status": "reported",
+          "source": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results"
+        },
+        {
+          "metric": "Customers using one or more Workday organic agents (>5,500, up >35% QoQ)",
+          "value": 5500,
+          "unit": "customers",
+          "period": "Q2 FY2027",
+          "status": "reported",
+          "source": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results"
+        },
+        {
+          "metric": "AI ARR in dollars",
+          "value": null,
+          "unit": "USD",
+          "period": "Q2 FY2027",
+          "status": "not disclosed",
+          "source": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results"
+        },
+        {
+          "metric": "Q2 FY2027 total revenue (up 12.8% YoY)",
+          "value": 2.649,
+          "unit": "USD billions",
+          "period": "Q2 FY2027",
+          "status": "reported",
+          "source": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results"
+        },
+        {
+          "metric": "FY2027 subscription revenue guidance $9.940-9.950B (midpoint shown)",
+          "value": 9.945,
+          "unit": "USD billions",
+          "period": "FY2027",
+          "status": "guidance",
+          "source": "https://newsroom.workday.com/2026-08-27-Workday-Announces-Fiscal-2027-Second-Quarter-Financial-Results"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 43.15,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (43.0B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 167.9/167.33 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/wday/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 43.0,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 56.49,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 45.94,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 167.9,
+        "price_to": 190.64,
+        "currency": "USD",
+        "value": 13.5,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/WDAY/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -18.66,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/wday/market-cap/"
+        }
+      },
+      "notes": [
+        "Fiscal year ends Jan 31. FY2026 and TTM net income are distorted by tax items (Q2 FY27 included a $1.52/share tax benefit).",
+        "Market cap down 18.7% in 2026 YTD."
+      ],
+      "fiscal_year_definition": "Fiscal year is February - January."
+    },
+    {
+      "id": "intuit",
+      "name": "Intuit",
+      "ticker": "INTU",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2022": {
+          "value": 12726.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2023": {
+          "value": 14368.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2024": {
+          "value": 16285.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2025": {
+          "value": 18831.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2026": {
+          "value": 21448.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "TTM": {
+          "value": 21448.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026 (latest fiscal year is the trailing twelve months)",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        }
+      },
+      "net_income": {
+        "FY2022": {
+          "value": 2066.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2023": {
+          "value": 2384.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2024": {
+          "value": 2963.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2025": {
+          "value": 3869.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "FY2026": {
+          "value": 4566.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        },
+        "TTM": {
+          "value": 4566.0,
+          "unit": "USD millions",
+          "period_end": "Jul 31, 2026 (latest fiscal year is the trailing twelve months)",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "AI-specific revenue (not disclosed)",
+          "value": null,
+          "unit": "USD",
+          "period": "FY2026",
+          "status": "not disclosed",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000896878/000089687826000029/fy26q4earningspressrelease.htm"
+        },
+        {
+          "metric": "FY2027 revenue guidance $23.279-23.512B, +9% to +10% (vs +14% in FY2026); midpoint shown",
+          "value": 23.3955,
+          "unit": "USD billions",
+          "period": "FY2027",
+          "status": "guidance",
+          "source": "https://www.sec.gov/Archives/edgar/data/0000896878/000089687826000029/fy26q4earningspressrelease.htm"
+        },
+        {
+          "metric": "Workforce reduction announced alongside 'strategic reset'",
+          "value": 17,
+          "unit": "percent of workforce",
+          "period": "August 2026",
+          "status": "reported",
+          "source": "https://www.marketbeat.com/instant-alerts/transcript-intuit-q4-earnings-call-highlights-2026-08-25/"
+        },
+        {
+          "metric": "Share price move after FY2027 guidance: closed -3.37% at $357.46 on 2026-08-25, then about -9% after hours to $323.94",
+          "value": -9,
+          "unit": "percent (after-hours)",
+          "period": "2026-08-25",
+          "status": "reported",
+          "source": "https://pulse.byoviral.com/trend/2026-08-25/intuit-beats-fiscal-q4-targets-but-misses-with-outlook"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 114.5,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (109.34B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 407.59/389.22 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/intu/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 109.34,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 184.42,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 90.91,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 407.59,
+        "price_to": 340.17,
+        "currency": "USD",
+        "value": -16.5,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/INTU/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -50.71,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/intu/market-cap/"
+        }
+      },
+      "notes": [
+        "Fiscal year ends Jul 31; FY2026 is the latest full year, so TTM = FY2026.",
+        "Hardest hit of the group in 2026: market cap down 50.7% YTD after the Aug-2026 'strategic reset' guidance (FY2027 growth 9-10% vs 14%), a 17% workforce cut and AI-disruption fears. Stock is below its 2022-11-30 level."
+      ],
+      "fiscal_year_definition": "Fiscal year is August - July."
+    },
+    {
+      "id": "accenture",
+      "name": "Accenture",
+      "ticker": "ACN",
+      "country": "IE",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2022": {
+          "value": 61594.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2023": {
+          "value": 64112.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2024": {
+          "value": 64896.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2025": {
+          "value": 69673.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2026": {
+          "value": 74183.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "TTM": {
+          "value": 74183.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2026 (latest fiscal year is the trailing twelve months)",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        }
+      },
+      "net_income": {
+        "FY2022": {
+          "value": 6877.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2023": {
+          "value": 6872.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2024": {
+          "value": 7265.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2025": {
+          "value": 7678.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "FY2026": {
+          "value": 8367.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        },
+        "TTM": {
+          "value": 8367.0,
+          "unit": "USD millions",
+          "period_end": "Aug 31, 2026 (latest fiscal year is the trailing twelve months)",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Advanced AI (gen AI + agentic + physical AI) new bookings, full fiscal year",
+          "value": 5.9,
+          "unit": "USD billions",
+          "period": "FY2025 (ended 2025-08-31)",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/1467373/000146737325000213/q4fy25earnings8-kexhibit.htm"
+        },
+        {
+          "metric": "Advanced AI revenue, full fiscal year (roughly tripled YoY)",
+          "value": 2.7,
+          "unit": "USD billions",
+          "period": "FY2025",
+          "status": "reported",
+          "source": "https://www.outlookbusiness.com/corporate/accentures-fy25-revenue-up-7-yoy-ai-deal-bookings-double-to-59-billion"
+        },
+        {
+          "metric": "Advanced AI new bookings, quarter (about double YoY). Last quarter disclosed: Accenture said it would stop breaking out advanced AI metrics",
+          "value": 2.2,
+          "unit": "USD billions",
+          "period": "Q1 FY2026 (quarter ended 2025-11-30)",
+          "status": "reported",
+          "source": "https://www.businesswire.com/news/home/20251218755982/en/Accenture-Reports-First-Quarter-Fiscal-2026-Results"
+        },
+        {
+          "metric": "Advanced AI revenue, quarter",
+          "value": 1.1,
+          "unit": "USD billions",
+          "period": "Q1 FY2026",
+          "status": "reported",
+          "source": "https://www.businesswire.com/news/home/20251218755982/en/Accenture-Reports-First-Quarter-Fiscal-2026-Results"
+        },
+        {
+          "metric": "Advanced AI bookings FY2026 full year (no longer disclosed)",
+          "value": null,
+          "unit": "USD",
+          "period": "FY2026",
+          "status": "not disclosed",
+          "source": "https://www.constellationr.com/insights/news/accenture-says-advanced-ai-so-pervasive-it-wont-break-it-out-anymore"
+        },
+        {
+          "metric": "Total new bookings FY2026",
+          "value": 84.5,
+          "unit": "USD billions",
+          "period": "FY2026 (ended 2026-08-31)",
+          "status": "reported",
+          "source": "https://www.constellationr.com/insights/news/accentures-q4-results-indicate-enterprise-ai-broadening"
+        },
+        {
+          "metric": "Clients that started their first advanced AI project with Accenture during the year (>400)",
+          "value": 400,
+          "unit": "clients",
+          "period": "FY2026",
+          "status": "reported",
+          "source": "https://nationalcioreview.com/articles-insights/cio-field-notes/accenture-sees-lower-ai-costs-unlocking-more-enterprise-use-cases/"
+        },
+        {
+          "metric": "FY2027 revenue growth guidance, local currency, 3% to 6% (midpoint shown)",
+          "value": 4.5,
+          "unit": "percent",
+          "period": "FY2027",
+          "status": "guidance",
+          "source": "https://www.benzinga.com/node/62112964"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 198.28,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (175.82B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 300.93/266.84 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/acn/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 175.82,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 177.28,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-11",
+          "value": 169.7,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 300.93,
+        "price_to": 249.95,
+        "currency": "USD",
+        "value": -16.9,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/ACN/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -4.27,
+          "from": "2025-12-31",
+          "to": "2026-11-11",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/acn/market-cap/"
+        }
+      },
+      "notes": [
+        "Fiscal year ends Aug 31; FY2026 is the latest full year, so TTM = FY2026.",
+        "Accenture stopped breaking out advanced-AI bookings/revenue after Q1 FY2026. Stock is below its 2022-11-30 level (-16.9%) on fears that AI compresses IT-services labor."
+      ],
+      "fiscal_year_definition": "Fiscal year is September - August."
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "ticker": "DUOL",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 250.77,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2022": {
+          "value": 369.5,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2023": {
+          "value": 531.11,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2024": {
+          "value": 748.02,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2025": {
+          "value": 1038.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "TTM": {
+          "value": 1182.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": -60.14,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2022": {
+          "value": -59.57,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2023": {
+          "value": 16.07,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2024": {
+          "value": 88.57,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "FY2025": {
+          "value": 414.07,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        },
+        "TTM": {
+          "value": 145.74,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Daily active users (up 29% YoY, accelerating from 23%)",
+          "value": 64.9,
+          "unit": "millions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+        },
+        {
+          "metric": "Q3 2026 revenue (up 14%)",
+          "value": 309.0,
+          "unit": "USD millions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+        },
+        {
+          "metric": "Q3 2026 bookings (up 12%)",
+          "value": 316.1,
+          "unit": "USD millions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+        },
+        {
+          "metric": "Gross margin (company cites lower feature-based AI costs)",
+          "value": 72.9,
+          "unit": "percent",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+        },
+        {
+          "metric": "FY2026 revenue guidance",
+          "value": 1.22,
+          "unit": "USD billions",
+          "period": "FY2026",
+          "status": "guidance",
+          "source": "https://247wallst.com/cards/duolingo-q3-2026-earnings-duol-01m6hkzaqtk5596n48x4pxv0q5"
+        },
+        {
+          "metric": "AI-specific revenue (not disclosed)",
+          "value": null,
+          "unit": "USD",
+          "period": "Q3 2026",
+          "status": "not disclosed",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001562088/000162828026069474/q3fy26duolingo9-30x26share.htm"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 2.8,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (2.86B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 69.67/71.13 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/duol/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 2.86,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 8.11,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 7.43,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 69.67,
+        "price_to": 157.42,
+        "currency": "USD",
+        "value": 126.0,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/DUOL/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -8.46,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/duol/market-cap/"
+        }
+      },
+      "notes": [
+        "FY2025 net income ($414M) includes a large one-off tax benefit; TTM net income is $146M.",
+        "Stock +126% vs 2022-11-30 but far below its 2025 peak; market cap fell 43% in 2025 on AI-substitution fears."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "applovin",
+      "name": "AppLovin",
+      "ticker": "APP",
+      "country": "US",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 2793.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2022": {
+          "value": 2817.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2023": {
+          "value": 1842.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2024": {
+          "value": 3224.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2025": {
+          "value": 5481.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "TTM": {
+          "value": 7609.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": 31.7,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2022": {
+          "value": -192.75,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2023": {
+          "value": 354.44,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2024": {
+          "value": 1577.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "FY2025": {
+          "value": 3333.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        },
+        "TTM": {
+          "value": 5013.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "Q3 2026 revenue (up 55% YoY); business is an AI-driven ad engine (Axon), so nearly all revenue is AI-mediated but no separate AI line is reported",
+          "value": 2.185,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000068/exhibit991-3q26earningspre.htm"
+        },
+        {
+          "metric": "Q3 2026 net income (up 72% YoY, 66% net margin)",
+          "value": 1.439,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000068/exhibit991-3q26earningspre.htm"
+        },
+        {
+          "metric": "Q3 2026 adjusted EBITDA (84% margin)",
+          "value": 1.842,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0001751008/000175100826000068/exhibit991-3q26earningspre.htm"
+        },
+        {
+          "metric": "Q4 2026 revenue guidance $2.365-2.395B (midpoint shown)",
+          "value": 2.38,
+          "unit": "USD billions",
+          "period": "Q4 2026",
+          "status": "guidance",
+          "source": "https://last10k.com/sec-filings/app/0001751008-26-000068.htm"
+        },
+        {
+          "metric": "Consumer (e-commerce/non-gaming) advertising revenue: described as growing triple digits, no dollar figure",
+          "value": null,
+          "unit": "USD",
+          "period": "Q3 2026",
+          "status": "not disclosed",
+          "source": "https://mobilegamer.biz/applovin-posts-record-revenue-of-2-2bn-in-q3-up-55/"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 5.35,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (3.91B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 14.41/10.53 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/app/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 3.91,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 227.72,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 130.43,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 14.41,
+        "price_to": 393.68,
+        "currency": "USD",
+        "value": 2632.0,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/APP/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -42.72,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/app/market-cap/"
+        }
+      },
+      "notes": [
+        "AI-driven ad-tech (Axon). Net income from -$193M (FY2022) to $5.0B TTM. Stock +2,632% vs 2022-11-30 even after a 42.7% market-cap fall in 2026 YTD. Shares jumped 31% on 2026-11-05 (the day of the AI rout) after Q3 results (AP)."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "ticker": "SHOP",
+      "country": "CA",
+      "role": "enterprise_software_services",
+      "revenue": {
+        "FY2021": {
+          "value": 4612.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2022": {
+          "value": 5600.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2023": {
+          "value": 7060.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2024": {
+          "value": 8880.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2025": {
+          "value": 11556.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "TTM": {
+          "value": 14167.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": 2915.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2022": {
+          "value": -3460.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2023": {
+          "value": 132.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2024": {
+          "value": 2019.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "FY2025": {
+          "value": 1231.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        },
+        "TTM": {
+          "value": 2126.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "AI-referred orders growth (3.3x YoY; absolute count and share of GMV not disclosed, management says volume 'still small')",
+          "value": 3.3,
+          "unit": "multiple (x)",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://ppc.land/shopify-revenue-gains-32-to-3-7bn-as-ai-referred-orders-rise-3-3x/"
+        },
+        {
+          "metric": "Q3 2026 revenue (up 32% YoY)",
+          "value": 3.74,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://ppc.land/shopify-revenue-gains-32-to-3-7bn-as-ai-referred-orders-rise-3-3x/"
+        },
+        {
+          "metric": "Q3 2026 GMV (up 29.5%)",
+          "value": 119,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://ppc.land/shopify-revenue-gains-32-to-3-7bn-as-ai-referred-orders-rise-3-3x/"
+        },
+        {
+          "metric": "Share price reaction to Q3 2026 results",
+          "value": -8.7,
+          "unit": "percent",
+          "period": "2026-11-03",
+          "status": "reported",
+          "source": "https://stellagent.ai/insights/shopify-q3-2026-ai-orders-agentic-commerce"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 52.0,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (44.15B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 40.88/34.71 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/shop/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 44.15,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 209.56,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 188.84,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 40.88,
+        "price_to": 146.78,
+        "currency": "USD",
+        "value": 259.1,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/SHOP/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": -9.89,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/shop/market-cap/"
+        }
+      },
+      "notes": [
+        "Net income is volatile because of equity-investment gains/losses (e.g. -$3.46B in FY2022).",
+        "Sources disagree on Q4 2026 guidance (low-30s vs mid-to-high-20s revenue growth)."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "country": "US",
+      "role": "ai_adopter",
+      "revenue": {
+        "FY2021": {
+          "value": 53823.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2022": {
+          "value": 81462.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2023": {
+          "value": 96773.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2024": {
+          "value": 97690.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2025": {
+          "value": 94827.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "TTM": {
+          "value": 103570.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        }
+      },
+      "net_income": {
+        "FY2021": {
+          "value": 5524.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2021",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2022": {
+          "value": 12583.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2023": {
+          "value": 14999.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2024": {
+          "value": 7130.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "FY2025": {
+          "value": 3794.0,
+          "unit": "USD millions",
+          "period_end": "Dec 31, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        },
+        "TTM": {
+          "value": 3220.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "2026 capex outlook (cut to about $20B from >$25B)",
+          "value": 20,
+          "unit": "USD billions",
+          "period": "FY2026",
+          "status": "guidance",
+          "source": "https://electrek.co/2026-10-21/tesla-tsla-q3-2026-financial-results/"
+        },
+        {
+          "metric": "Capex, first nine months of 2026",
+          "value": 13.01,
+          "unit": "USD billions",
+          "period": "9M 2026",
+          "status": "reported",
+          "source": "https://electrek.co/2026-10-21/tesla-tsla-q3-2026-financial-results/"
+        },
+        {
+          "metric": "Q3 2026 GAAP net income (down 43% YoY) on revenue of $28.046B",
+          "value": 787,
+          "unit": "USD millions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://evtech.news/news/tesla-q3-profit-falls-43-to-787-million-as-cybercab-faces-us-safety-probe"
+        },
+        {
+          "metric": "Q3 2026 free cash flow (down 62% YoY)",
+          "value": 1.531,
+          "unit": "USD billions",
+          "period": "Q3 2026",
+          "status": "reported",
+          "source": "https://electrek.co/2026-10-21/tesla-tsla-q3-2026-financial-results/"
+        },
+        {
+          "metric": "Robotaxi cumulative unsupervised miles ('nearly two million')",
+          "value": 2.0,
+          "unit": "million miles",
+          "period": "as of 2026-09-30",
+          "status": "reported",
+          "source": "https://electrive.com/2026/10/22/tesla-q3-results-full-order-books-but-declining-figures"
+        },
+        {
+          "metric": "AI/robotaxi/Optimus revenue (not separately disclosed)",
+          "value": null,
+          "unit": "USD",
+          "period": "Q3 2026",
+          "status": "not disclosed",
+          "source": "https://electrek.co/2026-10-21/tesla-tsla-q3-2026-financial-results/"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 614.81,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (388.97B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 194.7/123.18 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 388.97,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 1500.0,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 1570.0,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 194.7,
+        "price_to": 397.45,
+        "currency": "USD",
+        "value": 104.1,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/TSLA/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": 5.04,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+        }
+      },
+      "notes": [
+        "Included only as an AI adopter. Net income fell from $15.0B (FY2023) to $3.2B TTM while market cap rose to $1.57T: valuation rests on autonomy/robotics expectations, not current profit."
+      ],
+      "fiscal_year_definition": "Fiscal year is January - December."
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "ticker": "AAPL",
+      "country": "US",
+      "role": "ai_adopter",
+      "revenue": {
+        "FY2022": {
+          "value": 394328.0,
+          "unit": "USD millions",
+          "period_end": "Sep 24, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2023": {
+          "value": 383285.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2024": {
+          "value": 391035.0,
+          "unit": "USD millions",
+          "period_end": "Sep 28, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2025": {
+          "value": 416161.0,
+          "unit": "USD millions",
+          "period_end": "Sep 27, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2026": {
+          "value": 478834.0,
+          "unit": "USD millions",
+          "period_end": "Sep 26, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "TTM": {
+          "value": 478834.0,
+          "unit": "USD millions",
+          "period_end": "Sep 26, 2026 (latest fiscal year is the trailing twelve months)",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        }
+      },
+      "net_income": {
+        "FY2022": {
+          "value": 99803.0,
+          "unit": "USD millions",
+          "period_end": "Sep 24, 2022",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2023": {
+          "value": 96995.0,
+          "unit": "USD millions",
+          "period_end": "Sep 30, 2023",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2024": {
+          "value": 93736.0,
+          "unit": "USD millions",
+          "period_end": "Sep 28, 2024",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2025": {
+          "value": 112010.0,
+          "unit": "USD millions",
+          "period_end": "Sep 27, 2025",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "FY2026": {
+          "value": 132175.0,
+          "unit": "USD millions",
+          "period_end": "Sep 26, 2026",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        },
+        "TTM": {
+          "value": 132175.0,
+          "unit": "USD millions",
+          "period_end": "Sep 26, 2026 (latest fiscal year is the trailing twelve months)",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/financials/"
+        }
+      },
+      "ai_metrics": [
+        {
+          "metric": "FY2026 revenue (record; FY2025: $416.2B)",
+          "value": 478.8,
+          "unit": "USD billions",
+          "period": "FY2026 (ended 2026-09-26)",
+          "status": "reported",
+          "source": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results"
+        },
+        {
+          "metric": "FY2026 net income (FY2025: $112.0B)",
+          "value": 132.2,
+          "unit": "USD billions",
+          "period": "FY2026",
+          "status": "reported",
+          "source": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results"
+        },
+        {
+          "metric": "Q4 FY2026 Services revenue (all-time high, up 9.8%)",
+          "value": 31.573,
+          "unit": "USD billions",
+          "period": "Q4 FY2026",
+          "status": "reported",
+          "source": "https://propakistani.pk/2026/11/03/apple-breaks-revenue-records-with-114-5-billion-in-just-3-months/"
+        },
+        {
+          "metric": "AI-specific revenue / AI capex (not disclosed; Apple is an AI adopter with far lower capex than hyperscalers; capex figure not found in this research)",
+          "value": null,
+          "unit": "USD",
+          "period": "FY2026",
+          "status": "not disclosed",
+          "source": "https://apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results"
+        }
+      ],
+      "market_cap": {
+        "2022-11-30": {
+          "value": 2358.36,
+          "unit": "USD billions",
+          "status": "estimate",
+          "method": "Reported market cap on 2022-12-30 (2070.0B, stockanalysis) scaled by share-price ratio close(2022-11-30)/close(2022-12-30) = 148.03/129.93 (Yahoo Finance, split-adjusted); ignores share-count change during Dec 2022",
+          "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+        },
+        "2022-12-30": {
+          "value": 2070.0,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+        },
+        "2025-12-31": {
+          "value": 4020.0,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+        },
+        "latest": {
+          "date": "2026-11-12",
+          "value": 5160.0,
+          "unit": "USD billions",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+        }
+      },
+      "stock_change_pct": {
+        "from": "2022-11-30",
+        "to": "2026-11-12",
+        "price_from": 148.03,
+        "price_to": 354.88,
+        "currency": "USD",
+        "value": 139.7,
+        "basis": "split-adjusted closing price, excludes dividends",
+        "status": "reported (computed from reported closing prices)",
+        "source": "https://finance.yahoo.com/quote/AAPL/history/",
+        "market_cap_change_2026_ytd_pct": {
+          "value": 28.38,
+          "from": "2025-12-31",
+          "to": "2026-11-12",
+          "status": "reported",
+          "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+        }
+      },
+      "notes": [
+        "Included only as an AI adopter. Fiscal year ends late Sep; FY2026 is the latest full year, so TTM = FY2026. Record FY2026 with minimal AI capex relative to hyperscalers; market cap $5.16T on 2026-11-12 (+28% YTD)."
+      ],
+      "fiscal_year_definition": "Fiscal year is October - September."
+    }
+  ],
+  "macro": {
+    "hyperscaler_capex_by_year": [
+      {
+        "claim": "Combined capex of Microsoft, Alphabet, Amazon, Meta in 2022: no sourced big-four figure found in this research (Goldman cites $477B cumulative for 2022-2024 for its hyperscaler group)",
+        "value": null,
+        "unit": "USD billions",
+        "period": "2022",
+        "status": "reported",
+        "source_name": "n/a",
+        "source": "https://fourweekmba.com/hyperscaler-capex-acceleration-the-1-15-trillion-infrastructure-buildout/",
+        "date": "2026"
+      },
+      {
+        "claim": "Cumulative hyperscaler capex 2022-2024 per Goldman Sachs (vs $1.15T estimated for 2025-2027 at the time)",
+        "value": 477,
+        "unit": "USD billions",
+        "period": "2022-2024 cumulative",
+        "status": "reported",
+        "source_name": "Goldman Sachs via FourWeekMBA",
+        "source": "https://fourweekmba.com/hyperscaler-capex-acceleration-the-1-15-trillion-infrastructure-buildout/",
+        "date": "2025"
+      },
+      {
+        "claim": "Combined capex of Microsoft, Alphabet, Amazon, Meta",
+        "value": 150,
+        "unit": "USD billions",
+        "period": "2023",
+        "status": "reported",
+        "source_name": "Omni Calculator (company filings)",
+        "source": "https://www.omnicalculator.com/insights/technology/four-tech-giants-spent-13-trillion-dollars-since-2023",
+        "date": "2026-10-30"
+      },
+      {
+        "claim": "Combined capex of four hyperscalers incl. finance leases (alternative count)",
+        "value": 155,
+        "unit": "USD billions",
+        "period": "2023",
+        "status": "reported",
+        "source_name": "Platformonomics",
+        "source": "https://platformonomics.com/2025/02/follow-the-capex-cloud-table-stakes-2024-retrospective/",
+        "date": "2025-02"
+      },
+      {
+        "claim": "Combined capex of Microsoft, Alphabet, Amazon, Meta",
+        "value": 245,
+        "unit": "USD billions",
+        "period": "2024",
+        "status": "reported",
+        "source_name": "Omni Calculator (company filings)",
+        "source": "https://www.omnicalculator.com/insights/technology/four-tech-giants-spent-13-trillion-dollars-since-2023",
+        "date": "2026-10-30"
+      },
+      {
+        "claim": "Combined capex of four hyperscalers incl. finance leases (alternative counts: $251B Platformonomics; $224B Motley Fool)",
+        "value": 251,
+        "unit": "USD billions",
+        "period": "2024",
+        "status": "reported",
+        "source_name": "Platformonomics",
+        "source": "https://platformonomics.com/2025/02/follow-the-capex-cloud-table-stakes-2024-retrospective/",
+        "date": "2025-02"
+      },
+      {
+        "claim": "Combined capex of Microsoft, Alphabet, Amazon, Meta (Motley Fool count: $413B, +84% YoY)",
+        "value": 410,
+        "unit": "USD billions",
+        "period": "2025",
+        "status": "reported",
+        "source_name": "Omni Calculator (company filings)",
+        "source": "https://www.omnicalculator.com/insights/technology/four-tech-giants-spent-13-trillion-dollars-since-2023",
+        "date": "2026-10-30"
+      },
+      {
+        "claim": "Combined capex of Microsoft, Alphabet, Amazon, Meta, first three quarters of 2026 (already above all of 2025)",
+        "value": 508,
+        "unit": "USD billions",
+        "period": "2026 Q1-Q3",
+        "status": "reported",
+        "source_name": "Omni Calculator (company filings)",
+        "source": "https://www.omnicalculator.com/insights/technology/four-tech-giants-spent-13-trillion-dollars-since-2023",
+        "date": "2026-10-30"
+      },
+      {
+        "claim": "Combined Q3 2026 capex of the four (up 84% from $113.4B in Q3 2025)",
+        "value": 208.7,
+        "unit": "USD billions",
+        "period": "2026 Q3",
+        "status": "reported",
+        "source_name": "The Motley Fool",
+        "source": "https://www.fool.com/research/ai-companies-spending-on-data-centers",
+        "date": "2026-11-04"
+      },
+      {
+        "claim": "Combined 2026 capex guidance of Microsoft (~$170B, calendar 2026, cut from ~$190B), Alphabet ($195-205B), Meta ($135-145B), Amazon (~$220B cash capex): $720-740B; midpoint shown",
+        "value": 730,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "guidance",
+        "source_name": "The Motley Fool",
+        "source": "https://www.fool.com/research/ai-companies-spending-on-data-centers",
+        "date": "2026-11-04"
+      },
+      {
+        "claim": "2026 capex of Amazon, Alphabet, Meta, Microsoft plus SpaceX: $803-828B (YTD three quarters $556.2B; Q3 alone ~$227B); midpoint shown",
+        "value": 815.5,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "guidance",
+        "source_name": "Hargreaves Lansdown / Sherwood News",
+        "source": "https://www.hl.co.uk/news/ai-hyperscalers-are-expected-to-finish-the-year-spending-a-whopping-828-billion-on-capex",
+        "date": "2026-10-30"
+      },
+      {
+        "claim": "Amazon 2026 cash capex guidance (reiterated; expects 'meaningfully more in 2027')",
+        "value": 220,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "guidance",
+        "source_name": "Amazon Q3 2026 earnings via HL",
+        "source": "https://www.hl.co.uk/news/ai-hyperscalers-are-expected-to-finish-the-year-spending-a-whopping-828-billion-on-capex",
+        "date": "2026-10-29"
+      },
+      {
+        "claim": "Alphabet 2026 capex guidance $195-205B (midpoint shown); CFO expects capex to 'increase significantly in 2027'",
+        "value": 200,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "guidance",
+        "source_name": "Alphabet Q3 2026 earnings via HL",
+        "source": "https://www.hl.co.uk/news/ai-hyperscalers-are-expected-to-finish-the-year-spending-a-whopping-828-billion-on-capex",
+        "date": "2026-10-28"
+      },
+      {
+        "claim": "Meta 2026 capex guidance $135-145B (midpoint shown; previously $130-145B); 2027 budget not yet given",
+        "value": 140,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "guidance",
+        "source_name": "The Motley Fool",
+        "source": "https://www.fool.com/research/ai-companies-spending-on-data-centers",
+        "date": "2026-11-04"
+      },
+      {
+        "claim": "Microsoft calendar-2026 capex (~$170B incl. finance leases; lowered due to third-party data-center capacity delays)",
+        "value": 170,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "guidance",
+        "source_name": "Hargreaves Lansdown",
+        "source": "https://www.hl.co.uk/news/ai-hyperscalers-are-expected-to-finish-the-year-spending-a-whopping-828-billion-on-capex",
+        "date": "2026-10-30"
+      },
+      {
+        "claim": "Oracle FY capex guidance: about $70B net of customer prepayments ($90-95B gross)",
+        "value": 70,
+        "unit": "USD billions",
+        "period": "Oracle FY2027",
+        "status": "guidance",
+        "source_name": "Paasa",
+        "source": "https://paasa.com/blog/the-capex-verdict-what-fy-2027-guidance-signals-about-ai-margins",
+        "date": "2026"
+      }
+    ],
+    "capex_forecasts": [
+      {
+        "claim": "Morgan Stanley: hyperscaler + neocloud AI capex including leases",
+        "value": 980,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via Tiger Brokers",
+        "source": "https://www.itiger.com/news/1138724255",
+        "date": "2026-10-15"
+      },
+      {
+        "claim": "Morgan Stanley: hyperscaler + neocloud AI capex including leases (reaffirmed unchanged after the US midterms on 2026-11-08, 'with potential downward bias in 2028 if builds are delayed')",
+        "value": 1580,
+        "unit": "USD billions",
+        "period": "2027",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via InvestingLive",
+        "source": "https://investinglive.com/stocks/morgan-stanley-says-buy-the-ai-dip-sees-3-4-trillion-in-hyperscaler-spending-through-2028/",
+        "date": "2026-11-08"
+      },
+      {
+        "claim": "Morgan Stanley: hyperscaler + neocloud AI capex including leases",
+        "value": 1810,
+        "unit": "USD billions",
+        "period": "2028",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via Tiger Brokers",
+        "source": "https://www.itiger.com/news/1138724255",
+        "date": "2026-10-15"
+      },
+      {
+        "claim": "Morgan Stanley (narrower scope, five largest cloud providers; July 2026)",
+        "value": 1200,
+        "unit": "USD billions",
+        "period": "2027",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via KuCoin News",
+        "source": "https://www.kucoin.com/news/flash/morgan-stanley-report-top-5-ai-giants-to-spend-1-4t-on-capital-expenditure-by-2028",
+        "date": "2026-07"
+      },
+      {
+        "claim": "Morgan Stanley (narrower scope, five largest cloud providers; July 2026)",
+        "value": 1400,
+        "unit": "USD billions",
+        "period": "2028",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via KuCoin News",
+        "source": "https://www.kucoin.com/news/flash/morgan-stanley-report-top-5-ai-giants-to-spend-1-4t-on-capital-expenditure-by-2028",
+        "date": "2026-07"
+      },
+      {
+        "claim": "Morgan Stanley: hyperscaler + neocloud cash burn expected to peak, approaching",
+        "value": 600,
+        "unit": "USD billions",
+        "period": "2027",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via Crypto Briefing",
+        "source": "https://cryptobriefing.com/morgan-stanley-hyperscaler-cash-burn-2027/",
+        "date": "2026"
+      },
+      {
+        "claim": "Goldman Sachs: hyperscaler (Amazon, Alphabet, Microsoft, Oracle, Meta) AI infrastructure capex, +54% YoY; upside case $1.4T; consensus ~$1.1T",
+        "value": 1200,
+        "unit": "USD billions",
+        "period": "2027",
+        "status": "forecast",
+        "source_name": "Goldman Sachs via PYMNTS",
+        "source": "https://www.pymnts.com/big-tech/2026/goldman-sachs-projects-big-tech-ai-infrastructure-spending-to-hit-1-2-trillion-in-2027/",
+        "date": "2026-09-25"
+      },
+      {
+        "claim": "Citi: cumulative AI infrastructure spending by hyperscalers through 2029 (raised from $2.3T); AI capex $490B by end-2026 (older, Sep-2025 vintage, already overtaken by actuals)",
+        "value": 2800,
+        "unit": "USD billions",
+        "period": "cumulative through 2029",
+        "status": "forecast",
+        "source_name": "Citigroup via Reuters/Malay Mail",
+        "source": "https://www.malaymail.com/news/money/2025/09/30/citigroup-ups-big-tech-ai-infrastructure-spending-outlook-to-us28t-amid-data-centre-race/192935",
+        "date": "2025-09-30"
+      },
+      {
+        "claim": "Bank of America: global hyperscale AI infrastructure spending 2026 (older vintage; single secondary source). BofA 2027 figure not found",
+        "value": 611,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "Bank of America via AllMind",
+        "source": "https://allmind.ai/news/030f5b0f73e0c88cea090aa44d074a18b3051cd81cfc284f91a331e017c8c224",
+        "date": "2025"
+      },
+      {
+        "claim": "Bank of America: annual AI data-center investment to exceed",
+        "value": 1200,
+        "unit": "USD billions",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "Bank of America via AllMind",
+        "source": "https://allmind.ai/news/030f5b0f73e0c88cea090aa44d074a18b3051cd81cfc284f91a331e017c8c224",
+        "date": "2025"
+      },
+      {
+        "claim": "Dell'Oro: worldwide data-center capex to top $1 trillion in 2026 (forecast raised in June 2026)",
+        "value": 1000,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "Dell'Oro Group via Converge Digest",
+        "source": "https://convergedigest.com/delloro-ai-infrastructure-spending-pushes-2026-data-center-capex-above-1-trillion/",
+        "date": "2026-06"
+      },
+      {
+        "claim": "Dell'Oro: worldwide data-center capex to surpass $3 trillion by 2030 (January 2026 forecast was $1.7T: nearly doubled in 7 months)",
+        "value": 3000,
+        "unit": "USD billions",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "Dell'Oro Group",
+        "source": "https://delloro.com/news/ai-buildout-maintains-momentum-as-data-center-capex-surpasses-3-trillion-by-2030",
+        "date": "2026-08-18"
+      },
+      {
+        "claim": "Dell'Oro: worldwide data-center capex grew 57% in 2025",
+        "value": 57,
+        "unit": "percent",
+        "period": "2025",
+        "status": "reported",
+        "source_name": "Dell'Oro Group",
+        "source": "https://www.delloro.com/news/data-center-capex-surges-57-percent-in-2025-as-ai-deployments-accelerate/",
+        "date": "2026"
+      },
+      {
+        "claim": "Synergy Research: worldwide cloud infrastructure services revenue in Q3 2026 (+55% YoY; Q2 2026: $143B). Note: this is cloud revenue, not capex; no Synergy hyperscale-capex figure found",
+        "value": 168,
+        "unit": "USD billions",
+        "period": "2026 Q3",
+        "status": "reported",
+        "source_name": "Synergy Research via Data Center Knowledge",
+        "source": "https://datacenterknowledge.com/cloud/cloud-revenue-hits-168b-as-ai-capacity-expands",
+        "date": "2026-11"
+      },
+      {
+        "claim": "IDC: AI infrastructure spending (servers/storage only; excludes networking, power, buildings), full-year 2026 forecast raised from $497B",
+        "value": 521,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "IDC",
+        "source": "https://www.idc.com/?p=122953",
+        "date": "2026-11-06"
+      },
+      {
+        "claim": "IDC: AI infrastructure spending in Q2 2026 (+53% YoY)",
+        "value": 121.4,
+        "unit": "USD billions",
+        "period": "2026 Q2",
+        "status": "reported",
+        "source_name": "IDC",
+        "source": "https://www.idc.com/?p=122953",
+        "date": "2026-11-06"
+      },
+      {
+        "claim": "IDC: AI infrastructure spending forecast",
+        "value": 1170,
+        "unit": "USD billions",
+        "period": "2029",
+        "status": "forecast",
+        "source_name": "IDC",
+        "source": "https://www.idc.com/?p=122953",
+        "date": "2026-11-06"
+      },
+      {
+        "claim": "IDC: AI infrastructure spending forecast",
+        "value": 1330,
+        "unit": "USD billions",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "IDC",
+        "source": "https://www.idc.com/?p=122953",
+        "date": "2026-11-06"
+      },
+      {
+        "claim": "Gartner: worldwide AI spending (all categories incl. devices, services, software, infrastructure), +49.5% YoY (January 2026 estimate was $2.53T, May $2.60T)",
+        "value": 2670,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "Gartner via Computerworld",
+        "source": "https://computerworld.com/article/4225808/ai-spend-will-jump-49-5-in-2026-says-gartner-2.html",
+        "date": "2026-07"
+      },
+      {
+        "claim": "Gartner: worldwide AI spending (May 2026 vintage; July update implies +36.2% growth in 2027 on $2.67T)",
+        "value": 3493,
+        "unit": "USD billions",
+        "period": "2027",
+        "status": "forecast",
+        "source_name": "Gartner",
+        "source": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+        "date": "2026-05-19"
+      },
+      {
+        "claim": "Gartner: worldwide AI spending",
+        "value": 5950,
+        "unit": "USD billions",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "Gartner via Computerworld",
+        "source": "https://computerworld.com/article/4225808/ai-spend-will-jump-49-5-in-2026-says-gartner-2.html",
+        "date": "2026-07"
+      },
+      {
+        "claim": "JPMorgan estimate cited by the Bank of England FPC: debt-financed AI capital expenditure 2026-2030",
+        "value": 4100,
+        "unit": "USD billions",
+        "period": "2026-2030",
+        "status": "estimate",
+        "source_name": "JPMorgan via Bank of England FPC record (ROIC.ai coverage)",
+        "source": "https://www.roic.ai/news/bank-of-england-warns-of-sharper-ai-market-correction-09-30-2026",
+        "date": "2026-09-30"
+      }
+    ],
+    "genai_revenue_by_year": [
+      {
+        "claim": "Menlo Ventures: enterprise generative-AI spend (restated, excludes inference)",
+        "value": 1.7,
+        "unit": "USD billions",
+        "period": "2023",
+        "status": "estimate",
+        "source_name": "Menlo Ventures",
+        "source": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+        "date": "2025-12-09"
+      },
+      {
+        "claim": "Menlo Ventures: enterprise generative-AI spend (restated)",
+        "value": 11.5,
+        "unit": "USD billions",
+        "period": "2024",
+        "status": "estimate",
+        "source_name": "Menlo Ventures",
+        "source": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+        "date": "2025-12-09"
+      },
+      {
+        "claim": "Menlo Ventures: enterprise generative-AI spend (3.2x YoY; $19B applications + $18B infrastructure; coding $4B). No 2026 Menlo update found",
+        "value": 37,
+        "unit": "USD billions",
+        "period": "2025",
+        "status": "estimate",
+        "source_name": "Menlo Ventures",
+        "source": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+        "date": "2025-12-09"
+      },
+      {
+        "claim": "Exponential View 'State of the AI Economy 2026': global ex-China generative-AI economy annualized revenue; says revenue now covers depreciation",
+        "value": 175,
+        "unit": "USD billions (annualized)",
+        "period": "2026 (mid-year run-rate)",
+        "status": "estimate",
+        "source_name": "Exponential View via Agenda Digitale",
+        "source": "https://www.agendadigitale.eu/?p=271370",
+        "date": "2026"
+      },
+      {
+        "claim": "Exponential View / Azeem Azhar: global ex-China AI compute revenue in Q1 2026 vs $21B of industry depreciation in the same quarter",
+        "value": 25,
+        "unit": "USD billions",
+        "period": "2026 Q1",
+        "status": "estimate",
+        "source_name": "Exponential View via Blockworks",
+        "source": "https://mail.blockworks.com/p/the-useful-lives-of-machines",
+        "date": "2026"
+      },
+      {
+        "claim": "OpenAI annualized revenue run-rate 'almost $70B' (up >70% since start of Q3; company had told investors ~$50B earlier). Unaudited, press report",
+        "value": 70,
+        "unit": "USD billions (annualized)",
+        "period": "late September 2026",
+        "status": "reported",
+        "source_name": "Axios",
+        "source": "https://axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b",
+        "date": "2026-09-29"
+      },
+      {
+        "claim": "OpenAI Q3 2026 revenue, about $10B (The Information, relayed by secondary outlet)",
+        "value": 10,
+        "unit": "USD billions",
+        "period": "2026 Q3",
+        "status": "reported",
+        "source_name": "The Information via FourWeekMBA",
+        "source": "https://fourweekmba.com/ai-openais-q3-said-to-reach-10b-anthropics-filed-q3-is-1-7x/",
+        "date": "2026-11"
+      },
+      {
+        "claim": "Anthropic run-rate revenue surpassed $65B at end of July 2026",
+        "value": 65,
+        "unit": "USD billions (annualized)",
+        "period": "end of July 2026",
+        "status": "reported",
+        "source_name": "Channel Insider",
+        "source": "https://www.channelinsider.com/news-and-trends/news-anthropic-revenue-run-rate-outpaces-openai/",
+        "date": "2026-08"
+      },
+      {
+        "claim": "Anthropic revenue for the three months to 2026-09-30 per its S-1/A",
+        "value": 16.956,
+        "unit": "USD billions",
+        "period": "2026 Q3",
+        "status": "reported",
+        "source_name": "Anthropic S-1/A via FourWeekMBA",
+        "source": "https://fourweekmba.com/ai-openais-q3-said-to-reach-10b-anthropics-filed-q3-is-1-7x/",
+        "date": "2026-11"
+      },
+      {
+        "claim": "Anthropic revenue in H1 2026 per S-1 (H1 2025: $1.2B); Q2 revenue $11.6B with first operating profit ($974M); H1 net loss $80.7B of which $72.4B non-cash revaluation charges",
+        "value": 16.3,
+        "unit": "USD billions",
+        "period": "2026 H1",
+        "status": "reported",
+        "source_name": "Anthropic S-1 via deeplearning.ai The Batch",
+        "source": "https://www.deeplearning.ai/the-batch/anthropic-opens-its-books/",
+        "date": "2026-10-26"
+      },
+      {
+        "claim": "Microsoft AI revenue run-rate (>$37B, +123% YoY) as of calendar Q1 2026; no newer figure found",
+        "value": 37,
+        "unit": "USD billions (annualized)",
+        "period": "2026 Q1",
+        "status": "reported",
+        "source_name": "Counterpoint Research",
+        "source": "https://counterpointresearch.com/default.htm/reports/Top-Hyperscaler-Q1-2026-Earnings",
+        "date": "2026-05"
+      },
+      {
+        "claim": "AWS AI revenue run-rate (>$15B) as of Q1 2026; no newer figure found",
+        "value": 15,
+        "unit": "USD billions (annualized)",
+        "period": "2026 Q1",
+        "status": "reported",
+        "source_name": "Counterpoint Research",
+        "source": "https://counterpointresearch.com/default.htm/reports/Top-Hyperscaler-Q1-2026-Earnings",
+        "date": "2026-05"
+      },
+      {
+        "claim": "Total generative-AI revenue per calendar year 2023-2026, single audited/consistent series (model APIs + apps + cloud AI): not available; published estimates differ ~40x depending on scope",
+        "value": null,
+        "unit": "USD billions",
+        "period": "2023-2026",
+        "status": "estimate",
+        "source_name": "n/a",
+        "source": "https://philippdubach.com/posts/reconciling-enterprise-ai-revenue/",
+        "date": "2026"
+      }
+    ],
+    "revenue_gap_estimates": [
+      {
+        "claim": "Sequoia (David Cahn) 'AI's $200B question'",
+        "value": 200,
+        "unit": "USD billions",
+        "period": "2023-09",
+        "status": "estimate",
+        "source_name": "Sequoia Capital / David Cahn",
+        "source": "https://dcahn.substack.com/p/ais-15t-question",
+        "date": "2023-09"
+      },
+      {
+        "claim": "Sequoia (David Cahn) 'AI's $600B question': annual AI revenue needed to pay back infrastructure (Nvidia run-rate x2 for data-center cost x2 for margin)",
+        "value": 600,
+        "unit": "USD billions",
+        "period": "2024-06",
+        "status": "estimate",
+        "source_name": "Sequoia Capital / David Cahn",
+        "source": "https://dcahn.substack.com/p/ais-15t-question",
+        "date": "2024-06"
+      },
+      {
+        "claim": "David Cahn update 'AI's $840B question'",
+        "value": 840,
+        "unit": "USD billions",
+        "period": "2025-06",
+        "status": "estimate",
+        "source_name": "David Cahn",
+        "source": "https://dcahn.substack.com/p/ais-15t-question",
+        "date": "2025-06"
+      },
+      {
+        "claim": "David Cahn update 'AI's $1.5T question': 2026 AI infrastructure spend ~$1.5T; ~$3T cumulative revenue requirement since ChatGPT launch; press coverage cites ~$2.9T missing revenue vs ~$80B combined OpenAI+Anthropic ARR at the time",
+        "value": 1500,
+        "unit": "USD billions",
+        "period": "2026-07",
+        "status": "estimate",
+        "source_name": "David Cahn (Substack)",
+        "source": "https://dcahn.substack.com/p/ais-15t-question",
+        "date": "2026-07"
+      },
+      {
+        "claim": "Bain (6th Global Technology Report): annual AI revenue needed by 2030 to fund compute demand",
+        "value": 2000,
+        "unit": "USD billions",
+        "period": "2030",
+        "status": "estimate",
+        "source_name": "Bain & Company via Bloomberg",
+        "source": "https://www.bloomberg.com/news/articles/2025-09-23/an-800-billion-revenue-shortfall-threatens-ai-future-bain-says",
+        "date": "2025-09-23"
+      },
+      {
+        "claim": "Bain (6th report): expected revenue shortfall vs. that requirement, even after AI-driven savings",
+        "value": 800,
+        "unit": "USD billions",
+        "period": "2030",
+        "status": "estimate",
+        "source_name": "Bain & Company via Bloomberg",
+        "source": "https://www.bloomberg.com/news/articles/2025-09-23/an-800-billion-revenue-shortfall-threatens-ai-future-bain-says",
+        "date": "2025-09-23"
+      },
+      {
+        "claim": "Bain (7th Global Technology Report, 2026): annual AI revenue needed by 2031",
+        "value": 6000,
+        "unit": "USD billions",
+        "period": "2031",
+        "status": "estimate",
+        "source_name": "Bain & Company via The Next Web",
+        "source": "https://thenextweb.com/news/bain-ai-6-trillion-revenue-2031-data-centres",
+        "date": "2026-09"
+      },
+      {
+        "claim": "Bain (7th report): new revenue still to be created (existing consumer+enterprise AI services may generate up to $1.8T); annual AI infrastructure spend could reach $1.5T by 2031",
+        "value": 4200,
+        "unit": "USD billions",
+        "period": "2031",
+        "status": "estimate",
+        "source_name": "Bain & Company via AI Magazine",
+        "source": "https://aimagazine.com/news/can-ai-deliver-6tn-bains-anne-hoecker-on-the-4-2tn-gap",
+        "date": "2026-09"
+      },
+      {
+        "claim": "Praetorian Capital (Harris Kupperman): 2025-vintage AI data centers incur ~$40B annual depreciation while generating $15-20B revenue (midpoint 17.5 shown)",
+        "value": 17.5,
+        "unit": "USD billions revenue vs 40 depreciation",
+        "period": "2025",
+        "status": "estimate",
+        "source_name": "Praetorian Capital via Futurism",
+        "source": "https://futurism.com/data-centers-financial-bubble",
+        "date": "2025-08"
+      },
+      {
+        "claim": "Praetorian Capital: revenue needed just to break even on 2025 capex, $320-480B (upper bound shown); ~$1T once 2026 spending is added",
+        "value": 480,
+        "unit": "USD billions",
+        "period": "2025 capex vintage",
+        "status": "estimate",
+        "source_name": "Praetorian Capital via Futurism",
+        "source": "https://futurism.com/future-society/ai-data-centers-finances",
+        "date": "2025-09"
+      },
+      {
+        "claim": "Narrow 'direct AI revenue' estimate for 2026 of $80-120B vs ~$450B AI capex: coverage ratio ~0.25x (secondary blog estimate; midpoint shown)",
+        "value": 100,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "estimate",
+        "source_name": "Philipp Dubach",
+        "source": "https://philippdubach.com/posts/ai-capex-arms-race-who-blinks-first/",
+        "date": "2026"
+      },
+      {
+        "claim": "Schroders scenario: from a $1T 2026 base growing 30%/yr, AI build-out spending reaches ~$2.9T/yr by 2030",
+        "value": 2900,
+        "unit": "USD billions",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "Schroders",
+        "source": "https://www.schroders.com/sk-sk/sk/profesionalny-investor/prehlady/the-trillion-dollar-question-how-much-value-must-ai-create-to-pay-for-its-build-out-/",
+        "date": "2026"
+      },
+      {
+        "claim": "a16z estimate of the AI revenue gap: not found in this research",
+        "value": null,
+        "unit": "USD billions",
+        "period": "n/a",
+        "status": "estimate",
+        "source_name": "n/a",
+        "source": "https://dcahn.substack.com/p/ais-15t-question",
+        "date": "2026"
+      }
+    ],
+    "enterprise_roi_studies": [
+      {
+        "claim": "MIT NANDA 'The GenAI Divide: State of AI in Business 2025': share of organizations getting zero measurable return from gen-AI initiatives (on $30-40B enterprise investment; sample sizes reported as 52 orgs / 153 leaders / 300+ initiatives). No 2026 follow-up found",
+        "value": 95,
+        "unit": "percent",
+        "period": "Jan-Jun 2025",
+        "status": "reported",
+        "source_name": "MIT NANDA via Fortune/Yahoo Finance",
+        "source": "https://finance.yahoo.com/news/mit-report-95-generative-ai-105412686.html",
+        "date": "2025-08"
+      },
+      {
+        "claim": "McKinsey 'The state of AI in 2026: On the road to ROI': respondents reporting at least some EBIT impact from AI (essentially unchanged vs 2025)",
+        "value": 37,
+        "unit": "percent",
+        "period": "2026",
+        "status": "reported",
+        "source_name": "McKinsey & Company",
+        "source": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+        "date": "2026-08"
+      },
+      {
+        "claim": "McKinsey 2026: 'AI high performers' (>=5% of EBIT attributable to AI): 92 of 1,521 AI users, unchanged vs 2025",
+        "value": 6,
+        "unit": "percent",
+        "period": "2026",
+        "status": "reported",
+        "source_name": "McKinsey & Company",
+        "source": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+        "date": "2026-08"
+      },
+      {
+        "claim": "McKinsey 2026: organizations using AI regularly in at least one function (44% say AI is scaling across the enterprise; 80% report individual productivity gains)",
+        "value": 89,
+        "unit": "percent",
+        "period": "2026",
+        "status": "reported",
+        "source_name": "McKinsey & Company",
+        "source": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+        "date": "2026-08"
+      },
+      {
+        "claim": "BCG 2025 'The Widening AI Value Gap': companies achieving AI value at scale ('future-built'); 60% achieving no material value",
+        "value": 5,
+        "unit": "percent",
+        "period": "2025",
+        "status": "reported",
+        "source_name": "BCG",
+        "source": "https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf",
+        "date": "2025-09-30"
+      },
+      {
+        "claim": "BCG 2026 Applied AI Index (1,330 executives): 'future-built' companies 7.5%; another 41% 'scaling', so 'nearly half now generate value from AI' (different index, not strictly comparable with 2025's 5%)",
+        "value": 7.5,
+        "unit": "percent",
+        "period": "2026",
+        "status": "reported",
+        "source_name": "BCG",
+        "source": "https://www.bcg.com/press/30september2026-ai-starting-to-pay-off-companies-generate-value",
+        "date": "2026-09-30"
+      },
+      {
+        "claim": "US Census Bureau BTOS: share of US firms using AI in any business function in the last two weeks (question reworded Nov 2025; not comparable with the older series, which read 10.0% in its last wave Sep-Oct 2025)",
+        "value": 19.8,
+        "unit": "percent",
+        "period": "two weeks to 2026-05-03",
+        "status": "reported",
+        "source_name": "US Census Bureau",
+        "source": "https://census.gov/library/stories/2026/05/ai-use-businesses.html",
+        "date": "2026-05"
+      },
+      {
+        "claim": "US Census Bureau BTOS, wave of 5-18 Oct 2026 (up from 23.8%; highest of the current series). From secondary coverage; verify against the BTOS data tool",
+        "value": 24.6,
+        "unit": "percent",
+        "period": "2026-10-05 to 2026-10-18",
+        "status": "reported",
+        "source_name": "US Census Bureau BTOS via FourWeekMBA",
+        "source": "https://fourweekmba.com/ai-goldmans-ai-gauge-hits-record-24-6-firms-beat-forecast/",
+        "date": "2026-10-22"
+      },
+      {
+        "claim": "Stanford AI Index 2026: global corporate AI investment in 2025 (+129.9% YoY). From a single secondary source; verify against the report",
+        "value": 581.69,
+        "unit": "USD billions",
+        "period": "2025",
+        "status": "reported",
+        "source_name": "Stanford HAI AI Index 2026 via Medium summary",
+        "source": "https://medium.com/@neuralcoretech.official/stanford-ai-index-2026-10-verified-findings-that-actually-matter-c062bf205a67",
+        "date": "2026-04-13"
+      },
+      {
+        "claim": "Stanford AI Index 2026: estimated annual value of generative-AI tools to US consumers",
+        "value": 172,
+        "unit": "USD billions per year",
+        "period": "early 2026",
+        "status": "estimate",
+        "source_name": "Stanford HAI AI Index 2026 via Unite.AI",
+        "source": "https://www.unite.ai/stanford-ai-index-2026-reveals-a-field-racing-ahead-of-its-guardrails/",
+        "date": "2026-04-13"
+      },
+      {
+        "claim": "Stanford AI Index 2026: generative-AI adoption reached 53% of the global population within three years",
+        "value": 53,
+        "unit": "percent",
+        "period": "2026",
+        "status": "reported",
+        "source_name": "Stanford HAI AI Index 2026 via Digit",
+        "source": "https://www.digit.in/features/general/stanford-ai-index-2026-report-5-key-insights-on-ai-adoption-and-competency.html",
+        "date": "2026-04-13"
+      },
+      {
+        "claim": "Stanford AI Index 2026: share of organizations using AI (figure not found in this research)",
+        "value": null,
+        "unit": "percent",
+        "period": "2025",
+        "status": "reported",
+        "source_name": "Stanford HAI",
+        "source": "https://technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts",
+        "date": "2026-04-13"
+      }
+    ],
+    "bubble_indicators": [
+      {
+        "claim": "IMF Global Financial Stability Report Oct 2026 ('Resilience, Risk, and Transformation'): AI share-price crash listed among three salient risks; scenario of a moderate tech correction plus AI-investment pullback cuts global growth from 3.3% to 2.9% (other outlets report a 1.22% GDP shortfall vs baseline: figures conflict across coverage)",
+        "value": 2.9,
+        "unit": "percent global GDP growth in downside scenario (baseline 3.3)",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "IMF via Computing",
+        "source": "https://www.computing.co.uk/news/2026/ai/ai-crash-threatens-global-financial-stability-imf",
+        "date": "2026-10-13"
+      },
+      {
+        "claim": "IMF scenario (alternative reading): AI investment correction leaves world GDP below baseline by",
+        "value": 1.22,
+        "unit": "percent",
+        "period": "scenario",
+        "status": "forecast",
+        "source_name": "IMF via Magica",
+        "source": "https://magica.com/news/imf-ai-investment-correction-global-gdp-risk",
+        "date": "2026-10"
+      },
+      {
+        "claim": "Bank of England FPC: 'The risk of a sharp market correction has increased'; equity valuations stretched especially for AI-focused tech; US valuations comparable to dot-com peak; flags opaque AI debt",
+        "value": null,
+        "unit": "qualitative",
+        "period": "2026-10",
+        "status": "reported",
+        "source_name": "Bank of England via Investment Week",
+        "source": "https://www.investmentweek.co.uk/news/4520148/boe-warns-ai-equity-bubble-valuations-downgraded",
+        "date": "2026-10-08"
+      },
+      {
+        "claim": "BIS Annual Economic Report 2026: AI-related firms account for nearly half of investment-grade bond issuance and 87% of venture-capital funding; warns the capex boom could turn into 'a protracted investment bust' (87 = VC share shown)",
+        "value": 87,
+        "unit": "percent of VC funding",
+        "period": "2026 H1",
+        "status": "reported",
+        "source_name": "BIS via Fortune",
+        "source": "https://fortune.com/2026/06/29/bis-central-bank-warning-hyperscaler-data-center-1-trillion-gamble-recession/",
+        "date": "2026-06-28"
+      },
+      {
+        "claim": "S&P 500 concentration: top-10 stocks' share of index market cap, record at end-2025",
+        "value": 40.7,
+        "unit": "percent",
+        "period": "2025 year-end",
+        "status": "reported",
+        "source_name": "Pensions & Investments via Walnut Invest",
+        "source": "https://walnutinvest.com/stats/market-concentration-statistics",
+        "date": "2026"
+      },
+      {
+        "claim": "S&P 500 concentration: top-10 share as of July 2026 (FactSet via Chase). October/November 2026 figure not found",
+        "value": 38,
+        "unit": "percent",
+        "period": "2026-07",
+        "status": "reported",
+        "source_name": "FactSet via J.P. Morgan Chase",
+        "source": "https://www.chase.com/personal/investments/learning-and-insights/article/sp-500-impact-of-magnificent-seven",
+        "date": "2026-07"
+      },
+      {
+        "claim": "JPMorgan basket of 41 AI-linked stocks as share of S&P 500 market cap (second-highest concentration on record)",
+        "value": 49,
+        "unit": "percent",
+        "period": "2026",
+        "status": "reported",
+        "source_name": "JPMorgan via Crypto Briefing",
+        "source": "https://cryptobriefing.com/ai-stocks-49-percent-sp-500-concentration/",
+        "date": "2026"
+      },
+      {
+        "claim": "AI contribution to US GDP growth, Q1 2026: Fed staff estimate AI-buildout components added 0.73pp of 2.1% annualized growth",
+        "value": 0.73,
+        "unit": "percentage points",
+        "period": "2026 Q1",
+        "status": "estimate",
+        "source_name": "Federal Reserve staff via Let's Data Science",
+        "source": "https://letsdatascience.com/news/ai-investment-drives-third-of-us-growth-fabeb7ac",
+        "date": "2026"
+      },
+      {
+        "claim": "AI contribution to US GDP growth, H1 2026 (UBS)",
+        "value": 0.75,
+        "unit": "percentage points",
+        "period": "2026 H1",
+        "status": "estimate",
+        "source_name": "UBS",
+        "source": "https://book.st-hakky.com/en/news/tech-giants-ai-spending-to-exceed-1-trillion-by-2027",
+        "date": "2026"
+      },
+      {
+        "claim": "AI contribution to US GDP growth, Q2 2026: ~0.75pp gross, but only 0.14pp after netting out imported equipment (Axios Macro)",
+        "value": 0.14,
+        "unit": "percentage points (net of imports)",
+        "period": "2026 Q2",
+        "status": "estimate",
+        "source_name": "Axios Macro",
+        "source": "https://www.axios.com/newsletters/axios-macro-fa6fcb30-8a85-11f1-98c8-25ee72e35854.html",
+        "date": "2026"
+      },
+      {
+        "claim": "AI contribution to US GDP growth, Q3 2026 (Morgan Stanley, secondary source, not verified against BEA)",
+        "value": 0.9,
+        "unit": "percentage points",
+        "period": "2026 Q3",
+        "status": "estimate",
+        "source_name": "Morgan Stanley via Crypto Briefing",
+        "source": "https://cryptobriefing.com/ai-spending-adds-0-9-points-us-gdp/",
+        "date": "2026-11"
+      },
+      {
+        "claim": "Goldman Sachs: AI spending adds only ~0.1pp to measured 2026 US GDP growth because much equipment is imported (sources disagree widely: 0.1 to ~1.4pp)",
+        "value": 0.1,
+        "unit": "percentage points",
+        "period": "2026",
+        "status": "estimate",
+        "source_name": "Goldman Sachs via Fortune",
+        "source": "https://fortune.com/2026/02/26/ai-capex-wealth-effect-tech-stocks-nvidia-third-us-gdp/",
+        "date": "2026-02-26"
+      },
+      {
+        "claim": "Big-five hyperscaler US corporate bond issuance, full-year 2025 (2020-2024 average ~$28B/yr)",
+        "value": 121,
+        "unit": "USD billions",
+        "period": "2025",
+        "status": "reported",
+        "source_name": "Bloomberg data via Crypto Briefing",
+        "source": "https://cryptobriefing.com/ai-hyperscalers-159b-debt-issuance/",
+        "date": "2026"
+      },
+      {
+        "claim": "Big-five hyperscaler bond issuance in the first five months of 2026 (+47% YoY; already above all of 2025). Full-year/Oct-2026 YTD total not found",
+        "value": 159,
+        "unit": "USD billions",
+        "period": "2026 Jan-May",
+        "status": "reported",
+        "source_name": "Bloomberg data via Crypto Briefing",
+        "source": "https://cryptobriefing.com/ai-hyperscalers-159b-debt-issuance/",
+        "date": "2026-06"
+      },
+      {
+        "claim": "Bank of America forecast of 2026 hyperscaler bond issuance (raised from $140B after Amazon's ~$54B sale; other projections: UBS cumulative $230-240B, some up to ~$400B)",
+        "value": 175,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "Bank of America via Rallies",
+        "source": "https://rallies.ai/news/amazon-raises-54-billion-in-bonds-bofa-sees-hyperscaler-debt-at-175-billion-in-2026",
+        "date": "2026-03"
+      },
+      {
+        "claim": "Morgan Stanley: global AI-related debt issuance expected in 2026 (about $236B raised by May 31)",
+        "value": 570,
+        "unit": "USD billions",
+        "period": "2026",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via Reuters/Kitco",
+        "source": "https://www.kitco.com/news/off-the-wire/2026-06-29/banks-get-creative-and-look-further-afield-ai-fueled-debt-soars",
+        "date": "2026-06-29"
+      },
+      {
+        "claim": "Bond issuance backing AI investment tops $250B (Morningstar)",
+        "value": 250,
+        "unit": "USD billions",
+        "period": "2026 YTD at publication",
+        "status": "reported",
+        "source_name": "Morningstar",
+        "source": "https://www.morningstar.com/bonds/bond-issuance-backing-ai-investment-tops-250b-testing-limits-voracious-investor-demand",
+        "date": "2026"
+      },
+      {
+        "claim": "Private placements through May 2026, strongest start since 2016 (Private Placement Monitor via Bloomberg); outstanding private-credit loans to AI-related companies >$200B",
+        "value": 81,
+        "unit": "USD billions",
+        "period": "2026 Jan-May",
+        "status": "reported",
+        "source_name": "Private Placement Monitor / Bloomberg via Reuters (Kitco)",
+        "source": "https://www.kitco.com/news/off-the-wire/2026-06-29/banks-get-creative-and-look-further-afield-ai-fueled-debt-soars",
+        "date": "2026-06-29"
+      },
+      {
+        "claim": "High-yield bonds for US AI infrastructure projects, first four months of 2026 (PitchBook)",
+        "value": 26.6,
+        "unit": "USD billions",
+        "period": "2026 Jan-Apr",
+        "status": "reported",
+        "source_name": "PitchBook via White & Case",
+        "source": "https://debtexplorer.whitecase.com/explorer/charticle/print/3704837",
+        "date": "2026-05"
+      },
+      {
+        "claim": "Meta-Blue Owl private-credit joint venture for the Hyperion campus (largest off-balance-sheet AI financing; ~$65B total off-balance-sheet per IESE)",
+        "value": 27,
+        "unit": "USD billions",
+        "period": "2025-2026",
+        "status": "reported",
+        "source_name": "IESE Insight",
+        "source": "https://www.iese.edu/insight/?p=22415",
+        "date": "2026"
+      },
+      {
+        "claim": "FSB (May 2026): AI-related private-credit loans could cause 'sizeable' credit losses; BofA fund-manager survey: 34% see AI hyperscaler spending as most likely source of a systemic credit event",
+        "value": 34,
+        "unit": "percent of fund managers",
+        "period": "2026-05",
+        "status": "reported",
+        "source_name": "FSB / BofA via Resultsense",
+        "source": "https://www.resultsense.com/news/2026-05-06-fsb-private-credit-ai-warning/",
+        "date": "2026-05-06"
+      },
+      {
+        "claim": "Investor demand for hyperscaler bonds cooling: cover ratios fell from ~5x (Feb 2026) to below 2x (Jul 2026) per Apollo",
+        "value": 2,
+        "unit": "x cover ratio (below)",
+        "period": "2026-07",
+        "status": "reported",
+        "source_name": "Apollo via AI2 Work",
+        "source": "https://ai2.work/blog/private-credit-bankrolls-the-ai-buildout-as-cover-ratios-thin",
+        "date": "2026-07"
+      },
+      {
+        "claim": "Michael Burry: five largest hyperscalers will understate depreciation by a cumulative $176B in 2026-2028 by assuming ~5-6 year GPU lives vs his 2-3 years (Burry holds short positions; counter-evidence: 3-year-old H100 contracts renewed within 5% of prior price)",
+        "value": 176,
+        "unit": "USD billions",
+        "period": "2026-2028",
+        "status": "estimate",
+        "source_name": "Michael Burry via Barchart",
+        "source": "https://www.barchart.com/story/news/36576792/how-fast-does-an-ai-chip-depreciate-and-why-does-it-matter-for-nvidia-stock",
+        "date": "2025-11"
+      },
+      {
+        "claim": "Circular financing: Nvidia-OpenAI letter of intent for up to $100B / 10 GW (Sept 2025) was non-binding and was replaced by a ~$30B Nvidia equity investment in OpenAI's Feb-2026 round; Nvidia AI equity bets top $40B in 2026",
+        "value": 30,
+        "unit": "USD billions",
+        "period": "2026-02",
+        "status": "reported",
+        "source_name": "The Next Web",
+        "source": "https://thenextweb.com/news/nvidia-40bn-ai-equity-investments-2026",
+        "date": "2026"
+      },
+      {
+        "claim": "Circular financing: OpenAI-Oracle compute contract (~5 years). No 2026 delivery/payment status found",
+        "value": 300,
+        "unit": "USD billions",
+        "period": "announced 2025-09",
+        "status": "reported",
+        "source_name": "SiliconANGLE",
+        "source": "https://siliconangle.com/2025/09/10/openai-oracle-strike-300b-cloud-computing-deal-power-ai/",
+        "date": "2025-09-10"
+      },
+      {
+        "claim": "Circular financing: AMD gave OpenAI warrants for up to 160M AMD shares (~10%) at $0.01 vesting as OpenAI deploys up to 6 GW of AMD GPUs from late 2026. Vesting status not found",
+        "value": 160,
+        "unit": "million shares",
+        "period": "announced 2025-10",
+        "status": "reported",
+        "source_name": "Implicator",
+        "source": "https://www.implicator.ai/openai-buys-amds-future-pays-in-equity/",
+        "date": "2025-10-06"
+      },
+      {
+        "claim": "Anthropic infrastructure commitments per S-1: at least $110B to Amazon cloud through Apr-2036 and up to $120.5B with SpaceX through 2029; last private round $65B at $965B post-money",
+        "value": 230.5,
+        "unit": "USD billions (110 + 120.5)",
+        "period": "2026-2036",
+        "status": "reported",
+        "source_name": "Anthropic S-1 via deeplearning.ai The Batch",
+        "source": "https://www.deeplearning.ai/the-batch/anthropic-opens-its-books/",
+        "date": "2026-10-26"
+      },
+      {
+        "claim": "Free cash flow strain (Q2 2026): Alphabet reported its first-ever negative free cash flow, Amazon -$7.6B, Meta FCF down 91% YoY",
+        "value": -7.6,
+        "unit": "USD billions (Amazon Q2 2026 FCF)",
+        "period": "2026 Q2",
+        "status": "reported",
+        "source_name": "MoneyWeek",
+        "source": "https://moneyweek.com/investments/tech-stocks/ai-spend-continues-to-soar-when-will-investors-be-rewarded",
+        "date": "2026-08"
+      },
+      {
+        "claim": "2026 'SaaSpocalypse / AI eats software': iShares Expanded Tech-Software ETF (IGV) down more than 27% YTD on 2026-04-09, lowest close since Nov 2023; Q1 2026 was its steepest quarterly drop (-24%) since Q4 2008; triggered by AI-agent launches (Anthropic Claude Cowork, OpenAI Frontier) and fears for per-seat pricing",
+        "value": -27,
+        "unit": "percent YTD",
+        "period": "2026-04-09",
+        "status": "reported",
+        "source_name": "Bloomberg",
+        "source": "https://www.bloomberg.com/news/articles/2026-04-09/software-slumps-again-with-growth-hopes-dashed-on-the-rocks",
+        "date": "2026-04-09"
+      },
+      {
+        "claim": "IGV year-to-date as of late July 2026 (partial recovery). November 2026 level not found",
+        "value": -11,
+        "unit": "percent YTD",
+        "period": "2026-07-30",
+        "status": "reported",
+        "source_name": "The Motley Fool",
+        "source": "https://www.fool.com/investing/2026/07/30/meet-etf-stocks-palantir-microsoft-salesforce-ai/",
+        "date": "2026-07-30"
+      }
+    ],
+    "h2_2026_events": [
+      {
+        "claim": "Q2 2026 earnings (late July): split market reaction to AI capex. Microsoft +15% in a day (best session since 2008); Alphabet -6% to -7% after first negative FCF; Amazon raised 2026 capex to ~$220B from $200B",
+        "value": 15,
+        "unit": "percent (Microsoft one-day move)",
+        "period": "2026-07",
+        "status": "reported",
+        "source_name": "WealthProfessional / MoneyWeek",
+        "source": "https://www.wealthprofessional.ca/investments/equity-markets/big-techs-ai-spending-clouds-the-earnings-picture/393161",
+        "date": "2026-07-31"
+      },
+      {
+        "claim": "Intuit 'strategic reset': FY2027 growth guided to 9-10%, 17% workforce cut; shares ~-9% after hours",
+        "value": -9,
+        "unit": "percent",
+        "period": "2026-08-25",
+        "status": "reported",
+        "source_name": "Fortune",
+        "source": "https://fortune.com/2026/08/26/intuit-hits-record-milestone-20-billion-revenue-sets-stage-strategic-pullback-cfo/",
+        "date": "2026-08-26"
+      },
+      {
+        "claim": "Dell'Oro nearly doubles its 2030 data-center capex forecast to >$3T",
+        "value": 3000,
+        "unit": "USD billions",
+        "period": "2026-08-18",
+        "status": "forecast",
+        "source_name": "Dell'Oro Group",
+        "source": "https://delloro.com/news/ai-buildout-maintains-momentum-as-data-center-capex-surpasses-3-trillion-by-2030",
+        "date": "2026-08-18"
+      },
+      {
+        "claim": "OpenAI annualized revenue nears $70B (Axios); OpenAI IPO timing unconfirmed in this research",
+        "value": 70,
+        "unit": "USD billions (annualized)",
+        "period": "2026-09-29",
+        "status": "reported",
+        "source_name": "Axios",
+        "source": "https://axios.com/2026/09/29/scoop-openais-annual-recurring-revenue-nears-70b",
+        "date": "2026-09-29"
+      },
+      {
+        "claim": "Nasdaq Composite record close on 2026-10-06 (reference point for the subsequent correction)",
+        "value": null,
+        "unit": "index level not captured",
+        "period": "2026-10-06",
+        "status": "reported",
+        "source_name": "AP via Boston.com",
+        "source": "https://www.boston.com/news/national-news/2026/11/05/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-4-4/",
+        "date": "2026-11-05"
+      },
+      {
+        "claim": "IMF GFSR and Bank of England FPC both warn of a sharp AI-driven market correction",
+        "value": null,
+        "unit": "qualitative",
+        "period": "2026-10-08 to 2026-10-13",
+        "status": "reported",
+        "source_name": "IMF / Bank of England",
+        "source": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/execsum.pdf",
+        "date": "2026-10-13"
+      },
+      {
+        "claim": "Anthropic publicly files S-1 for a Nasdaq IPO (ticker ANT); press expects $1.5-2T valuation (midpoint not computed; lower bound shown); last private valuation $965B",
+        "value": 1500,
+        "unit": "USD billions (lower bound of reported expected valuation)",
+        "period": "2026-10-26",
+        "status": "reported",
+        "source_name": "Verdict / WealthProfessional",
+        "source": "https://www.wealthprofessional.ca/investments/equity-markets/anthropic-files-for-ipo-as-ai-giant-nears-1t-valuation/392598",
+        "date": "2026-10-26"
+      },
+      {
+        "claim": "Alphabet shares fall 12.6% in one day (worst day since its 2004 IPO, ~$500B of value) after Q3 results: negative free cash flow, quarterly capex >$51B and guidance for 'significantly' higher 2027 capex, despite cloud growth",
+        "value": -12.6,
+        "unit": "percent",
+        "period": "2026-10-29",
+        "status": "reported",
+        "source_name": "Fortune / AP",
+        "source": "https://fortune.com/2026/10/29/alphabet-stock-worst-day-sp-500-nasdaq-dow/",
+        "date": "2026-10-29"
+      },
+      {
+        "claim": "Microsoft lowers calendar-2026 capex to ~$170B (from ~$190B) citing delays in third-party data-center capacity",
+        "value": 170,
+        "unit": "USD billions",
+        "period": "2026-10-28",
+        "status": "guidance",
+        "source_name": "The Motley Fool",
+        "source": "https://www.fool.com/research/ai-companies-spending-on-data-centers",
+        "date": "2026-11-04"
+      },
+      {
+        "claim": "Tesla cuts 2026 capex outlook to ~$20B from >$25B",
+        "value": 20,
+        "unit": "USD billions",
+        "period": "2026-10-21",
+        "status": "guidance",
+        "source_name": "Electrek",
+        "source": "https://electrek.co/2026-10-21/tesla-tsla-q3-2026-financial-results/",
+        "date": "2026-10-21"
+      },
+      {
+        "claim": "US midterm elections: voters approved bans/pauses/restrictions on data centers in 38 of 41 local ballot measures (later tallies: 40 of 41); incoming governors in Texas and Ohio back data-center moratoria",
+        "value": 38,
+        "unit": "ballot measures approved (of 41)",
+        "period": "2026-11-03",
+        "status": "reported",
+        "source_name": "Fast Company / Ballotpedia",
+        "source": "https://www.fastcompany.com/91635527/",
+        "date": "2026-11-04"
+      },
+      {
+        "claim": "AI rout of 2026-11-05: S&P 500 -4.4% to 7,353.73 (worst day since April 2025)",
+        "value": -4.4,
+        "unit": "percent",
+        "period": "2026-11-05",
+        "status": "reported",
+        "source_name": "AP via Boston.com",
+        "source": "https://www.boston.com/news/national-news/2026/11/05/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-4-4/",
+        "date": "2026-11-05"
+      },
+      {
+        "claim": "AI rout of 2026-11-05: Nasdaq Composite -5.5% to 24,315.00, 11.9% below its October record (correction territory); Reuters: ~$2.5T of Nasdaq value erased; Nasdaq 100 -6.4%",
+        "value": -5.5,
+        "unit": "percent",
+        "period": "2026-11-05",
+        "status": "reported",
+        "source_name": "AP via Boston.com",
+        "source": "https://www.boston.com/news/national-news/2026/11/05/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-4-4/",
+        "date": "2026-11-05"
+      },
+      {
+        "claim": "AI rout of 2026-11-05: Nvidia -9.3% (about $448B of value; turned negative for 2026, -2.6% YTD), AMD -17.3%, CoreWeave -9.8%, GE Vernova -7.5%; AppLovin +31% on earnings",
+        "value": -9.3,
+        "unit": "percent (Nvidia)",
+        "period": "2026-11-05",
+        "status": "reported",
+        "source_name": "AP via Boston.com",
+        "source": "https://www.boston.com/news/national-news/2026/11/05/a-brutal-sell-off-for-ai-stocks-sends-wall-street-reeling-and-the-sp-500-tumbles-4-4/",
+        "date": "2026-11-05"
+      },
+      {
+        "claim": "Estimated Nasdaq market value erased on 2026-11-05 (Reuters)",
+        "value": 2500,
+        "unit": "USD billions",
+        "period": "2026-11-05",
+        "status": "estimate",
+        "source_name": "Reuters via Express Tribune",
+        "source": "https://tribune.com.pk/story/2639009/investors-wipe-25t-off-nasdaq-as-blue-tsunami-prompts-ai-fears",
+        "date": "2026-11-06"
+      },
+      {
+        "claim": "Partial rebound: Nasdaq Composite +2.7% to 25,253.14 and S&P 500 +2.4% to 7,549.94 on 2026-11-09 (S&P had closed 7,376.86 on 2026-11-06)",
+        "value": 2.7,
+        "unit": "percent (Nasdaq)",
+        "period": "2026-11-09",
+        "status": "reported",
+        "source_name": "Zacks",
+        "source": "https://www.zacks.com/stock/news/3026944/stock-market-news-for-nov-10-2026",
+        "date": "2026-11-10"
+      },
+      {
+        "claim": "Morgan Stanley keeps hyperscaler capex forecasts unchanged after the midterms ($1.6T 2027 / $1.8T 2028; $3.4T through 2028) and says 'buy the AI dip'",
+        "value": 3400,
+        "unit": "USD billions (2027+2028)",
+        "period": "2026-11-08",
+        "status": "forecast",
+        "source_name": "Morgan Stanley via InvestingLive",
+        "source": "https://investinglive.com/stocks/morgan-stanley-says-buy-the-ai-dip-sees-3-4-trillion-in-hyperscaler-spending-through-2028/",
+        "date": "2026-11-08"
+      },
+      {
+        "claim": "Upcoming catalyst: Nvidia reports fiscal Q3 (quarter ended 2026-10-25) on 2026-11-17; not yet reported as of this file",
+        "value": null,
+        "unit": "n/a",
+        "period": "2026-11-17",
+        "status": "guidance",
+        "source_name": "Industry.co.id",
+        "source": "https://www.industry.co.id/read/158536/gelembung-ai-mulai-kempis-nasdaq-koreksi-10-ini-pemicunya",
+        "date": "2026-11"
+      }
+    ],
+    "energy": [
+      {
+        "claim": "IEA 'Key Questions on Energy and AI' (April 2026 update): global data-centre electricity consumption",
+        "value": 485,
+        "unit": "TWh",
+        "period": "2025",
+        "status": "estimate",
+        "source_name": "IEA",
+        "source": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+        "date": "2026-04"
+      },
+      {
+        "claim": "IEA (April 2026 update): data-centre electricity consumption roughly doubles by 2030, ~3% of global demand (2025 edition said 945 TWh)",
+        "value": 950,
+        "unit": "TWh",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "IEA",
+        "source": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+        "date": "2026-04"
+      },
+      {
+        "claim": "IEA: data-centre electricity demand growth in 2025 (secondary coverage says +17%; an IEA deck says 'almost 20%') vs ~3% for total electricity demand",
+        "value": 17,
+        "unit": "percent",
+        "period": "2025",
+        "status": "estimate",
+        "source_name": "IEA via AI2 Work",
+        "source": "https://ai2.work/blog/iea-warns-ai-data-center-power-surged-17-as-grid-strain-mounts",
+        "date": "2026"
+      },
+      {
+        "claim": "BloombergNEF: forecast installed US data-center capacity in 2030 (up 52% vs its Dec-2025 forecast); 194 GW by 2035; announced US pipeline grew a further 101 GW since Dec 2025",
+        "value": 118,
+        "unit": "GW",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "BloombergNEF",
+        "source": "https://about.bnef.com/insights/data-centers/six-things-to-know-about-bnefs-new-us-data-center-capacity-outlook/",
+        "date": "2026-07"
+      },
+      {
+        "claim": "BloombergNEF: announced on-site gas generation projects at US data centers (many without timelines)",
+        "value": 165,
+        "unit": "GW",
+        "period": "2026",
+        "status": "reported",
+        "source_name": "BloombergNEF",
+        "source": "https://about.bnef.com/insights/data-centers/six-things-to-know-about-bnefs-new-us-data-center-capacity-outlook/",
+        "date": "2026-07"
+      },
+      {
+        "claim": "S&P Global / 451 Research: US data-center grid power demand by 2030 (nearly triple 2025)",
+        "value": 183.2,
+        "unit": "GW",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "S&P Global Market Intelligence",
+        "source": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/6/data-center-power-demand-to-more-than-double-by-2030-s-p-webinar-102727689",
+        "date": "2026-06"
+      },
+      {
+        "claim": "Bain (2025): incremental global AI compute demand could reach 200 GW by 2030, half in the US",
+        "value": 200,
+        "unit": "GW",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "Bain & Company via Bloomberg",
+        "source": "https://www.bloomberg.com/news/articles/2025-09-23/an-800-billion-revenue-shortfall-threatens-ai-future-bain-says",
+        "date": "2025-09-23"
+      },
+      {
+        "claim": "Citi (2025): global AI compute demand needs 55 GW of new power capacity by 2030 (~$2.8T incremental spend, $1.4T in the US)",
+        "value": 55,
+        "unit": "GW",
+        "period": "2030",
+        "status": "forecast",
+        "source_name": "Citigroup via Reuters/Malay Mail",
+        "source": "https://www.malaymail.com/news/money/2025/09/30/citigroup-ups-big-tech-ai-infrastructure-spending-outlook-to-us28t-amid-data-centre-race/192935",
+        "date": "2025-09-30"
+      },
+      {
+        "claim": "Stargate (OpenAI/Oracle/SoftBank): announced planned capacity ~7 GW after five new US sites (Sept 2025), target 10 GW / $500B",
+        "value": 7,
+        "unit": "GW (planned)",
+        "period": "announced 2025-09",
+        "status": "reported",
+        "source_name": "Data Center Frontier",
+        "source": "https://www.datacenterfrontier.com/machine-learning/article/55319132/scaling-stargate-openais-five-new-us-data-centers-push-toward-10-gw-ai-infrastructure",
+        "date": "2025-09"
+      },
+      {
+        "claim": "Stargate actually operating: Abilene, TX ~0.6 GW operating as of April 2026 (Epoch AI; an earlier Epoch page said 0.3 GW), campus designed for 1.2 GW; expansion beyond 1.2 GW dropped in March 2026; other six US sites had zero operating capacity; projected >9 GW by 2029. October 2026 operating total not found",
+        "value": 0.6,
+        "unit": "GW (operating)",
+        "period": "2026-04",
+        "status": "estimate",
+        "source_name": "Epoch AI",
+        "source": "https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand",
+        "date": "2026-04"
+      },
+      {
+        "claim": "Nvidia-OpenAI letter of intent covered at least 10 GW of Nvidia systems; AMD-OpenAI up to 6 GW; Oracle-OpenAI up to 4.5 GW (announced capacity, largely unbuilt)",
+        "value": 10,
+        "unit": "GW (Nvidia LOI)",
+        "period": "announced 2025-09",
+        "status": "reported",
+        "source_name": "Data Center Frontier",
+        "source": "https://www.datacenterfrontier.com/machine-learning/article/55318633/nvidia-and-openai-forge-100b-alliance-to-power-the-next-ai-revolution",
+        "date": "2025-09"
+      }
+    ]
+  },
+  "notes": [
+    "Company revenue/net income come from stockanalysis.com income-statement tables (aggregated from SEC/IFRS filings), fetched 2026-11-13. Fiscal-year labels follow the provider: for Jan-FYE companies (Salesforce, Snowflake, Workday) FY2026 ended 2026-01-31; Intuit FY2026 ended 2026-07-31; Accenture FY2026 ended 2026-08-31; Apple FY2026 ended 2026-09-26; Adobe FY2025 ended 2025-11-28. Each entry carries period_end. SAP is in EUR millions; all others USD millions.",
+    "Market cap for 2022-11-30 is an ESTIMATE: reported 2022-12-30 market cap scaled by the 11-30/12-30 closing-price ratio (no daily historical market-cap source was accessible). The reported 2022-12-30 value is included alongside. stock_change_pct is a price return computed from Yahoo Finance split-adjusted closes (2022-11-30 vs 2026-11-12), excluding dividends.",
+    "ChatGPT launched 2022-11-30, hence the reference date.",
+    "No number was interpolated. null means not found or not disclosed. Several macro items are only available via secondary outlets or aggregators (named in source_name); items flagged 'secondary source' or 'verify' in the claim text should be checked against the primary document before publication.",
+    "Source disagreements: (1) hyperscaler capex totals differ by scope (4 vs 5 companies, SpaceX/Oracle inclusion, finance leases): 2024 = $224B/$245B/$251B; 2025 = $410B/$413B; 2026 guidance = $720-740B (big four) vs $803-828B (incl. SpaceX) vs Morgan Stanley $980B (hyperscalers + neoclouds incl. leases). (2) 2027 forecasts: Goldman $1.2T (5 cos.) vs Morgan Stanley $1.58T (incl. neoclouds and leases) vs MS five-company $1.2-1.32T. (3) AI contribution to US GDP growth ranges from 0.1pp (Goldman, net of imports) to ~0.9pp per quarter (gross). (4) IMF downside-scenario figures differ across press coverage. (5) Census BTOS AI-use rate: 19.8% (Census, May) vs 19.5% (secondary) and 24.6% (Oct, secondary only); question wording changed in Nov 2025. (6) Generative-AI revenue estimates differ ~40x by scope ($80-120B 'direct' vs $175B annualized gen-AI economy vs $2.67T Gartner 'AI spending'). (7) Nasdaq 2026-11-05: Composite -5.5% (AP) vs Nasdaq 100 -6.4%. (8) IBM Q3 2026 revenue growth +5.7% vs +4.7%; Shopify Q4 guidance low-30s vs mid/high-20s.",
+    "Not found: big-four capex for 2022 from a citable source; Bank of America and Citi 2027-specific capex forecasts (2026 vintage); Synergy hyperscale-capex figure; a16z revenue-gap estimate; Menlo Ventures 2026 update; MIT NANDA 2026 follow-up; Stanford AI Index 2026 organizational adoption rate; total data-center debt issuance for full-year 2026 / YTD October; S&P 500 top-10 weight for Oct-Nov 2026; IGV level in November 2026; Microsoft/AWS AI run-rates after Q1 2026; status of AMD-OpenAI warrant vesting and Oracle-OpenAI contract; Stargate operating GW as of Q4 2026; dollar values for Adobe AI-first ARR, ServiceNow Now Assist ACV, SAP Business AI, Snowflake AI revenue, IBM gen-AI book after Q4 2025, Accenture advanced-AI bookings after Q1 FY2026.",
+    "Not yet reported as of 2026-11-13: Salesforce Q3 FY2027, Snowflake Q3 FY2027, Workday Q3 FY2027, Intuit Q1 FY2027, Adobe Q4 FY2026, Accenture Q1 FY2027, Nvidia fiscal Q3 (due 2026-11-17)."
+  ]
+}

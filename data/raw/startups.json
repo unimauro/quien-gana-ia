@@ -1,0 +1,2791 @@
+{
+  "as_of": "2026-11-13",
+  "units": {
+    "money": "USD billions unless a *_local field says otherwise",
+    "users": "absolute counts"
+  },
+  "status_legend": {
+    "reported": "company-confirmed (press release, filing, executive statement) - sometimes read via a secondary summary",
+    "press": "media report citing sources / leaked documents",
+    "estimate": "third-party tracker, analyst estimate, currency conversion or derived figure",
+    "verified_in_session=false": "well-known historical figure included from background knowledge; the URL (if any) was NOT re-checked during this research session"
+  },
+  "companies": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "country": "US",
+      "type": "lab",
+      "status": "private (confidential S-1 reportedly submitted May/June 2026; Altman said no IPO in 2026; listing expected 2027 at the earliest)",
+      "profitable": false,
+      "total_funding": {
+        "value": 178,
+        "status": "estimate",
+        "source": "https://www.gradually.ai/en/openai-statistics/",
+        "note": "Aggregator figure for total capital raised across all rounds after the $122B round; not company-confirmed. Sacra shows the same $178B in its header."
+      },
+      "latest_round": {
+        "date": "2026-03-31",
+        "amount": 122,
+        "post_money_valuation": 852,
+        "lead_investors": [
+          "SoftBank (co-lead)",
+          "Andreessen Horowitz (co-lead)",
+          "D. E. Shaw Ventures (co-lead)",
+          "Amazon (up to $50B)",
+          "Nvidia ($30B)",
+          "SoftBank ($30B)",
+          "Microsoft"
+        ],
+        "status": "reported",
+        "source": "https://www.verdict.co.uk/openai-122bn-funding-round/",
+        "note": "Largest private round on record; included ~$3B from retail investors via bank channels. As of 2026-10-01 OpenAI was in early talks to raise >=$30B at ~$1.4T pre-money (MGX among possible anchors); no term sheet signed."
+      },
+      "valuations": [
+        {
+          "date": "2023-04",
+          "value": 29,
+          "status": "press",
+          "source": "https://techcrunch.com/2023/04/28/openai-funding-valuation-chatgpt/",
+          "note": "Tender/share sale at $27-29B.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2024-02",
+          "value": 86,
+          "status": "press",
+          "source": "https://cryptobriefing.com/openai-valuation-surges-766-percent/",
+          "note": "Employee tender offer valuation."
+        },
+        {
+          "date": "2024-10",
+          "value": 157,
+          "status": "reported",
+          "source": "https://openai.com/index/scale-the-benefits-of-ai/",
+          "note": "$6.6B round.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-03",
+          "value": 300,
+          "status": "reported",
+          "source": "https://openai.com/index/march-funding-updates/",
+          "note": "$40B round led by SoftBank.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-10",
+          "value": 500,
+          "status": "press",
+          "source": null,
+          "note": "Employee secondary sale at $500B; widely reported (Reuters/Bloomberg/CNBC) but source URL not captured in this session.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2026-03-31",
+          "value": 852,
+          "status": "reported",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/openai-closes-122-billion-funding-010940572.html",
+          "note": "Post-money, $122B round."
+        },
+        {
+          "date": "2026-09-15",
+          "value": 1200,
+          "status": "press",
+          "source": "https://thenextweb.com/news/openai-valuation-1-4tn-30bn-round-revenue-70bn",
+          "note": "Bloomberg: round being considered at $1.2T. Talks only, not a priced round."
+        },
+        {
+          "date": "2026-09-29",
+          "value": 1400,
+          "status": "press",
+          "source": "https://thenextweb.com/news/openai-valuation-1-4tn-30bn-round-revenue-70bn",
+          "note": "Talks to raise >=$30B at ~$1.4T pre-money. Not closed as of early Oct 2026."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2022",
+          "value": 0.2,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://sacra.com/c/openai/"
+        },
+        {
+          "date": "2023",
+          "value": 2.0,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://sacra.com/c/openai/"
+        },
+        {
+          "date": "2024",
+          "value": 3.7,
+          "kind": "annual",
+          "status": "press",
+          "source": "https://www.kucoin.com/news/flash/leaked-documents-reveal-openai-s-2025-financials-13-07b-revenue-38-53b-net-loss",
+          "note": "Annual revenue per leaked financials."
+        },
+        {
+          "date": "2024-12",
+          "value": 6.0,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://sacra.com/c/openai/"
+        },
+        {
+          "date": "2025-06",
+          "value": 10.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.nbcsandiego.com/news/business/money-report/openai-hits-10-billion-in-annual-recurring-revenue-fueled-by-chatgpt-growth/3843568/",
+          "note": "Company told CNBC it hit $10B ARR."
+        },
+        {
+          "date": "2025",
+          "value": 13.07,
+          "kind": "annual",
+          "status": "press",
+          "source": "https://www.kucoin.com/news/flash/leaked-documents-reveal-openai-s-2025-financials-13-07b-revenue-38-53b-net-loss",
+          "note": "Leaked (reportedly audited) 2025 financials; beat internal $10B target."
+        },
+        {
+          "date": "2025-12",
+          "value": 20.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/",
+          "note": "OpenAI started 2026 at $20B annualized."
+        },
+        {
+          "date": "2026-02",
+          "value": 25.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.gradually.ai/en/openai-statistics/",
+          "note": "More than $25B annualized at end of Feb 2026; ~$2B monthly revenue cited at the March round."
+        },
+        {
+          "date": "2026-Q1",
+          "value": 5.7,
+          "kind": "quarterly",
+          "status": "press",
+          "source": "https://sacra.com/c/openai/",
+          "note": "Quarterly recognized revenue, not annualized."
+        },
+        {
+          "date": "2026-Q2",
+          "value": 6.7,
+          "kind": "quarterly",
+          "status": "press",
+          "source": "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/",
+          "note": "Quarterly recognized revenue (vs Anthropic $11.5B in the same quarter)."
+        },
+        {
+          "date": "2026-08",
+          "value": 40.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://thenextweb.com/news/openai-valuation-1-4tn-30bn-round-revenue-70bn",
+          "note": "Bloomberg (Aug 13): run rate topped $40B."
+        },
+        {
+          "date": "2026-09-30",
+          "value": 50.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/",
+          "note": "~$50B per OpenAI investor disclosures, NET of cloud-partner share. Unaudited."
+        },
+        {
+          "date": "2026-09-29",
+          "value": 70.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://thenextweb.com/news/openai-valuation-1-4tn-30bn-round-revenue-70bn",
+          "note": "Axios: 'nearing $70B' counts cloud-partner sales GROSS (Anthropic's method). A source said the figure did not come from OpenAI. Conflicts with the $50B net figure. $70B+ is OpenAI's year-end 2026 target."
+        }
+      ],
+      "losses": [
+        {
+          "period": "2025",
+          "value": 38.5,
+          "metric": "net_loss",
+          "status": "press",
+          "source": "https://www.kucoin.com/news/flash/leaked-documents-reveal-openai-s-2025-financials-13-07b-revenue-38-53b-net-loss",
+          "note": "Net loss $38.53B on $13.07B revenue; ~$30B is one-time/non-cash (for-profit conversion). One outlet cites up to ~$60B before non-controlling interests."
+        },
+        {
+          "period": "2025",
+          "value": 20.9,
+          "metric": "operating_loss",
+          "status": "press",
+          "source": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
+          "note": "Operating loss; total costs ~$34B (R&D $19.18B)."
+        },
+        {
+          "period": "2025",
+          "value": 8.0,
+          "metric": "cash_burn",
+          "status": "press",
+          "source": "https://techstrong.ai/articles/openais-fast-growing-revenues-outpaced-by-massive-scale-of-losses-ahead-of-expected-ipo/",
+          "note": "Out-of-pocket cash burn after stripping non-cash items, stock comp and Microsoft compute credits (FT source)."
+        },
+        {
+          "period": "2026-Q1",
+          "value": 3.7,
+          "metric": "cash_burn",
+          "status": "press",
+          "source": "https://dev.to/tekmag/openai-burned-37-billion-in-q1-2026-as-1-trillion-ipo-looms-1f0g",
+          "note": "Cash burn in Q1 2026."
+        },
+        {
+          "period": "2026 (projected)",
+          "value": 27.0,
+          "metric": "cash_burn_projection",
+          "status": "press",
+          "source": "https://techstrong.ai/articles/openais-fast-growing-revenues-outpaced-by-massive-scale-of-losses-ahead-of-expected-ipo/",
+          "note": "Projected cash burn ~$25-27B in 2026 after renegotiated Microsoft deal."
+        },
+        {
+          "period": "2027 (projected)",
+          "value": 63.0,
+          "metric": "cash_burn_projection",
+          "status": "press",
+          "source": "https://techstrong.ai/articles/openais-fast-growing-revenues-outpaced-by-massive-scale-of-losses-ahead-of-expected-ipo/",
+          "note": "Projected cash burn."
+        },
+        {
+          "period": "2026-2030 (projected)",
+          "value": 278.0,
+          "metric": "cumulative_negative_fcf_projection",
+          "status": "press",
+          "source": "https://sacra.com/c/openai/",
+          "note": "FT (Sep 2026): cumulative negative free cash flow of $278B over 2026-2030; could exhaust the $122B raised by 2028. Positive cash flow not expected until 2030."
+        }
+      ],
+      "compute_commitments": [
+        {
+          "counterparty": "TOTAL (Altman, Nov 2025)",
+          "value": 1400,
+          "years": "~8 years; ~30 GW",
+          "status": "press",
+          "source": "https://www.implicator.ai/openai-pays-amazon-38-billion-to-escape-microsoft/",
+          "note": "Headline ~$1.4T / ~30 GW of commitments. Itemised public deals sum to ~$1.1-1.15T (Tunguz)."
+        },
+        {
+          "counterparty": "Oracle (Stargate)",
+          "value": 300,
+          "years": "~5 years from 2027",
+          "status": "press",
+          "source": "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+        },
+        {
+          "counterparty": "Microsoft Azure",
+          "value": 250,
+          "years": "incremental, multi-year (announced Oct 2025)",
+          "status": "reported",
+          "source": "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+        },
+        {
+          "counterparty": "Amazon Web Services",
+          "value": 38,
+          "years": "7 years from Nov 2025",
+          "status": "reported",
+          "source": "https://www.implicator.ai/openai-pays-amazon-38-billion-to-escape-microsoft/"
+        },
+        {
+          "counterparty": "CoreWeave",
+          "value": 22.4,
+          "years": "multi-year",
+          "status": "reported",
+          "source": "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+        },
+        {
+          "counterparty": "Nvidia",
+          "value": 100,
+          "years": "up to $100B Nvidia investment tied to 10 GW of systems",
+          "status": "reported",
+          "source": "https://the-decoder.com/openai-has-now-signed-1-trillion-worth-of-ai-infrastructure-contracts/",
+          "note": "Investment by Nvidia, to be spent on Nvidia chips; staged."
+        },
+        {
+          "counterparty": "AMD",
+          "value": 90,
+          "years": "6 GW multi-year; AMD warrants to OpenAI",
+          "status": "estimate",
+          "source": "https://tomtunguz.com/openai-hardware-spending-2025-2035/",
+          "note": "Dollar value is an analyst estimate."
+        },
+        {
+          "counterparty": "Broadcom",
+          "value": 350,
+          "years": "10 GW custom accelerators",
+          "status": "estimate",
+          "source": "https://tomtunguz.com/openai-hardware-spending-2025-2035/",
+          "note": "Dollar value is an analyst estimate (+/-30-50%), not disclosed."
+        },
+        {
+          "counterparty": "RESET: compute spend target through 2030 (Feb 2026)",
+          "value": 600,
+          "years": "through 2030",
+          "status": "press",
+          "source": "https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html",
+          "note": "OpenAI told investors ~$600B total compute spend by 2030, down from the $1.4T talk."
+        },
+        {
+          "counterparty": "Purchase commitments on balance-sheet notes (as of 2026-03-31)",
+          "value": 665,
+          "years": "long-term (Microsoft, Oracle, Amazon, Stargate)",
+          "status": "press",
+          "source": "https://augment.market/pulse/openai-reportedly-0-debt-665b-in-commitments",
+          "note": "The Information via TNW; unaudited; zero debt reported."
+        },
+        {
+          "counterparty": "UPDATED: planned cloud spend through 2030 (Sep 2026)",
+          "value": 750,
+          "years": "through 2030",
+          "status": "press",
+          "source": "https://247wallst.com/investing/2026/09/09/openai-to-spend-750-billion-on-compute-by-2030-but-its-short-on-capacity/"
+        },
+        {
+          "counterparty": "2026 compute spend (Brockman testimony)",
+          "value": 50,
+          "years": "2026",
+          "status": "reported",
+          "source": "https://qz.com/openai-computing-spending-50-billion-brockman-trial-050526"
+        }
+      ],
+      "users": [
+        {
+          "date": "2026-02",
+          "metric": "ChatGPT weekly active users",
+          "value": 900000000.0,
+          "status": "reported",
+          "source": "https://www.roic.ai/news/openais-chatgpt-surpasses-900-million-weekly-users-50-million-paying-subscribers-02-27-2026"
+        },
+        {
+          "date": "2026-02",
+          "metric": "paying consumer subscribers",
+          "value": 50000000.0,
+          "status": "reported",
+          "source": "https://www.roic.ai/news/openais-chatgpt-surpasses-900-million-weekly-users-50-million-paying-subscribers-02-27-2026"
+        },
+        {
+          "date": "2026-02",
+          "metric": "paying business users (seats)",
+          "value": 9000000.0,
+          "status": "press",
+          "source": "https://sacra.com/c/openai/"
+        },
+        {
+          "date": "2026-08",
+          "metric": "ChatGPT weekly active users",
+          "value": 1000000000.0,
+          "status": "press",
+          "source": "https://aimagazine.com/news/openais-billion-users-us-852bn-valuation-and-stargate",
+          "note": "One tracker says the 1B figure was not confirmed by OpenAI."
+        },
+        {
+          "date": "2026-08",
+          "metric": "business customers (organizations)",
+          "value": 2000000.0,
+          "status": "press",
+          "source": "https://aimagazine.com/news/openais-billion-users-us-852bn-valuation-and-stargate",
+          "note": "Other sources still cite >1M (Nov/Dec 2025)."
+        },
+        {
+          "date": "2026-11-02",
+          "metric": "ChatGPT weekly active users",
+          "value": 1200000000.0,
+          "status": "press",
+          "source": "https://sacra.com/c/openai/"
+        }
+      ],
+      "notes": [
+        "Sources disagree on run-rate: ~$50B (net of partner share, OpenAI disclosures) vs ~$70B (gross, Axios). Use $50B for like-for-like with recognized revenue; Anthropic reports gross.",
+        "Cancelled GPT-6.1 Astra launch on 2026-09-28 after failing internal safety tests (TNW).",
+        "Sora consumer app shut down in spring 2026 (dates differ: March vs April 26) amid high compute cost.",
+        "Gross margin ~33%; inference cost $8.4B in 2025, projected $14.1B in 2026 (Sacra).",
+        "Ads reached ~$1B annualized by Aug 2026 (Sacra)."
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "country": "US",
+      "type": "lab",
+      "status": "IPO filed (public S-1 2026-10-26; Nasdaq ticker ANT; 825M shares at $70-78; pricing expected 2026-11-18, trading 2026-11-19 - not yet priced as of 2026-11-13)",
+      "profitable": false,
+      "total_funding": {
+        "value": 125,
+        "status": "estimate",
+        "source": "https://sacra.com/c/anthropic/",
+        "note": "Sacra: ~$125B raised to date. Cash-flow statement shows $128.6B of preferred-share sales 2023-9M 2026 (derived by Midgard from the S-1). IPO would add up to $64.35B plus a $26B concurrent private placement."
+      },
+      "latest_round": {
+        "date": "2026-05-28",
+        "amount": 65,
+        "post_money_valuation": 965,
+        "lead_investors": [
+          "Altimeter Capital",
+          "Dragoneer",
+          "Greenoaks",
+          "Sequoia Capital"
+        ],
+        "status": "reported",
+        "source": "https://finance.yahoo.com/sectors/technology/articles/anthropic-vaults-965-billion-valuation-191826779.html",
+        "note": "Series H. Pending IPO: up to $64.35B at up to $1.405T fully diluted, plus $26B Class N private placement to AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC at the IPO price."
+      },
+      "valuations": [
+        {
+          "date": "2023-05",
+          "value": 4.1,
+          "status": "press",
+          "source": null,
+          "note": "Series C; widely reported, URL not captured in this session.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2024-02",
+          "value": 18.4,
+          "status": "press",
+          "source": null,
+          "note": "Widely reported early-2024 valuation; URL not captured in this session.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-03",
+          "value": 61.5,
+          "status": "reported",
+          "source": "https://venturebeat.com/ai/anthropic-raises-3-5-billion-reaching-61-5-billion-valuation-as-ai-investment-frenzy-continues",
+          "note": "Series E, $3.5B."
+        },
+        {
+          "date": "2025-09",
+          "value": 183,
+          "status": "reported",
+          "source": "https://www.constellationr.com/blog-news/insights/anthropic-lands-183-billion-valuation-hits-5-billion-annual-revenue-run-rate",
+          "note": "Series F, $13B, led by ICONIQ."
+        },
+        {
+          "date": "2025-11-18",
+          "value": 350,
+          "status": "press",
+          "source": "https://www.nasdaq.com/articles/microsoft-and-nvidia-deals-push-anthropic-toward-350-bln-valuation",
+          "note": "Microsoft (up to $5B) + Nvidia (up to $10B) investment; 'in the range of $350B'."
+        },
+        {
+          "date": "2026-02-12",
+          "value": 380,
+          "status": "reported",
+          "source": "https://siliconangle.com/2026/02/12/anthropic-closes-30b-round-annualized-revenue-tops-14b",
+          "note": "Series G, $30B, led by GIC and Coatue."
+        },
+        {
+          "date": "2026-05-28",
+          "value": 965,
+          "status": "reported",
+          "source": "https://finance.yahoo.com/sectors/technology/articles/anthropic-vaults-965-billion-valuation-191826779.html",
+          "note": "Series H, $65B. Surpassed OpenAI's $852B."
+        },
+        {
+          "date": "2026-11-10",
+          "value": 1405,
+          "status": "reported",
+          "source": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+          "note": "IPO range top ($78) implies up to $1.405T fully diluted. Indicative, NOT priced. Earlier investor talk of ~$2T was scaled back."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2023",
+          "value": 0.041,
+          "kind": "annual",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/",
+          "note": "S-1 figure via secondary summary."
+        },
+        {
+          "date": "2024",
+          "value": 0.386,
+          "kind": "annual",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "date": "2025",
+          "value": 4.585,
+          "kind": "annual",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "date": "2026-9M",
+          "value": 33.242,
+          "kind": "nine_months",
+          "status": "reported",
+          "source": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+          "note": "Nine months ended 2026-09-30, vs $2.545B a year earlier. Q1 $4.731B, Q2 $11.555B, Q3 $16.956B."
+        },
+        {
+          "date": "2025-08",
+          "value": 5.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.constellationr.com/blog-news/insights/anthropic-lands-183-billion-valuation-hits-5-billion-annual-revenue-run-rate"
+        },
+        {
+          "date": "2025-12",
+          "value": 9.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://itbrief.news/story/anthropic-signs-biggest-compute-deal-with-google-broadcom",
+          "note": "About $9B at end of 2025."
+        },
+        {
+          "date": "2026-02",
+          "value": 14.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://siliconangle.com/2026/02/12/anthropic-closes-30b-round-annualized-revenue-tops-14b"
+        },
+        {
+          "date": "2026-04",
+          "value": 30.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://itbrief.news/story/anthropic-signs-biggest-compute-deal-with-google-broadcom",
+          "note": "Surpassed $30B."
+        },
+        {
+          "date": "2026-05",
+          "value": 47.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://finance.yahoo.com/sectors/technology/articles/anthropic-vaults-965-billion-valuation-191826779.html"
+        },
+        {
+          "date": "2026-07-31",
+          "value": 65.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/"
+        },
+        {
+          "date": "2026-09-30",
+          "value": 71.0,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english",
+          "note": "Derived: filing says Oct-31 run-rate of ~$81B was up $10B from end of September."
+        },
+        {
+          "date": "2026-10-31",
+          "value": 81.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+          "note": "Company 'run-rate revenue' metric in amended S-1; books partner sales gross."
+        }
+      ],
+      "losses": [
+        {
+          "period": "2023",
+          "value": 1.531,
+          "metric": "net_loss",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "period": "2024",
+          "value": 8.309,
+          "metric": "net_loss",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "period": "2025",
+          "value": 41.965,
+          "metric": "net_loss",
+          "status": "reported",
+          "source": "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/",
+          "note": "~$34B is non-cash fair-value charges; operating loss $8.06B."
+        },
+        {
+          "period": "2024",
+          "value": 2.98,
+          "metric": "operating_loss",
+          "status": "reported",
+          "source": "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/"
+        },
+        {
+          "period": "2025",
+          "value": 8.06,
+          "metric": "operating_loss",
+          "status": "reported",
+          "source": "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/"
+        },
+        {
+          "period": "2026-9M",
+          "value": 104.039,
+          "metric": "net_loss",
+          "status": "reported",
+          "source": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+          "note": "Of which $94.3B non-cash fair-value changes on convertible notes/derivatives."
+        },
+        {
+          "period": "2026-9M",
+          "value": 1.26,
+          "metric": "operating_loss",
+          "status": "reported",
+          "source": "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english",
+          "note": "Operating loss. Q1 -$1.667B, Q2 +$0.974B (first operating profit), Q3 -$0.567B."
+        },
+        {
+          "period": "2025",
+          "value": 2.637,
+          "metric": "operating_cash_outflow",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/",
+          "note": "Cash used in operations (negative operating cash flow)."
+        },
+        {
+          "period": "2026-9M",
+          "value": -6.569,
+          "metric": "operating_cash_outflow",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/",
+          "note": "NEGATIVE value = cash GENERATED: operating cash flow was +$6.569B in 9M 2026 (capex $0.925B)."
+        },
+        {
+          "period": "break-even projection",
+          "value": null,
+          "metric": "projection",
+          "status": "press",
+          "source": "https://futurumgroup.com/insights/anthropic-files-for-ipo-looking-to-beat-openai-to-the-punch/",
+          "note": "June 2026 analysis: Anthropic projects positive cash flow by 2027-2028; investor projections of $70B revenue / $17B cash flow by 2028 (already overtaken by actuals)."
+        }
+      ],
+      "compute_commitments": [
+        {
+          "counterparty": "TOTAL purchase commitments and leases (amended S-1)",
+          "value": 900.9,
+          "years": "through 2045; $451.6B due before end-2030; $70.7B within 12 months of 2026-09-30",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/",
+          "note": "CNBC headline cites $895.4B; an earlier draft cited $518B and WSJ >$600B - the figure grew across filing versions."
+        },
+        {
+          "counterparty": "Broadcom",
+          "value": 161.2,
+          "years": "five-year equipment leases",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "counterparty": "Google",
+          "value": 121.3,
+          "years": "2026-2033",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/",
+          "note": "SEC text seen in search cites a minimum of ~$111.1B Apr 2026-Jul 2033; figures differ by filing version."
+        },
+        {
+          "counterparty": "SpaceX (SpaceXAI)",
+          "value": 120.5,
+          "years": "to 2029 (up to)",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "counterparty": "Amazon",
+          "value": 110.0,
+          "years": "May 2026 - Apr 2036",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "counterparty": "Microsoft",
+          "value": 48.2,
+          "years": "2026-2033",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/",
+          "note": "Range $47.2-49.2B (midpoint shown); SEC text cites minimum $31.4B Nov 2026-May 2033. Original Nov 2025 deal: $30B of Azure capacity."
+        },
+        {
+          "counterparty": "Nscale",
+          "value": 44.6,
+          "years": "to 2033 (up to)",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "counterparty": "Lambda",
+          "value": 41.3,
+          "years": "to 2034",
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "counterparty": "Additional TPUs (Google and others)",
+          "value": 137.5,
+          "years": "2028-2031",
+          "status": "estimate",
+          "source": "https://www.midgardfinance.com/research/anthropic/",
+          "note": "Range $125-150B (midpoint shown)."
+        },
+        {
+          "counterparty": "AMD",
+          "value": 20.0,
+          "years": "from 2027",
+          "status": "estimate",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "counterparty": "Google + Broadcom TPU capacity (Apr 2026)",
+          "value": null,
+          "years": "~3.5 GW, online from 2027",
+          "status": "reported",
+          "source": "https://www.ciodive.com/news/anthropic-adds-compute-power-google-broadcom/816886/",
+          "note": "Capacity deal; dollar value not disclosed at announcement."
+        },
+        {
+          "counterparty": "Nvidia (Nov 2025)",
+          "value": null,
+          "years": "1 GW of Grace Blackwell / Vera Rubin systems",
+          "status": "reported",
+          "source": "https://www.nasdaq.com/articles/microsoft-and-nvidia-deals-push-anthropic-toward-350-bln-valuation"
+        }
+      ],
+      "users": [
+        {
+          "date": "2023-12",
+          "metric": "customers paying >= $100k/yr",
+          "value": 20,
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "date": "2024-12",
+          "metric": "customers paying >= $100k/yr",
+          "value": 200,
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "date": "2025-12",
+          "metric": "customers paying >= $100k/yr",
+          "value": 1500,
+          "status": "reported",
+          "source": "https://www.midgardfinance.com/research/anthropic/"
+        },
+        {
+          "date": "2026-09-30",
+          "metric": "customers paying >= $100k/yr",
+          "value": 11900,
+          "status": "reported",
+          "source": "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english"
+        },
+        {
+          "date": "2026-09-30",
+          "metric": "customers paying >= $1M/yr",
+          "value": 1900,
+          "status": "reported",
+          "source": "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english"
+        },
+        {
+          "date": "2026-09-30",
+          "metric": "customers paying >= $10M/yr",
+          "value": 250,
+          "status": "reported",
+          "source": "https://dadstreetfinance.substack.com/p/anthropics-ipo-filing-in-plain-english"
+        }
+      ],
+      "notes": [
+        "Cash and short-term investments $131.9B at 2026-09-30 ($20.28B at end-2025).",
+        "Net revenue retention ~900%; top five customers ~25% of 9M revenue; ~5,300 employees.",
+        "Anthropic books cloud-partner sales gross (partner cut ~16% as expense), which inflates run-rate vs OpenAI's net method.",
+        "Commitment counterparty amounts are 'of different kinds and should not be added' (Midgard); must pay Google, Amazon and Microsoft at least $278.5B regardless of use.",
+        "S-1 figures here come via secondary summaries of the SEC filing (the filing itself was too large to fetch); spot-check against EDGAR before publishing."
+      ]
+    },
+    {
+      "id": "xai",
+      "name": "xAI (now SpaceX 'AI / Super Intelligence' segment)",
+      "country": "US",
+      "type": "lab",
+      "status": "merged into SpaceX (all-stock, 2026-02-02); SpaceX public since 2026-06-12 (Nasdaq: SPCX, $75B IPO at $135, ~$2.1T first-day market cap)",
+      "profitable": false,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": "https://sacra.com/c/xai/",
+        "note": "Sources disagree: Sacra lists ~$22.1B primary equity + $5B debt; aggregators cite $37B-$50B including debt."
+      },
+      "latest_round": {
+        "date": "2026-01",
+        "amount": 20,
+        "post_money_valuation": 230,
+        "lead_investors": [
+          "Nvidia",
+          "Cisco (strategic)",
+          "Valor",
+          "Fidelity",
+          "QIA"
+        ],
+        "status": "press",
+        "source": "https://fintool.com/news/xai-20-billion-series-e-nvidia",
+        "note": "Series E upsized from $15B. Lead list partly from background knowledge; Nvidia and Cisco confirmed in source."
+      },
+      "valuations": [
+        {
+          "date": "2024-05",
+          "value": 24,
+          "status": "press",
+          "source": "https://www.longtermwiki.com/organizations/xai/data",
+          "note": "Series B, $6B."
+        },
+        {
+          "date": "2024-12",
+          "value": 50,
+          "status": "press",
+          "source": "https://www.longtermwiki.com/organizations/xai/data",
+          "note": "Series C, $6B."
+        },
+        {
+          "date": "2025-03",
+          "value": 80,
+          "status": "reported",
+          "source": "https://sacra.com/c/xai/",
+          "note": "Musk's valuation of xAI in the all-stock X merger (X at $33B)."
+        },
+        {
+          "date": "2025-09",
+          "value": 200,
+          "status": "press",
+          "source": "https://sacra.com/c/xai/",
+          "note": "$10B equity raise."
+        },
+        {
+          "date": "2026-01",
+          "value": 230,
+          "status": "press",
+          "source": "https://fintool.com/news/xai-20-billion-series-e-nvidia",
+          "note": "Series E, $20B."
+        },
+        {
+          "date": "2026-02-02",
+          "value": 250,
+          "status": "press",
+          "source": "https://sacra.com/c/xai/",
+          "note": "Reuters: SpaceX acquisition valued xAI at $250B, SpaceX at $1T (combined $1.25T)."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2024",
+          "value": 0.1,
+          "kind": "annual",
+          "status": "estimate",
+          "source": "https://sacra.com/c/xai/"
+        },
+        {
+          "date": "2025",
+          "value": 3.2,
+          "kind": "annual",
+          "status": "reported",
+          "source": "https://goodfest.westfield.com/2026/05/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+          "note": "SpaceX S-1: xAI 2025 revenue $3.2B INCLUDING X (advertising/subscriptions). Standalone Grok/xAI ~$0.5B run-rate at end-2025 (Sacra); another estimate puts Grok 2025 revenue at ~$350M."
+        },
+        {
+          "date": "2025-12",
+          "value": 0.5,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://sacra.com/c/xai/",
+          "note": "Standalone xAI excluding X."
+        },
+        {
+          "date": "2026-Q3",
+          "value": 7.56,
+          "kind": "quarterly",
+          "status": "reported",
+          "source": "https://investinglive.com/stocks/spacex-beats-q3-forecasts-across-all-three-segments-as-ai-revenue-tops-7-5-billion/",
+          "note": "SpaceX AI ('Super Intelligence') segment revenue, +830% YoY from $813M; mainly renting data-center capacity to Anthropic, Google, Reflection AI, plus Cursor and Grok. Not comparable to pre-merger xAI."
+        }
+      ],
+      "losses": [
+        {
+          "period": "2024",
+          "value": 1.56,
+          "metric": "operating_loss",
+          "status": "reported",
+          "source": "https://goodfest.westfield.com/2026/05/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/"
+        },
+        {
+          "period": "2025",
+          "value": 6.4,
+          "metric": "operating_loss",
+          "status": "reported",
+          "source": "https://goodfest.westfield.com/2026/05/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+          "note": "SpaceX S-1."
+        },
+        {
+          "period": "2025-06",
+          "value": 1.0,
+          "metric": "monthly_cash_burn",
+          "status": "press",
+          "source": "https://sacra.com/c/xai/",
+          "note": "Bloomberg: burning ~$1B per month."
+        },
+        {
+          "period": "2025-9M",
+          "value": 7.8,
+          "metric": "cash_burn",
+          "status": "press",
+          "source": "https://sacra.com/c/xai/",
+          "note": "Cash spent in first nine months of 2025."
+        },
+        {
+          "period": "2026-Q2",
+          "value": 1.257,
+          "metric": "operating_loss",
+          "status": "press",
+          "source": "https://investinglive.com/stocks/spacex-beats-q3-forecasts-across-all-three-segments-as-ai-revenue-tops-7-5-billion/",
+          "note": "SpaceX SI segment operating loss in Q2 2026 (one source; figures reported inconsistently)."
+        },
+        {
+          "period": "2026-Q3",
+          "value": -0.431,
+          "metric": "operating_loss",
+          "status": "press",
+          "source": "https://axios.com/2026/10/20/spacex-earnings-ai-elon-musk",
+          "note": "NEGATIVE value = PROFIT: AI segment operating income of $431M reported for Q3 2026, after $1.2B of Cursor-related stock comp. Verify against SpaceX 8-K."
+        }
+      ],
+      "compute_commitments": [
+        {
+          "counterparty": "Own capex (AI segment), Q1 2026",
+          "value": 7.7,
+          "years": "Q1 2026",
+          "status": "reported",
+          "source": "https://goodfest.westfield.com/2026/05/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+          "note": "Annualizes to ~$30.8B."
+        },
+        {
+          "counterparty": "Own capex (AI segment), Q3 2026",
+          "value": 16.4,
+          "years": "Q3 2026",
+          "status": "reported",
+          "source": "https://www.khaleejtimes.com/business/spacex-quarterly-revenue-jumps-beats-estimates-as-ai-business-surges-2",
+          "note": "Of $19.6B total SpaceX capex in the quarter."
+        }
+      ],
+      "users": [
+        {
+          "date": "2026-03",
+          "metric": "Grok monthly active users",
+          "value": 117000000.0,
+          "status": "reported",
+          "source": "https://goodfest.westfield.com/2026/05/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
+          "note": "550M combined MAU across X and Grok."
+        }
+      ],
+      "notes": [
+        "Analysts called the SpaceX merger an 'instant bailout' for xAI (Dataconomy, Feb 2026).",
+        "SpaceX is now also a compute SUPPLIER to Anthropic (up to $120.5B to 2029 per Anthropic's S-1) and acquired Cursor for $60B in stock.",
+        "SpaceX consolidated: 2025 net loss $4.9B on $18.7B revenue; Q1 2026 net loss $4.3B."
+      ]
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "country": "FR",
+      "type": "lab",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null,
+        "note": "Not found as a single verified figure after the Series D."
+      },
+      "latest_round": {
+        "date": "2026-09-08",
+        "amount": 3.5,
+        "post_money_valuation": 24,
+        "lead_investors": [
+          "Samsung Electronics",
+          "Scaleup Europe Fund",
+          "PSG Equity"
+        ],
+        "status": "press",
+        "source": "https://www.thestar.com.my/tech/tech-news/2026/09/08/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round",
+        "note": "EUR 3B Series D at ~EUR 21B; largest equity round by a private European company (Reuters). USD amount approximate."
+      },
+      "valuations": [
+        {
+          "date": "2023-12",
+          "value": 2.0,
+          "status": "press",
+          "source": null,
+          "note": "~EUR 1.86B Series A.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2024-06",
+          "value": 6.2,
+          "status": "press",
+          "source": null,
+          "note": "EUR 5.8B Series B.",
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-09",
+          "value": 13.8,
+          "status": "press",
+          "source": "https://www.thestar.com.my/tech/tech-news/2026/09/08/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round",
+          "note": "EUR 11.7B (ASML-led Series C); USD conversion as reported at the time, not re-verified.",
+          "value_local": "EUR 11.7B"
+        },
+        {
+          "date": "2026-09-08",
+          "value": 24.0,
+          "status": "press",
+          "source": "https://www.thestar.com.my/tech/tech-news/2026/09/08/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round",
+          "value_local": "EUR 21B"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-01",
+          "value": 0.02,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://sacra.com/research/mistral",
+          "note": "CEO: ~USD 20M a year before the $400M mark."
+        },
+        {
+          "date": "2026-01",
+          "value": 0.4,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://sacra.com/research/mistral",
+          "note": "CEO Arthur Mensch: ARR exceeded $400M in early 2026."
+        },
+        {
+          "date": "2026-12 (target)",
+          "value": 1.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.thestar.com.my/tech/tech-news/2026/09/08/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round",
+          "note": "Projected ~$1B ARR by end-2026 (Reuters). A target, not a result."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "No verified H2-2026 ARR update found; aggregators repeat the $400M figure."
+      ]
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "country": "CA",
+      "type": "lab",
+      "status": "private (definitive merger agreement with Germany's Aleph Alpha signed Sept 2026, pending regulatory approval; no IPO filing)",
+      "profitable": false,
+      "total_funding": {
+        "value": 1.6,
+        "status": "estimate",
+        "source": "https://sacra.com/c/cohere/",
+        "note": "Pre-merger total, before the 2026 Series E."
+      },
+      "latest_round": {
+        "date": "2026-10-29",
+        "amount": null,
+        "post_money_valuation": 25.5,
+        "lead_investors": [
+          "Government of Canada",
+          "Nvidia",
+          "Schwarz Group (~EUR 500M tied to merger)"
+        ],
+        "status": "press",
+        "source": "https://aimagazine.com/news/cohere-hits-us-25bn-as-canada-nvidia-fund-sovereign-ai",
+        "note": "Initial close of a Series E targeting up to CAD 7B at CAD 35.7B valuation. Amount of the initial close not found. Earlier reports cited $2-3B at $20B - terms not settled across sources."
+      },
+      "valuations": [
+        {
+          "date": "2025-09",
+          "value": 7.0,
+          "status": "press",
+          "source": "https://siliconangle.com/2026/09/16/cohere-and-aleph-alpha-agree-to-merge-in-reported-20b-deal/"
+        },
+        {
+          "date": "2026-09-16",
+          "value": 20.0,
+          "status": "press",
+          "source": "https://siliconangle.com/2026/09/16/cohere-and-aleph-alpha-agree-to-merge-in-reported-20b-deal/",
+          "note": "Combined Cohere + Aleph Alpha valuation in merger reports (Cohere holders ~90%)."
+        },
+        {
+          "date": "2026-10-29",
+          "value": 25.5,
+          "status": "press",
+          "source": "https://aimagazine.com/news/cohere-hits-us-25bn-as-canada-nvidia-fund-sovereign-ai",
+          "value_local": "CAD 35.7B"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-12",
+          "value": 0.24,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://sacra.com/c/cohere/",
+          "note": "~$240M ARR at end of 2025; ~70% gross margin."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Positioning as 'sovereign AI' lab outside the US-China axis."
+      ]
+    },
+    {
+      "id": "ssi",
+      "name": "Safe Superintelligence (SSI)",
+      "country": "US/IL",
+      "type": "lab",
+      "status": "private",
+      "profitable": false,
+      "total_funding": {
+        "value": 7.0,
+        "status": "press",
+        "source": "https://www.wionews.com/world/nvidia-just-put-5-billion-into-a-company-that-has-never-shipped-a-product-1785872919506",
+        "note": "Approximate total after the Nvidia deal, as reported; component rounds ($1B + $2B + ~$5B) do not sum exactly."
+      },
+      "latest_round": {
+        "date": "2026-07-27",
+        "amount": 5.0,
+        "post_money_valuation": 32,
+        "lead_investors": [
+          "Nvidia"
+        ],
+        "status": "press",
+        "source": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/",
+        "note": "Strategic partnership/investment; terms undisclosed, ~$5B per Bloomberg/FT; includes ~10x compute expansion on Vera Rubin."
+      },
+      "valuations": [
+        {
+          "date": "2024-09",
+          "value": 5.0,
+          "status": "press",
+          "source": "https://www.outlookbusiness.com/news/openai-co-founders-safe-superintelligence-raises-1-billion-amid-ai-funding-frenzy",
+          "note": "$1B first round."
+        },
+        {
+          "date": "2025-04",
+          "value": 32.0,
+          "status": "press",
+          "source": "https://the-decoder.com/openai-co-founder-sutskever-raises-2-billion-for-ai-startup-with-no-product/",
+          "note": "$2B round."
+        },
+        {
+          "date": "2026-07-27",
+          "value": 32.0,
+          "status": "press",
+          "source": "https://www.wionews.com/world/nvidia-just-put-5-billion-into-a-company-that-has-never-shipped-a-product-1785872919506",
+          "note": "Valuation reported unchanged at $32B with the Nvidia deal."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2026",
+          "value": 0.0,
+          "kind": "annual",
+          "status": "press",
+          "source": "https://www.wionews.com/world/nvidia-just-put-5-billion-into-a-company-that-has-never-shipped-a-product-1785872919506",
+          "note": "No product, API or revenue."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "thinking-machines",
+      "name": "Thinking Machines Lab",
+      "country": "US",
+      "type": "lab",
+      "status": "private",
+      "profitable": false,
+      "total_funding": {
+        "value": 2.0,
+        "status": "reported",
+        "source": "https://fourweekmba.com/thinking-machines-lab-officially-closes-2b-at-12b-valuation-teases-first-product-launch/",
+        "note": "Seed only; a ~$5B round was reportedly about to close in Nov 2026."
+      },
+      "latest_round": {
+        "date": "2025-07",
+        "amount": 2.0,
+        "post_money_valuation": 12,
+        "lead_investors": [
+          "Andreessen Horowitz"
+        ],
+        "status": "reported",
+        "source": "https://fourweekmba.com/thinking-machines-lab-officially-closes-2b-at-12b-valuation-teases-first-product-launch/",
+        "note": "Pending: Business Insider (2026-11-06) says a $5B round at >=$40B pre-money is set to close within about a week (Accel in talks to lead; Nvidia ~$2.5B). Not confirmed closed."
+      },
+      "valuations": [
+        {
+          "date": "2025-07",
+          "value": 12.0,
+          "status": "reported",
+          "source": "https://fourweekmba.com/thinking-machines-lab-officially-closes-2b-at-12b-valuation-teases-first-product-launch/"
+        },
+        {
+          "date": "2026-11",
+          "value": 40.0,
+          "status": "press",
+          "source": "https://letsdatascience.com/news/thinking-machines-lab-reportedly-nears-5-billion-round-at-40-fcc2bde1",
+          "note": "Pre-money in talks; NOT closed. Below the $50B sought in late 2025."
+        }
+      ],
+      "revenue": [],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "An attempt to raise at $50-60B reportedly collapsed around Jan 2026 and several co-founders returned to OpenAI (single-source, unconfirmed)."
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "country": "US",
+      "type": "app",
+      "status": "private",
+      "profitable": false,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null,
+        "note": "No verified total found."
+      },
+      "latest_round": {
+        "date": "2026-01",
+        "amount": null,
+        "post_money_valuation": 23,
+        "lead_investors": [],
+        "status": "press",
+        "source": "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/",
+        "note": "Series E-6 at ~$23B (amount not found). Aug 2026: Nvidia in talks to invest at >$30B (The Information); not confirmed closed. Secondary mark ~$19.7B in Oct 2026 per one tracker."
+      },
+      "valuations": [
+        {
+          "date": "2024-01",
+          "value": 0.52,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2024-04",
+          "value": 1.0,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2024-06",
+          "value": 3.0,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2024-12",
+          "value": 9.0,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-05",
+          "value": 14.0,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-07",
+          "value": 18.0,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-09",
+          "value": 20.0,
+          "status": "press",
+          "source": "https://www.vktr.com/ai-news/perplexity-raises-200m-at-20b-valuation-in-ai-search-push/",
+          "note": "$200M round."
+        },
+        {
+          "date": "2026-01",
+          "value": 23.0,
+          "status": "press",
+          "source": "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/"
+        },
+        {
+          "date": "2026-08-23",
+          "value": 30.0,
+          "status": "press",
+          "source": "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/",
+          "note": "Talks only (Nvidia), valuation 'above $30B'."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2024-12",
+          "value": 0.063,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://forgeglobal.com/insights/startup-trends-perplexity-potential-30-billion-valuation-ipo/",
+          "note": "Approx. $63M ARR at end of 2024 (as cited by Forkast/Forge-type secondary sources)."
+        },
+        {
+          "date": "2026-03",
+          "value": 0.45,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://techstory.in/perplexity-tops-450m-arr-after-record-breaking-month/",
+          "note": "FT: ARR above $450M."
+        },
+        {
+          "date": "2026-04",
+          "value": 0.5,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://sacra.com/c/perplexity",
+          "note": "CEO cited a $500M revenue milestone; accounting basis not defined."
+        },
+        {
+          "date": "2026-08",
+          "value": 0.75,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/",
+          "note": "DISPUTED: several outlets say ARR >$750M; one source argues this conflates a $750M Azure commitment."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [
+        {
+          "counterparty": "Microsoft Azure",
+          "value": 0.75,
+          "years": "signed Jan 2026",
+          "status": "press",
+          "source": "https://siliconangle.com/2026/08/24/nvidia-reportedly-eyes-another-investment-in-perplexity-ai-at-a-30b-valuation/"
+        }
+      ],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "cursor",
+      "name": "Anysphere (Cursor)",
+      "country": "US",
+      "type": "app",
+      "status": "acquired by SpaceX (all-stock, $60B, announced 2026-06-16; consolidated in SpaceX Q3 2026 results)",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": "https://komo.ai/directory/anysphere-funding",
+        "note": "No verified total; last private round was $2.3B (Nov 2025)."
+      },
+      "latest_round": {
+        "date": "2025-11",
+        "amount": 2.3,
+        "post_money_valuation": 29.3,
+        "lead_investors": [
+          "Accel",
+          "Coatue"
+        ],
+        "status": "reported",
+        "source": "https://www.outlookbusiness.com/artificial-intelligence/ai-coding-start-up-anysphere-raises-23-billion-soaring-to-293-billion-valuation",
+        "note": "Series D. A further ~$2B at ~$50B (a16z/Thrive) was in talks in April 2026 but was superseded by the SpaceX deal. Lead names from background knowledge."
+      },
+      "valuations": [
+        {
+          "date": "2024-08",
+          "value": 0.4,
+          "status": "press",
+          "source": "https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation"
+        },
+        {
+          "date": "2024-12",
+          "value": 2.5,
+          "status": "press",
+          "source": "https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation"
+        },
+        {
+          "date": "2025-06",
+          "value": 9.9,
+          "status": "press",
+          "source": "https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation"
+        },
+        {
+          "date": "2025-11",
+          "value": 29.3,
+          "status": "reported",
+          "source": "https://www.outlookbusiness.com/artificial-intelligence/ai-coding-start-up-anysphere-raises-23-billion-soaring-to-293-billion-valuation"
+        },
+        {
+          "date": "2026-04",
+          "value": 50.0,
+          "status": "press",
+          "source": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding",
+          "note": "Talks; never closed."
+        },
+        {
+          "date": "2026-06-16",
+          "value": 60.0,
+          "status": "reported",
+          "source": "https://www.verdict.co.uk/spacex-strikes-deal-cursor/",
+          "note": "SpaceX acquisition price (all stock)."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-01",
+          "value": 0.1,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation"
+        },
+        {
+          "date": "2025-06",
+          "value": 0.5,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation"
+        },
+        {
+          "date": "2025-11",
+          "value": 1.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.outlookbusiness.com/artificial-intelligence/ai-coding-start-up-anysphere-raises-23-billion-soaring-to-293-billion-valuation"
+        },
+        {
+          "date": "2026-02",
+          "value": 2.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding",
+          "note": "Bloomberg."
+        },
+        {
+          "date": "2026-06",
+          "value": 4.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://letsdatascience.com/blog/cursor-2-billion-funding-round-50-billion-valuation",
+          "note": "Single-source; unconfirmed."
+        },
+        {
+          "date": "2026-12 (projection)",
+          "value": 6.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://thenextweb.com/news/cursor-anysphere-2-billion-funding-50-billion-valuation-ai-coding",
+          "note": "Internal projection, not a result."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "SpaceX had an April 2026 option to buy Cursor for $60B or pay $10B for a partnership; it exercised the purchase days after its IPO."
+      ]
+    },
+    {
+      "id": "cognition",
+      "name": "Cognition (Devin, Windsurf)",
+      "country": "US",
+      "type": "app",
+      "status": "private",
+      "profitable": false,
+      "total_funding": {
+        "value": 2.5,
+        "status": "press",
+        "source": "https://cryptobriefing.com/cognition-900m-arr-800m-cash-burn/",
+        "note": "'More than $2.5B' as of Aug 2026; unclear if it includes the Sept 2026 Series E."
+      },
+      "latest_round": {
+        "date": "2026-09",
+        "amount": 2.0,
+        "post_money_valuation": 48,
+        "lead_investors": [],
+        "status": "press",
+        "source": "https://www.channelinsider.com/ai/news-cognition-devin-2b-funding-48b-valuation/",
+        "note": "Series E, >$2B at $48B. Leads not found."
+      },
+      "valuations": [
+        {
+          "date": "2025-09",
+          "value": 10.2,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2026-05",
+          "value": 26.0,
+          "status": "reported",
+          "source": "https://pulse2.com/cognition-raises-over-1-billion-at-a-26-billion-valuation-as-devin-adoption-accelerates-across-enterprises/amp/",
+          "note": "Series D >$1B ($25B pre-money), led by Lux Capital, General Catalyst, 8VC."
+        },
+        {
+          "date": "2026-09",
+          "value": 48.0,
+          "status": "press",
+          "source": "https://www.channelinsider.com/ai/news-cognition-devin-2b-funding-48b-valuation/"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-05",
+          "value": 0.037,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.kucoin.com/news/flash/cognition-ai-raises-1b-valuation-hits-26b-as-arr-surpasses-492m"
+        },
+        {
+          "date": "2026-05",
+          "value": 0.492,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.kucoin.com/news/flash/cognition-ai-raises-1b-valuation-hits-26b-as-arr-surpasses-492m",
+          "note": "Company-reported, unaudited."
+        },
+        {
+          "date": "2026-08",
+          "value": 0.9,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://cryptobriefing.com/cognition-900m-arr-800m-cash-burn/",
+          "note": "Internal forecast >$1.5B by end-2026."
+        }
+      ],
+      "losses": [
+        {
+          "period": "2026 (planned)",
+          "value": 0.8,
+          "metric": "cash_burn_projection",
+          "status": "press",
+          "source": "https://cryptobriefing.com/cognition-900m-arr-800m-cash-burn/",
+          "note": "Plans to burn nearly as much cash as its ARR this year (~$800M)."
+        }
+      ],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Bought the remainder of Windsurf in July 2025 after Google's $2.4B license-and-hire deal."
+      ]
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "country": "SE",
+      "type": "app",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": "https://www.sacra.com/c/lovable",
+        "note": "No verified total found."
+      },
+      "latest_round": {
+        "date": "2026-08-12",
+        "amount": 0.4,
+        "post_money_valuation": 13.3,
+        "lead_investors": [
+          "Menlo Ventures",
+          "Scaleup Europe Fund"
+        ],
+        "status": "reported",
+        "source": "https://www.techrepublic.com/article/news-lovable-400m-funding-13-3b-valuation/"
+      },
+      "valuations": [
+        {
+          "date": "2025-07",
+          "value": 1.8,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-12",
+          "value": 6.6,
+          "status": "press",
+          "source": "https://www.sacra.com/c/lovable",
+          "note": "$330M Series B (CapitalG, Menlo)."
+        },
+        {
+          "date": "2026-08-12",
+          "value": 13.3,
+          "status": "reported",
+          "source": "https://www.techrepublic.com/article/news-lovable-400m-funding-13-3b-valuation/"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-11",
+          "value": 0.2,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.sacra.com/c/lovable"
+        },
+        {
+          "date": "2026-03",
+          "value": 0.4,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.sacra.com/c/lovable"
+        },
+        {
+          "date": "2026-06",
+          "value": 0.5,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://sifted.eu/articles/lovable-raises-e400m-series-c/"
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0.6,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://aimagazine.com/news/lovable-europes-vibe-coding-platform-crosses-us-600m-arr",
+          "note": "Annualized revenue exceeding $600M."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "country": "US",
+      "type": "app",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": 0.9,
+        "status": "estimate",
+        "source": "https://komo.ai/directory/replit-funding",
+        "note": "Aggregators: $872M-$922M."
+      },
+      "latest_round": {
+        "date": "2026-03-11",
+        "amount": 0.4,
+        "post_money_valuation": 9.0,
+        "lead_investors": [],
+        "status": "reported",
+        "source": "https://www.trendingtopics.eu/replit-raises-400m-tripling-its-valuation-to-9-billion-in-six-months/",
+        "note": "Series D; leads not captured."
+      },
+      "valuations": [
+        {
+          "date": "2025-09",
+          "value": 3.0,
+          "status": "press",
+          "source": "https://www.sacra.com/c/replit"
+        },
+        {
+          "date": "2026-03-11",
+          "value": 9.0,
+          "status": "reported",
+          "source": "https://www.trendingtopics.eu/replit-raises-400m-tripling-its-valuation-to-9-billion-in-six-months/"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-06",
+          "value": 0.106,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://www.sacra.com/c/replit"
+        },
+        {
+          "date": "2025-10",
+          "value": 0.253,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://www.sacra.com/c/replit"
+        },
+        {
+          "date": "2025",
+          "value": 0.24,
+          "kind": "annual",
+          "status": "press",
+          "source": "https://komo.ai/directory/replit-funding"
+        },
+        {
+          "date": "2026-04",
+          "value": 0.525,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.sacra.com/c/replit"
+        },
+        {
+          "date": "2026-12 (target)",
+          "value": 1.0,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.trendingtopics.eu/replit-raises-400m-tripling-its-valuation-to-9-billion-in-six-months/",
+          "note": "Target, not a result."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "country": "UK/US",
+      "type": "app",
+      "status": "private (CEO has discussed IPO readiness ~2027-2029; nothing filed)",
+      "profitable": null,
+      "total_funding": {
+        "value": 0.781,
+        "status": "reported",
+        "source": "https://pulse2.com/elevenlabs-500-million-series-d-11-billion-valuation/amp/",
+        "note": "After the Feb 2026 Series D; another source says $831M+ after a May 2026 extension."
+      },
+      "latest_round": {
+        "date": "2026-02",
+        "amount": 0.5,
+        "post_money_valuation": 11.0,
+        "lead_investors": [
+          "Sequoia Capital"
+        ],
+        "status": "reported",
+        "source": "https://elevenlabs.io/blog/series-d",
+        "note": "Series D. Followed by a $300M employee tender at $22B (2026-09-30, Wellington and T. Rowe Price) - secondary, no new primary capital."
+      },
+      "valuations": [
+        {
+          "date": "2024-01",
+          "value": 1.1,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-01",
+          "value": 3.3,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2026-02",
+          "value": 11.0,
+          "status": "reported",
+          "source": "https://elevenlabs.io/blog/series-d"
+        },
+        {
+          "date": "2026-09-30",
+          "value": 22.0,
+          "status": "press",
+          "source": "https://cryptobriefing.com/elevenlabs-doubles-valuation-22b-tender-offer/",
+          "note": "Tender offer valuation."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-12",
+          "value": 0.33,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://sacra.com/c/elevenlabs/",
+          "note": "Sources vary $330M-$350M."
+        },
+        {
+          "date": "2026-04",
+          "value": 0.5,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://sacra.com/c/elevenlabs/"
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "country": "US",
+      "type": "app",
+      "status": "private (bootstrapped; no outside funding)",
+      "profitable": null,
+      "total_funding": {
+        "value": 0,
+        "status": "press",
+        "source": "https://getlatka.com/companies/midjourney",
+        "note": "Never raised outside capital."
+      },
+      "latest_round": null,
+      "valuations": [],
+      "revenue": [
+        {
+          "date": "2024-01",
+          "value": 0.2,
+          "kind": "annual",
+          "status": "press",
+          "source": "https://getlatka.com/companies/midjourney",
+          "note": "Bloomberg-cited ~$200M annual revenue."
+        },
+        {
+          "date": "2025",
+          "value": 0.5,
+          "kind": "annual",
+          "status": "estimate",
+          "source": "https://getlatka.com/companies/midjourney",
+          "note": "Third-party estimate; unverified and conflicting with other trackers."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Widely described as profitable, but no verified 2026 figures were found; profitable left null."
+      ]
+    },
+    {
+      "id": "runway",
+      "name": "Runway",
+      "country": "US",
+      "type": "app",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2026-02",
+        "amount": 0.315,
+        "post_money_valuation": 5.3,
+        "lead_investors": [],
+        "status": "press",
+        "source": "https://multiples.vc/private-comps/runway",
+        "note": "Series E; leads not captured."
+      },
+      "valuations": [
+        {
+          "date": "2026-02",
+          "value": 5.3,
+          "status": "press",
+          "source": "https://multiples.vc/private-comps/runway"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2026",
+          "value": 0.3,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://multiples.vc/private-comps/runway",
+          "note": "Tracker 'last reported revenue'; another tear sheet cites $121.6M for 2024."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "figure",
+      "name": "Figure AI",
+      "country": "US",
+      "type": "robotics",
+      "status": "private",
+      "profitable": false,
+      "total_funding": {
+        "value": 1.9,
+        "status": "estimate",
+        "source": "https://sacra.com/c/figure-ai/"
+      },
+      "latest_round": {
+        "date": "2025-09",
+        "amount": 1.0,
+        "post_money_valuation": 39.0,
+        "lead_investors": [
+          "Parkway Venture Capital"
+        ],
+        "status": "reported",
+        "source": "https://www.therobotreport.com/figure-ai-raises-1b-in-series-c-funding-toward-humanoid-robot-development/",
+        "note": "Series C, >$1B committed. Lead from background knowledge. No verified 2026 priced round."
+      },
+      "valuations": [
+        {
+          "date": "2024-02",
+          "value": 2.6,
+          "status": "reported",
+          "source": "https://multiples.vc/private-comps/figure",
+          "note": "Series B $675M."
+        },
+        {
+          "date": "2025-09",
+          "value": 39.0,
+          "status": "reported",
+          "source": "https://www.therobotreport.com/figure-ai-raises-1b-in-series-c-funding-toward-humanoid-robot-development/"
+        },
+        {
+          "date": "2026-10-29",
+          "value": 30.23,
+          "status": "estimate",
+          "source": "https://defillama.com/pre-ipo/figure-ai",
+          "note": "Secondary-market tracker estimate, not a priced round."
+        }
+      ],
+      "revenue": [],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [
+        {
+          "date": "2026-05",
+          "metric": "Figure 03 units delivered",
+          "value": 350,
+          "status": "press",
+          "source": "https://sacra.com/c/figure-ai/"
+        }
+      ],
+      "notes": [
+        "No confirmed revenue; $39B valuation vs. minimal disclosed commercial revenue."
+      ]
+    },
+    {
+      "id": "scale",
+      "name": "Scale AI",
+      "country": "US",
+      "type": "infra",
+      "status": "private (Meta holds 49% non-voting stake since June 2025; founder-CEO Alexandr Wang left for Meta)",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2025-06",
+        "amount": 14.3,
+        "post_money_valuation": 29.0,
+        "lead_investors": [
+          "Meta"
+        ],
+        "status": "reported",
+        "source": "https://www.outlookbusiness.com/deeptech/artificial-intelligence/scale-ai-lays-off-14-of-staff-amid-revamp-following-metas-143bn-investment",
+        "note": "Meta paid $14.3B for 49%; largely paid out to shareholders rather than primary capital."
+      },
+      "valuations": [
+        {
+          "date": "2024-05",
+          "value": 13.8,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-06",
+          "value": 29.0,
+          "status": "reported",
+          "source": "https://www.outlookbusiness.com/deeptech/artificial-intelligence/scale-ai-lays-off-14-of-staff-amid-revamp-following-metas-143bn-investment",
+          "note": "Strategic mark; no market-cleared round since."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2024",
+          "value": 0.87,
+          "kind": "annual",
+          "status": "press",
+          "source": "https://www.kucoin.com/news/flash/scale-ai-revenue-expected-to-exceed-1-billion-in-2026-as-enterprise-ai-applications-grow",
+          "note": "CONFLICT: one outlet cites ~$870M 'last year'; Sacra lists $1.5B for 2024."
+        },
+        {
+          "date": "2026 (projection)",
+          "value": 1.0,
+          "kind": "annual",
+          "status": "reported",
+          "source": "https://www.kucoin.com/news/flash/scale-ai-revenue-expected-to-exceed-1-billion-in-2026-as-enterprise-ai-applications-grow",
+          "note": "CEO Jason Droege: 2026 revenue projected to exceed $1B; enterprise line ~$200M annualized."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Cut 14% of staff plus ~500 contractors in July 2025; Google, OpenAI and others reportedly reduced ties after the Meta deal."
+      ]
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks",
+      "country": "US",
+      "type": "infra",
+      "status": "private (no IPO filing found)",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2026-08-13",
+        "amount": 5.0,
+        "post_money_valuation": 190.0,
+        "lead_investors": [
+          "Coatue"
+        ],
+        "status": "reported",
+        "source": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales"
+      },
+      "valuations": [
+        {
+          "date": "2023-09",
+          "value": 43.0,
+          "status": "reported",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2024-12",
+          "value": 62.0,
+          "status": "reported",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-09",
+          "value": 100.0,
+          "status": "reported",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2026-02",
+          "value": 134.0,
+          "status": "reported",
+          "source": "https://pulse2.com/databricks-surpasses-5-4-billion-revenue-run-rate-and-secures-over-7-billion-in-equity-and-debt-financing/amp/",
+          "note": "$5B equity + $2B debt."
+        },
+        {
+          "date": "2026-08-13",
+          "value": 190.0,
+          "status": "reported",
+          "source": "https://w.media/us-5-billion-funding-round-pushes-databrick-valuation-to-us-190-billion/"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2026-02",
+          "value": 5.4,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://pulse2.com/databricks-surpasses-5-4-billion-revenue-run-rate-and-secures-over-7-billion-in-equity-and-debt-financing/amp/",
+          "note": ">65% YoY growth in Q4."
+        },
+        {
+          "date": "2026-08",
+          "value": 7.0,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.databricks.com/company/newsroom/press-releases/databricks-grows-80-yoy-surpasses-7b-revenue-run-rate-scales",
+          "note": ">80% YoY growth in Q2."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Says it was free-cash-flow positive on an adjusted basis over the last 12 months; GAAP profitability not disclosed."
+      ]
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "country": "US/FR",
+      "type": "infra",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2023-08",
+        "amount": 0.235,
+        "post_money_valuation": 4.5,
+        "lead_investors": [
+          "Salesforce Ventures"
+        ],
+        "status": "reported",
+        "source": null,
+        "note": "Series D; from background knowledge, URL not captured. No newer priced round found."
+      },
+      "valuations": [
+        {
+          "date": "2023-08",
+          "value": 4.5,
+          "status": "reported",
+          "source": null,
+          "verified_in_session": false
+        }
+      ],
+      "revenue": [],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "No reliable 2026 revenue or valuation found; one ranking gives a proxy estimate of $6.5-7.5B valuation and $395M revenue (https://geo.sig.ai/rankings/ai-infrastructure) - too weak to chart."
+      ]
+    },
+    {
+      "id": "harvey",
+      "name": "Harvey",
+      "country": "US",
+      "type": "app",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2026-10-01",
+        "amount": 0.55,
+        "post_money_valuation": 15.5,
+        "lead_investors": [],
+        "status": "press",
+        "source": "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95",
+        "note": "Aggregator-sourced; Bloomberg reportedly cited $15.6B. Leads not confirmed (Lightspeed reported circling)."
+      },
+      "valuations": [
+        {
+          "date": "2025-02",
+          "value": 3.0,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-06",
+          "value": 5.0,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-12",
+          "value": 8.0,
+          "status": "press",
+          "source": "https://www.teahose.com/guides/harvey-valuation"
+        },
+        {
+          "date": "2026-03",
+          "value": 11.0,
+          "status": "press",
+          "source": "https://www-web.itiger.com/news/2622706060",
+          "note": "$200M led by GIC and Sequoia."
+        },
+        {
+          "date": "2026-10-01",
+          "value": 15.5,
+          "status": "press",
+          "source": "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2026-01",
+          "value": 0.19,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.teahose.com/guides/harvey-valuation"
+        },
+        {
+          "date": "2026-05",
+          "value": 0.3,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://sacra.com/c/harvey/"
+        },
+        {
+          "date": "2026-10",
+          "value": 0.4,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.saasrise.com/deals/harvey-raises-550m-in-funding-round-valuation-reaches-155b-fdaacbc6-e5ae-49f1-a9e7-224789dfde95",
+          "note": "Aggregator-sourced."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "sierra",
+      "name": "Sierra",
+      "country": "US",
+      "type": "app",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2026-05-04",
+        "amount": 0.95,
+        "post_money_valuation": 15.8,
+        "lead_investors": [
+          "Tiger Global",
+          "GV"
+        ],
+        "status": "reported",
+        "source": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious"
+      },
+      "valuations": [
+        {
+          "date": "2024-10",
+          "value": 4.5,
+          "status": "press",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-09",
+          "value": 10.0,
+          "status": "press",
+          "source": "https://sacra.com/c/sierra/",
+          "note": "$350M round."
+        },
+        {
+          "date": "2026-05-04",
+          "value": 15.8,
+          "status": "reported",
+          "source": "https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-11",
+          "value": 0.1,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://sacra.com/c/sierra/",
+          "note": "$100M ARR in 7 quarters."
+        },
+        {
+          "date": "2026-02",
+          "value": 0.15,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.pymnts.com/news/investment-tracker/2026/openai-veteran-raises-950-million-for-ai-customer-service-agents/"
+        },
+        {
+          "date": "2026-05",
+          "value": 0.2,
+          "kind": "run_rate",
+          "status": "estimate",
+          "source": "https://sacra.com/c/sierra/",
+          "note": "Sacra estimate, not company-confirmed."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "glean",
+      "name": "Glean",
+      "country": "US",
+      "type": "app",
+      "status": "private",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2025-06",
+        "amount": 0.15,
+        "post_money_valuation": 7.2,
+        "lead_investors": [
+          "Wellington Management"
+        ],
+        "status": "reported",
+        "source": "https://www.glean.com/blog/glean-series-f-announcement",
+        "note": "Series F. No new round reported through Oct 2026."
+      },
+      "valuations": [
+        {
+          "date": "2024-09",
+          "value": 4.6,
+          "status": "reported",
+          "source": null,
+          "verified_in_session": false
+        },
+        {
+          "date": "2025-06",
+          "value": 7.2,
+          "status": "reported",
+          "source": "https://www.glean.com/blog/glean-series-f-announcement"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025-02",
+          "value": 0.1,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://www.kucoin.com/news/flash/glean-hits-300m-arr-amid-ai-budget-cuts-valued-at-7-2b"
+        },
+        {
+          "date": "2025-12",
+          "value": 0.2,
+          "kind": "run_rate",
+          "status": "reported",
+          "source": "https://futurumgroup.com/insights/glean-doubles-arr-to-200m-can-its-knowledge-graph-beat-copilot/"
+        },
+        {
+          "date": "2026-05",
+          "value": 0.3,
+          "kind": "run_rate",
+          "status": "press",
+          "source": "https://www.kucoin.com/news/flash/glean-hits-300m-arr-amid-ai-budget-cuts-valued-at-7-2b"
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "country": "CN",
+      "type": "lab",
+      "status": "private (reportedly weighing a Shanghai listing for 2027)",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null,
+        "note": "Historically funded by parent hedge fund High-Flyer; no closed outside round verified."
+      },
+      "latest_round": {
+        "date": "2026",
+        "amount": null,
+        "post_money_valuation": null,
+        "lead_investors": [],
+        "status": "press",
+        "source": null,
+        "note": "UNVERIFIED search snippets: DeepSeek was raising ~$7B in a debut outside round at up to $59B, then paused a second round in July 2026. Primary source not captured - do not chart."
+      },
+      "valuations": [],
+      "revenue": [],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "moonshot",
+      "name": "Moonshot AI (Kimi)",
+      "country": "CN",
+      "type": "lab",
+      "status": "private (Hong Kong IPO reportedly planned for Q1 2027)",
+      "profitable": null,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null,
+        "note": "Aggregators are inconsistent ('$3.9B in six months')."
+      },
+      "latest_round": {
+        "date": "2026-07-30",
+        "amount": 3.5,
+        "post_money_valuation": 35.0,
+        "lead_investors": [],
+        "status": "press",
+        "source": "https://www2.yicaiglobal.com/news/moonshot-ais-latest-fundraiser-lifts-valuation-to-usd35-billion-amid-kimis-silicon-valley-buzz",
+        "note": "More than $3.5B. Sacra alone lists a further round at ~$50B in Oct 2026 (unconfirmed)."
+      },
+      "valuations": [
+        {
+          "date": "2026-01",
+          "value": 4.8,
+          "status": "press",
+          "source": "https://www.eweek.com/news/alibaba-moonshot-ai-valuation-jumps-4-8b-china/",
+          "note": "After a ~$500M raise (Alibaba, Tencent-backed)."
+        },
+        {
+          "date": "2026-02",
+          "value": 10.0,
+          "status": "press",
+          "source": "https://news.bloomberglaw.com/ip-law/china-ai-startup-moonshot-seeks-10-billion-value-in-new-funding",
+          "note": "Target in round expansion (Bloomberg)."
+        },
+        {
+          "date": "2026-05-07",
+          "value": 20.0,
+          "status": "press",
+          "source": "https://thenextweb.com/news/moonshot-ai-20bn-valuation-kimi-meituan-china-mobile",
+          "note": "~$2B led by Meituan's Long-Z, with China Mobile, Tsinghua Capital, CPE."
+        },
+        {
+          "date": "2026-07-30",
+          "value": 35.0,
+          "status": "press",
+          "source": "https://www2.yicaiglobal.com/news/moonshot-ais-latest-fundraiser-lifts-valuation-to-usd35-billion-amid-kimis-silicon-valley-buzz"
+        },
+        {
+          "date": "2026-10",
+          "value": 50.0,
+          "status": "estimate",
+          "source": "https://sacra.com/c/moonshot-ai/",
+          "note": "Single source; unconfirmed."
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2026 (forecast)",
+          "value": 1.0,
+          "kind": "annual",
+          "status": "estimate",
+          "source": "https://sacra.com/c/moonshot-ai/",
+          "note": "Forecast, not a result."
+        }
+      ],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Valuation rose ~7x in seven months of 2026."
+      ]
+    },
+    {
+      "id": "zhipu",
+      "name": "Zhipu AI (Z.ai / Knowledge Atlas)",
+      "country": "CN",
+      "type": "lab",
+      "status": "public (HKEX IPO 2026-01-08 at HK$116.2/share; applied for Shanghai STAR Market listing June 2026)",
+      "profitable": false,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2026-01-08",
+        "amount": null,
+        "post_money_valuation": null,
+        "lead_investors": [],
+        "status": "reported",
+        "source": "https://www.scmp.com/tech/tech-trends/article/3339301/minimax-and-zhipus-stellar-hong-kong-ipos-supercharge-chinas-ai-ambitions",
+        "note": "Hong Kong IPO. Proceeds not verified in this session (recalled as roughly HK$4.3B / ~US$0.56B; one 36Kr figure of HK$43.48B looks erroneous)."
+      },
+      "valuations": [
+        {
+          "date": "2026-05-29",
+          "value": 88.7,
+          "status": "estimate",
+          "source": "https://news.futunn.com/en/post/73875046/market-cap-exceeds-hk-260-billion-minimax-makes-another-push",
+          "note": "Market cap HK$691.5B converted at ~7.8 HKD/USD.",
+          "value_local": "HKD 691.5B"
+        },
+        {
+          "date": "2026-09-01",
+          "value": 71.4,
+          "status": "estimate",
+          "source": "https://eu.36kr.com/en/p/3971481903306372",
+          "note": "Market cap HK$557.3B converted at ~7.8 HKD/USD; touched HK$1T intraday in June 2026.",
+          "value_local": "HKD 557.3B"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2026-H1",
+          "value": null,
+          "kind": "half_year",
+          "status": "reported",
+          "source": "https://eu.36kr.com/en/p/3971481903306372",
+          "note": "RMB 954M revenue in H1 2026 (USD value not converted)."
+        }
+      ],
+      "losses": [
+        {
+          "period": "2026-H1",
+          "value": null,
+          "metric": "net_loss",
+          "status": "reported",
+          "source": "https://eu.36kr.com/en/p/3971481903306372",
+          "note": "Net loss ~RMB 2B in H1 2026 (USD not converted)."
+        }
+      ],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Local-currency figures: revenue_local RMB 0.954B, loss_local RMB 2.0B for H1 2026."
+      ]
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "country": "CN",
+      "type": "lab",
+      "status": "public (HKEX IPO 2026-01-09; began A-share listing process with CITIC Securities 2026-05-29)",
+      "profitable": false,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2026-01-09",
+        "amount": null,
+        "post_money_valuation": null,
+        "lead_investors": [],
+        "status": "reported",
+        "source": "https://www.scmp.com/tech/tech-trends/article/3339301/minimax-and-zhipus-stellar-hong-kong-ipos-supercharge-chinas-ai-ambitions",
+        "note": "Hong Kong IPO. Proceeds not verified in this session."
+      },
+      "valuations": [
+        {
+          "date": "2026-05-29",
+          "value": 34.2,
+          "status": "estimate",
+          "source": "https://news.futunn.com/en/post/73875046/market-cap-exceeds-hk-260-billion-minimax-makes-another-push",
+          "note": "Market cap HK$266.6B converted at ~7.8 HKD/USD.",
+          "value_local": "HKD 266.6B"
+        }
+      ],
+      "revenue": [
+        {
+          "date": "2025",
+          "value": null,
+          "kind": "annual",
+          "status": "reported",
+          "source": "https://eu.36kr.com/en/p/3971481903306372",
+          "note": "RMB 543M revenue in 2025 (USD not converted)."
+        }
+      ],
+      "losses": [
+        {
+          "period": "2025",
+          "value": null,
+          "metric": "net_loss",
+          "status": "reported",
+          "source": "https://eu.36kr.com/en/p/3971481903306372",
+          "note": "Net loss ~RMB 1.75B in 2025 (USD not converted)."
+        }
+      ],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    },
+    {
+      "id": "prometheus",
+      "name": "Project Prometheus (Jeff Bezos / Vik Bajaj)",
+      "country": "US",
+      "type": "lab (physical AI)",
+      "status": "private",
+      "profitable": false,
+      "total_funding": {
+        "value": null,
+        "status": "estimate",
+        "source": null
+      },
+      "latest_round": {
+        "date": "2026-06",
+        "amount": 12.0,
+        "post_money_valuation": 41.0,
+        "lead_investors": [],
+        "status": "estimate",
+        "source": "https://valueaddvc.com/blog/biggest-ai-funding-rounds-of-2026-so-far-ranked",
+        "note": "Series B per a funding tracker; not verified against primary reporting."
+      },
+      "valuations": [
+        {
+          "date": "2026-06",
+          "value": 41.0,
+          "status": "estimate",
+          "source": "https://valueaddvc.com/blog/biggest-ai-funding-rounds-of-2026-so-far-ranked"
+        }
+      ],
+      "revenue": [],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": [
+        "Became one of the largest 2026 rounds outside OpenAI/Anthropic/xAI; treat as low-confidence."
+      ]
+    },
+    {
+      "id": "humans-and",
+      "name": "humans&",
+      "country": "US",
+      "type": "lab",
+      "status": "private",
+      "profitable": false,
+      "total_funding": {
+        "value": 0.48,
+        "status": "press",
+        "source": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/"
+      },
+      "latest_round": {
+        "date": "2026-01-20",
+        "amount": 0.48,
+        "post_money_valuation": 4.48,
+        "lead_investors": [],
+        "status": "press",
+        "source": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/",
+        "note": "Seed round."
+      },
+      "valuations": [
+        {
+          "date": "2026-01-20",
+          "value": 4.48,
+          "status": "press",
+          "source": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/"
+        }
+      ],
+      "revenue": [],
+      "losses": [],
+      "compute_commitments": [],
+      "users": [],
+      "notes": []
+    }
+  ],
+  "failures": [
+    {
+      "name": "Inflection AI",
+      "year": 2024,
+      "what_happened": "Microsoft paid ~$650M (mostly a licensing fee) and hired CEO Mustafa Suleyman and nearly all of the ~70 staff; the shell pivoted to enterprise. Had raised $1.5B.",
+      "source": "https://en.wikipedia.org/wiki/Inflection_AI"
+    },
+    {
+      "name": "Character.AI",
+      "year": 2024,
+      "what_happened": "Google paid ~$2.7B to license the tech and rehire the founders (reverse acqui-hire).",
+      "source": "https://www.implicator.ai/character-ai-files-for-chapter-11-as-disney-bids-20-million-for-an-ip-license/"
+    },
+    {
+      "name": "Character.AI",
+      "year": 2026,
+      "what_happened": "Filed Chapter 11 in Delaware on 2026-10-12 amid teen-harm litigation; Disney is stalking-horse bidder at $20M for an IP license; assets and liabilities estimated at $50-100M each; sale expected by end Nov/early Dec 2026.",
+      "source": "https://edition.cnn.com/2026/10/13/tech/character-ai-bankruptcy-filing"
+    },
+    {
+      "name": "Windsurf (Codeium)",
+      "year": 2025,
+      "what_happened": "OpenAI's ~$3B acquisition collapsed; Google paid $2.4B to license the tech and hire the CEO and key staff; Cognition bought the remainder days later.",
+      "source": "https://techcrunch.com/2025/07/11/windsurfs-ceo-goes-to-google-openais-acquisition-falls-apart"
+    },
+    {
+      "name": "Humane",
+      "year": 2025,
+      "what_happened": "AI Pin discontinued; HP bought the remaining assets for $116M, less than half of the capital raised.",
+      "source": "https://www.buildmvpfast.com/blog/failed-ai-startups-what-went-wrong-lessons-founders-2026"
+    },
+    {
+      "name": "Builder.ai",
+      "year": 2025,
+      "what_happened": "Microsoft-backed 'AI' app builder once valued above $1B entered insolvency in 2025 after revenue was found to be overstated.",
+      "source": "https://en.wikipedia.org/wiki/Builder.ai"
+    },
+    {
+      "name": "Scale AI",
+      "year": 2025,
+      "what_happened": "Meta took 49% for $14.3B and hired the CEO; Scale then cut 14% of staff and lost business from rival labs.",
+      "source": "https://www.outlookbusiness.com/deeptech/artificial-intelligence/scale-ai-lays-off-14-of-staff-amid-revamp-following-metas-143bn-investment"
+    },
+    {
+      "name": "xAI",
+      "year": 2026,
+      "what_happened": "Burning ~$1B/month with a $6.4B 2025 operating loss, it was folded into SpaceX in an all-stock deal that analysts called an 'instant bailout'.",
+      "source": "https://dataconomy.com/2026/02/04/analysts-label-spacex-xai-merger-as-an-instant-bailout-for-musks-ai-firm/"
+    },
+    {
+      "name": "Aleph Alpha",
+      "year": 2026,
+      "what_happened": "Germany's would-be national AI champion agreed to be absorbed by Cohere (Aleph Alpha holders ~10% of the combined company).",
+      "source": "https://sifted.eu/articles/aleph-alpha-strikes-20bn-merger-deal-with-canadas-cohere"
+    },
+    {
+      "name": "Thinking Machines Lab (failed raise)",
+      "year": 2026,
+      "what_happened": "A reported $50-60B round collapsed around January 2026 and several co-founders returned to OpenAI; now raising at ~$40B (single-source, unconfirmed).",
+      "source": "https://capitalandcompute.net/blog/ex-openai-anthropic-startups-funding/"
+    },
+    {
+      "name": "Sora (OpenAI consumer app)",
+      "year": 2026,
+      "what_happened": "OpenAI shut the consumer video app in spring 2026 citing compute cost and weak retention (not a startup, but a notable product failure).",
+      "source": "https://tech.yahoo.com/ai/articles/ai-graveyard-running-list-projects-190000724.html"
+    },
+    {
+      "name": "Yupp",
+      "year": 2026,
+      "what_happened": "Multi-model comparison platform shut down in March 2026 after failing to find product-market fit.",
+      "source": "https://tech.yahoo.com/ai/articles/ai-graveyard-running-list-projects-190000724.html"
+    },
+    {
+      "name": "Huxe",
+      "year": 2026,
+      "what_happened": "AI audio app closed in May 2026 as larger platforms shipped similar features.",
+      "source": "https://tech.yahoo.com/ai/articles/ai-graveyard-running-list-projects-190000724.html"
+    },
+    {
+      "name": "Relay",
+      "year": 2026,
+      "what_happened": "AI workflow-automation startup shut down in August 2026 after OpenAI, Google and others built the feature into their own products.",
+      "source": "https://tech.yahoo.com/ai/articles/ai-graveyard-running-list-projects-190000724.html"
+    }
+  ],
+  "notes": [
+    "Research conducted 2026-11-13 via web search; many H2-2026 figures come from secondary/aggregator outlets relaying Reuters, Bloomberg, CNBC, FT, The Information, WSJ. Spot-check headline numbers before publishing.",
+    "Anthropic overtook OpenAI in both valuation ($965B vs $852B, May 2026) and recognized revenue (Q2 2026: $11.6B vs $6.7B) and is days from a Nasdaq IPO (pricing expected 2026-11-18). IPO terms are indicative until priced.",
+    "OpenAI vs Anthropic run-rates are NOT like-for-like: OpenAI reports net of cloud-partner share (~$50B, Sep 2026), Anthropic gross (~$81B, Oct 2026).",
+    "Headline net losses for both labs are dominated by non-cash fair-value charges (OpenAI 2025: ~$30B of $38.5B; Anthropic 9M 2026: $94.3B of $104B). Operating loss and cash flow are the more meaningful series.",
+    "Negative values in 'losses' entries with metric operating_loss / operating_cash_outflow denote a PROFIT / cash inflow (see each note).",
+    "Compute-commitment totals mix different concepts (take-or-pay minimums, leases, 'up to' amounts, analyst estimates). Do not sum counterparties.",
+    "Not found (null): total funding for Mistral, Perplexity, Cursor, Lovable, Runway, Scale, Databricks, Harvey, Sierra, Glean, Hugging Face, Chinese labs; revenue for Figure, Hugging Face, DeepSeek, SSI/TML; USD IPO proceeds for Zhipu and MiniMax; burn figures for most app-layer startups; xAI standalone financials after the SpaceX merger.",
+    "Three of the listed companies are no longer independent private startups: xAI (merged into SpaceX, Feb 2026), Cursor (acquired by SpaceX, June 2026), Character.AI (Chapter 11, Oct 2026). Zhipu and MiniMax are public in Hong Kong; Anthropic is mid-IPO."
+  ]
+}

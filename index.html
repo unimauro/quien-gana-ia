@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¿Quién gana con la IA? · Chips, gigantes, startups y software en cifras</title>
+<meta name="description" content="Dashboard con fuentes: cuánto invierten las grandes tecnológicas en inteligencia artificial, si esa inversión se está pagando y quién gana hasta ahora: fabricantes de chips, gigantes de la nube, laboratorios y startups, o el software.">
+<meta property="og:title" content="¿Quién gana con la IA?">
+<meta property="og:description" content="Inversión, utilidades y valor en bolsa de más de 60 empresas de IA, con fuente por cada dato. Corte: 13 de noviembre de 2026.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script>try{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#inicio">¿Quién gana con la IA?</a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#apuesta">La apuesta</a>
+      <a href="#sepaga">¿Se paga?</a>
+      <a href="#ranking">Ranking</a>
+      <a href="#chips">Chips</a>
+      <a href="#gigantes">Gigantes</a>
+      <a href="#labs">Labs y startups</a>
+      <a href="#software">Software</a>
+      <a href="#circular">Dinero circular</a>
+      <a href="#riesgos">Riesgos</a>
+      <a href="#metodo">Método</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Cambiar entre tema claro y oscuro">Tema</button>
+  </div>
+</header>
+
+<main id="inicio">
+<div class="wrap hero">
+  <p class="kicker">Inversión en inteligencia artificial · corte al 13 de noviembre de 2026</p>
+  <h1>La IA ya es rentable, pero sobre todo para quien vende los chips</h1>
+  <p class="lede">Cuatro gigantes tecnológicos gastarán este año unos US$ 735 mil millones en centros de datos. Toda la IA generativa factura cerca de US$ 175 mil millones al año. Mientras esa cuenta se cierra, las utilidades se quedan en los fabricantes de chips y memoria.</p>
+
+  <div class="heroFig">
+    <div class="n" id="heroN">4.2×</div>
+    <p class="t"><b>Por cada dólar que hoy ingresa la IA generativa, Amazon, Alphabet, Microsoft y Meta invierten 4.2 dólares en infraestructura en 2026.</b> El capex incluye gasto que no es de IA (por ejemplo, logística de Amazon), así que la razón es una aproximación, no una medida exacta del retorno.</p>
+  </div>
+
+  <div class="verdict" id="verdict"></div>
+  <p class="asof">Cifras en dólares de EE. UU. «Billón» significa un millón de millones. El corte cae en medio de una caída fuerte de las acciones de IA (5 de noviembre de 2026): los porcentajes de bolsa son sensibles a esa fecha.</p>
+</div>
+
+<section id="apuesta"><div class="wrap">
+  <p class="sec-n">1 · La apuesta</p>
+  <h2>El gasto en centros de datos se multiplicó por cinco en cuatro años</h2>
+  <p class="sec-lede">Entre 2022 y 2025 la inversión de capital de los cuatro mayores compradores pasó de US$ 151 mil millones a US$ 376 mil millones. Sus propias guías para 2026 suman unos US$ 735 mil millones, y Goldman Sachs y Morgan Stanley proyectan entre 1.2 y 1.6 billones para 2027.</p>
+  <div class="grid">
+    <div class="card wide">
+      <h3>Inversión de capital por año</h3>
+      <p class="sub">Miles de millones de US$. 2022–2025: cifras reportadas. 2026: guía oficial de cada empresa (punto medio), en tono más claro.</p>
+      <div id="c-capex"></div>
+      <p class="src" id="s-capex"></p>
+    </div>
+  </div>
+  <p class="callout">La serie de Microsoft hasta 2025 es compra de activos en efectivo y su guía de 2026 incluye arrendamientos financieros, por lo que el salto de ese año está algo sobrestimado. Oracle no entra en la suma: su guía de US$ 90–95 mil millones es para un año fiscal que termina en mayo de 2027.</p>
+</div></section>
+
+<section id="sepaga"><div class="wrap">
+  <p class="sec-n">2 · ¿Se paga?</p>
+  <h2>Todavía no: los ingresos de la IA son una fracción de lo invertido</h2>
+  <p class="sec-lede">No existe una cifra única y auditada de «ingresos de IA»: Microsoft, Alphabet, Amazon y Meta no la publican. Lo que sí se puede comparar es la inversión anunciada contra lo que facturan los laboratorios y las estimaciones del mercado completo.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Inversión de 2026 frente a ingresos de la IA generativa</h3>
+      <p class="sub">Miles de millones de US$ al año. Los ritmos anuales son el último mes multiplicado por doce, no ventas ya cobradas.</p>
+      <div id="c-gap"></div>
+      <p class="src" id="s-gap"></p>
+    </div>
+    <div class="card">
+      <h3>«La pregunta» de David Cahn crece cada año</h3>
+      <p class="sub">Ingresos anuales de IA que harían falta para justificar la infraestructura instalada, según el analista de Sequoia. Miles de millones de US$.</p>
+      <div id="c-cahn"></div>
+      <p class="src" id="s-cahn"></p>
+    </div>
+  </div>
+  <div class="tiles" id="t-roi" style="margin-top:14px"></div>
+  <p class="src" id="s-roi"></p>
+  <p class="callout" id="bain"></p>
+</div></section>
+
+<section id="ranking"><div class="wrap">
+  <p class="sec-n">3 · Quién gana</p>
+  <h2>Chips y gigantes crearon casi el mismo valor en bolsa; los chips partían de la cuarta parte</h2>
+  <p class="sec-lede">Desde el lanzamiento de ChatGPT (30 de noviembre de 2022), los proveedores de chips e infraestructura multiplicaron su valor por seis. Los gigantes lo multiplicaron por 2.4. En software hay dos ganadores enormes y varias empresas que valen menos que entonces.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Valor creado desde noviembre de 2022, por grupo</h3>
+      <p class="sub">Aumento de la capitalización bursátil. Para laboratorios y startups, valoración privada actual: casi nada de eso existía en 2022 y no es un precio de mercado.</p>
+      <div id="c-catgain"></div>
+      <p class="src" id="s-catgain"></p>
+    </div>
+    <div class="card">
+      <h3>Utilidad neta de los últimos 12 meses, por grupo</h3>
+      <p class="sub">La de los gigantes está inflada por ganancias contables en sus participaciones en Anthropic, OpenAI y SpaceX. Laboratorios: resultado operativo de OpenAI (2025) y Anthropic (nueve meses de 2026).</p>
+      <div id="c-catni"></div>
+      <p class="src" id="s-catni"></p>
+    </div>
+    <div class="card wide">
+      <h3>Empresa por empresa</h3>
+      <p class="sub" id="rank-sub"></p>
+      <div class="controls">
+        <div class="seg" id="f-metric" role="group" aria-label="Indicador"><span class="lbl">Indicador</span></div>
+        <div class="seg" id="f-cat" role="group" aria-label="Grupo"><span class="lbl">Grupo</span></div>
+      </div>
+      <div id="c-rank"></div>
+      <p class="src" id="s-rank"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="chips"><div class="wrap">
+  <p class="sec-n">4 · Chips e infraestructura</p>
+  <h2>El negocio seguro: vender las palas</h2>
+  <p class="sec-lede">Nvidia pasó de US$ 15 mil millones a casi US$ 194 mil millones de ventas a centros de datos en tres años fiscales. En 2026 el mayor salto fue de la memoria: Micron y SK Hynix operan con márgenes cercanos a 75 %. Quien ensambla servidores vende mucho y gana poco, y las nubes de GPU siguen en pérdida.</p>
+  <div class="tiles" id="t-chips"></div>
+  <div class="grid two">
+    <div class="card">
+      <h3>Ventas de Nvidia a centros de datos</h3>
+      <p class="sub">Miles de millones de US$ por año fiscal (termina a fines de enero). Solo en el trimestre a julio de 2026 fueron US$ 89 mil millones.</p>
+      <div id="c-nvda"></div>
+      <p class="src" id="s-nvda"></p>
+    </div>
+    <div class="card">
+      <h3>Margen operativo: quién se queda con la ganancia</h3>
+      <p class="sub">Utilidad operativa como porcentaje de las ventas, últimos 12 meses (cálculo estandarizado del agregador).</p>
+      <div id="c-margin"></div>
+      <p class="src" id="s-margin"></p>
+    </div>
+  </div>
+  <p class="callout" id="nvda-note"></p>
+</div></section>
+
+<section id="gigantes"><div class="wrap">
+  <p class="sec-n">5 · Gigantes tecnológicos</p>
+  <h2>La nube crece como nunca y la caja libre se evapora</h2>
+  <p class="sec-lede">Los contratos firmados son reales: cuatro empresas acumulan cerca de US$ 2.5 billones en pedidos pendientes. El costo también: el flujo de caja libre de Amazon y Oracle ya es negativo, y el de Alphabet cayó de US$ 73 mil millones a menos de 20 mil millones.</p>
+  <div class="tiles" id="t-cloud"></div>
+  <p class="src" id="s-cloud" style="margin:-4px 0 14px"></p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Flujo de caja libre</h3>
+      <p class="sub">Caja operativa menos inversión de capital, miles de millones de US$. Último punto: 12 meses a agosto o septiembre de 2026.</p>
+      <div id="c-fcf"></div>
+      <p class="src" id="s-fcf"></p>
+    </div>
+    <div class="card">
+      <h3>Pedidos contratados pendientes de entregar</h3>
+      <p class="sub">Miles de millones de US$, a septiembre de 2026 salvo indicación. Son ingresos futuros si los clientes cumplen: buena parte depende de OpenAI y Anthropic.</p>
+      <div id="c-backlog"></div>
+      <p class="src" id="s-backlog"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="labs"><div class="wrap">
+  <p class="sec-n">6 · Laboratorios y startups</p>
+  <h2>Ingresos que se duplican cada pocos meses, y cuentas por pagar aún mayores</h2>
+  <p class="sec-lede">Anthropic superó a OpenAI en valoración e ingresos en 2026 y tuvo su primer trimestre con utilidad operativa. OpenAI proyecta flujo de caja negativo acumulado de US$ 278 mil millones hasta 2030. Ambas firmaron compromisos de cómputo de un orden de magnitud por encima de lo que facturan.</p>
+  <p class="warn">Casi todo en esta sección viene de prensa, documentos filtrados o resúmenes del prospecto de Anthropic, no de estados auditados. Los ingresos de OpenAI (netos de lo que se quedan sus socios de nube) y los de Anthropic (brutos) no son comparables de forma directa.</p>
+  <div class="tiles" id="t-labs"></div>
+  <p class="src" id="s-labt" style="margin:-4px 0 14px"></p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Valoración en rondas cerradas</h3>
+      <p class="sub">Miles de millones de US$. No incluye negociaciones ni el rango de la salida a bolsa de Anthropic, aún sin precio.</p>
+      <div id="c-val"></div>
+      <p class="src" id="s-val"></p>
+    </div>
+    <div class="card">
+      <h3>Ritmo anual de ingresos</h3>
+      <p class="sub">Miles de millones de US$ anualizados, según declaraciones de cada empresa y prensa.</p>
+      <div id="c-run"></div>
+      <p class="src" id="s-run"></p>
+    </div>
+    <div class="card">
+      <h3>Lo que facturan frente a lo que prometieron gastar en cómputo</h3>
+      <p class="sub">Miles de millones de US$. Los compromisos se pagan a lo largo de muchos años; los ingresos son de un año.</p>
+      <div id="c-labmoney"></div>
+      <p class="src" id="s-labmoney"></p>
+    </div>
+    <div class="card">
+      <h3>Cuánto se paga por cada dólar de ingresos</h3>
+      <p class="sub">Valoración dividida entre ingresos anuales. Las fechas de valoración e ingresos no siempre coinciden: es una aproximación.</p>
+      <div id="c-mult"></div>
+      <p class="src" id="s-mult"></p>
+    </div>
+    <div class="card wide">
+      <h3>Los principales laboratorios y startups de IA</h3>
+      <p class="sub">Última valoración en ronda cerrada o adquisición y último ritmo anual de ingresos conocido. «s/d»: sin dato publicado.</p>
+      <div class="dt" id="tb-labs"></div>
+      <p class="src" id="s-labs"></p>
+    </div>
+    <div class="card wide">
+      <h3>No todas llegan: salidas y rescates</h3>
+      <div class="dt" id="tb-fail"></div>
+      <p class="src" id="s-fail"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="software"><div class="wrap">
+  <p class="sec-n">7 · Software y negocios que usan IA</p>
+  <h2>2026 fue el año en que el mercado castigó al software</h2>
+  <p class="sec-lede">Las empresas de software venden más y ganan más que en 2022, pero la bolsa duda de que sus licencias sobrevivan a los agentes de IA. Doce de las catorce que seguimos perdieron valor este año. Las que ganan (Palantir, AppLovin) hicieron de la IA el producto, no un añadido.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Cambio de capitalización en 2026</h3>
+      <p class="sub">Del 31 de diciembre de 2025 al 12 de noviembre de 2026.</p>
+      <div id="c-ytd"></div>
+      <p class="src" id="s-ytd"></p>
+    </div>
+    <div class="card">
+      <h3>Lo que las propias empresas dicen ganar con IA</h3>
+      <p class="sub">Pocas publican la cifra, y dos dejaron de hacerlo en 2026.</p>
+      <div class="dt" id="tb-aim"></div>
+      <p class="src" id="s-aim"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="circular"><div class="wrap">
+  <p class="sec-n">8 · Dinero circular</p>
+  <h2>Proveedores que financian a sus clientes, que les compran con ese dinero</h2>
+  <p class="sec-lede">Gran parte de la demanda de chips y nube viene de dos laboratorios financiados por los mismos proveedores. Mientras las valoraciones suben, todos anotan ganancias; si bajan, el circuito funciona al revés.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>Quién pone dinero en quién</h3>
+      <div class="flows" id="flows"></div>
+      <p class="src" id="s-flows"></p>
+    </div>
+    <div class="card">
+      <h3>Ganancias de papel en los resultados de los gigantes</h3>
+      <p class="sub">Revalorización contable de participaciones, miles de millones de US$. No es caja: nadie vendió nada.</p>
+      <div id="c-paper"></div>
+      <p class="src" id="s-paper"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="riesgos"><div class="wrap">
+  <p class="sec-n">9 · Riesgos</p>
+  <h2>Deuda, energía y un mercado que ya dio el primer aviso</h2>
+  <p class="sec-lede">La inversión dejó de pagarse solo con caja: se financia con bonos, crédito privado y vehículos fuera de balance. El FMI y el Banco de Inglaterra advirtieron en octubre de una corrección; el 5 de noviembre llegó la primera.</p>
+  <div class="tiles" id="t-risk"></div>
+  <p class="src" id="s-risk" style="margin:-4px 0 14px"></p>
+  <div class="grid">
+    <div class="card wide">
+      <h3>2026 en nueve fechas</h3>
+      <div class="dt" id="tb-events"></div>
+      <p class="src" id="s-events"></p>
+    </div>
+  </div>
+</div></section>
+
+<section id="metodo"><div class="wrap">
+  <p class="sec-n">10 · Método y límites</p>
+  <h2>Cómo leer estas cifras</h2>
+  <ul class="notes">
+    <li><b>Qué es y qué no.</b> Es una recopilación de cifras públicas con su fuente, no una recomendación de inversión. Los datos se reunieron el 13 de noviembre de 2026 con ayuda de IA para la búsqueda y se consolidaron con un script reproducible (<a href="https://github.com/unimauro/quien-gana-ia/blob/main/etl/build.py">etl/build.py</a>); no se interpoló ningún número.</li>
+    <li><b>Estados financieros.</b> Ingresos, utilidades, márgenes y capitalización vienen de StockAnalysis (que estandariza los reportes a los reguladores) y de los comunicados de cada empresa. «Últimos 12 meses» termina entre junio y septiembre de 2026 según la empresa. Varias tienen año fiscal distinto del calendario (Microsoft, Oracle, Nvidia, Apple, Micron).</li>
+    <li><b>Capitalización al 30-nov-2022.</b> Es un estimado: la capitalización de cierre de 2022 ajustada por el cambio de precio de la acción entre ambas fechas. Arm, CoreWeave y Nebius no cotizaban ese día: su cambio se mide desde que empezaron a cotizar y no entran en la suma de valor creado.</li>
+    <li><b>Monedas.</b> TSMC, Samsung, SK Hynix, ASML, Alibaba, Tencent, Baidu y Cambricon reportan en otra moneda; sus cifras en dólares son conversiones al tipo de cambio promedio del periodo. SAP reporta en euros y solo aparece en los gráficos de bolsa.</li>
+    <li><b>Utilidades infladas.</b> La utilidad neta de Alphabet, Amazon y Microsoft incluye revalorizaciones contables de sus participaciones en laboratorios de IA. La de Samsung es de toda la empresa. La de SK Hynix viene del agregador y puede no reflejar una pérdida no operativa del tercer trimestre.</li>
+    <li><b>Laboratorios y startups.</b> Son empresas privadas: valoraciones, ingresos y pérdidas vienen de prensa (Reuters, Bloomberg, The Information, FT), filtraciones y, para Anthropic, resúmenes de su prospecto. Los «ritmos anuales» los declara cada empresa con su propia metodología.</li>
+    <li><b>Fuentes secundarias.</b> Varias cifras del segundo semestre de 2026 se tomaron de medios que citan a la fuente original. Las fuentes discrepan en algunos puntos (por ejemplo, el total de compromisos de OpenAI: de US$ 600 mil millones a 1.4 billones según qué se cuente); en esos casos se usó la cifra más conservadora y documentada.</li>
+    <li><b>Lo que falta.</b> No hay cifra oficial de ingresos de IA de Microsoft, Alphabet, Amazon ni Meta para 2026; ni ingresos de memoria HBM por empresa; ni resultados del tercer trimestre de Alibaba, Tencent y Baidu. Nvidia reporta su trimestre a octubre el 17 de noviembre.</li>
+  </ul>
+  <h3 style="margin-top:28px">Referencias</h3>
+  <ol class="refs" id="refs"></ol>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  Datos y código abiertos en <a href="https://github.com/unimauro/quien-gana-ia">github.com/unimauro/quien-gana-ia</a> · Elaborado por Carlos Cárdenas con asistencia de IA · Corte: 13-nov-2026 · No es asesoría financiera.
+</div></footer>
+
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

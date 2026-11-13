@@ -1,0 +1,3253 @@
+{
+ "as_of": "2026-11-13",
+ "currency_default": "USD bn",
+ "companies": [
+  {
+   "id": "microsoft",
+   "name": "Microsoft",
+   "ticker": "MSFT",
+   "country": "US",
+   "fiscal_basis": "Fiscal year ends June 30. capex = calendar-year sums of quarterly cash 'additions to property and equipment' (excludes finance leases; Microsoft's own headline capex incl. finance leases is higher, e.g. ~$45B vs $39.4B in Jul-Sep 2026). revenue/net_income/fcf are FISCAL years (FY2022 = Jul 2021-Jun 2022 ... FY2026 = Jul 2025-Jun 2026).",
+   "models_services": "Copilot (Microsoft 365, GitHub), Azure AI Foundry / Azure OpenAI, in-house MAI models, Phi small models; exclusive-era partner and ~24% holder of OpenAI.",
+   "capex": {
+    "2021": {
+     "value": null,
+     "status": "not_found",
+     "source": null,
+     "note": "Only Oct-Dec 2021 quarter ($5.865B) retrieved; calendar 2021 not computable. FY2022 (Jul21-Jun22) = $23.886B."
+    },
+    "2022": {
+     "value": 24.768,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2022, sum of 4 quarters"
+    },
+    "2023": {
+     "value": 35.202,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2023, sum of 4 quarters"
+    },
+    "2024": {
+     "value": 55.552,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2024, sum of 4 quarters"
+    },
+    "2025": {
+     "value": 83.094,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2025, sum of 4 quarters"
+    },
+    "2026": {
+     "value": 106.045,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/?p=quarterly",
+     "period": "Jan-Sep 2026 actual (3 quarters, cash PP&E)",
+     "guidance": {
+      "value": 175,
+      "unit": "USD bn",
+      "status": "guidance",
+      "text": "Reported capex (incl. finance leases) of ~$175B for calendar 2026, lowered from ~$190B after lease-term accounting change (July 2026 call). On 28-Oct-2026 CFO Hood: ~$45B spent in Jul-Sep quarter, >$50B expected in Oct-Dec quarter, rising toward ~$170B for fiscal 2027 (one outlet says $175B).",
+      "source": "https://www.thestar.com.my/business/business-news/2026/07/31/microsoft-sees-strong-cash-flow-lower-capex",
+      "source_2": "https://investinglive.com/stocks/microsoft-sees-170bn-capex-in-fiscal-2027-but-says-it-will-stay-cash-flow-positive/"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 198.27,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "FY2022 (Jun)"
+    },
+    "2023": {
+     "value": 211.915,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "FY2023"
+    },
+    "2024": {
+     "value": 245.122,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "FY2024"
+    },
+    "2025": {
+     "value": 281.724,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "FY2025"
+    },
+    "2026": {
+     "value": 331.839,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "FY2026 (ended 2026-06-30)"
+    },
+    "ttm": {
+     "value": 346.445,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 72.738,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "FY2022 (Jun)"
+    },
+    "2023": {
+     "value": 72.361,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/"
+    },
+    "2024": {
+     "value": 88.136,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/"
+    },
+    "2025": {
+     "value": 101.832,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/"
+    },
+    "2026": {
+     "value": 133.749,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "FY2026 (ended 2026-06-30)"
+    },
+    "ttm": {
+     "value": 142.631,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": 65.149,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
+     "period": "FY2022 (Jun)"
+    },
+    "2023": {
+     "value": 59.475,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 74.071,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 71.611,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/"
+    },
+    "2026": {
+     "value": 66.987,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
+     "period": "FY2026 (ended 2026-06-30)"
+    },
+    "ttm": {
+     "value": 59.957,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "Azure revenue (first-ever dollar disclosure)",
+     "value": 33.165,
+     "unit": "USD bn",
+     "period": "Jul-Sep 2026 (FY27 Q1)",
+     "status": "reported",
+     "source": "https://www.microsoft.com/en-us/investor/earnings/FY-2027-Q1/press-release-webcast"
+    },
+    {
+     "metric": "Azure revenue growth YoY",
+     "value": 48,
+     "unit": "%",
+     "period": "Jul-Sep 2026 (prior quarter 42-43%)",
+     "status": "reported",
+     "source": "https://www.microsoft.com/en-us/investor/earnings/FY-2027-Q1/press-release-webcast"
+    },
+    {
+     "metric": "Azure growth guidance (constant currency)",
+     "value": "49-50",
+     "unit": "%",
+     "period": "Oct-Dec 2026",
+     "status": "guidance",
+     "source": "https://investinglive.com/stocks/microsoft-sees-170bn-capex-in-fiscal-2027-but-says-it-will-stay-cash-flow-positive/"
+    },
+    {
+     "metric": "Microsoft Cloud revenue",
+     "value": 63.9,
+     "unit": "USD bn",
+     "period": "Jul-Sep 2026 (+30% YoY)",
+     "status": "reported",
+     "source": "https://www.microsoft.com/en-us/investor/earnings/FY-2027-Q1/press-release-webcast"
+    },
+    {
+     "metric": "Commercial remaining performance obligation (backlog)",
+     "value": 677,
+     "unit": "USD bn",
+     "period": "2026-09-30 (+73% YoY)",
+     "status": "reported",
+     "source": "https://www.microsoft.com/en-us/investor/earnings/FY-2027-Q1/press-release-webcast"
+    },
+    {
+     "metric": "Revenue from commercial arrangements with OpenAI (incl. revenue share)",
+     "value": 10.0,
+     "unit": "USD bn",
+     "period": "Jul-Sep 2026 (~11% of revenue)",
+     "status": "reported",
+     "note": "10-Q figure quoted by secondary source",
+     "source": "https://fourweekmba.com/ai-microsoft-booked-10b-from-openai-11-of-quarterly-sales/"
+    },
+    {
+     "metric": "Azure annual revenue",
+     "value": ">100",
+     "unit": "USD bn",
+     "period": "FY2026",
+     "status": "reported",
+     "source": "https://www.thestar.com.my/business/business-news/2026/07/31/microsoft-sees-strong-cash-flow-lower-capex"
+    },
+    {
+     "metric": "Microsoft 365 Copilot paid seats",
+     "value": 30,
+     "unit": "million (more than)",
+     "period": "July 2026",
+     "status": "reported",
+     "source": "https://www.thestar.com.my/business/business-news/2026/07/31/microsoft-sees-strong-cash-flow-lower-capex"
+    },
+    {
+     "metric": "AI revenue run-rate",
+     "value": null,
+     "unit": "USD bn",
+     "period": "2026",
+     "status": "not_found",
+     "note": "No AI run-rate figure in the FY27 Q1 release; none found for 2026.",
+     "source": null
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 1904.3,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 1790 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (255.14 / 239.82)",
+     "source": "https://stockanalysis.com/stocks/msft/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 1790.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 3880.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/msft/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 255.14,
+    "to_date": "2026-11-12",
+    "to_price": 523.0,
+    "price_currency": "USD",
+    "value": 105.0,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/MSFT/history/"
+   },
+   "lab_stakes": [
+    {
+     "lab": "OpenAI",
+     "committed": {
+      "value": 13,
+      "unit": "USD bn",
+      "status": "reported"
+     },
+     "funded": {
+      "value": 11.8,
+      "unit": "USD bn",
+      "as_of": "2026-03-31",
+      "status": "reported",
+      "source": "https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai/"
+     },
+     "stake": "~27% as-converted after the Oct-2025 recapitalization (then valued ~$135B); ~24% as-converted at 2026-09-30 per 10-Q (secondary sources; the two figures are from different dates)",
+     "gains_losses": [
+      {
+       "period": "FY2024",
+       "value": -1.5,
+       "unit": "USD bn",
+       "status": "reported"
+      },
+      {
+       "period": "FY2025",
+       "value": -4.8,
+       "unit": "USD bn",
+       "status": "reported"
+      },
+      {
+       "period": "FY2026",
+       "value": 6.5,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "net gains, mainly dilution gain from OpenAI recapitalization"
+      },
+      {
+       "period": "Jul-Sep 2025",
+       "value": -3.1,
+       "unit": "USD bn",
+       "status": "reported"
+      },
+      {
+       "period": "Jul-Sep 2026",
+       "value": 0.207,
+       "unit": "USD bn",
+       "status": "reported",
+       "source": "https://www.microsoft.com/en-us/investor/earnings/FY-2027-Q1/press-release-webcast"
+      }
+     ],
+     "accounting": "equity method (hypothetical liquidation at book value); effect on net income, after tax",
+     "source": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436149/msft-ex99_1.htm"
+    }
+   ],
+   "debt_notes": [
+    {
+     "note": "No confirmed Microsoft bond sale for AI in 2026 was found; Microsoft relies on operating cash flow plus large third-party/neocloud leases. CFO says it stays free-cash-flow positive in FY2027.",
+     "status": "not_found",
+     "source": "https://investinglive.com/stocks/microsoft-sees-170bn-capex-in-fiscal-2027-but-says-it-will-stay-cash-flow-positive/"
+    }
+   ]
+  },
+  {
+   "id": "alphabet",
+   "name": "Alphabet (Google)",
+   "ticker": "GOOGL",
+   "country": "US",
+   "fiscal_basis": "Calendar year.",
+   "models_services": "Gemini models and app, Google Cloud Vertex AI, AI Overviews / AI Mode in Search, in-house TPU chips (now also sold as systems), DeepMind, Waymo.",
+   "capex": {
+    "2021": {
+     "value": 24.64,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2022": {
+     "value": 31.485,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 32.251,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 52.535,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 91.447,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2026": {
+     "value": null,
+     "unit": "USD bn",
+     "status": "not_found",
+     "note": "9-month total not retrieved. Q3 2026 alone = $51.355B; trailing 12 months to 2026-09-30 = $159.804B.",
+     "q3_2026": 51.355,
+     "ttm_to_2026_09_30": 159.804,
+     "source": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr",
+     "guidance": {
+      "low": 195,
+      "high": 205,
+      "unit": "USD bn",
+      "status": "guidance",
+      "text": "FY2026 capex $195-205B (unchanged at Q3); 2027 expected to 'increase significantly' (a >$300B figure in headlines is an analyst estimate, not company guidance).",
+      "source": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 282.836,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "2023": {
+     "value": 307.394,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "2024": {
+     "value": 350.018,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "2025": {
+     "value": 402.836,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "ttm": {
+     "value": 471.098,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 59.972,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "2023": {
+     "value": 73.795,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "2024": {
+     "value": 100.118,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "2025": {
+     "value": 132.17,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/"
+    },
+    "ttm": {
+     "value": 235.694,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/",
+     "period": "TTM to 2026-09-30"
+    },
+    "note": "TTM net income is inflated by unrealized gains on private equity stakes (Anthropic, SpaceX): ~$98B of other income in Q2 2026 alone; Q3 2026 had a net loss on equity securities of ~$8.7B."
+   },
+   "fcf": {
+    "2022": {
+     "value": 60.01,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 69.495,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 72.764,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 73.266,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    },
+    "ttm": {
+     "value": 19.747,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/",
+     "period": "TTM to 2026-09-30; Q3 2026 alone was -$9.065B"
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "Google Cloud revenue",
+     "value": 30.709,
+     "unit": "USD bn",
+     "period": "Q3 2026 (+103% YoY, from $15.157B)",
+     "status": "reported",
+     "source": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm"
+    },
+    {
+     "metric": "Google Cloud operating income",
+     "value": 11.121,
+     "unit": "USD bn",
+     "period": "Q3 2026 (vs $3.594B Q3 2025; ~36% margin)",
+     "status": "reported",
+     "source": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm"
+    },
+    {
+     "metric": "Google Cloud backlog",
+     "value": 560.8,
+     "unit": "USD bn",
+     "period": "2026-09-30 (total company backlog $567.7B; ~$514B prior quarter; >55% to be recognized within 24 months)",
+     "status": "reported",
+     "source": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr"
+    },
+    {
+     "metric": "Alphabet operating income",
+     "value": 40.576,
+     "unit": "USD bn",
+     "period": "Q3 2026 (+30%, 31.8% margin)",
+     "status": "reported",
+     "source": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr"
+    },
+    {
+     "metric": "Alphabet revenue / net income",
+     "value": "127.577 / 26.170",
+     "unit": "USD bn",
+     "period": "Q3 2026 (revenue +25%, net income -25%)",
+     "status": "reported",
+     "source": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr"
+    },
+    {
+     "metric": "Free cash flow (quarter)",
+     "value": -9.065,
+     "unit": "USD bn",
+     "period": "Q3 2026",
+     "status": "reported",
+     "source": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr"
+    },
+    {
+     "metric": "Disclosed 'AI revenue'",
+     "value": null,
+     "unit": "USD bn",
+     "period": "2026",
+     "status": "not_found",
+     "note": "Alphabet does not break out AI revenue; Cloud growth is attributed to AI infrastructure demand and TPU system sales.",
+     "source": null
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 1304.9,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 1140 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (100.99 / 88.23)",
+     "source": "https://stockanalysis.com/stocks/googl/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 1140.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 3670.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/googl/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 100.99,
+    "to_date": "2026-11-12",
+    "to_price": 298.7,
+    "price_currency": "USD",
+    "value": 195.8,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/GOOGL/history/"
+   },
+   "lab_stakes": [
+    {
+     "lab": "Anthropic",
+     "invested": "more than $3B before 2026 (press); April 2026: up to $40B more = ~$10B cash at a $350B valuation + up to $30B tied to milestones, plus 5 GW TPU compute commitment",
+     "stake": "~14% before the April 2026 deal (press estimate, not officially disclosed)",
+     "status": "reported (press)",
+     "source": "https://www.techrepublic.com/article/news-google-anthropic-40b-investment/",
+     "gains_losses": [
+      {
+       "period": "Q3 2025",
+       "value": 10.7,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "net gains on equity securities, partly a private company identified as Anthropic",
+       "source": "https://fortune.com/2026/04/30/google-amazon-ai-profits-anthropic-stake-bubble-earnings-2026/"
+      },
+      {
+       "period": "Q1 2026",
+       "value": 36.9,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "total equity-securities gains; ~$28.7B attributed to Anthropic markup by secondary source (estimate)",
+       "source": "https://fortune.com/2026/04/30/google-amazon-ai-profits-anthropic-stake-bubble-earnings-2026/",
+       "source_2": "https://www.shopifreaks.com/anthropic-stake-markups-drove-28-7b-of-alphabet-profit-and-16-8b-of-amazons-last-quarter/"
+      },
+      {
+       "period": "Q2 2026",
+       "value": 98,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "other income ~$97.9-98.0B, mostly unrealized equity gains, mainly SpaceX and Anthropic (split not disclosed; SpaceX stake carried at $94.0B on 2026-06-30)",
+       "source": "https://www.mediapost.com/publications/article/416750/anthropic-spacex-hand-google-profit-windfall.html"
+      },
+      {
+       "period": "Q3 2026",
+       "value": -8.7,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "net loss on equity securities (total other expense $8.221B)",
+       "source": "https://investinglive.com/stocks/alphabet-q3-google-cloud-revenue-jumps-103-but-search-and-ad-sales-miss-forecasts/"
+      }
+     ]
+    }
+   ],
+   "debt_notes": [
+    {
+     "note": "Feb 2026: ~$31.5-32B multi-currency bond sale (US$20B with >$100B of orders, GBP 5.5B incl. a GBP 1B 100-year bond at 6.125%, CHF 3.055B).",
+     "status": "reported",
+     "source": "https://www.thestar.com.my/tech/tech-news/2026/02/10/alphabet-sells-bonds-worth-20-billion-to-fund-ai-spending"
+    },
+    {
+     "note": "Long-term debt $125.1B at 2026-09-30; cash and marketable securities $265.1B.",
+     "status": "reported",
+     "source": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr"
+    }
+   ]
+  },
+  {
+   "id": "amazon",
+   "name": "Amazon",
+   "ticker": "AMZN",
+   "country": "US",
+   "fiscal_basis": "Calendar year. Capex = purchases of property and equipment (whole company incl. logistics, not only AI).",
+   "models_services": "AWS Bedrock, Nova models, Trainium/Graviton chips, Amazon Q, Alexa+; main cloud and investor of Anthropic.",
+   "capex": {
+    "2021": {
+     "value": 61.053,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2022": {
+     "value": 63.645,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 52.729,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 82.999,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 131.819,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2026": {
+     "value": null,
+     "unit": "USD bn",
+     "status": "not_found",
+     "note": "9-month total not retrieved. Q3 2026 alone = $77.259B; trailing 12 months = $215.192B.",
+     "q3_2026": 77.259,
+     "ttm_to_2026_09_30": 215.192,
+     "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+     "guidance": {
+      "value": 220,
+      "unit": "USD bn",
+      "status": "guidance",
+      "text": "~$220B cash capex for 2026, rising 'meaningfully' in 2027 (earnings call, via secondary). Note TTM is already $215B.",
+      "source": "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 513.983,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "2023": {
+     "value": 574.785,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "2024": {
+     "value": 637.959,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "2025": {
+     "value": 716.924,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "ttm": {
+     "value": 797.455,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": -2.722,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "2023": {
+     "value": 30.425,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "2024": {
+     "value": 59.248,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "2025": {
+     "value": 77.67,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/"
+    },
+    "ttm": {
+     "value": 134.779,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/",
+     "period": "TTM to 2026-09-30"
+    },
+    "note": "2025-2026 net income includes large pre-tax mark-ups of the Anthropic stake ($9.5B Q3 2025, $16.8B Q1 2026, ~$53.4B Q2 2026)."
+   },
+   "fcf": {
+    "2022": {
+     "value": -16.893,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 32.217,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 32.878,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 7.695,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    },
+    "ttm": {
+     "value": -46.892,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/",
+     "period": "TTM to 2026-09-30"
+    },
+    "note": "stockanalysis definition (OCF - capex). Amazon's own TTM FCF (net of property sale proceeds) = -$42.357B vs +$14.8B a year earlier."
+   },
+   "cloud_ai": [
+    {
+     "metric": "AWS revenue",
+     "value": 45.984,
+     "unit": "USD bn",
+     "period": "Q3 2026 (+39% YoY; $184B annualized run-rate)",
+     "status": "reported",
+     "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+    },
+    {
+     "metric": "AWS operating income",
+     "value": 17.773,
+     "unit": "USD bn",
+     "period": "Q3 2026 (38.7% margin; $11.4B a year earlier)",
+     "status": "reported",
+     "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+    },
+    {
+     "metric": "AWS backlog (performance obligations)",
+     "value": 578,
+     "unit": "USD bn",
+     "period": "2026-09-30 ('more than double' YoY)",
+     "status": "reported",
+     "note": "from earnings call via secondary source; not in the press release",
+     "source": "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock"
+    },
+    {
+     "metric": "AWS growth outlook",
+     "value": ">40",
+     "unit": "% per year",
+     "period": "2027 and 2028",
+     "status": "guidance",
+     "source": "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock"
+    },
+    {
+     "metric": "Amazon free cash flow (company definition, TTM)",
+     "value": -42.357,
+     "unit": "USD bn",
+     "period": "TTM to 2026-09-30",
+     "status": "reported",
+     "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+    },
+    {
+     "metric": "AI revenue run-rate (AWS)",
+     "value": null,
+     "unit": "USD bn",
+     "period": "Q3 2026",
+     "status": "not_found",
+     "note": "Not in the Q3 2026 release (only Bedrock tokens ~17x YoY, inference 'well over half' of AWS AI revenue). A secondary headline cites a '$25B AI business' for Q2 2026, unverified.",
+     "source": "https://fourweekmba.com/ai-amazon-aws-q2-2026-anthropic-gain-ai-infrastructure/"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 984.9,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 856.94 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (96.54 / 84.0)",
+     "source": "https://stockanalysis.com/stocks/amzn/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 856.9,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 2890.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/amzn/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 96.54,
+    "to_date": "2026-11-12",
+    "to_price": 267.44,
+    "price_currency": "USD",
+    "value": 177.0,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/AMZN/history/"
+   },
+   "lab_stakes": [
+    {
+     "lab": "Anthropic",
+     "invested": "$8B through 2025; April 2026: +$5B immediately and up to $20B more tied to milestones (potential total ~$33B). Anthropic committed >$100B of AWS spend over 10 years.",
+     "status": "reported",
+     "source": "https://siliconangle.com/2026/04/20/amazon-invest-25b-anthropic-part-expanded-cloud-partnership/",
+     "note": "One secondary analysis computes $18.0B total invested from filings; conflicts with $8B + $5B = $13B. Unresolved.",
+     "gains_losses": [
+      {
+       "period": "Q3 2025",
+       "value": 9.5,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "pre-tax",
+       "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+      },
+      {
+       "period": "Q1 2026",
+       "value": 16.8,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "pre-tax, non-operating income",
+       "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/"
+      },
+      {
+       "period": "Q2 2026",
+       "value": 53.4,
+       "unit": "USD bn",
+       "status": "reported",
+       "note": "non-operating other income, 'primarily' Anthropic (~66% of pre-tax income); via secondary",
+       "source": "https://fourweekmba.com/ai-amazon-aws-q2-2026-anthropic-gain-ai-infrastructure/"
+      },
+      {
+       "period": "Q3 2026",
+       "value": null,
+       "status": "not_found",
+       "note": "no Anthropic gain disclosed in the Q3 2026 release",
+       "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+      }
+     ]
+    }
+   ],
+   "debt_notes": [
+    {
+     "note": "Long-term debt rose to $173.1B at 2026-09-30 from $65.6B at 2025-12-31.",
+     "status": "reported",
+     "source": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+    },
+    {
+     "note": "2026 bond deals reported by secondary sources: ~US$54B deal and a EUR 14.5B euro deal in March 2026 (weak sourcing, verify).",
+     "status": "estimate",
+     "source": "https://business.minstercommunitypost.com/minstercommunitypost/article/marketminute-2026-3-16-the-ai-debt-super-cycle-amazon-and-alphabet-secure-record-82-billion-in-massive-bond-blitz"
+    }
+   ]
+  },
+  {
+   "id": "meta",
+   "name": "Meta Platforms",
+   "ticker": "META",
+   "country": "US",
+   "fiscal_basis": "Calendar year.",
+   "models_services": "Llama open models, Meta AI assistant, Muse / Muse Wonder (first 'frontier' model, 2026), AI ad ranking (Advantage+); no cloud business - AI monetized through ads.",
+   "capex": {
+    "2021": {
+     "value": 18.69,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+     "note": "purchases of property and equipment only (excludes finance-lease principal)"
+    },
+    "2022": {
+     "value": 31.186,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+     "note": "purchases of property and equipment only (excludes finance-lease principal)"
+    },
+    "2023": {
+     "value": 27.045,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+     "note": "purchases of property and equipment only (excludes finance-lease principal)"
+    },
+    "2024": {
+     "value": 37.256,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+     "note": "purchases of property and equipment only (excludes finance-lease principal)",
+     "company_defined_incl_finance_leases": {
+      "value": 39.23,
+      "status": "reported",
+      "note": "$37.26B PP&E + $1.97B finance lease principal",
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+     }
+    },
+    "2025": {
+     "value": 69.691,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+     "note": "purchases of property and equipment only (excludes finance-lease principal)",
+     "company_defined_incl_finance_leases": {
+      "value": 72.22,
+      "status": "reported",
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx"
+     }
+    },
+    "2026": {
+     "value": 85.824,
+     "unit": "USD bn",
+     "status": "reported",
+     "period": "Jan-Sep 2026 actual (company definition incl. finance-lease principal; Q3 alone $34.906B; 9M 2025 was $50.078B)",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/",
+     "guidance": {
+      "low": 135,
+      "high": 145,
+      "unit": "USD bn",
+      "status": "guidance",
+      "text": "2026 capex $135-145B (narrowed from $130-145B); no 2027 figure, 'continue investing aggressively'.",
+      "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 116.609,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "2023": {
+     "value": 134.902,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "2024": {
+     "value": 164.501,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "2025": {
+     "value": 200.966,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "ttm": {
+     "value": 241.605,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 23.2,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "2023": {
+     "value": 39.098,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "2024": {
+     "value": 62.36,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "2025": {
+     "value": 60.458,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/"
+    },
+    "ttm": {
+     "value": 75.249,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/",
+     "period": "TTM to 2026-09-30"
+    },
+    "note": "Q3 2026 net income ($9.86B) includes a $9.89B legal charge (state attorneys general agreement); 2025 includes a one-off tax valuation allowance charge."
+   },
+   "fcf": {
+    "2022": {
+     "value": 19.289,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 44.068,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 54.072,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 46.109,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/"
+    },
+    "ttm": {
+     "value": 28.649,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+     "period": "TTM to 2026-09-30"
+    },
+    "note": "stockanalysis definition. Company-defined FCF (after finance-lease principal): 2025 $43.59B, 2024 $52.10B, 9M 2026 $11.05B, Q3 2026 -$2.12B."
+   },
+   "cloud_ai": [
+    {
+     "metric": "Disclosed 'AI revenue'",
+     "value": null,
+     "unit": "USD bn",
+     "period": "2026",
+     "status": "not_found",
+     "note": "Meta discloses no AI revenue line; AI impact shows up in ad revenue growth.",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    },
+    {
+     "metric": "Total revenue growth YoY",
+     "value": 26,
+     "unit": "%",
+     "period": "Q3 2026 ($64.601B)",
+     "status": "reported",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    },
+    {
+     "metric": "Free cash flow (company definition)",
+     "value": -2.12,
+     "unit": "USD bn",
+     "period": "Q3 2026 (first negative quarter; +$10.6B in Q3 2025)",
+     "status": "reported",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    },
+    {
+     "metric": "Family daily active people",
+     "value": 3.64,
+     "unit": "billion",
+     "period": "Sept 2026",
+     "status": "reported",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    },
+    {
+     "metric": "Muse accounts",
+     "value": ">10",
+     "unit": "million",
+     "period": "Oct 2026",
+     "status": "reported",
+     "note": "per AP headline on Q3 call",
+     "source": "https://www.news4jax.com/business/2026/10/21/meta-q3-revenue-tops-estimates-and-zuckerberg-says-muse-accounts-have-topped-10-million/"
+    },
+    {
+     "metric": "Reality Labs operating loss",
+     "value": "18-19",
+     "unit": "USD bn",
+     "period": "2026 guidance (~15 in 2027)",
+     "status": "guidance",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    },
+    {
+     "metric": "Total expenses",
+     "value": "175-179",
+     "unit": "USD bn",
+     "period": "2026 guidance",
+     "status": "guidance",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 313.2,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 319.09 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (118.1 / 120.34)",
+     "source": "https://stockanalysis.com/stocks/meta/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 319.1,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 1590.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/meta/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 118.1,
+    "to_date": "2026-11-12",
+    "to_price": 623.61,
+    "price_currency": "USD",
+    "value": 428.0,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/META/history/"
+   },
+   "lab_stakes": [
+    {
+     "lab": "Scale AI",
+     "invested": "~$14.3B for a 49% non-voting stake (June 2025)",
+     "status": "reported (from analyst prior knowledge, NOT re-verified with a source in this run)",
+     "source": null,
+     "gains_losses": []
+    }
+   ],
+   "debt_notes": [
+    {
+     "note": "Corporate bonds: $30B (Oct 2025, then its largest; $125B of orders), $25B six-part (Apr 30, 2026; ~$96B of orders), $15B five-part (early Nov 2026; ~$58B of orders).",
+     "status": "reported",
+     "source": "https://www.thestar.com.my/business/business-news/2026/11/04/meta-raises-15-billionin-five-part-us-bond-sale-to-fund-ai-expansion",
+     "source_2": "https://news.bloomberglaw.com/capital-markets/meta-looks-to-raise-as-much-as-25-billion-with-jumbo-bond-sale"
+    },
+    {
+     "note": "Long-term debt $80.9B at 2026-09-30 vs $58.7B at 2025-12-31; $24.9B net proceeds from debt issuance in 9M 2026.",
+     "status": "reported",
+     "source": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/"
+    },
+    {
+     "note": "Off-balance-sheet: Hyperion (Louisiana) JV - Blue Owl funds 80% / Meta 20%; SPV Beignet Investor priced $27.3B of 6.581% bonds due 2049 (Oct 2025, rated A+ on Meta's lease support; Pimco anchor). Some reports cite a $30B total package.",
+     "status": "reported",
+     "source": "https://www.theasset.com/article/55209/meta-blue-owl-sign-us-27-billion-data-centre-campus-deal",
+     "source_2": "https://fourweekmba.com/ai-hyperions-27-3b-bond-pays-6-581-above-every-meta-note/"
+    },
+    {
+     "note": "2026: ~$12B BlackRock-led financing tied to Meta's El Paso data center, investors demanding >7% yields.",
+     "status": "reported",
+     "source": "https://capacityglobal.com/news/metas-12bn-el-paso-bond-exposes-ai-debt-repricing/"
+    }
+   ]
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "ticker": "AAPL",
+   "country": "US",
+   "fiscal_basis": "Fiscal year ends late September. capex = calendar-year sums of quarterly figures; revenue/net_income/fcf are FISCAL years. Apple is the control case: it has not joined the capex race.",
+   "models_services": "Apple Intelligence (on-device + Private Cloud Compute), Siri; relies on partners (OpenAI ChatGPT integration, Google Gemini reported for Siri) rather than its own frontier model.",
+   "capex": {
+    "2021": {
+     "value": null,
+     "status": "not_found",
+     "source": null,
+     "note": "Only Oct-Dec 2021 quarter ($2.803B) retrieved."
+    },
+    "2022": {
+     "value": 11.692,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2022, sum of 4 quarters"
+    },
+    "2023": {
+     "value": 9.564,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2023, sum of 4 quarters"
+    },
+    "2024": {
+     "value": 9.995,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2024, sum of 4 quarters"
+    },
+    "2025": {
+     "value": 12.148,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/?p=quarterly",
+     "period": "CY2025, sum of 4 quarters"
+    },
+    "2026": {
+     "value": 6.668,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/?p=quarterly",
+     "period": "Jan-Sep 2026 actual (3 quarters); FY2026 = $9.041B",
+     "guidance": null
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 394.328,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2022 (ended 2022-09-24)"
+    },
+    "2023": {
+     "value": 383.285,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2023"
+    },
+    "2024": {
+     "value": 391.035,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2024"
+    },
+    "2025": {
+     "value": 416.161,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2025 (ended 2025-09-27)"
+    },
+    "2026": {
+     "value": 478.834,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2026 (ended 2026-09-26)"
+    },
+    "ttm": {
+     "value": 478.834,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "TTM = FY2026 (ended 2026-09-26)"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 99.803,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2022 (ended 2022-09-24)"
+    },
+    "2023": {
+     "value": 96.995,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2023"
+    },
+    "2024": {
+     "value": 93.736,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2024"
+    },
+    "2025": {
+     "value": 112.01,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2025 (ended 2025-09-27)"
+    },
+    "2026": {
+     "value": 132.175,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "FY2026 (ended 2026-09-26)"
+    },
+    "ttm": {
+     "value": 132.175,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/",
+     "period": "TTM = FY2026 (ended 2026-09-26)"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": 111.443,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+     "period": "FY2022 (ended 2022-09-24)"
+    },
+    "2023": {
+     "value": 99.584,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+     "period": "FY2023"
+    },
+    "2024": {
+     "value": 108.807,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+     "period": "FY2024"
+    },
+    "2025": {
+     "value": 98.767,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+     "period": "FY2025 (ended 2025-09-27)"
+    },
+    "2026": {
+     "value": 136.056,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+     "period": "FY2026 (ended 2026-09-26)"
+    },
+    "ttm": {
+     "value": 136.056,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+     "period": "TTM = FY2026 (ended 2026-09-26)"
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "Disclosed 'AI revenue'",
+     "value": null,
+     "unit": "USD bn",
+     "period": "FY2026",
+     "status": "not_found",
+     "note": "None disclosed. Services revenue $31.57B in Jul-Sep 2026 (+10%).",
+     "source": "https://www.mactrast.com/2026/11/apple-posts-fiscal-q4-2026-results-30-7b-profit-on-114-5b-revenue/amp/"
+    },
+    {
+     "metric": "Revenue / net income (quarter)",
+     "value": "114.5 / 30.7",
+     "unit": "USD bn",
+     "period": "Jul-Sep 2026 (revenue +12%)",
+     "status": "reported",
+     "source": "https://www.mactrast.com/2026/11/apple-posts-fiscal-q4-2026-results-30-7b-profit-on-114-5b-revenue/amp/"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 2358.4,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 2070 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (148.03 / 129.93)",
+     "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 2070.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 5160.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/aapl/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 148.03,
+    "to_date": "2026-11-12",
+    "to_price": 354.88,
+    "price_currency": "USD",
+    "value": 139.7,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/AAPL/history/"
+   },
+   "lab_stakes": [],
+   "debt_notes": [
+    {
+     "note": "No AI-related debt raising found.",
+     "status": "not_found",
+     "source": null
+    }
+   ]
+  },
+  {
+   "id": "oracle",
+   "name": "Oracle",
+   "ticker": "ORCL",
+   "country": "US",
+   "fiscal_basis": "Fiscal year ends May 31. capex keyed by year = Dec(prior)-Nov sums of 4 fiscal quarters (closest to calendar year); revenue/net_income/fcf are FISCAL years.",
+   "models_services": "Oracle Cloud Infrastructure (OCI) GPU cloud, OCI Generative AI, AI Database; no own frontier model - sells capacity to OpenAI (Stargate), Meta, xAI and others.",
+   "capex": {
+    "2021": {
+     "value": null,
+     "status": "not_found",
+     "source": null,
+     "note": "FY2022 (Jun21-May22) = $4.511B."
+    },
+    "2022": {
+     "value": 6.678,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/?p=quarterly",
+     "period": "Dec 2021-Nov 2022"
+    },
+    "2023": {
+     "value": 6.935,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/?p=quarterly",
+     "period": "Dec 2022-Nov 2023"
+    },
+    "2024": {
+     "value": 10.745,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/?p=quarterly",
+     "period": "Dec 2023-Nov 2024"
+    },
+    "2025": {
+     "value": 35.477,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/?p=quarterly",
+     "period": "Dec 2024-Nov 2025"
+    },
+    "2026": {
+     "value": 63.627,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/?p=quarterly",
+     "period": "Dec 2025-Aug 2026 actual (3 fiscal quarters; Jun-Aug 2026 alone $28.5B gross, ~$18B net cash)",
+     "guidance": {
+      "low": 90,
+      "high": 95,
+      "unit": "USD bn",
+      "status": "guidance",
+      "text": "FISCAL 2027 (Jun 2026-May 2027): reported capex $90-95B, of which no more than ~$70B net cash after $20-25B customer prepayments. FY2026 actual was $55.7B.",
+      "source": "https://www.thestar.com.my/tech/tech-news/2026/06/11/oracle-beats-fourth-quarter-revenue-estimates-amid-ai-spending-worries",
+      "source_2": "https://www.outlookbusiness.com/corporate/oracle-forecasts-95-bn-in-capex-for-fy27-plans-to-raise-40-bn-in-debt-and-equity"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 42.44,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2022 (ended 2022-05-31)"
+    },
+    "2023": {
+     "value": 49.954,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2023"
+    },
+    "2024": {
+     "value": 52.961,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2024"
+    },
+    "2025": {
+     "value": 57.399,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2025 (ended 2025-05-31)"
+    },
+    "2026": {
+     "value": 67.357,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2026 (ended 2026-05-31)"
+    },
+    "ttm": {
+     "value": 71.776,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "TTM to 2026-08-31"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 6.717,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2022 (ended 2022-05-31)"
+    },
+    "2023": {
+     "value": 8.503,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2023"
+    },
+    "2024": {
+     "value": 10.467,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2024"
+    },
+    "2025": {
+     "value": 12.443,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2025 (ended 2025-05-31)"
+    },
+    "2026": {
+     "value": 16.984,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "FY2026 (ended 2026-05-31)"
+    },
+    "ttm": {
+     "value": 18.736,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/",
+     "period": "TTM to 2026-08-31"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": 5.028,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+     "period": "FY2022 (ended 2022-05-31)"
+    },
+    "2023": {
+     "value": 8.47,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+     "period": "FY2023"
+    },
+    "2024": {
+     "value": 11.807,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+     "period": "FY2024"
+    },
+    "2025": {
+     "value": -0.394,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+     "period": "FY2025 (ended 2025-05-31)"
+    },
+    "2026": {
+     "value": -23.686,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+     "period": "FY2026 (ended 2026-05-31)"
+    },
+    "ttm": {
+     "value": -28.72,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+     "period": "TTM to 2026-08-31"
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "Cloud infrastructure (OCI/IaaS) revenue",
+     "value": 7.4,
+     "unit": "USD bn",
+     "period": "Jun-Aug 2026 (FY27 Q1), +121% YoY; of which CPU & GPU infrastructure $6.5B (+151%)",
+     "status": "reported",
+     "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+    },
+    {
+     "metric": "Remaining performance obligations (RPO)",
+     "value": 664,
+     "unit": "USD bn",
+     "period": "2026-08-31 (+$209B YoY; $638B at 2026-05-31)",
+     "status": "reported",
+     "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+    },
+    {
+     "metric": "Total revenue",
+     "value": 19.3,
+     "unit": "USD bn",
+     "period": "Jun-Aug 2026 (+30% YoY)",
+     "status": "reported",
+     "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+    },
+    {
+     "metric": "FY2027 total revenue guidance",
+     "value": ">=90",
+     "unit": "USD bn",
+     "period": "FY2027 (to May 2027)",
+     "status": "guidance",
+     "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+    },
+    {
+     "metric": "Operating cash flow / free cash flow (quarter)",
+     "value": "23 / -5.4",
+     "unit": "USD bn",
+     "period": "Jun-Aug 2026",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/?p=quarterly"
+    },
+    {
+     "metric": "OpenAI contract",
+     "value": 300,
+     "unit": "USD bn (about, over ~5 years)",
+     "period": "signed 2025",
+     "status": "reported (press)",
+     "note": "widely reported, underpins most of the RPO; subject of an investor class action over disclosure",
+     "source": "https://www.axios.com/2026/02/02/oracle-50-billion-ai-chatgpt-meta"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 223.9,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 220.39 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (83.03 / 81.74)",
+     "source": "https://stockanalysis.com/stocks/orcl/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 220.4,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 396.3,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/orcl/market-cap/",
+     "note": "stockanalysis page shows $396.29B headline but $384.35B in its history row for the same date; unresolved."
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 83.03,
+    "to_date": "2026-11-12",
+    "to_price": 127.11,
+    "price_currency": "USD",
+    "value": 53.1,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/ORCL/history/"
+   },
+   "lab_stakes": [],
+   "debt_notes": [
+    {
+     "note": "Feb 2026: plan to raise up to $50B in calendar 2026 via debt + equity; $25B eight-part bond sale drew >$125B of orders (record book).",
+     "status": "reported",
+     "source": "https://www.bloomberg.com/news/articles/2026-02-02/oracle-kicks-off-8-part-dollar-bond-sale-amid-ai-borrowing-push",
+     "source_2": "https://www.axios.com/2026/02/02/oracle-50-billion-ai-chatgpt-meta"
+    },
+    {
+     "note": "Completed $20B at-the-market common stock sale (reported Sept 2026); FY2027 plan to raise ~$40B in debt and equity including that ATM.",
+     "status": "reported",
+     "source": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/"
+    },
+    {
+     "note": "Apr 2026: $16B project financing for Michigan campus serving OpenAI ($14B of bonds via BofA, Pimco anchor) - project-level debt.",
+     "status": "reported",
+     "source": "https://www.thestar.com.my/business/business-news/2026/04/27/oracles-us16bil-data-centre-financing-wraps"
+    },
+    {
+     "note": "Total debt 'almost $133B' after the Feb 2026 bond sale (secondary; may be stale).",
+     "status": "estimate",
+     "source": "https://www.ifre.com/bonds/2381048/us50bn-funding-blitz-shows-oracles-market-access-and-its-vulnerability"
+    }
+   ]
+  },
+  {
+   "id": "alibaba",
+   "name": "Alibaba Group",
+   "ticker": "BABA / 9988.HK",
+   "country": "CN",
+   "fiscal_basis": "Fiscal year ends March 31. Key 'Y' = fiscal year Apr Y - Mar Y+1 (e.g. '2025' = FY2026). Reported in CNY; USD values are conversions (estimate).",
+   "models_services": "Qwen (Tongyi Qianwen) open models and Qwen app, Alibaba Cloud Bailian / Model Studio, T-Head AI chips.",
+   "capex": {
+    "2021": {
+     "value": 8.26,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 53.309,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.4503,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2021 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2022 (Apr 2021-Mar 2022)"
+    },
+    "2022": {
+     "value": 5.1,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 34.33,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2023 (Apr 2022-Mar 2023)"
+    },
+    "2023": {
+     "value": 4.54,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 32.087,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2024"
+    },
+    "2024": {
+     "value": 11.96,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 85.972,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2025"
+    },
+    "2025": {
+     "value": 17.54,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 126.063,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2026 (Apr 2025-Mar 2026)"
+    },
+    "2026": {
+     "value": 9.95,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 67.68,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://technode.com/2026/08/21/alibabas-ai-spending-lifts-capex-75-as-quarterly-profit-falls-76/",
+     "period": "Apr-Jun 2026 quarter only (+75% YoY); TTM to 2026-06-30 = CNY 155.1bn",
+     "guidance": {
+      "value": null,
+      "status": "not_found",
+      "text": "Multi-year plan: at least CNY 380bn (~US$52-53B) over 3 years from Feb 2025; CEO said in Sept 2025 it would be raised, no confirmed new total found.",
+      "source": "https://www.scmp.com/tech/big-tech/article/3299858/alibaba-commits-us53-billion-ai-infrastructure-largest-private-computing-project"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 129.09,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 868.687,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2023 (Apr 2022-Mar 2023)"
+    },
+    "2023": {
+     "value": 133.09,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 941.168,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2024"
+    },
+    "2024": {
+     "value": 138.65,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 996.347,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2025"
+    },
+    "2025": {
+     "value": 142.44,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 1023.67,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2026 (Apr 2025-Mar 2026)"
+    },
+    "ttm": {
+     "value": 153.6,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 1044.971,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 10.77,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 72.509,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2023 (Apr 2022-Mar 2023)"
+    },
+    "2023": {
+     "value": 11.28,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 79.741,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2024"
+    },
+    "2024": {
+     "value": 18.02,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 129.47,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2025"
+    },
+    "2025": {
+     "value": 14.74,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 105.904,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "FY2026 (Apr 2025-Mar 2026)"
+    },
+    "ttm": {
+     "value": 10.78,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 73.325,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": 24.58,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 165.422,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2023 (Apr 2022-Mar 2023)"
+    },
+    "2023": {
+     "value": 21.28,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 150.506,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2024"
+    },
+    "2024": {
+     "value": 10.79,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 77.537,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2025"
+    },
+    "2025": {
+     "value": -6.94,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": -49.85,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "FY2026 (Apr 2025-Mar 2026)"
+    },
+    "ttm": {
+     "value": -11.26,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": -76.579,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "AI cloud & computing revenue (recast segment)",
+     "value": 48.44,
+     "unit": "CNY bn",
+     "period": "Apr-Jun 2026 (+45% YoY, fastest in 22 quarters)",
+     "status": "reported",
+     "source": "https://www.scmp.com/tech/big-tech/article/3364705/alibabas-ai-cloud-growth-surge-drives-earnings-despite-soaring-tech-spending"
+    },
+    {
+     "metric": "AI-related product revenue",
+     "value": 12.38,
+     "unit": "CNY bn",
+     "period": "Apr-Jun 2026 (triple-digit growth for 12th straight quarter)",
+     "status": "reported",
+     "source": "https://technode.com/2026/08/21/alibabas-ai-spending-lifts-capex-75-as-quarterly-profit-falls-76/"
+    },
+    {
+     "metric": "Net income attributable",
+     "value": 10.54,
+     "unit": "CNY bn",
+     "period": "Apr-Jun 2026 (-76% YoY)",
+     "status": "reported",
+     "source": "https://technode.com/2026/08/21/alibabas-ai-spending-lifts-capex-75-as-quarterly-profit-falls-76/"
+    },
+    {
+     "metric": "Free cash flow (quarter)",
+     "value": -44.7,
+     "unit": "CNY bn",
+     "period": "Apr-Jun 2026 (-18.8 a year earlier)",
+     "status": "reported",
+     "source": "https://kr-asia.com/alibabas-cloud-growth-comes-with-a-rising-ai-bill"
+    },
+    {
+     "metric": "Total revenue",
+     "value": 269,
+     "unit": "CNY bn",
+     "period": "Apr-Jun 2026 (+9% YoY)",
+     "status": "reported",
+     "source": "https://technode.com/2026/08/21/alibabas-ai-spending-lifts-capex-75-as-quarterly-profit-falls-76/"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 231.6,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 233.04 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (87.56 / 88.09)",
+     "source": "https://stockanalysis.com/stocks/baba/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 233.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/baba/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 234.5,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/baba/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 87.56,
+    "to_date": "2026-11-12",
+    "to_price": 94.36,
+    "price_currency": "USD",
+    "value": 7.8,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/BABA/history/"
+   },
+   "lab_stakes": [],
+   "debt_notes": []
+  },
+  {
+   "id": "tencent",
+   "name": "Tencent Holdings",
+   "ticker": "0700.HK / TCEHY",
+   "country": "CN",
+   "fiscal_basis": "Calendar year. Reported in CNY; USD values are conversions (estimate). Latest data = Q2 2026 (Q3 2026 release not found).",
+   "models_services": "Hunyuan models, Yuanbao assistant, AI in WeChat/Weixin and ads, Tencent Cloud.",
+   "capex": {
+    "2021": {
+     "value": 4.54,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 29.302,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.4503,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2021 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+     "note": "cash capex per stockanalysis; Tencent's own 'capital expenditure' metric differs"
+    },
+    "2022": {
+     "value": 3.37,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 22.679,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+     "note": "cash capex per stockanalysis; Tencent's own 'capital expenditure' metric differs"
+    },
+    "2023": {
+     "value": 2.97,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 21.008,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+     "note": "cash capex per stockanalysis; Tencent's own 'capital expenditure' metric differs"
+    },
+    "2024": {
+     "value": 8.76,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 62.927,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+     "note": "cash capex per stockanalysis; Tencent's own 'capital expenditure' metric differs"
+    },
+    "2025": {
+     "value": 12.17,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 87.482,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+     "note": "cash capex per stockanalysis; Tencent's own 'capital expenditure' metric differs"
+    },
+    "2026": {
+     "value": 12.45,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 84.7,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+     "period": "Jan-Jun 2026 actual, company-defined capex (Q1 CNY 31.9bn + Q2 CNY 52.8bn, Q2 +176% YoY). Q3 2026 results not found as of 2026-11-13.",
+     "guidance": {
+      "value": null,
+      "status": "guidance",
+      "text": "Qualitative only: 'more than doubling' AI spending in 2026, further step-up in H2.",
+      "source": "https://www.morningstar.com/news/dow-jones/202608123091/ai-spending-snuffs-out-tencents-profit-growth-run"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 82.41,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 554.552,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "2023": {
+     "value": 86.12,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 609.015,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "2024": {
+     "value": 91.88,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 660.257,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "2025": {
+     "value": 104.6,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 751.766,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "ttm": {
+     "value": 115.9,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 788.483,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 27.97,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 188.243,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "2023": {
+     "value": 16.29,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 115.216,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "2024": {
+     "value": 27.01,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 194.073,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "2025": {
+     "value": 31.29,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 224.842,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/"
+    },
+    "ttm": {
+     "value": 34.62,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 235.508,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": 18.34,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 123.412,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 28.42,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 200.954,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 27.22,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 195.594,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 30.0,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 215.57,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/"
+    },
+    "ttm": {
+     "value": 24.74,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 168.309,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "Capital expenditure",
+     "value": 52.8,
+     "unit": "CNY bn",
+     "period": "Q2 2026 (+176% YoY; +65% vs Q1's 31.9)",
+     "status": "reported",
+     "source": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf"
+    },
+    {
+     "metric": "Free cash flow (company definition)",
+     "value": -13.8,
+     "unit": "CNY bn",
+     "period": "Q2 2026 (OCF 52.7 less capex payments 59.3 and other items)",
+     "status": "reported",
+     "source": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf"
+    },
+    {
+     "metric": "Disclosed 'AI revenue'",
+     "value": null,
+     "unit": "CNY bn",
+     "period": "2026",
+     "status": "not_found",
+     "note": "No AI revenue line; Q2 2026 revenue +11% with AI-driven ad gains, profit missed on AI spending.",
+     "source": "https://www.thestandard.com.hk/finance/article/339740/Tencent-Q2-revenue-climbs-11-percent-on-AI-driven-ad-gains-but-profit-falls-short"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 345.7,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (HKD 3140 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (272.78 / 317.23); converted at USD/HKD 7.8108",
+     "source": "https://stockanalysis.com/quote/hkg/0700/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 402.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/quote/hkg/0700/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-13",
+     "value": 443.6,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/quote/hkg/0700/market-cap/",
+     "value_native": 3480,
+     "native_currency": "HKD bn",
+     "fx": 7.8443
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 272.78,
+    "to_date": "2026-11-13",
+    "to_price": 386.6,
+    "price_currency": "HKD",
+    "value": 41.7,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/0700.HK/history/",
+    "note": "Yahoo prices are adjusted for Tencent's in-kind distributions (e.g. Meituan shares, 2023), so the 2022 price is below the nominal close."
+   },
+   "lab_stakes": [],
+   "debt_notes": []
+  },
+  {
+   "id": "baidu",
+   "name": "Baidu",
+   "ticker": "BIDU / 9888.HK",
+   "country": "CN",
+   "fiscal_basis": "Calendar year. Reported in CNY; USD values are conversions (estimate). Latest data = Q2 2026.",
+   "models_services": "ERNIE models and ERNIE Bot, Baidu AI Cloud (Qianfan), Kunlun chips, Apollo Go robotaxi.",
+   "capex": {
+    "2021": {
+     "value": 1.69,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 10.896,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.4503,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2021 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2022": {
+     "value": 1.23,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 8.286,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 1.58,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 11.19,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 1.13,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 8.134,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 1.68,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 12.073,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2026": {
+     "value": null,
+     "status": "not_found",
+     "note": "YTD capex not found; TTM to 2026-06-30 = CNY 22.7bn (stockanalysis). Q3 2026 not yet reported.",
+     "ttm_native_cny_bn": 22.679,
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/",
+     "guidance": null
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 18.38,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 123.675,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "2023": {
+     "value": 19.03,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 134.598,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "2024": {
+     "value": 18.53,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 133.125,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "2025": {
+     "value": 17.96,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 129.079,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "ttm": {
+     "value": 18.71,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 127.314,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 1.04,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 6.968,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "2023": {
+     "value": 2.77,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 19.598,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "2024": {
+     "value": 3.22,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 23.172,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "2025": {
+     "value": 0.65,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 4.663,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/"
+    },
+    "ttm": {
+     "value": -0.69,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": -4.709,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": 2.66,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 17.884,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.7294,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2022 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 3.6,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 25.425,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.0717,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2023 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 1.82,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": 13.1,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1862,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2024 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": -2.1,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": -15.086,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 7.1868,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2025 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    },
+    "ttm": {
+     "value": -1.87,
+     "unit": "USD bn",
+     "status": "estimate",
+     "value_native": -12.708,
+     "native_currency": "CNY bn",
+     "native_status": "reported",
+     "fx_usdcny": 6.8031,
+     "fx_note": "converted at Yahoo Finance USD/CNY average for calendar 2026 (2026 = YTD avg to 2026-11-13)",
+     "fx_source": "https://finance.yahoo.com/quote/CNY=X/history/",
+     "source": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/",
+     "period": "TTM to 2026-06-30"
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "AI Cloud Infra revenue",
+     "value": 7.3,
+     "unit": "CNY bn",
+     "period": "Q2 2026 (+50% YoY, -17% QoQ; GPU cloud +283% YoY)",
+     "status": "reported",
+     "source": "https://baidu.gcs-web.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results"
+    },
+    {
+     "metric": "Core AI-powered business revenue",
+     "value": 12.5,
+     "unit": "CNY bn",
+     "period": "Q2 2026 (+25% YoY; ~half of General Business revenue)",
+     "status": "reported",
+     "source": "https://baidu.gcs-web.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results"
+    },
+    {
+     "metric": "AI Applications revenue",
+     "value": 2.5,
+     "unit": "CNY bn",
+     "period": "Q2 2026 (+3% YoY)",
+     "status": "reported",
+     "source": "https://baidu.gcs-web.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results"
+    },
+    {
+     "metric": "Total revenue",
+     "value": 31.3,
+     "unit": "CNY bn",
+     "period": "Q2 2026 (-4% YoY; US$4.62B)",
+     "status": "reported",
+     "source": "https://baidu.gcs-web.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 37.9,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 39.89 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (108.6 / 114.38)",
+     "source": "https://stockanalysis.com/stocks/bidu/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 39.9,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/bidu/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 25.6,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/bidu/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 108.6,
+    "to_date": "2026-11-12",
+    "to_price": 77.63,
+    "price_currency": "USD",
+    "value": -28.5,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/BIDU/history/"
+   },
+   "lab_stakes": [],
+   "debt_notes": []
+  },
+  {
+   "id": "bytedance",
+   "name": "ByteDance",
+   "ticker": null,
+   "country": "CN",
+   "fiscal_basis": "Private company: no audited public figures. Everything here is unconfirmed press reporting.",
+   "models_services": "Doubao models and chatbot, Volcano Engine cloud, Seedance/Seedream media models, TikTok/Douyin recommendation.",
+   "capex": {
+    "2021": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2022": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2023": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2024": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2025": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2026": {
+     "value": null,
+     "status": "not_found",
+     "source": null,
+     "guidance": {
+      "value": "~160 CNY bn initially (~US$23B), later reported ~200 CNY bn (~US$30B)",
+      "status": "estimate",
+      "text": "Press reports of the 2026 AI capex budget; a 400-500 CNY bn claim circulates on blogs and is unverified.",
+      "source": "https://www.cityam.com/?p=2388476",
+      "source_2": "https://www.briefs.co/news/bytedance-just-bumped-its-2026-ai-spending-budget-to-30-billion/"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2023": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2024": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2025": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "ttm": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "h1_2026": {
+     "value": 120,
+     "unit": "USD bn",
+     "status": "estimate",
+     "note": "~+30% YoY, per The Information via secondary; unconfirmed",
+     "source": "https://aiweekly.co/alerts/bytedance-h1-2026-profit-slides-to-20b-even-as-revenue-jumps-30-to-120b-on-ai"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2023": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2024": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2025": {
+     "value": null,
+     "status": "not_found",
+     "note": "2025 net profit reportedly fell >70% on AI spending and accounting items (source-based, unconfirmed); no reliable absolute figure.",
+     "source": "https://www2.yicaiglobal.com/news/tiktok-owner-bytedances-profit-plunges-over-70-last-year-on-ai-spending-push-insider-says"
+    },
+    "ttm": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "h1_2026": {
+     "value": 20,
+     "unit": "USD bn",
+     "status": "estimate",
+     "note": "down single-digit %; unconfirmed",
+     "source": "https://aiweekly.co/alerts/bytedance-h1-2026-profit-slides-to-20b-even-as-revenue-jumps-30-to-120b-on-ai"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2023": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2024": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "2025": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "ttm": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    }
+   },
+   "cloud_ai": [
+    {
+     "metric": "Doubao monthly active users",
+     "value": ">200",
+     "unit": "million",
+     "period": "Q1 2026",
+     "status": "estimate",
+     "note": "another source says 345M for March 2026; conflicting",
+     "source": "https://www2.yicaiglobal.com/news/tiktok-owner-bytedances-profit-plunges-over-70-last-year-on-ai-spending-push-insider-says"
+    }
+   ],
+   "market_cap": {
+    "2022-11-30": {
+     "value": null,
+     "status": "not_found",
+     "source": null
+    },
+    "latest": {
+     "date": null,
+     "value": null,
+     "source": null
+    }
+   },
+   "stock_change_pct": {
+    "value": null,
+    "status": "not_found",
+    "source": null
+   },
+   "lab_stakes": [],
+   "debt_notes": []
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "ticker": "TSLA",
+   "country": "US",
+   "fiscal_basis": "Calendar year. Included only as an AI-capex reference; capex is total company (factories + AI compute).",
+   "models_services": "FSD, Optimus, in-house AI training compute (Cortex) and AI5/AI6 chips; Grok via xAI ties.",
+   "capex": {
+    "2021": {
+     "value": 6.514,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2022": {
+     "value": 7.163,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 8.899,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 11.342,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 8.527,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2026": {
+     "value": 13.01,
+     "unit": "USD bn",
+     "status": "reported",
+     "period": "Jan-Sep 2026 actual",
+     "source": "https://electrek.co/2026/10/22/tesla-cuts-2026-capex-guidance-q3-cash-flow/",
+     "guidance": {
+      "value": ">20",
+      "unit": "USD bn",
+      "status": "guidance",
+      "text": "Q3 2026 10-Q: 'in excess of $20 billion in 2026', cut from 'more than $25 billion' guided in April and July 2026.",
+      "source": "https://electrek.co/2026/10/22/tesla-cuts-2026-capex-guidance-q3-cash-flow/"
+     }
+    }
+   },
+   "revenue": {
+    "2022": {
+     "value": 81.462,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "2023": {
+     "value": 96.773,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "2024": {
+     "value": 97.69,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "2025": {
+     "value": 94.827,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "ttm": {
+     "value": 103.57,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "net_income": {
+    "2022": {
+     "value": 12.583,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "2023": {
+     "value": 14.999,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "2024": {
+     "value": 7.13,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "2025": {
+     "value": 3.794,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/"
+    },
+    "ttm": {
+     "value": 3.22,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "fcf": {
+    "2022": {
+     "value": 7.561,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2023": {
+     "value": 4.357,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2024": {
+     "value": 3.581,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "2025": {
+     "value": 6.22,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    },
+    "ttm": {
+     "value": 3.303,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/",
+     "period": "TTM to 2026-09-30"
+    }
+   },
+   "cloud_ai": [],
+   "market_cap": {
+    "2022-11-30": {
+     "value": 614.8,
+     "unit": "USD bn",
+     "status": "estimate",
+     "method": "stockanalysis market cap on 2022-12-30 (USD 388.97 bn) scaled by Yahoo close 2022-11-30 / close 2022-12-30 (194.7 / 123.18)",
+     "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+    },
+    "2022-12-30": {
+     "value": 389.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+    },
+    "latest": {
+     "date": "2026-11-12",
+     "value": 1570.0,
+     "unit": "USD bn",
+     "status": "reported",
+     "source": "https://stockanalysis.com/stocks/tsla/market-cap/"
+    }
+   },
+   "stock_change_pct": {
+    "from_date": "2022-11-30",
+    "from_price": 194.7,
+    "to_date": "2026-11-12",
+    "to_price": 397.45,
+    "price_currency": "USD",
+    "value": 104.1,
+    "unit": "%",
+    "basis": "split-adjusted closing price, excluding dividends",
+    "status": "reported",
+    "source": "https://finance.yahoo.com/quote/TSLA/history/"
+   },
+   "lab_stakes": [],
+   "debt_notes": [
+    {
+     "note": "Signed up to $30B of new credit facilities about a month before cutting capex guidance (secondary source).",
+     "status": "reported",
+     "source": "https://www.implicator.ai/tesla-arranges-up-to-30-billion-in-debt-as-free-cash-flow-turns-negative/"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "All monetary values are USD billions unless a 'unit' or 'native_currency' field says otherwise. Statuses: reported = company filing or data aggregator of filings; guidance = official company outlook; estimate = computed/converted by us or unconfirmed press report; not_found = null, could not be sourced.",
+  "Annual revenue / net income / FCF / capex come from stockanalysis.com (standardized from SEC filings): capex = cash purchases of PP&E, FCF = operating cash flow - capex. Company-defined figures (Meta incl. finance leases, Microsoft incl. finance leases, Amazon net of disposals) differ and are given in notes where retrieved.",
+  "Fiscal-year mismatch: Microsoft (June), Apple (September), Oracle (May), Alibaba (March). See each company's 'fiscal_basis' and each datum's 'period'. For Microsoft, Apple and Oracle, capex was re-summed from quarterly data to (near-)calendar years; revenue/net income/FCF remain fiscal years. Calendar-2021 capex for these three is null (only one quarter retrieved).",
+  "Chinese companies report in CNY; USD figures use Yahoo Finance USD/CNY calendar-year averages (2021 6.4503, 2022 6.7294, 2023 7.0717, 2024 7.1862, 2025 7.1868, 2026 YTD 6.8031) and are flagged 'estimate'; 'value_native' holds the reported CNY figure. Tencent market cap converted from HKD at 7.8108 (2022-11-30) and 7.8443 (2026-11-13).",
+  "Market cap on 2022-11-30 is an ESTIMATE: stockanalysis year-end 2022 market cap scaled by the Yahoo price ratio between 2022-11-30 and 2022-12-30 (assumes constant share count over that month). The 2022-12-30 reported figure is also stored. stock_change_pct uses split-adjusted closes without dividends.",
+  "2026 capex: 'value' is actual year-to-date where retrieved (see 'period'); the official full-year outlook is under 'guidance'. No numbers were interpolated. 9-month 2026 capex for Alphabet and Amazon was not retrieved (Q3 and TTM given instead).",
+  "Latest reporting available as of 2026-11-13: US companies through the Sept 2026 quarter (Oracle through Aug 2026); Alibaba, Tencent, Baidu only through the June 2026 quarter (their Q3 releases were not found/published yet).",
+  "Net income of Alphabet, Amazon and Microsoft in 2025-2026 is heavily distorted by non-cash mark-ups on AI-lab stakes (Anthropic, OpenAI, plus SpaceX for Alphabet). Operating income and FCF are better profitability gauges for the dashboard.",
+  "Aggregate debt context: Amazon, Alphabet, Meta, Microsoft and Oracle issued about $244B of bonds globally in 2026 YTD vs $108B in all of 2025 per one tally (https://cryptobriefing.com/hyperscaler-bonds-weigh-investor-portfolios/); other tallies say ~$200B+ (Bloomberg-based) and $159B by mid-May (IFR, https://www.ifre.com/bonds/2427412/hyperscaler-debt-binge-redraws-global-bond-markets); BofA put 2025 US issuance at $121B. Figures differ by scope and date.",
+  "Source disagreements: (1) Microsoft Jul-Sep 2026 capex $39.4B (cash PP&E) vs ~$45B (incl. finance leases); full-year outlook quoted as ~$170B for FY2027 and ~$175B for calendar 2026 (earlier $190B). (2) Microsoft's OpenAI stake 27% (Oct 2025) vs 24% (Sept 2026). (3) Amazon's total invested in Anthropic: $8B+$5B per press vs $18B per one analysis. (4) Alphabet Q3 2026 net income $26.2B vs $26.5B; Alphabet 2027 capex '>$300B' is analyst talk, not guidance. (5) Oracle market cap $396B vs $384B on the same page. (6) Meta Hyperion $27B/$27.3B/$30B. (7) ByteDance figures are all unconfirmed.",
+  "Not found: any current official 'AI revenue run-rate' for Microsoft, Alphabet, Amazon (Q3) or Meta; Google's exact Anthropic stake; Anthropic gain in Amazon's Q3 2026; Baidu and ByteDance 2026 capex; Tencent/Alibaba/Baidu Q3 2026 results; ByteDance audited financials and valuation; Meta-Scale AI source (entered from prior knowledge, flagged)."
+ ]
+}
