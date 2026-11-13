@@ -10,6 +10,10 @@
 - [ ] Convertir SAP a dólares con tipo de cambio documentado para incluirla en utilidades.
 
 
+- [ ] Abrir a mano los enlaces que bloquean robots (McKinsey, Gartner, 7 páginas de inversionistas) y el informe anual de SK Hynix.
+- [ ] Revisar el diagrama de red y las pestañas en un teléfono real.
+
 ## Hecho
 - [x] 13-nov-2026: investigación en 4 bloques (gigantes, chips, labs/startups, software+macro), consolidado y dashboard v1.
 - [x] 13-nov-2026: OG/Twitter card, favicon + ícono táctil, pie con Yape/café/PayPal, animaciones y barra de avance.
+- [x] 13-nov-2026: fichas por empresa (ganancia bruta, márgenes, capex, caja libre), gráfico inversión vs. ganancia, red animada del dinero circular, navegación por páginas, documentos y PDF originales.

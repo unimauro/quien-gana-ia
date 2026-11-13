@@ -428,7 +428,7 @@ EVENTS = [
     ("abr 2026", "«SaaSpocalipsis»: el índice de software IGV cae más de 27 % en el año; su peor trimestre desde 2008.", "bubble_indicators", "SaaSpocalypse"),
     ("jul 2026", "Resultados del 2T: Microsoft sube 15 % en un día; Alphabet cae tras su primer flujo de caja libre negativo.", "h2_2026_events", "Q2 2026 earnings"),
     ("ago 2026", "Intuit recorta su guía y despide al 17 % de su plantilla.", "h2_2026_events", "Intuit 'strategic reset'"),
-    ("oct 2026", "El FMI y el Banco de Inglaterra advierten de una corrección brusca ligada a la IA.", "h2_2026_events", "IMF GFSR and Bank of England"),
+    ("sep–oct 2026", "El Banco de Inglaterra y el FMI advierten de una corrección brusca ligada a la IA.", "h2_2026_events", "IMF GFSR and Bank of England"),
     ("26 oct 2026", "Anthropic presenta su prospecto para salir a bolsa en Nasdaq.", "h2_2026_events", "Anthropic publicly files"),
     ("29 oct 2026", "Alphabet cae 12.6 % en un día, su peor jornada desde 2004, pese al crecimiento de su nube.", "h2_2026_events", "Alphabet shares fall"),
     ("3 nov 2026", "Elecciones en EE. UU.: 38 de 41 consultas locales aprueban frenos a los centros de datos.", "h2_2026_events", "US midterm elections"),

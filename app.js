@@ -237,7 +237,7 @@
   /* ---------- documentos ---------- */
   (D.studies || []).forEach(d => $('doc-studies').appendChild(el('li', { html: `<span class="o">${esc(d.org || '')}${d.date ? ' · ' + esc(fdate(d.date)) : ''}</span><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title || d.url)}</a>${d.pdf ? '<span class="pill pdf">PDF</span>' : ''}` })));
   D.companies.filter(c => c.links && (c.links.annual || c.links.quarterly || c.links.ir)).forEach(c => { const L = c.links;
-    $('doc-cos').appendChild(el('li', { html: `<b>${esc(c.name)}</b> <span class="lk">${A(L.annual, esc((L.annual && L.annual.title) || 'Informe anual'))}${A(L.quarterly, 'Últimos resultados')}${A(L.ir, 'Inversionistas')}</span>` })); });
+    $('doc-cos').appendChild(el('li', { html: `<b>${esc(c.name)}</b> <span class="lk">${A(L.annual, esc(((L.annual && L.annual.title) || 'Informe anual').replace(/\s*\((SEC )?EDGAR[^)]*\)/i, '')))}${A(L.quarterly, 'Últimos resultados')}${A(L.ir, 'Inversionistas')}</span>` })); });
   if (!$('doc-studies').children.length && !$('doc-cos').children.length) $('documentos').hidden = true;
 
   /* ---------- 4. chips ---------- */

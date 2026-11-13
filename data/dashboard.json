@@ -45,9 +45,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/nvda/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.nvidia.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/0001045810-26-000073-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -94,9 +109,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/amd/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/amd/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://ir.amd.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.htm",
+     "title": "Form 10-K fiscal 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+     "title": "AMD Reports Third Quarter 2026 Financial Results (press release)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -143,9 +173,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/avgo/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/avgo/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.broadcom.com/",
+     "title": null,
+     "pdf": false,
+     "ok": false
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.htm",
+     "title": "Form 10-K fiscal 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/0001730168-26-000076-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -192,9 +237,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/tsm/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/tsm/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.tsmc.com/english",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20TSMC%20Annual%20Report.E.pdf",
+     "title": "TSMC 2025 Annual Report (PDF)",
+     "pdf": true,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://investor.tsmc.com/english/quarterly-results",
+     "title": "TSMC Quarterly Results (pagina con Earnings Release y Management Report 3Q26)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -241,9 +301,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/mu/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.micron.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+     "title": "Form 10-K fiscal 2026 (PDF)",
+     "pdf": true,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-26-Earnings-Deck.pdf",
+     "title": "Fiscal Q4 2026 Earnings Deck (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -290,7 +365,12 @@
    "links": {
     "fin": "https://stockanalysis.com/quote/krx/000660/financials/income-statement/",
     "cash": "https://stockanalysis.com/quote/krx/000660/financials/cash-flow-statement/",
-    "ir": null,
+    "ir": {
+     "url": "https://www.skhynix.com/ir/UI-FR-IR01/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
     "annual": null,
     "quarterly": null
    }
@@ -339,9 +419,24 @@
    "links": {
     "fin": "https://stockanalysis.com/quote/krx/005930/financials/income-statement/",
     "cash": "https://stockanalysis.com/quote/krx/005930/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.samsung.com/global/ir/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+     "title": "Samsung Electronics 2025 Business Report (PDF)",
+     "pdf": true,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_3Q_conference_eng.pdf",
+     "title": "3Q 2026 Earnings Conference presentation (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -388,9 +483,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/asml/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.asml.com/",
+     "title": null,
+     "pdf": false,
+     "ok": false
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.htm",
+     "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+     "title": "ASML reports EUR 11.7 billion total net sales and EUR 5.0 billion net income in Q3 2026",
+     "pdf": false,
+     "ok": false
+    }
    }
   },
   {
@@ -437,9 +547,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/intc/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/intc/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.intc.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/0000050863-26-000011.pdf",
+     "title": "Form 10-K fiscal 2025 (PDF)",
+     "pdf": true,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://d1io3yog0oux5.cloudfront.net/_c27fc2702015d7ecf5342ea26a05a889/intel/db/887/9273/earnings_release/Q3%2726_Earnings_Release.pdf",
+     "title": "Q3 2026 Earnings Release (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -486,9 +611,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/mrvl/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/mrvl/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.marvell.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/0001835632-26-000011-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://investor.marvell.com/_assets/_d3db02acfbc9a80b767712a21ae0aac2/marvell/news/2026-08-27_Marvell_Technology_Inc_Reports_Second_Quarter_of_1031.pdf",
+     "title": "Marvell Reports Second Quarter of Fiscal Year 2027 Financial Results (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -535,9 +675,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/arm/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/arm/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.arm.com/",
+     "title": null,
+     "pdf": false,
+     "ok": false
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.htm",
+     "title": "Form 20-F fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000142/0001973239-26-000142-index.htm",
+     "title": "Form 6-K, informe trimestral (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -584,9 +739,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/dell/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/dell/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.delltechnologies.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/0001571996-26-000008-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1653/dell-technologies-delivers-second-quarter-fiscal-2027-financial-results",
+     "title": "Dell Technologies Delivers Second Quarter Fiscal 2027 Financial Results (press release)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -633,9 +803,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/smci/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/smci/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://ir.supermicro.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000026/0001375365-26-000026-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -682,9 +867,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/anet/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/anet/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.arista.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/0001596532-26-000013-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/0001596532-26-000252-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -731,9 +931,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/vrt/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/vrt/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.vertiv.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://s205.q4cdn.com/554782763/files/doc_financials/2025/ar/Vertiv-2025-Annual-Report.pdf",
+     "title": "Vertiv 2025 Annual Report (PDF)",
+     "pdf": true,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/0001628280-26-067707-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -780,9 +995,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/crwv/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/crwv/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.coreweave.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/0001769628-26-000104-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf",
+     "title": "CoreWeave 3Q26 Earnings Presentation (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -829,9 +1059,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/nbis/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/nbis/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://nebius.com/investor-hub",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/0001104659-26-052948-index.htm",
+     "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/0001104659-26-126238-index.htm",
+     "title": "Form 6-K filed 2026-11-12 with Ex. 99.1/99.2 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -878,9 +1123,24 @@
    "links": {
     "fin": "https://stockanalysis.com/quote/hkg/0981/financials/income-statement/",
     "cash": "https://stockanalysis.com/quote/hkg/0981/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.smics.com/en/site/company_financialSummary",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+     "title": "SMIC 2025 Annual Report (PDF)",
+     "pdf": true,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://smic.cdn.shwebspace.com/uploads/6af574c6/ER_EN.pdf",
+     "title": "2026 Third Quarter Earnings Release (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -927,8 +1187,18 @@
    "links": {
     "fin": "https://stockanalysis.com/quote/sha/688256/financials/income-statement/",
     "cash": "https://stockanalysis.com/quote/sha/688256/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
+    "ir": {
+     "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=326",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF",
+     "title": "Cambricon 2025 Annual Report, 2025 nian niandu baogao (PDF, chino)",
+     "pdf": true,
+     "ok": true
+    },
     "quarterly": null
    }
   },
@@ -976,9 +1246,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/msft/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.microsoft.com/en-us/investor",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+     "title": "FY27 Q1 Earnings Press Release and Webcast",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1025,9 +1310,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/googl/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://abc.xyz/investor/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/0001652044-26-000080-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1074,9 +1374,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/amzn/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://ir.aboutamazon.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/0001018724-26-000038-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1123,9 +1438,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/meta/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.atmeta.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1172,9 +1502,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/aapl/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.apple.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/0000320193-26-000024-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1221,9 +1566,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/orcl/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.oracle.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/0001193125-26-387905-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1270,9 +1630,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/baba/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.alibabagroup.com/en-US/investor-relations",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/0001193125-26-231755-index.htm",
+     "title": "Form 20-F fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+     "title": "Alibaba Group Announces June Quarter 2026 Results (PDF)",
+     "pdf": true,
+     "ok": false
+    }
    }
   },
   {
@@ -1319,9 +1694,24 @@
    "links": {
     "fin": "https://stockanalysis.com/quote/hkg/0700/financials/income-statement/",
     "cash": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.tencent.com/en-us/investors.html",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+     "title": "Tencent 2025 Annual Report (PDF)",
+     "pdf": true,
+     "ok": false
+    },
+    "quarterly": {
+     "url": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+     "title": "Tencent Announces 2026 Second Quarter Results (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1368,9 +1758,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/bidu/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://ir.baidu.com/",
+     "title": null,
+     "pdf": false,
+     "ok": false
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526109289/0001193125-26-109289-index.htm",
+     "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://baidu.gcs-web.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results",
+     "title": "Baidu Announces Second Quarter 2026 Results",
+     "pdf": false,
+     "ok": false
+    }
    }
   },
   {
@@ -1417,9 +1822,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/pltr/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/pltr/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.palantir.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/0001321655-26-000045-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1466,9 +1886,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/crm/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/crm/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.salesforce.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/0001108524-26-000187-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1515,9 +1950,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/now/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/now/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.servicenow.com/company/investor-relations.html",
+     "title": null,
+     "pdf": false,
+     "ok": false
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/0001373715-26-000007-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000092/0001373715-26-000092-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1564,9 +2014,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/adbe/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/adbe/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.adobe.com/investor-relations.html",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/0000796343-26-000003-index.htm",
+     "title": "Form 10-K fiscal 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01906202/au56y4ter.pdf",
+     "title": "Q3 FY2026 earnings press release (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1613,9 +2078,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/sap/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/sap/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.sap.com/investors/en.html",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/0001104659-26-020058-index.htm",
+     "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sap.com/docs/download/investors/2026/sap-2026-q3-statement.pdf",
+     "title": "SAP Quarterly Statement Q3 2026 (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1662,9 +2142,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/ibm/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/ibm/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.ibm.com/investor",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/0000051143-26-000010-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.ibm.com/downloads/documents/us-en/17f55bddaac4eb7f",
+     "title": "IBM 2026 Q3 earnings press release (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1711,9 +2206,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/snow/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.snowflake.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/0001640147-26-000008-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://s26.q4cdn.com/463892824/files/content_files/Q2-FY2027-Investor-Presentation_vFF.pdf",
+     "title": "Q2 FY2027 Investor Presentation (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1760,9 +2270,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/wday/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/wday/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.workday.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/0001327811-26-000014-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://s21.q4cdn.com/950027458/files/doc_earnings/2027/q2/generic/Q2-FY27-Earnings-Prepared-Remarks.pdf",
+     "title": "Q2 FY27 Earnings Prepared Remarks (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1809,9 +2334,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/intu/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/intu/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.intuit.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/0000896878-26-000037.pdf",
+     "title": "Form 10-K fiscal 2026 (PDF)",
+     "pdf": true,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://investors.intuit.com/_assets/_8aa2bb45ecd28c337146c390608b0829/intuit/news/2026-08-25_Intuit_Reports_Fourth_Quarter_and_Full_Year_1320.pdf",
+     "title": "Intuit Reports Fourth Quarter and Full Year Fiscal 2026 Results (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1858,9 +2398,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/acn/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/acn/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investor.accenture.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/0001467373-26-000049-index.htm",
+     "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accentures-fourth-quarter-fiscal-2026-earnings-release.pdf",
+     "title": "Accenture Fourth-Quarter Fiscal 2026 Earnings Release (PDF)",
+     "pdf": true,
+     "ok": true
+    }
    }
   },
   {
@@ -1907,9 +2462,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/duol/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/duol/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.duolingo.com/",
+     "title": null,
+     "pdf": false,
+     "ok": false
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/0001628280-26-012494-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069474/0001628280-26-069474-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -1956,9 +2526,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/app/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://investors.applovin.com/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000010/0001751008-26-000010-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000068/0001751008-26-000068-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -2005,9 +2590,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/shop/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/shop/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://www.shopify.com/investors/",
+     "title": null,
+     "pdf": false,
+     "ok": true
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/0001594805-26-000007-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000067/0001594805-26-000067-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   },
   {
@@ -2054,9 +2654,24 @@
    "links": {
     "fin": "https://stockanalysis.com/stocks/tsla/financials/income-statement/",
     "cash": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/",
-    "ir": null,
-    "annual": null,
-    "quarterly": null
+    "ir": {
+     "url": "https://ir.tesla.com/",
+     "title": null,
+     "pdf": false,
+     "ok": false
+    },
+    "annual": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.htm",
+     "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    },
+    "quarterly": {
+     "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/0001628280-26-066738-index.htm",
+     "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+     "pdf": false,
+     "ok": true
+    }
    }
   }
  ],
@@ -4247,8 +4862,8 @@
    ]
   },
   {
-   "date": "oct 2026",
-   "what": "El FMI y el Banco de Inglaterra advierten de una corrección brusca ligada a la IA.",
+   "date": "sep–oct 2026",
+   "what": "El Banco de Inglaterra y el FMI advierten de una corrección brusca ligada a la IA.",
    "src": [
     "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/execsum.pdf"
    ]
@@ -4331,5 +4946,382 @@
    ]
   }
  },
- "studies": []
+ "studies": [
+  {
+   "org": "Anthropic, PBC",
+   "title": "Form S-1 (registration statement, IPO)",
+   "date": "2026-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Anthropic, PBC",
+   "title": "Form S-1/A (Amendment No. 2)",
+   "date": "2026-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/0001628280-26-072484-index.htm",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Space Exploration Technologies Corp. (SpaceX)",
+   "title": "Form S-1 (registration statement, IPO)",
+   "date": "2026-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/0001628280-26-036936-index.htm",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Space Exploration Technologies Corp. (SpaceX)",
+   "title": "Form S-1/A (latest amendment)",
+   "date": "2026-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/0001628280-26-040364-index.htm",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "MIT Media Lab, Project NANDA",
+   "title": "The GenAI Divide: State of AI in Business 2025 (acceso via pagina del grupo)",
+   "date": "2025-07",
+   "url": "https://www.media.mit.edu/groups/nanda/overview/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "McKinsey / QuantumBlack",
+   "title": "The state of AI in 2026: On the road to ROI",
+   "date": "2026",
+   "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+   "pdf": false,
+   "ok": false
+  },
+  {
+   "org": "McKinsey / QuantumBlack",
+   "title": "The state of AI in 2026: On the road to ROI (PDF)",
+   "date": "2026",
+   "url": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/the-state-of-ai-in-2026-on-the-road-to-roi.pdf",
+   "pdf": true,
+   "ok": false
+  },
+  {
+   "org": "BCG",
+   "title": "Applied AI Index 2026: The Formula for Winning Enterprise AI Adoption in 2026",
+   "date": "2026-09",
+   "url": "https://www.bcg.com/publications/2026/the-formula-for-agentic-ai-value",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "BCG",
+   "title": "Press release: AI Is Starting to Pay Off. Almost 50% of Companies Now Generate Value with It",
+   "date": "2026-09",
+   "url": "https://www.bcg.com/press/30september2026-ai-starting-to-pay-off-companies-generate-value",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "BCG",
+   "title": "The Widening AI Value Gap: Build for the Future 2025 (PDF)",
+   "date": "2025-09",
+   "url": "https://media-publications.bcg.com/The-Widening-AI-Value-Gap-Sept-2025.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "BCG",
+   "title": "Are You Generating Value from AI? The Widening Gap (landing)",
+   "date": "2025-09",
+   "url": "https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Stanford HAI",
+   "title": "AI Index Report 2026 (PDF)",
+   "date": "2026-04",
+   "url": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "Stanford HAI",
+   "title": "The 2026 AI Index Report (landing)",
+   "date": "2026-04",
+   "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Technology Report 2026 (PDF)",
+   "date": "2026-09",
+   "url": "https://www.bain.com/globalassets/noindex/2026/bain_report_technology_report_2026.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Technology Report 2026 (landing)",
+   "date": "2026-09",
+   "url": "https://www.bain.com/insights/topics/technology-report/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Technology Report 2025: AI leaders are extending their edge (landing)",
+   "date": "2025-09",
+   "url": "https://www.bain.com/insights/topics/technology-report/2025/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Press release: $2 trillion in new revenue needed to fund AI's scaling trend",
+   "date": "2025-09",
+   "url": "https://www.bain.com/about/media-center/press-releases/20252/$2-trillion-in-new-revenue-needed-to-fund-ais-scaling-trend---bain--companys-6th-annual-global-technology-report/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "AI's $600B Question",
+   "date": "2024-06",
+   "url": "https://www.sequoiacap.com/article/ais-600b-question/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "AI's $200B Question (Follow the GPUs)",
+   "date": "2023-09",
+   "url": "https://www.sequoiacap.com/article/follow-the-gpus-perspective/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "Why AI Labs Are Starting to Look Like Sports Teams (actualizacion USD 840B)",
+   "date": "2025-06",
+   "url": "https://www.sequoiacap.com/article/why-ai-labs-are-starting-to-look-like-sports-teams/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "David Cahn (Substack)",
+   "title": "AI's $1.5T Question",
+   "date": "2026-07",
+   "url": "https://dcahn.substack.com/p/ais-15t-question",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "AI in 2026: A Tale of Two AIs",
+   "date": "2025-12",
+   "url": "https://www.sequoiacap.com/article/ai-in-2026-the-tale-of-two-ais",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Menlo Ventures",
+   "title": "2025: The State of Generative AI in the Enterprise",
+   "date": "2025-12",
+   "url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "IMF",
+   "title": "Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation (landing)",
+   "date": "2026-10",
+   "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "IMF",
+   "title": "GFSR October 2026, full report (PDF)",
+   "date": "2026-10",
+   "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/text.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "IMF",
+   "title": "GFSR October 2026, Chapter 1 (PDF)",
+   "date": "2026-10",
+   "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch1.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "Bank of England",
+   "title": "Financial Policy Committee Record, September 2026 (landing)",
+   "date": "2026-09",
+   "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Bank of England",
+   "title": "FPC Summary and Record, September 2026 (PDF)",
+   "date": "2026-09",
+   "url": "https://www.bankofengland.co.uk/-/media/boe/files/financial-policy-committee-record/2026/fpc-summary-and-record-september-2026.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "BIS",
+   "title": "Annual Economic Report 2026 (PDF)",
+   "date": "2026-06",
+   "url": "https://www.bis.org/publications/aer-2026_0.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "BIS",
+   "title": "Annual Economic Report 2026 (landing)",
+   "date": "2026-06",
+   "url": "https://www.bis.org/publ/arpdf/ar2026e.htm",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "IEA",
+   "title": "Energy and AI (PDF)",
+   "date": "2025-04",
+   "url": "https://www.iea.org/files/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+   "pdf": true,
+   "ok": true
+  },
+  {
+   "org": "IEA",
+   "title": "Key Questions on Energy and AI (actualizacion 2026)",
+   "date": "2026-04",
+   "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "US Census Bureau",
+   "title": "Business Trends and Outlook Survey (BTOS) data page",
+   "date": "2026",
+   "url": "https://www.census.gov/hfp/btos/data",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "US Census Bureau",
+   "title": "Large Firms With at Least 20 Employees Biggest AI Users",
+   "date": "2026-05",
+   "url": "https://census.gov/library/stories/2026/05/ai-use-businesses.html",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Exponential View",
+   "title": "The State of the AI Economy",
+   "date": "2026-06",
+   "url": "https://intelligence.exponentialview.co/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Goldman Sachs",
+   "title": "Global AI Investment Is Forecast to Exceed $1 Trillion in 2026",
+   "date": "2026",
+   "url": "https://www.goldmansachs.com/insights/articles/global-investment-is-forecast-to-exceed-1-trillion-in-2026",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Goldman Sachs",
+   "title": "Navigating a System of AI Bottlenecks",
+   "date": "2026-10",
+   "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/navigating-a-system-of-ai-bottlenecks",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Goldman Sachs",
+   "title": "Why AI Companies May Invest More than $500 Billion in 2026",
+   "date": "2025-12",
+   "url": "https://www.goldmansachs.com/insights/articles/why-ai-companies-may-invest-more-than-500-billion-in-2026",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Morgan Stanley",
+   "title": "AI Market Trends 2026: Global Investment, Risks, and Buildout",
+   "date": "2026",
+   "url": "https://www.morganstanley.com/insights/articles/ai-market-trends-institute-2026",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Morgan Stanley",
+   "title": "AI Investment Outlook: Data Centers and Political Pushback (Thoughts on the Market)",
+   "date": "2026",
+   "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-data-centers-political-pushback-capital-spending-outlook-ariana-salvatore",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Dell'Oro Group",
+   "title": "AI Infrastructure Buildouts and Memory Cost Inflation Drove Data Center Capex Higher in 1Q 2026",
+   "date": "2026-06",
+   "url": "https://www.delloro.com/news/ai-infrastructure-buildouts-and-memory-cost-inflation-drove-data-center-capex-higher-in-1q-2026/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "IDC",
+   "title": "AI Infrastructure Spending Jumps to $121 Billion in Q2 2026",
+   "date": "2026-11",
+   "url": "https://www.idc.com/resource-center/blog/ai-infrastructure-spending-jumps-to-121-billion-in-q2-2026/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "IDC",
+   "title": "AI Infrastructure Spending Holds Near $90 Billion in Q1 2026; 2026 forecast raised to $497 Billion",
+   "date": "2026-07",
+   "url": "https://www.idc.com/resource-center/blog/ai-infrastructure-spending-holds-near-90-billion-in-q1-2026-as-arm-overtakes-x86-in-accelerated-servers-2026-forecast-raised-to-497-billion/",
+   "pdf": false,
+   "ok": true
+  },
+  {
+   "org": "Gartner",
+   "title": "Gartner Forecasts Worldwide AI Spending to Grow 49.5% in 2026",
+   "date": "2026-09",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026",
+   "pdf": false,
+   "ok": false
+  },
+  {
+   "org": "Gartner",
+   "title": "Gartner Forecasts Worldwide AI Spending to Grow 47% in 2026",
+   "date": "2026-05",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+   "pdf": false,
+   "ok": false
+  },
+  {
+   "org": "Gartner",
+   "title": "Gartner Says Worldwide AI Spending Will Total $2.5 Trillion in 2026",
+   "date": "2026-01",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026",
+   "pdf": false,
+   "ok": false
+  },
+  {
+   "org": "Michael Burry",
+   "title": "Cassandra Unchained (Substack)",
+   "date": "2025-11",
+   "url": "https://michaeljburry.substack.com/",
+   "pdf": false,
+   "ok": true
+  }
+ ]
 }
