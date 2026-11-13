@@ -564,10 +564,10 @@ if HP.exists() and HM.exists():
                 pass
         return None
 
-    def cal_year(label, period_end):
+    def cal_year(label, period_end, offset=0):
         d = pdate(period_end)
         if d is None:
-            return int(str(label)[:4])
+            return int(str(label)[:4]) - offset
         return d.year - 1 if d.month <= 5 else d.year  # años fiscales que cierran ene–may cubren sobre todo el año anterior
 
     def to_usd_b(v, cur, unit, year):
@@ -589,8 +589,10 @@ if HP.exists() and HM.exists():
         if not c:
             continue
         rows = {}
+        offs = [int(str(l)[:4]) - cal_year(l, y.get("period_end")) for l, y in (h.get("years") or {}).items() if pdate(y.get("period_end"))]
+        off = max(set(offs), key=offs.count) if offs else 0
         for lab, y in (h.get("years") or {}).items():
-            cy = cal_year(lab, y.get("period_end"))
+            cy = cal_year(lab, y.get("period_end"), off)
             if cy not in YEARS:
                 continue
             row = {k: to_usd_b(y.get(k), h.get("currency"), h.get("unit"), cy) for k in ("revenue", "gross_profit", "operating_income", "net_income", "capex", "fcf")}
@@ -602,10 +604,14 @@ if HP.exists() and HM.exists():
             hco.append({"id": c["id"], "name": c["name"], "cat": c["cat"], "fx": h.get("currency") not in (None, "USD"),
                         "rows": {str(y): rows[y] for y in sorted(rows)}, "src": [u for u in (h.get("source_income"), h.get("source_cashflow")) if u]})
 
+    cover = {y: sum(1 for x in hco if x["rows"].get(str(y), {}).get("revenue") is not None) for y in YEARS}
+    YEARS = [y for y in YEARS if cover[y] >= 0.9 * len(hco)]
+    panel = [x for x in hco if all(x["rows"].get(str(y), {}).get("revenue") is not None for y in YEARS)]
+
     def gsum(cat, key):
         out, n = [], []
         for y in YEARS:
-            vals = [x["rows"].get(str(y), {}).get(key) for x in hco if cat in (None, x["cat"])]
+            vals = [x["rows"].get(str(y), {}).get(key) for x in panel if cat in (None, x["cat"])]
             vals = [v for v in vals if v is not None]
             out.append(round(sum(vals), 1) if vals else None)
             n.append(len(vals))
@@ -648,11 +654,13 @@ if HP.exists() and HM.exists():
             if v is not None:
                 ye[str(y)] = round(v, 1)
         mc_rows.append({"id": c["id"], "name": c["name"], "cat": c["cat"], "ye": ye, "src": [m.get("source")] if m.get("source") else []})
-    mcap_groups = {}
-    for cat in ("chips", "big", "soft"):
-        mcap_groups[cat] = [round(sum(r["ye"].get(str(y), 0) for r in mc_rows if r["cat"] == cat), 0) for y in range(2016, 2026)]
+    MY = list(range(2017, 2026))
+    mc_panel = [r for r in mc_rows if all(str(y) in r["ye"] for y in MY)]
+    mcap_groups = {cat: [round(sum(r["ye"][str(y)] for r in mc_panel if r["cat"] == cat), 0) for y in MY] for cat in ("chips", "big", "soft")}
+    mcap_out = [{"name": r["name"], "cat": r["cat"]} for r in mc_rows if r not in mc_panel]
 
-    hist = {"years": YEARS, "companies": hco, "groups": groups, "totals": totals, "mcap": mc_rows, "mcap_groups": mcap_groups,
+    hist = {"years": YEARS, "companies": hco, "groups": groups, "totals": totals, "mcap": mc_rows, "mcap_groups": mcap_groups, "mcap_years": MY, "mcap_n": len(mc_panel), "mcap_out": mcap_out,
+            "panel_n": len(panel), "panel_out": [x["name"] for x in hco if x not in panel], "n": len(hco),
             "fx_src": [MJ["fx"]["source"]] if MJ.get("fx", {}).get("source") else [],
             "milestones": [x for x in MJ.get("milestones", []) if x.get("url")]}
 

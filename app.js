@@ -116,11 +116,18 @@
   const H = D.hist;
   if (H) {
     const Y = H.years.map(String), G = H.groups, last = Y.length - 1;
+    const Y0 = Y[0], Y1 = Y[last], RANGE = `${Y0}–${Y1}`;
+    document.querySelectorAll('.h-y0').forEach(x => x.textContent = Y0);
+    document.querySelectorAll('.h-y1').forEach(x => x.textContent = Y1);
+    document.querySelectorAll('.h-n').forEach(x => x.textContent = `Las ${H.panel_n}`);
+    $('h-warn').textContent = `Los estados financieros gratuitos solo cubren de ${Y0} a ${Y1}; los años 2017 a ${+Y0 - 1} están pendientes (vendrán de los registros oficiales de la SEC). El valor en bolsa y los hitos sí parten de 2017.`;
+    $('h-capsub').textContent = `Miles de millones de US$. Suma de las ${H.panel_n} empresas con dato en todos los años${H.panel_out.length ? ' (fuera: ' + H.panel_out.join(', ') + ')' : ''}. Cada año fiscal se asigna al año calendario en que cae la mayor parte.`;
+    $('h-mcsub').textContent = `Suma de la capitalización al 31 de diciembre de las ${H.mcap_n} empresas con dato todos los años desde 2017, en miles de millones de US$. Quedan fuera por falta de datos o porque no cotizaban: ${H.mcap_out.map(x => x.name).join(', ')}.`;
     const tot = k => G.all[k].reduce((t, v) => t + (v || 0), 0);
     const totC = (c, k) => G[c][k].reduce((t, v) => t + (v || 0), 0);
     [
-      ['Inversión de capital 2017–2025', fmt.usdB(tot('capex')), `las 42 empresas; ${fmt.usdB(G.all.capex[0])} en 2017 y ${fmt.usdB(G.all.capex[last])} en 2025`],
-      ['Utilidad neta 2017–2025', fmt.usdB(tot('net_income')), `${fmt.num(tot('net_income') / tot('capex'), 2)} dólares de utilidad por cada dólar invertido`],
+      [`Inversión de capital ${RANGE}`, fmt.usdB(tot('capex')), `${H.panel_n} empresas; ${fmt.usdB(G.all.capex[0])} en ${Y0} y ${fmt.usdB(G.all.capex[last])} en ${Y1}`],
+      [`Utilidad neta ${RANGE}`, fmt.usdB(tot('net_income')), `${fmt.num(tot('net_income') / tot('capex'), 2)} dólares de utilidad por cada dólar invertido`],
       ['Gigantes: invirtieron', fmt.usdB(totC('big', 'capex')), `y ganaron ${fmt.usdB(totC('big', 'net_income'))} netos en el mismo periodo`],
       ['Chips: invirtieron', fmt.usdB(totC('chips', 'capex')), `y ganaron ${fmt.usdB(totC('chips', 'net_income'))} netos en el mismo periodo`]
     ].forEach(t => $('h-tiles').appendChild(tile(...t)));
@@ -129,7 +136,7 @@
 
     columns($('c-hcapex'), {
       cats: Y, series: ['big', 'chips', 'soft'].map(k => ({ name: CAT[k].name, color: CAT[k].color, values: G[k].capex })),
-      height: 320, aria: 'Inversión de capital por año y grupo, 2017 a 2025'
+      height: 320, aria: `Inversión de capital por año y grupo, ${RANGE}`
     });
     src('s-hcapex', allSrc, 'Fuentes por empresa');
 
@@ -155,7 +162,7 @@
     function drawCo(id) {
       const c = H.companies.find(x => x.id === id), r = y => c.rows[y] || {};
       const t = H.totals.find(x => x.id === id);
-      $('h-cosub').textContent = `Miles de millones de US$ por año.${c.fx ? ' Reporta en otra moneda: convertido con el tipo de cambio promedio de cada año (estimado).' : ''} Total ${t.first || ''}–2025: inversión ${fmt.usdB(t.capex)}, utilidad neta ${fmt.usdB(t.net_income)}, caja libre ${fmt.usdB(t.fcf)}.`;
+      $('h-cosub').textContent = `Miles de millones de US$ por año.${c.fx ? ' Reporta en otra moneda: convertido con el tipo de cambio promedio de cada año (estimado).' : ''} Total ${t.first || Y0}–${Y1}: inversión ${fmt.usdB(t.capex)}, utilidad neta ${fmt.usdB(t.net_income)}, caja libre ${fmt.usdB(t.fcf)}.`;
       columns($('c-hco'), {
         cats: Y, grouped: true, labels: false, height: 300, aria: 'Serie anual de ' + c.name,
         series: [{ name: 'Inversión (sale)', color: '--out', values: Y.map(y => r(y).capex == null ? null : -r(y).capex) },
@@ -180,7 +187,7 @@
       const list = TOT[k][1](H.totals).slice(0, 15);
       hgroup($('c-htot'), {
         groups: list.map(x => ({
-          label: x.name + (x.fx ? '*' : ''), sub: `${CAT[x.cat].name} · ${x.first && x.first > 2017 ? 'desde ' + x.first : '2017–2025'}`,
+          label: x.name + (x.fx ? '*' : ''), sub: `${CAT[x.cat].name} · ${x.first && x.first > +Y0 ? 'desde ' + x.first : RANGE}`,
           tip: x.capex ? `Utilidad neta por cada dólar invertido: ${fmt.num(x.net_income / x.capex, 2)}` : '',
           bars: [{ name: 'Inversión acumulada', value: x.capex == null ? null : -x.capex, shown: x.capex, color: '--out' },
             { name: 'Ganancia bruta acumulada', value: x.gross_profit, color: '--s1' },
@@ -199,10 +206,10 @@
     });
     drawTot('capex'); $('c-htot').classList.remove('inview');
 
-    const MY = ['2016'].concat(Y);
+    const MY = H.mcap_years.map(String);
     line($('c-hmcap'), {
       series: ['big', 'chips', 'soft'].map(k => ({ name: CAT[k].name, short: CAT[k].name.split(' ')[0], color: CAT[k].color, points: MY.map((y, i) => ({ x: +y, y: H.mcap_groups[k][i] })).filter(p => p.y) })),
-      fmt: v => fmt.usdB(v), height: 320, valueHead: 'Capitalización', aria: 'Capitalización bursátil por grupo al cierre de cada año'
+      height: 320, valueHead: 'Capitalización', aria: 'Capitalización bursátil por grupo al cierre de cada año'
     });
     src('s-hmcap', H.mcap.flatMap(m => m.src), 'Fuentes por empresa');
 

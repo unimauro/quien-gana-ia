@@ -5324,5 +5324,4715 @@
    "ok": true
   }
  ],
- "hist": null
+ "hist": {
+  "years": [
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "companies": [
+   {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 16.675,
+      "gross_profit": 10.557,
+      "operating_income": 4.721,
+      "net_income": 4.332,
+      "capex": 1.128,
+      "fcf": 4.694,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 26.914,
+      "gross_profit": 17.475,
+      "operating_income": 10.041,
+      "net_income": 9.752,
+      "capex": 0.976,
+      "fcf": 8.132,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 26.974,
+      "gross_profit": 15.356,
+      "operating_income": 5.577,
+      "net_income": 4.368,
+      "capex": 1.833,
+      "fcf": 3.808,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 60.922,
+      "gross_profit": 44.301,
+      "operating_income": 32.972,
+      "net_income": 29.76,
+      "capex": 1.069,
+      "fcf": 27.021,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 130.497,
+      "gross_profit": 97.858,
+      "operating_income": 81.453,
+      "net_income": 72.88,
+      "capex": 3.236,
+      "fcf": 60.853,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 215.938,
+      "gross_profit": 153.463,
+      "operating_income": 130.387,
+      "net_income": 120.067,
+      "capex": 6.042,
+      "fcf": 96.676,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/nvda/financials/income-statement/",
+     "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "amd",
+    "name": "AMD",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 9.763,
+      "gross_profit": 4.347,
+      "operating_income": 1.369,
+      "net_income": 2.49,
+      "capex": 0.294,
+      "fcf": 0.777,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 16.434,
+      "gross_profit": 7.929,
+      "operating_income": 3.648,
+      "net_income": 3.162,
+      "capex": 0.301,
+      "fcf": 3.22,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 23.601,
+      "gross_profit": 12.051,
+      "operating_income": 1.264,
+      "net_income": 1.32,
+      "capex": 0.45,
+      "fcf": 3.115,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 22.68,
+      "gross_profit": 11.402,
+      "operating_income": 0.401,
+      "net_income": 0.854,
+      "capex": 0.546,
+      "fcf": 1.121,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 25.785,
+      "gross_profit": 13.671,
+      "operating_income": 2.086,
+      "net_income": 1.641,
+      "capex": 0.636,
+      "fcf": 2.405,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 34.639,
+      "gross_profit": 18.183,
+      "operating_income": 3.741,
+      "net_income": 4.335,
+      "capex": 0.974,
+      "fcf": 6.735,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/amd/financials/income-statement/",
+     "https://stockanalysis.com/stocks/amd/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 23.888,
+      "gross_profit": 17.37,
+      "operating_income": 4.361,
+      "net_income": 2.96,
+      "capex": 0.463,
+      "fcf": 11.598,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 27.45,
+      "gross_profit": 20.288,
+      "operating_income": 8.684,
+      "net_income": 6.736,
+      "capex": 0.443,
+      "fcf": 13.321,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 33.203,
+      "gross_profit": 24.947,
+      "operating_income": 14.286,
+      "net_income": 11.495,
+      "capex": 0.424,
+      "fcf": 16.312,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 35.819,
+      "gross_profit": 26.547,
+      "operating_income": 16.706,
+      "net_income": 14.082,
+      "capex": 0.452,
+      "fcf": 17.633,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 51.574,
+      "gross_profit": 38.786,
+      "operating_income": 15.798,
+      "net_income": 5.895,
+      "capex": 0.548,
+      "fcf": 19.414,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 63.887,
+      "gross_profit": 49.401,
+      "operating_income": 26.367,
+      "net_income": 23.126,
+      "capex": 0.623,
+      "fcf": 26.914,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/avgo/financials/income-statement/",
+     "https://stockanalysis.com/stocks/avgo/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "tsmc",
+    "name": "TSMC",
+    "cat": "chips",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 45.465,
+      "gross_profit": 24.141,
+      "operating_income": 19.241,
+      "net_income": 17.339,
+      "capex": 17.22,
+      "fcf": 10.708,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 56.822,
+      "gross_profit": 29.336,
+      "operating_income": 23.276,
+      "net_income": 21.204,
+      "capex": 30.039,
+      "fcf": 9.771,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 75.979,
+      "gross_profit": 45.252,
+      "operating_income": 37.658,
+      "net_income": 33.324,
+      "capex": 36.336,
+      "fcf": 17.718,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 69.392,
+      "gross_profit": 37.721,
+      "operating_income": 29.579,
+      "net_income": 27.341,
+      "capex": 30.489,
+      "fcf": 9.378,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 90.147,
+      "gross_profit": 50.593,
+      "operating_income": 41.213,
+      "net_income": 36.079,
+      "capex": 29.776,
+      "fcf": 27.103,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 122.217,
+      "gross_profit": 73.197,
+      "operating_income": 62.146,
+      "net_income": 54.469,
+      "capex": 40.827,
+      "fcf": 32.168,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/quote/tpe/2330/financials/income-statement/",
+     "https://stockanalysis.com/quote/tpe/2330/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "micron",
+    "name": "Micron",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2021": {
+      "revenue": 27.705,
+      "gross_profit": 10.472,
+      "operating_income": 6.796,
+      "net_income": 5.861,
+      "capex": 10.03,
+      "fcf": 2.438,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 30.758,
+      "gross_profit": 13.898,
+      "operating_income": 9.709,
+      "net_income": 8.687,
+      "capex": 12.067,
+      "fcf": 3.114,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 15.54,
+      "gross_profit": 0.415,
+      "operating_income": -3.574,
+      "net_income": -5.833,
+      "capex": 7.676,
+      "fcf": -6.117,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 25.111,
+      "gross_profit": 5.613,
+      "operating_income": 1.304,
+      "net_income": 0.778,
+      "capex": 8.386,
+      "fcf": 0.121,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 37.378,
+      "gross_profit": 14.873,
+      "operating_income": 9.77,
+      "net_income": 8.539,
+      "capex": 15.857,
+      "fcf": 1.668,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/mu/financials/income-statement/",
+     "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "skhynix",
+    "name": "SK Hynix",
+    "cat": "chips",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 27.022,
+      "gross_profit": 9.157,
+      "operating_income": 4.246,
+      "net_income": 4.028,
+      "capex": 8.529,
+      "fcf": 1.902,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 37.556,
+      "gross_profit": 16.554,
+      "operating_income": 10.84,
+      "net_income": 8.387,
+      "capex": 10.906,
+      "fcf": 6.386,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 34.543,
+      "gross_profit": 12.098,
+      "operating_income": 5.271,
+      "net_income": 1.726,
+      "capex": 14.716,
+      "fcf": -3.274,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 25.074,
+      "gross_profit": -0.408,
+      "operating_income": -5.916,
+      "net_income": -6.973,
+      "capex": 6.371,
+      "fcf": -3.097,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 48.549,
+      "gross_profit": 23.344,
+      "operating_income": 17.212,
+      "net_income": 14.514,
+      "capex": 11.695,
+      "fcf": 10.158,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 68.346,
+      "gross_profit": 41.291,
+      "operating_income": 33.211,
+      "net_income": 30.195,
+      "capex": 19.36,
+      "fcf": 18.189,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/quote/krx/000660/financials/income-statement/",
+     "https://stockanalysis.com/quote/krx/000660/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "samsung",
+    "name": "Samsung Electronics",
+    "cat": "chips",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 200.589,
+      "gross_profit": 78.199,
+      "operating_income": 30.489,
+      "net_income": 22.1,
+      "capex": 31.843,
+      "fcf": 23.459,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 244.22,
+      "gross_profit": 98.868,
+      "operating_income": 45.099,
+      "net_income": 34.277,
+      "capex": 41.159,
+      "fcf": 15.707,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 233.965,
+      "gross_profit": 86.849,
+      "operating_income": 33.579,
+      "net_income": 42.368,
+      "capex": 38.265,
+      "fcf": 9.871,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 198.15,
+      "gross_profit": 60.108,
+      "operating_income": 5.025,
+      "net_income": 11.076,
+      "capex": 44.087,
+      "fcf": -10.311,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 220.671,
+      "gross_profit": 83.839,
+      "operating_income": 24.003,
+      "net_income": 24.659,
+      "capex": 37.703,
+      "fcf": 15.825,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 234.703,
+      "gross_profit": 92.424,
+      "operating_income": 30.675,
+      "net_income": 31.139,
+      "capex": 33.433,
+      "fcf": 26.589,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/quote/krx/005930/financials/income-statement/",
+     "https://stockanalysis.com/quote/krx/005930/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "asml",
+    "name": "ASML",
+    "cat": "chips",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 15.95,
+      "gross_profit": 7.756,
+      "operating_income": 4.623,
+      "net_income": 4.055,
+      "capex": 1.098,
+      "fcf": 4.183,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 22.017,
+      "gross_profit": 11.604,
+      "operating_income": 7.732,
+      "net_income": 6.96,
+      "capex": 1.066,
+      "fcf": 11.765,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 22.304,
+      "gross_profit": 11.271,
+      "operating_income": 6.848,
+      "net_income": 5.924,
+      "capex": 1.35,
+      "fcf": 7.59,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 29.81,
+      "gross_profit": 15.29,
+      "operating_income": 9.78,
+      "net_income": 8.479,
+      "capex": 2.332,
+      "fcf": 3.557,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 30.581,
+      "gross_profit": 15.681,
+      "operating_income": 9.763,
+      "net_income": 8.193,
+      "capex": 2.237,
+      "fcf": 9.845,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 36.933,
+      "gross_profit": 19.512,
+      "operating_income": 12.777,
+      "net_income": 10.864,
+      "capex": 1.78,
+      "fcf": 12.533,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/asml/financials/income-statement/",
+     "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "intel",
+    "name": "Intel",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 77.867,
+      "gross_profit": 43.612,
+      "operating_income": 23.876,
+      "net_income": 20.899,
+      "capex": 14.453,
+      "fcf": 21.411,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 79.024,
+      "gross_profit": 43.815,
+      "operating_income": 22.082,
+      "net_income": 19.868,
+      "capex": 20.329,
+      "fcf": 9.127,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 63.054,
+      "gross_profit": 28.446,
+      "operating_income": 3.916,
+      "net_income": 8.014,
+      "capex": 24.844,
+      "fcf": -9.411,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 54.228,
+      "gross_profit": 21.711,
+      "operating_income": 0.031,
+      "net_income": 1.689,
+      "capex": 25.75,
+      "fcf": -14.279,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 53.101,
+      "gross_profit": 20.645,
+      "operating_income": -1.408,
+      "net_income": -18.756,
+      "capex": 23.944,
+      "fcf": -15.656,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 52.853,
+      "gross_profit": 19.325,
+      "operating_income": 0.927,
+      "net_income": -0.267,
+      "capex": 14.646,
+      "fcf": -4.949,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/intc/financials/income-statement/",
+     "https://stockanalysis.com/stocks/intc/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "marvell",
+    "name": "Marvell",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 2.969,
+      "gross_profit": 1.515,
+      "operating_income": -0.025,
+      "net_income": -0.277,
+      "capex": 0.107,
+      "fcf": 0.711,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 4.462,
+      "gross_profit": 2.258,
+      "operating_income": -0.059,
+      "net_income": -0.421,
+      "capex": 0.169,
+      "fcf": 0.65,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 5.92,
+      "gross_profit": 3.026,
+      "operating_income": 0.398,
+      "net_income": -0.164,
+      "capex": 0.206,
+      "fcf": 1.083,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 5.508,
+      "gross_profit": 2.294,
+      "operating_income": -0.437,
+      "net_income": -0.933,
+      "capex": 0.336,
+      "fcf": 1.034,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 5.767,
+      "gross_profit": 2.74,
+      "operating_income": -0.009,
+      "net_income": -0.885,
+      "capex": 0.285,
+      "fcf": 1.397,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 8.195,
+      "gross_profit": 4.181,
+      "operating_income": 1.339,
+      "net_income": 2.67,
+      "capex": 0.354,
+      "fcf": 1.396,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/mrvl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/mrvl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "arm",
+    "name": "Arm",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 2.027,
+      "gross_profit": 1.882,
+      "operating_income": 0.242,
+      "net_income": 0.388,
+      "capex": 0.104,
+      "fcf": 1.129,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 2.703,
+      "gross_profit": 2.572,
+      "operating_income": 0.68,
+      "net_income": 0.549,
+      "capex": 0.034,
+      "fcf": 0.424,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 2.679,
+      "gross_profit": 2.573,
+      "operating_income": 0.713,
+      "net_income": 0.524,
+      "capex": 0.064,
+      "fcf": 0.675,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 3.233,
+      "gross_profit": 3.079,
+      "operating_income": 0.076,
+      "net_income": 0.306,
+      "capex": 0.092,
+      "fcf": 0.998,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 4.007,
+      "gross_profit": 3.886,
+      "operating_income": 0.831,
+      "net_income": 0.792,
+      "capex": 0.219,
+      "fcf": 0.178,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 4.92,
+      "gross_profit": 4.799,
+      "operating_income": 0.908,
+      "net_income": 0.904,
+      "capex": 0.545,
+      "fcf": 0.979,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/arm/financials/income-statement/",
+     "https://stockanalysis.com/stocks/arm/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "dell",
+    "name": "Dell",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 86.67,
+      "gross_profit": 20.14,
+      "operating_income": 3.685,
+      "net_income": 3.25,
+      "capex": 2.082,
+      "fcf": 9.325,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 101.197,
+      "gross_profit": 21.92,
+      "operating_income": 4.793,
+      "net_income": 5.563,
+      "capex": 2.796,
+      "fcf": 7.511,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 102.301,
+      "gross_profit": 22.794,
+      "operating_income": 6.298,
+      "net_income": 2.442,
+      "capex": 3.003,
+      "fcf": 0.562,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 88.425,
+      "gross_profit": 21.155,
+      "operating_income": 6.059,
+      "net_income": 3.388,
+      "capex": 2.756,
+      "fcf": 5.92,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 95.567,
+      "gross_profit": 21.405,
+      "operating_income": 6.93,
+      "net_income": 4.592,
+      "capex": 2.652,
+      "fcf": 1.869,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 113.538,
+      "gross_profit": 22.849,
+      "operating_income": 8.718,
+      "net_income": 5.936,
+      "capex": 2.633,
+      "fcf": 8.552,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/dell/financials/income-statement/",
+     "https://stockanalysis.com/stocks/dell/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "supermicro",
+    "name": "Super Micro",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2021": {
+      "revenue": 3.557,
+      "gross_profit": 0.535,
+      "operating_income": 0.124,
+      "net_income": 0.112,
+      "capex": 0.058,
+      "fcf": 0.065,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 5.196,
+      "gross_profit": 0.8,
+      "operating_income": 0.335,
+      "net_income": 0.285,
+      "capex": 0.045,
+      "fcf": -0.486,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 7.123,
+      "gross_profit": 1.283,
+      "operating_income": 0.761,
+      "net_income": 0.64,
+      "capex": 0.037,
+      "fcf": 0.627,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 14.989,
+      "gross_profit": 2.061,
+      "operating_income": 1.211,
+      "net_income": 1.153,
+      "capex": 0.124,
+      "fcf": -2.61,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 21.972,
+      "gross_profit": 2.43,
+      "operating_income": 1.253,
+      "net_income": 1.049,
+      "capex": 0.127,
+      "fcf": 1.532,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/smci/financials/income-statement/",
+     "https://stockanalysis.com/stocks/smci/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "arista",
+    "name": "Arista",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 2.318,
+      "gross_profit": 1.482,
+      "operating_income": 0.704,
+      "net_income": 0.635,
+      "capex": 0.015,
+      "fcf": 0.72,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 2.948,
+      "gross_profit": 1.881,
+      "operating_income": 0.925,
+      "net_income": 0.841,
+      "capex": 0.065,
+      "fcf": 0.951,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 4.381,
+      "gross_profit": 2.676,
+      "operating_income": 1.527,
+      "net_income": 1.352,
+      "capex": 0.045,
+      "fcf": 0.448,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 5.86,
+      "gross_profit": 3.63,
+      "operating_income": 2.257,
+      "net_income": 2.087,
+      "capex": 0.034,
+      "fcf": 2.0,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 7.003,
+      "gross_profit": 4.491,
+      "operating_income": 2.945,
+      "net_income": 2.852,
+      "capex": 0.032,
+      "fcf": 3.676,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 9.006,
+      "gross_profit": 5.769,
+      "operating_income": 3.856,
+      "net_income": 3.511,
+      "capex": 0.12,
+      "fcf": 4.252,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/anet/financials/income-statement/",
+     "https://stockanalysis.com/stocks/anet/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "vertiv",
+    "name": "Vertiv",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 4.371,
+      "gross_profit": 1.474,
+      "operating_income": 0.335,
+      "net_income": -0.327,
+      "capex": 0.044,
+      "fcf": 0.165,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 4.998,
+      "gross_profit": 1.523,
+      "operating_income": 0.273,
+      "net_income": 0.12,
+      "capex": 0.073,
+      "fcf": 0.138,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 5.692,
+      "gross_profit": 1.616,
+      "operating_income": 0.227,
+      "net_income": 0.077,
+      "capex": 0.1,
+      "fcf": -0.253,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 6.863,
+      "gross_profit": 2.401,
+      "operating_income": 0.918,
+      "net_income": 0.46,
+      "capex": 0.128,
+      "fcf": 0.773,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 8.012,
+      "gross_profit": 2.934,
+      "operating_income": 1.385,
+      "net_income": 0.496,
+      "capex": 0.167,
+      "fcf": 1.152,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 10.23,
+      "gross_profit": 3.715,
+      "operating_income": 1.899,
+      "net_income": 1.333,
+      "capex": 0.22,
+      "fcf": 1.894,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/vrt/financials/income-statement/",
+     "https://stockanalysis.com/stocks/vrt/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2022": {
+      "revenue": 0.016,
+      "gross_profit": 0.004,
+      "operating_income": -0.023,
+      "net_income": -0.031,
+      "capex": 0.072,
+      "fcf": -0.071,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 0.229,
+      "gross_profit": 0.16,
+      "operating_income": -0.014,
+      "net_income": -0.594,
+      "capex": 2.943,
+      "fcf": -1.11,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 1.915,
+      "gross_profit": 1.422,
+      "operating_income": 0.324,
+      "net_income": -0.863,
+      "capex": 8.702,
+      "fcf": -5.953,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 5.131,
+      "gross_profit": 3.678,
+      "operating_income": -0.017,
+      "net_income": -1.167,
+      "capex": 10.309,
+      "fcf": -7.251,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/crwv/financials/income-statement/",
+     "https://stockanalysis.com/stocks/crwv/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "nebius",
+    "name": "Nebius",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 2.953,
+      "gross_profit": 1.793,
+      "operating_income": 0.212,
+      "net_income": 0.334,
+      "capex": 0.332,
+      "fcf": 0.109,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 4.746,
+      "gross_profit": 2.428,
+      "operating_income": -0.177,
+      "net_income": -0.195,
+      "capex": 0.595,
+      "fcf": -0.471,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 0.013,
+      "gross_profit": -0.015,
+      "operating_income": -0.158,
+      "net_income": 0.746,
+      "capex": 0.015,
+      "fcf": 0.682,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 0.01,
+      "gross_profit": -0.01,
+      "operating_income": -0.286,
+      "net_income": 0.241,
+      "capex": 0.083,
+      "fcf": 0.747,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 0.091,
+      "gross_profit": 0.048,
+      "operating_income": -0.4,
+      "net_income": -0.641,
+      "capex": 0.807,
+      "fcf": -0.562,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 0.53,
+      "gross_profit": 0.364,
+      "operating_income": -0.612,
+      "net_income": 0.083,
+      "capex": 4.066,
+      "fcf": -3.681,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/nbis/financials/income-statement/",
+     "https://stockanalysis.com/stocks/nbis/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "smic",
+    "name": "SMIC",
+    "cat": "chips",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 3.907,
+      "gross_profit": 0.921,
+      "operating_income": -0.053,
+      "net_income": 0.716,
+      "capex": 5.275,
+      "fcf": -3.614,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 5.443,
+      "gross_profit": 1.676,
+      "operating_income": 0.735,
+      "net_income": 1.702,
+      "capex": 4.12,
+      "fcf": -1.108,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 7.273,
+      "gross_profit": 2.762,
+      "operating_income": 1.647,
+      "net_income": 1.818,
+      "capex": 6.172,
+      "fcf": -0.824,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 6.322,
+      "gross_profit": 1.218,
+      "operating_income": 0.121,
+      "net_income": 0.903,
+      "capex": 7.63,
+      "fcf": -4.272,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 8.03,
+      "gross_profit": 1.448,
+      "operating_income": 0.286,
+      "net_income": 0.493,
+      "capex": 7.664,
+      "fcf": -4.489,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 9.327,
+      "gross_profit": 1.957,
+      "operating_income": 0.637,
+      "net_income": 0.685,
+      "capex": 8.4,
+      "fcf": -5.206,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/quote/hkg/0981/financials/income-statement/",
+     "https://stockanalysis.com/quote/hkg/0981/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "cambricon",
+    "name": "Cambricon",
+    "cat": "chips",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 0.066,
+      "gross_profit": 0.042,
+      "operating_income": -0.1,
+      "net_income": -0.063,
+      "capex": 0.038,
+      "fcf": -0.057,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 0.112,
+      "gross_profit": 0.066,
+      "operating_income": -0.184,
+      "net_income": -0.128,
+      "capex": 0.078,
+      "fcf": -0.214,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 0.108,
+      "gross_profit": 0.043,
+      "operating_income": -0.252,
+      "net_income": -0.187,
+      "capex": 0.042,
+      "fcf": -0.24,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 0.1,
+      "gross_profit": 0.052,
+      "operating_income": -0.161,
+      "net_income": -0.12,
+      "capex": 0.014,
+      "fcf": -0.098,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 0.163,
+      "gross_profit": 0.088,
+      "operating_income": -0.1,
+      "net_income": -0.063,
+      "capex": 0.051,
+      "fcf": -0.276,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 0.904,
+      "gross_profit": 0.48,
+      "operating_income": 0.249,
+      "net_income": 0.286,
+      "capex": 0.079,
+      "fcf": -0.148,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/quote/sha/688256/financials/income-statement/",
+     "https://stockanalysis.com/quote/sha/688256/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "cat": "big",
+    "fx": false,
+    "rows": {
+     "2021": {
+      "revenue": 168.088,
+      "gross_profit": 115.856,
+      "operating_income": 69.916,
+      "net_income": 61.271,
+      "capex": 20.622,
+      "fcf": 56.118,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 198.27,
+      "gross_profit": 135.62,
+      "operating_income": 83.383,
+      "net_income": 72.738,
+      "capex": 23.886,
+      "fcf": 65.149,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 211.915,
+      "gross_profit": 146.052,
+      "operating_income": 88.523,
+      "net_income": 72.361,
+      "capex": 28.107,
+      "fcf": 59.475,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 245.122,
+      "gross_profit": 171.008,
+      "operating_income": 109.433,
+      "net_income": 88.136,
+      "capex": 44.477,
+      "fcf": 74.071,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 281.724,
+      "gross_profit": 193.893,
+      "operating_income": 128.528,
+      "net_income": 101.832,
+      "capex": 64.551,
+      "fcf": 71.611,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/msft/financials/income-statement/",
+     "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "alphabet",
+    "name": "Alphabet (Google)",
+    "cat": "big",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 182.527,
+      "gross_profit": 97.795,
+      "operating_income": 41.224,
+      "net_income": 40.269,
+      "capex": 22.281,
+      "fcf": 42.843,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 257.637,
+      "gross_profit": 146.698,
+      "operating_income": 78.714,
+      "net_income": 76.033,
+      "capex": 24.64,
+      "fcf": 67.012,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 282.836,
+      "gross_profit": 156.633,
+      "operating_income": 74.842,
+      "net_income": 59.972,
+      "capex": 31.485,
+      "fcf": 60.01,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 307.394,
+      "gross_profit": 174.062,
+      "operating_income": 84.293,
+      "net_income": 73.795,
+      "capex": 32.251,
+      "fcf": 69.495,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 350.018,
+      "gross_profit": 203.712,
+      "operating_income": 112.39,
+      "net_income": 100.118,
+      "capex": 52.535,
+      "fcf": 72.764,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 402.836,
+      "gross_profit": 240.301,
+      "operating_income": 129.039,
+      "net_income": 132.17,
+      "capex": 91.447,
+      "fcf": 73.266,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/googl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "amazon",
+    "name": "Amazon",
+    "cat": "big",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 386.064,
+      "gross_profit": 152.757,
+      "operating_income": 22.899,
+      "net_income": 21.331,
+      "capex": 40.14,
+      "fcf": 25.924,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 469.822,
+      "gross_profit": 197.478,
+      "operating_income": 24.879,
+      "net_income": 33.364,
+      "capex": 61.053,
+      "fcf": -14.726,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 513.983,
+      "gross_profit": 225.152,
+      "operating_income": 13.348,
+      "net_income": -2.722,
+      "capex": 63.645,
+      "fcf": -16.893,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 574.785,
+      "gross_profit": 270.046,
+      "operating_income": 36.852,
+      "net_income": 30.425,
+      "capex": 52.729,
+      "fcf": 32.217,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 637.959,
+      "gross_profit": 311.671,
+      "operating_income": 68.593,
+      "net_income": 59.248,
+      "capex": 82.999,
+      "fcf": 32.878,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 716.924,
+      "gross_profit": 360.51,
+      "operating_income": 79.975,
+      "net_income": 77.67,
+      "capex": 131.819,
+      "fcf": 7.695,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/amzn/financials/income-statement/",
+     "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "meta",
+    "name": "Meta",
+    "cat": "big",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 85.965,
+      "gross_profit": 69.273,
+      "operating_income": 32.671,
+      "net_income": 29.146,
+      "capex": 15.163,
+      "fcf": 23.584,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 117.929,
+      "gross_profit": 95.28,
+      "operating_income": 46.753,
+      "net_income": 39.37,
+      "capex": 18.69,
+      "fcf": 38.993,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 116.609,
+      "gross_profit": 92.855,
+      "operating_income": 33.555,
+      "net_income": 23.2,
+      "capex": 31.186,
+      "fcf": 19.289,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 134.902,
+      "gross_profit": 108.943,
+      "operating_income": 46.751,
+      "net_income": 39.098,
+      "capex": 27.045,
+      "fcf": 44.068,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 164.501,
+      "gross_profit": 134.34,
+      "operating_income": 69.38,
+      "net_income": 62.36,
+      "capex": 37.256,
+      "fcf": 54.072,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 200.966,
+      "gross_profit": 164.791,
+      "operating_income": 83.276,
+      "net_income": 60.458,
+      "capex": 69.691,
+      "fcf": 46.109,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/meta/financials/income-statement/",
+     "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "apple",
+    "name": "Apple",
+    "cat": "big",
+    "fx": false,
+    "rows": {
+     "2021": {
+      "revenue": 365.817,
+      "gross_profit": 152.836,
+      "operating_income": 108.949,
+      "net_income": 94.68,
+      "capex": 11.085,
+      "fcf": 92.953,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 394.328,
+      "gross_profit": 170.782,
+      "operating_income": 119.437,
+      "net_income": 99.803,
+      "capex": 10.708,
+      "fcf": 111.443,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 383.285,
+      "gross_profit": 169.148,
+      "operating_income": 114.301,
+      "net_income": 96.995,
+      "capex": 10.959,
+      "fcf": 99.584,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 391.035,
+      "gross_profit": 180.683,
+      "operating_income": 123.216,
+      "net_income": 93.736,
+      "capex": 9.447,
+      "fcf": 108.807,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 416.161,
+      "gross_profit": 195.201,
+      "operating_income": 133.05,
+      "net_income": 112.01,
+      "capex": 12.715,
+      "fcf": 98.767,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/aapl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "cat": "big",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 40.479,
+      "gross_profit": 32.624,
+      "operating_income": 15.653,
+      "net_income": 13.746,
+      "capex": 2.135,
+      "fcf": 13.752,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 42.44,
+      "gross_profit": 33.563,
+      "operating_income": 15.836,
+      "net_income": 6.717,
+      "capex": 4.511,
+      "fcf": 5.028,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 49.954,
+      "gross_profit": 36.39,
+      "operating_income": 13.67,
+      "net_income": 8.503,
+      "capex": 8.695,
+      "fcf": 8.47,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 52.961,
+      "gross_profit": 37.818,
+      "operating_income": 15.757,
+      "net_income": 10.467,
+      "capex": 6.866,
+      "fcf": 11.807,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 57.399,
+      "gross_profit": 40.472,
+      "operating_income": 17.977,
+      "net_income": 12.443,
+      "capex": 21.215,
+      "fcf": -0.394,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 67.357,
+      "gross_profit": 44.336,
+      "operating_income": 22.385,
+      "net_income": 17.087,
+      "capex": 55.663,
+      "fcf": -23.686,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/orcl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "cat": "big",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 103.892,
+      "gross_profit": 43.129,
+      "operating_income": 15.874,
+      "net_income": 21.81,
+      "capex": 6.004,
+      "fcf": 27.568,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 132.241,
+      "gross_profit": 48.731,
+      "operating_income": 14.959,
+      "net_income": 9.65,
+      "capex": 8.264,
+      "fcf": 13.866,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 129.096,
+      "gross_profit": 47.574,
+      "operating_income": 15.771,
+      "net_income": 10.816,
+      "capex": 5.102,
+      "fcf": 24.583,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 132.916,
+      "gross_profit": 50.113,
+      "operating_income": 19.59,
+      "net_income": 11.299,
+      "capex": 4.531,
+      "fcf": 21.255,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 138.464,
+      "gross_profit": 55.319,
+      "operating_income": 21.08,
+      "net_income": 18.081,
+      "capex": 11.948,
+      "fcf": 10.775,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 142.424,
+      "gross_profit": 56.7,
+      "operating_income": 8.763,
+      "net_income": 14.413,
+      "capex": 17.539,
+      "fcf": -6.936,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/baba/financials/income-statement/",
+     "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "tencent",
+    "name": "Tencent",
+    "cat": "big",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 69.822,
+      "gross_profit": 32.1,
+      "operating_income": 18.16,
+      "net_income": 23.152,
+      "capex": 4.935,
+      "fcf": 23.181,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 86.829,
+      "gross_profit": 38.124,
+      "operating_income": 19.199,
+      "net_income": 34.852,
+      "capex": 4.542,
+      "fcf": 22.615,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 82.412,
+      "gross_profit": 35.501,
+      "operating_income": 16.478,
+      "net_income": 27.975,
+      "capex": 3.37,
+      "fcf": 18.34,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 86.008,
+      "gross_profit": 41.395,
+      "operating_income": 23.015,
+      "net_income": 16.271,
+      "capex": 2.967,
+      "fcf": 28.38,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 91.757,
+      "gross_profit": 48.543,
+      "operating_income": 28.9,
+      "net_income": 26.971,
+      "capex": 8.745,
+      "fcf": 27.182,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 104.594,
+      "gross_profit": 58.834,
+      "operating_income": 34.174,
+      "net_income": 31.282,
+      "capex": 12.171,
+      "fcf": 29.992,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/quote/hkg/0700/financials/income-statement/",
+     "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "baidu",
+    "name": "Baidu",
+    "cat": "big",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 15.509,
+      "gross_profit": 7.57,
+      "operating_income": 2.128,
+      "net_income": 3.255,
+      "capex": 0.736,
+      "fcf": 2.769,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 19.299,
+      "gross_profit": 9.354,
+      "operating_income": 1.655,
+      "net_income": 1.585,
+      "capex": 1.689,
+      "fcf": 1.43,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 18.379,
+      "gross_profit": 8.888,
+      "operating_income": 2.375,
+      "net_income": 1.123,
+      "capex": 1.231,
+      "fcf": 2.658,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 19.009,
+      "gross_profit": 9.825,
+      "operating_income": 3.087,
+      "net_income": 2.869,
+      "capex": 1.58,
+      "fcf": 3.591,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 18.501,
+      "gross_profit": 9.314,
+      "operating_income": 2.956,
+      "net_income": 3.302,
+      "capex": 1.13,
+      "fcf": 1.821,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 17.959,
+      "gross_profit": 7.881,
+      "operating_income": 1.442,
+      "net_income": 0.778,
+      "capex": 1.68,
+      "fcf": -2.099,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/bidu/financials/income-statement/",
+     "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "palantir",
+    "name": "Palantir",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 1.093,
+      "gross_profit": 0.74,
+      "operating_income": -1.174,
+      "net_income": -1.166,
+      "capex": 0.012,
+      "fcf": -0.309,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 1.542,
+      "gross_profit": 1.202,
+      "operating_income": -0.411,
+      "net_income": -0.52,
+      "capex": 0.013,
+      "fcf": 0.321,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 1.906,
+      "gross_profit": 1.497,
+      "operating_income": -0.161,
+      "net_income": -0.374,
+      "capex": 0.04,
+      "fcf": 0.184,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 2.225,
+      "gross_profit": 1.794,
+      "operating_income": 0.12,
+      "net_income": 0.21,
+      "capex": 0.015,
+      "fcf": 0.697,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 2.866,
+      "gross_profit": 2.3,
+      "operating_income": 0.31,
+      "net_income": 0.462,
+      "capex": 0.013,
+      "fcf": 1.141,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 4.475,
+      "gross_profit": 3.686,
+      "operating_income": 1.414,
+      "net_income": 1.625,
+      "capex": 0.034,
+      "fcf": 2.101,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/pltr/financials/income-statement/",
+     "https://stockanalysis.com/stocks/pltr/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 21.252,
+      "gross_profit": 15.814,
+      "operating_income": 0.455,
+      "net_income": 4.072,
+      "capex": 0.71,
+      "fcf": 4.091,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 26.492,
+      "gross_profit": 19.466,
+      "operating_income": 0.548,
+      "net_income": 1.444,
+      "capex": 0.717,
+      "fcf": 5.283,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 31.352,
+      "gross_profit": 22.992,
+      "operating_income": 1.858,
+      "net_income": 0.208,
+      "capex": 0.798,
+      "fcf": 6.313,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 34.857,
+      "gross_profit": 26.316,
+      "operating_income": 5.999,
+      "net_income": 4.136,
+      "capex": 0.736,
+      "fcf": 9.498,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 37.895,
+      "gross_profit": 29.252,
+      "operating_income": 7.666,
+      "net_income": 6.197,
+      "capex": 0.658,
+      "fcf": 12.434,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 41.525,
+      "gross_profit": 32.255,
+      "operating_income": 8.917,
+      "net_income": 7.457,
+      "capex": 0.594,
+      "fcf": 14.402,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/crm/financials/income-statement/",
+     "https://stockanalysis.com/stocks/crm/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 4.519,
+      "gross_profit": 3.532,
+      "operating_income": 0.199,
+      "net_income": 0.119,
+      "capex": 0.419,
+      "fcf": 1.367,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 5.896,
+      "gross_profit": 4.543,
+      "operating_income": 0.257,
+      "net_income": 0.23,
+      "capex": 0.392,
+      "fcf": 1.799,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 7.245,
+      "gross_profit": 5.672,
+      "operating_income": 0.379,
+      "net_income": 0.325,
+      "capex": 0.55,
+      "fcf": 2.173,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 8.971,
+      "gross_profit": 7.05,
+      "operating_income": 0.8,
+      "net_income": 1.731,
+      "capex": 0.694,
+      "fcf": 2.704,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 10.984,
+      "gross_profit": 8.697,
+      "operating_income": 1.397,
+      "net_income": 1.425,
+      "capex": 0.852,
+      "fcf": 3.415,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 13.278,
+      "gross_profit": 10.295,
+      "operating_income": 2.0,
+      "net_income": 1.748,
+      "capex": 0.868,
+      "fcf": 4.576,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/now/financials/income-statement/",
+     "https://stockanalysis.com/stocks/now/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "adobe",
+    "name": "Adobe",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 12.868,
+      "gross_profit": 11.146,
+      "operating_income": 4.237,
+      "net_income": 5.26,
+      "capex": 0.419,
+      "fcf": 5.308,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 15.785,
+      "gross_profit": 13.92,
+      "operating_income": 5.802,
+      "net_income": 4.822,
+      "capex": 0.348,
+      "fcf": 6.882,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 17.606,
+      "gross_profit": 15.441,
+      "operating_income": 6.098,
+      "net_income": 4.756,
+      "capex": 0.442,
+      "fcf": 7.396,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 19.409,
+      "gross_profit": 17.055,
+      "operating_income": 6.65,
+      "net_income": 5.428,
+      "capex": 0.36,
+      "fcf": 6.942,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 21.505,
+      "gross_profit": 19.147,
+      "operating_income": 7.819,
+      "net_income": 5.56,
+      "capex": 0.183,
+      "fcf": 7.873,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 23.769,
+      "gross_profit": 21.218,
+      "operating_income": 8.706,
+      "net_income": 7.13,
+      "capex": 0.179,
+      "fcf": 9.852,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/adbe/financials/income-statement/",
+     "https://stockanalysis.com/stocks/adbe/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "sap",
+    "name": "SAP",
+    "cat": "soft",
+    "fx": true,
+    "rows": {
+     "2020": {
+      "revenue": 31.194,
+      "gross_profit": 22.196,
+      "operating_income": 7.333,
+      "net_income": 5.871,
+      "capex": 0.931,
+      "fcf": 7.277,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 31.886,
+      "gross_profit": 23.346,
+      "operating_income": 7.557,
+      "net_income": 6.218,
+      "capex": 0.829,
+      "fcf": 6.533,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 31.097,
+      "gross_profit": 22.629,
+      "operating_income": 6.374,
+      "net_income": 2.406,
+      "capex": 0.924,
+      "fcf": 5.025,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 33.756,
+      "gross_profit": 24.373,
+      "operating_income": 6.504,
+      "net_income": 6.64,
+      "capex": 0.849,
+      "fcf": 5.907,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 36.979,
+      "gross_profit": 27.063,
+      "operating_income": 8.822,
+      "net_income": 3.38,
+      "capex": 0.862,
+      "fcf": 4.772,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 41.605,
+      "gross_profit": 30.69,
+      "operating_income": 11.778,
+      "net_income": 8.096,
+      "capex": 0.836,
+      "fcf": 9.516,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/sap/financials/income-statement/",
+     "https://stockanalysis.com/stocks/sap/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "ibm",
+    "name": "IBM",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 55.179,
+      "gross_profit": 30.865,
+      "operating_income": 4.662,
+      "net_income": 5.59,
+      "capex": 2.618,
+      "fcf": 15.579,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 57.351,
+      "gross_profit": 31.486,
+      "operating_income": 5.583,
+      "net_income": 5.743,
+      "capex": 2.062,
+      "fcf": 10.734,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 60.53,
+      "gross_profit": 32.688,
+      "operating_income": 7.521,
+      "net_income": 1.639,
+      "capex": 1.346,
+      "fcf": 9.089,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 61.86,
+      "gross_profit": 34.3,
+      "operating_income": 9.421,
+      "net_income": 7.502,
+      "capex": 1.245,
+      "fcf": 12.686,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 62.753,
+      "gross_profit": 35.552,
+      "operating_income": 9.788,
+      "net_income": 6.023,
+      "capex": 1.048,
+      "fcf": 12.397,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 67.535,
+      "gross_profit": 39.296,
+      "operating_income": 12.622,
+      "net_income": 10.593,
+      "capex": 1.091,
+      "fcf": 12.102,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/ibm/financials/income-statement/",
+     "https://stockanalysis.com/stocks/ibm/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 0.592,
+      "gross_profit": 0.349,
+      "operating_income": -0.544,
+      "net_income": -0.539,
+      "capex": 0.035,
+      "fcf": -0.08,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 1.219,
+      "gross_profit": 0.761,
+      "operating_income": -0.715,
+      "net_income": -0.68,
+      "capex": 0.016,
+      "fcf": 0.094,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 2.066,
+      "gross_profit": 1.348,
+      "operating_income": -0.837,
+      "net_income": -0.797,
+      "capex": 0.025,
+      "fcf": 0.521,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 2.806,
+      "gross_profit": 1.908,
+      "operating_income": -1.088,
+      "net_income": -0.836,
+      "capex": 0.035,
+      "fcf": 0.813,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 3.626,
+      "gross_profit": 2.412,
+      "operating_income": -1.456,
+      "net_income": -1.286,
+      "capex": 0.046,
+      "fcf": 0.913,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 4.684,
+      "gross_profit": 3.146,
+      "operating_income": -1.326,
+      "net_income": -1.332,
+      "capex": 0.102,
+      "fcf": 1.12,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/snow/financials/income-statement/",
+     "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "workday",
+    "name": "Workday",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 4.318,
+      "gross_profit": 3.12,
+      "operating_income": -0.249,
+      "net_income": -0.282,
+      "capex": 0.253,
+      "fcf": 1.015,
+      "fy": "2021"
+     },
+     "2021": {
+      "revenue": 5.139,
+      "gross_profit": 3.711,
+      "operating_income": -0.116,
+      "net_income": 0.029,
+      "capex": 0.264,
+      "fcf": 1.387,
+      "fy": "2022"
+     },
+     "2022": {
+      "revenue": 6.216,
+      "gross_profit": 4.506,
+      "operating_income": -0.182,
+      "net_income": -0.367,
+      "capex": 0.364,
+      "fcf": 1.293,
+      "fy": "2023"
+     },
+     "2023": {
+      "revenue": 7.259,
+      "gross_profit": 5.488,
+      "operating_income": 0.183,
+      "net_income": 1.381,
+      "capex": 0.232,
+      "fcf": 1.917,
+      "fy": "2024"
+     },
+     "2024": {
+      "revenue": 8.446,
+      "gross_profit": 6.377,
+      "operating_income": 0.499,
+      "net_income": 0.526,
+      "capex": 0.269,
+      "fcf": 2.192,
+      "fy": "2025"
+     },
+     "2025": {
+      "revenue": 9.552,
+      "gross_profit": 7.231,
+      "operating_income": 1.024,
+      "net_income": 0.693,
+      "capex": 0.162,
+      "fcf": 2.777,
+      "fy": "2026"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/wday/financials/income-statement/",
+     "https://stockanalysis.com/stocks/wday/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "intuit",
+    "name": "Intuit",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2021": {
+      "revenue": 9.633,
+      "gross_profit": 8.0,
+      "operating_income": 2.531,
+      "net_income": 2.062,
+      "capex": 0.053,
+      "fcf": 3.197,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 12.726,
+      "gross_profit": 10.46,
+      "operating_income": 2.634,
+      "net_income": 2.066,
+      "capex": 0.157,
+      "fcf": 3.732,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 14.368,
+      "gross_profit": 11.388,
+      "operating_income": 3.141,
+      "net_income": 2.384,
+      "capex": 0.21,
+      "fcf": 4.836,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 16.285,
+      "gross_profit": 12.966,
+      "operating_income": 3.853,
+      "net_income": 2.963,
+      "capex": 0.191,
+      "fcf": 4.693,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 18.831,
+      "gross_profit": 15.139,
+      "operating_income": 4.938,
+      "net_income": 3.869,
+      "capex": 0.084,
+      "fcf": 6.123,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/intu/financials/income-statement/",
+     "https://stockanalysis.com/stocks/intu/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "accenture",
+    "name": "Accenture",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2021": {
+      "revenue": 50.533,
+      "gross_profit": 16.364,
+      "operating_income": 7.622,
+      "net_income": 5.907,
+      "capex": 0.58,
+      "fcf": 8.395,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 61.594,
+      "gross_profit": 19.702,
+      "operating_income": 9.367,
+      "net_income": 6.877,
+      "capex": 0.718,
+      "fcf": 8.823,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 64.112,
+      "gross_profit": 20.732,
+      "operating_income": 9.873,
+      "net_income": 6.872,
+      "capex": 0.528,
+      "fcf": 8.996,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 64.896,
+      "gross_profit": 21.162,
+      "operating_income": 10.034,
+      "net_income": 7.265,
+      "capex": 0.517,
+      "fcf": 8.615,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 69.673,
+      "gross_profit": 22.235,
+      "operating_income": 10.854,
+      "net_income": 7.678,
+      "capex": 0.6,
+      "fcf": 10.874,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/acn/financials/income-statement/",
+     "https://stockanalysis.com/stocks/acn/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 0.162,
+      "gross_profit": 0.116,
+      "operating_income": -0.016,
+      "net_income": -0.016,
+      "capex": 0.003,
+      "fcf": 0.014,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 0.251,
+      "gross_profit": 0.182,
+      "operating_income": -0.06,
+      "net_income": -0.06,
+      "capex": 0.004,
+      "fcf": 0.006,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 0.369,
+      "gross_profit": 0.27,
+      "operating_income": -0.065,
+      "net_income": -0.06,
+      "capex": 0.006,
+      "fcf": 0.048,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 0.531,
+      "gross_profit": 0.389,
+      "operating_income": -0.013,
+      "net_income": 0.016,
+      "capex": 0.003,
+      "fcf": 0.15,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 0.748,
+      "gross_profit": 0.544,
+      "operating_income": 0.064,
+      "net_income": 0.089,
+      "capex": 0.012,
+      "fcf": 0.273,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 1.038,
+      "gross_profit": 0.749,
+      "operating_income": 0.141,
+      "net_income": 0.414,
+      "capex": 0.018,
+      "fcf": 0.37,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/duol/financials/income-statement/",
+     "https://stockanalysis.com/stocks/duol/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "applovin",
+    "name": "AppLovin",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 1.451,
+      "gross_profit": 0.896,
+      "operating_income": 0.029,
+      "net_income": -0.125,
+      "capex": 0.003,
+      "fcf": 0.22,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 2.793,
+      "gross_profit": 1.805,
+      "operating_income": 0.167,
+      "net_income": 0.035,
+      "capex": 0.001,
+      "fcf": 0.36,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 2.817,
+      "gross_profit": 1.561,
+      "operating_income": -0.02,
+      "net_income": -0.193,
+      "capex": 0.001,
+      "fcf": 0.412,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 1.842,
+      "gross_profit": 1.485,
+      "operating_income": 0.772,
+      "net_income": 0.357,
+      "capex": null,
+      "fcf": 1.062,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 3.224,
+      "gross_profit": 2.703,
+      "operating_income": 1.911,
+      "net_income": 1.58,
+      "capex": null,
+      "fcf": 2.099,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 5.481,
+      "gross_profit": 4.816,
+      "operating_income": 4.152,
+      "net_income": 3.334,
+      "capex": null,
+      "fcf": 4.015,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/app/financials/income-statement/",
+     "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "shopify",
+    "name": "Shopify",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 2.929,
+      "gross_profit": 1.542,
+      "operating_income": 0.174,
+      "net_income": 0.32,
+      "capex": 0.042,
+      "fcf": 0.383,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 4.612,
+      "gross_profit": 2.481,
+      "operating_income": 0.381,
+      "net_income": 2.915,
+      "capex": 0.051,
+      "fcf": 0.485,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 5.6,
+      "gross_profit": 2.754,
+      "operating_income": -0.476,
+      "net_income": -3.46,
+      "capex": 0.05,
+      "fcf": -0.186,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 7.06,
+      "gross_profit": 3.515,
+      "operating_income": 0.26,
+      "net_income": 0.132,
+      "capex": 0.039,
+      "fcf": 0.905,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 8.88,
+      "gross_profit": 4.472,
+      "operating_income": 1.247,
+      "net_income": 2.019,
+      "capex": 0.019,
+      "fcf": 1.597,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 11.556,
+      "gross_profit": 5.555,
+      "operating_income": 1.898,
+      "net_income": 1.231,
+      "capex": 0.026,
+      "fcf": 2.007,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/shop/financials/income-statement/",
+     "https://stockanalysis.com/stocks/shop/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "tesla",
+    "name": "Tesla",
+    "cat": "soft",
+    "fx": false,
+    "rows": {
+     "2020": {
+      "revenue": 31.536,
+      "gross_profit": 6.63,
+      "operating_income": 1.951,
+      "net_income": 0.721,
+      "capex": 3.232,
+      "fcf": 2.711,
+      "fy": "2020"
+     },
+     "2021": {
+      "revenue": 53.823,
+      "gross_profit": 13.606,
+      "operating_income": 6.523,
+      "net_income": 5.519,
+      "capex": 6.514,
+      "fcf": 4.983,
+      "fy": "2021"
+     },
+     "2022": {
+      "revenue": 81.462,
+      "gross_profit": 20.853,
+      "operating_income": 13.692,
+      "net_income": 12.556,
+      "capex": 7.163,
+      "fcf": 7.561,
+      "fy": "2022"
+     },
+     "2023": {
+      "revenue": 96.773,
+      "gross_profit": 17.66,
+      "operating_income": 8.891,
+      "net_income": 14.997,
+      "capex": 8.899,
+      "fcf": 4.357,
+      "fy": "2023"
+     },
+     "2024": {
+      "revenue": 97.69,
+      "gross_profit": 17.45,
+      "operating_income": 7.659,
+      "net_income": 7.091,
+      "capex": 11.342,
+      "fcf": 3.581,
+      "fy": "2024"
+     },
+     "2025": {
+      "revenue": 94.827,
+      "gross_profit": 17.094,
+      "operating_income": 4.355,
+      "net_income": 3.794,
+      "capex": 8.527,
+      "fcf": 6.22,
+      "fy": "2025"
+     }
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/tsla/financials/income-statement/",
+     "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    ]
+   }
+  ],
+  "groups": {
+   "chips": {
+    "capex": [
+     123.2,
+     140.0,
+     129.9,
+     130.2,
+     150.1
+    ],
+    "capex_n": [
+     18,
+     18,
+     18,
+     18,
+     18
+    ],
+    "net_income": [
+     124.3,
+     124.1,
+     87.4,
+     154.7,
+     298.9
+    ],
+    "net_income_n": [
+     18,
+     18,
+     18,
+     18,
+     18
+    ],
+    "gross_profit": [
+     291.2,
+     286.4,
+     252.2,
+     389.1,
+     528.2
+    ],
+    "gross_profit_n": [
+     18,
+     18,
+     18,
+     18,
+     18
+    ],
+    "fcf": [
+     87.8,
+     50.5,
+     32.6,
+     130.4,
+     226.1
+    ],
+    "fcf_n": [
+     18,
+     18,
+     18,
+     18,
+     18
+    ],
+    "revenue": [
+     668.3,
+     677.9,
+     635.1,
+     819.6,
+     1045.5
+    ],
+    "revenue_n": [
+     18,
+     18,
+     18,
+     18,
+     18
+    ]
+   },
+   "big": {
+    "capex": [
+     155.1,
+     179.3,
+     167.0,
+     269.8,
+     457.3
+    ],
+    "capex_n": [
+     9,
+     9,
+     9,
+     9,
+     9
+    ],
+    "net_income": [
+     357.5,
+     301.4,
+     353.6,
+     464.4,
+     547.7
+    ],
+    "net_income_n": [
+     9,
+     9,
+     9,
+     9,
+     9
+    ],
+    "gross_profit": [
+     837.9,
+     909.4,
+     1007.4,
+     1155.1,
+     1322.4
+    ],
+    "gross_profit_n": [
+     9,
+     9,
+     9,
+     9,
+     9
+    ],
+    "fcf": [
+     283.3,
+     293.0,
+     369.9,
+     382.0,
+     294.7
+    ],
+    "fcf_n": [
+     9,
+     9,
+     9,
+     9,
+     9
+    ],
+    "revenue": [
+     1660.1,
+     1785.9,
+     1903.2,
+     2094.8,
+     2350.9
+    ],
+    "revenue_n": [
+     9,
+     9,
+     9,
+     9,
+     9
+    ]
+   },
+   "soft": {
+    "capex": [
+     11.8,
+     12.6,
+     13.8,
+     16.0,
+     13.1
+    ],
+    "capex_n": [
+     14,
+     14,
+     13,
+     13,
+     13
+    ],
+    "net_income": [
+     33.7,
+     25.6,
+     51.0,
+     43.3,
+     56.3
+    ],
+    "net_income_n": [
+     14,
+     14,
+     14,
+     14,
+     14
+    ],
+    "gross_profit": [
+     140.9,
+     162.4,
+     173.5,
+     190.1,
+     213.4
+    ],
+    "gross_profit_n": [
+     14,
+     14,
+     14,
+     14,
+     14
+    ],
+    "fcf": [
+     50.5,
+     52.4,
+     61.5,
+     66.0,
+     86.1
+    ],
+    "fcf_n": [
+     14,
+     14,
+     14,
+     14,
+     14
+    ],
+    "revenue": [
+     267.0,
+     322.6,
+     355.8,
+     376.8,
+     407.8
+    ],
+    "revenue_n": [
+     14,
+     14,
+     14,
+     14,
+     14
+    ]
+   },
+   "all": {
+    "capex": [
+     290.2,
+     331.9,
+     310.8,
+     415.9,
+     620.5
+    ],
+    "capex_n": [
+     41,
+     41,
+     40,
+     40,
+     40
+    ],
+    "net_income": [
+     515.5,
+     451.1,
+     492.0,
+     662.4,
+     903.0
+    ],
+    "net_income_n": [
+     41,
+     41,
+     41,
+     41,
+     41
+    ],
+    "gross_profit": [
+     1270.0,
+     1358.2,
+     1433.0,
+     1734.3,
+     2064.1
+    ],
+    "gross_profit_n": [
+     41,
+     41,
+     41,
+     41,
+     41
+    ],
+    "fcf": [
+     421.6,
+     395.9,
+     464.0,
+     578.4,
+     606.9
+    ],
+    "fcf_n": [
+     41,
+     41,
+     41,
+     41,
+     41
+    ],
+    "revenue": [
+     2595.4,
+     2786.4,
+     2894.1,
+     3291.2,
+     3804.3
+    ],
+    "revenue_n": [
+     41,
+     41,
+     41,
+     41,
+     41
+    ]
+   }
+  },
+  "totals": [
+   {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "cat": "chips",
+    "fx": false,
+    "capex": 13.2,
+    "net_income": 236.8,
+    "gross_profit": 328.5,
+    "fcf": 196.5,
+    "revenue": 461.2,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/nvda/financials/income-statement/",
+     "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "amd",
+    "name": "AMD",
+    "cat": "chips",
+    "fx": false,
+    "capex": 2.9,
+    "net_income": 11.3,
+    "gross_profit": 63.2,
+    "fcf": 16.6,
+    "revenue": 123.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/amd/financials/income-statement/",
+     "https://stockanalysis.com/stocks/amd/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "cat": "chips",
+    "fx": false,
+    "capex": 2.5,
+    "net_income": 61.3,
+    "gross_profit": 160.0,
+    "fcf": 93.6,
+    "revenue": 211.9,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/avgo/financials/income-statement/",
+     "https://stockanalysis.com/stocks/avgo/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "tsmc",
+    "name": "TSMC",
+    "cat": "chips",
+    "fx": true,
+    "capex": 167.5,
+    "net_income": 172.4,
+    "gross_profit": 236.1,
+    "fcf": 96.1,
+    "revenue": 414.6,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/quote/tpe/2330/financials/income-statement/",
+     "https://stockanalysis.com/quote/tpe/2330/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "micron",
+    "name": "Micron",
+    "cat": "chips",
+    "fx": false,
+    "capex": 54.0,
+    "net_income": 18.0,
+    "gross_profit": 45.3,
+    "fcf": 1.2,
+    "revenue": 136.5,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/mu/financials/income-statement/",
+     "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "skhynix",
+    "name": "SK Hynix",
+    "cat": "chips",
+    "fx": true,
+    "capex": 63.0,
+    "net_income": 47.8,
+    "gross_profit": 92.9,
+    "fcf": 28.4,
+    "revenue": 214.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/quote/krx/000660/financials/income-statement/",
+     "https://stockanalysis.com/quote/krx/000660/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "samsung",
+    "name": "Samsung Electronics",
+    "cat": "chips",
+    "fx": true,
+    "capex": 194.6,
+    "net_income": 143.5,
+    "gross_profit": 422.1,
+    "fcf": 57.7,
+    "revenue": 1131.7,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/quote/krx/005930/financials/income-statement/",
+     "https://stockanalysis.com/quote/krx/005930/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "asml",
+    "name": "ASML",
+    "cat": "chips",
+    "fx": true,
+    "capex": 8.8,
+    "net_income": 40.4,
+    "gross_profit": 73.4,
+    "fcf": 45.3,
+    "revenue": 141.6,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/asml/financials/income-statement/",
+     "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "intel",
+    "name": "Intel",
+    "cat": "chips",
+    "fx": false,
+    "capex": 109.5,
+    "net_income": 10.5,
+    "gross_profit": 133.9,
+    "fcf": -35.2,
+    "revenue": 302.3,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/intc/financials/income-statement/",
+     "https://stockanalysis.com/stocks/intc/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "marvell",
+    "name": "Marvell",
+    "cat": "chips",
+    "fx": false,
+    "capex": 1.4,
+    "net_income": 0.3,
+    "gross_profit": 14.5,
+    "fcf": 5.6,
+    "revenue": 29.9,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/mrvl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/mrvl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "arm",
+    "name": "Arm",
+    "cat": "chips",
+    "fx": false,
+    "capex": 1.0,
+    "net_income": 3.1,
+    "gross_profit": 16.9,
+    "fcf": 3.3,
+    "revenue": 17.5,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/arm/financials/income-statement/",
+     "https://stockanalysis.com/stocks/arm/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "dell",
+    "name": "Dell",
+    "cat": "chips",
+    "fx": false,
+    "capex": 13.8,
+    "net_income": 21.9,
+    "gross_profit": 110.1,
+    "fcf": 24.4,
+    "revenue": 501.0,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/dell/financials/income-statement/",
+     "https://stockanalysis.com/stocks/dell/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "supermicro",
+    "name": "Super Micro",
+    "cat": "chips",
+    "fx": false,
+    "capex": 0.4,
+    "net_income": 3.2,
+    "gross_profit": 7.1,
+    "fcf": -0.9,
+    "revenue": 52.8,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/smci/financials/income-statement/",
+     "https://stockanalysis.com/stocks/smci/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "arista",
+    "name": "Arista",
+    "cat": "chips",
+    "fx": false,
+    "capex": 0.3,
+    "net_income": 10.6,
+    "gross_profit": 18.4,
+    "fcf": 11.3,
+    "revenue": 29.2,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/anet/financials/income-statement/",
+     "https://stockanalysis.com/stocks/anet/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "vertiv",
+    "name": "Vertiv",
+    "cat": "chips",
+    "fx": false,
+    "capex": 0.7,
+    "net_income": 2.5,
+    "gross_profit": 12.2,
+    "fcf": 3.7,
+    "revenue": 35.8,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/vrt/financials/income-statement/",
+     "https://stockanalysis.com/stocks/vrt/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "cat": "chips",
+    "fx": false,
+    "capex": 22.0,
+    "net_income": -2.7,
+    "gross_profit": 5.3,
+    "fcf": -14.4,
+    "revenue": 7.3,
+    "first": 2022,
+    "years": 4,
+    "src": [
+     "https://stockanalysis.com/stocks/crwv/financials/income-statement/",
+     "https://stockanalysis.com/stocks/crwv/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "nebius",
+    "name": "Nebius",
+    "cat": "chips",
+    "fx": false,
+    "capex": 5.6,
+    "net_income": 0.2,
+    "gross_profit": 2.8,
+    "fcf": -3.3,
+    "revenue": 5.4,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/nbis/financials/income-statement/",
+     "https://stockanalysis.com/stocks/nbis/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "smic",
+    "name": "SMIC",
+    "cat": "chips",
+    "fx": false,
+    "capex": 34.0,
+    "net_income": 5.6,
+    "gross_profit": 9.1,
+    "fcf": -15.9,
+    "revenue": 36.4,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/quote/hkg/0981/financials/income-statement/",
+     "https://stockanalysis.com/quote/hkg/0981/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "cambricon",
+    "name": "Cambricon",
+    "cat": "chips",
+    "fx": true,
+    "capex": 0.3,
+    "net_income": -0.2,
+    "gross_profit": 0.7,
+    "fcf": -1.0,
+    "revenue": 1.4,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/quote/sha/688256/financials/income-statement/",
+     "https://stockanalysis.com/quote/sha/688256/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "cat": "big",
+    "fx": false,
+    "capex": 181.6,
+    "net_income": 396.3,
+    "gross_profit": 762.4,
+    "fcf": 326.4,
+    "revenue": 1105.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/msft/financials/income-statement/",
+     "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "alphabet",
+    "name": "Alphabet (Google)",
+    "cat": "big",
+    "fx": false,
+    "capex": 232.4,
+    "net_income": 442.1,
+    "gross_profit": 921.4,
+    "fcf": 342.5,
+    "revenue": 1600.7,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/googl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "amazon",
+    "name": "Amazon",
+    "cat": "big",
+    "fx": false,
+    "capex": 392.2,
+    "net_income": 198.0,
+    "gross_profit": 1364.9,
+    "fcf": 41.2,
+    "revenue": 2913.5,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/amzn/financials/income-statement/",
+     "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "meta",
+    "name": "Meta",
+    "cat": "big",
+    "fx": false,
+    "capex": 183.9,
+    "net_income": 224.5,
+    "gross_profit": 596.2,
+    "fcf": 202.5,
+    "revenue": 734.9,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/meta/financials/income-statement/",
+     "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "apple",
+    "name": "Apple",
+    "cat": "big",
+    "fx": false,
+    "capex": 54.9,
+    "net_income": 497.2,
+    "gross_profit": 868.6,
+    "fcf": 511.6,
+    "revenue": 1950.6,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/aapl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "cat": "big",
+    "fx": false,
+    "capex": 97.0,
+    "net_income": 55.2,
+    "gross_profit": 192.6,
+    "fcf": 1.2,
+    "revenue": 270.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/orcl/financials/income-statement/",
+     "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "cat": "big",
+    "fx": true,
+    "capex": 47.4,
+    "net_income": 64.3,
+    "gross_profit": 258.4,
+    "fcf": 63.5,
+    "revenue": 675.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/baba/financials/income-statement/",
+     "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "tencent",
+    "name": "Tencent",
+    "cat": "big",
+    "fx": true,
+    "capex": 31.8,
+    "net_income": 137.4,
+    "gross_profit": 222.4,
+    "fcf": 126.5,
+    "revenue": 451.6,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/quote/hkg/0700/financials/income-statement/",
+     "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "baidu",
+    "name": "Baidu",
+    "cat": "big",
+    "fx": true,
+    "capex": 7.3,
+    "net_income": 9.7,
+    "gross_profit": 45.3,
+    "fcf": 7.4,
+    "revenue": 93.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/bidu/financials/income-statement/",
+     "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "palantir",
+    "name": "Palantir",
+    "cat": "soft",
+    "fx": false,
+    "capex": 0.1,
+    "net_income": 1.4,
+    "gross_profit": 10.5,
+    "fcf": 4.4,
+    "revenue": 13.0,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/pltr/financials/income-statement/",
+     "https://stockanalysis.com/stocks/pltr/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "cat": "soft",
+    "fx": false,
+    "capex": 3.5,
+    "net_income": 19.4,
+    "gross_profit": 130.3,
+    "fcf": 47.9,
+    "revenue": 172.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/crm/financials/income-statement/",
+     "https://stockanalysis.com/stocks/crm/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "cat": "soft",
+    "fx": false,
+    "capex": 3.4,
+    "net_income": 5.5,
+    "gross_profit": 36.3,
+    "fcf": 14.7,
+    "revenue": 46.4,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/now/financials/income-statement/",
+     "https://stockanalysis.com/stocks/now/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "adobe",
+    "name": "Adobe",
+    "cat": "soft",
+    "fx": false,
+    "capex": 1.5,
+    "net_income": 27.7,
+    "gross_profit": 86.8,
+    "fcf": 38.9,
+    "revenue": 98.1,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/adbe/financials/income-statement/",
+     "https://stockanalysis.com/stocks/adbe/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "sap",
+    "name": "SAP",
+    "cat": "soft",
+    "fx": true,
+    "capex": 4.3,
+    "net_income": 26.7,
+    "gross_profit": 128.1,
+    "fcf": 31.8,
+    "revenue": 175.3,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/sap/financials/income-statement/",
+     "https://stockanalysis.com/stocks/sap/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "ibm",
+    "name": "IBM",
+    "cat": "soft",
+    "fx": false,
+    "capex": 6.8,
+    "net_income": 31.5,
+    "gross_profit": 173.3,
+    "fcf": 57.0,
+    "revenue": 310.0,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/ibm/financials/income-statement/",
+     "https://stockanalysis.com/stocks/ibm/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "cat": "soft",
+    "fx": false,
+    "capex": 0.2,
+    "net_income": -4.9,
+    "gross_profit": 9.6,
+    "fcf": 3.5,
+    "revenue": 14.4,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/snow/financials/income-statement/",
+     "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "workday",
+    "name": "Workday",
+    "cat": "soft",
+    "fx": false,
+    "capex": 1.3,
+    "net_income": 2.3,
+    "gross_profit": 27.3,
+    "fcf": 9.6,
+    "revenue": 36.6,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/wday/financials/income-statement/",
+     "https://stockanalysis.com/stocks/wday/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "intuit",
+    "name": "Intuit",
+    "cat": "soft",
+    "fx": false,
+    "capex": 0.7,
+    "net_income": 13.3,
+    "gross_profit": 58.0,
+    "fcf": 22.6,
+    "revenue": 71.8,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/intu/financials/income-statement/",
+     "https://stockanalysis.com/stocks/intu/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "accenture",
+    "name": "Accenture",
+    "cat": "soft",
+    "fx": false,
+    "capex": 2.9,
+    "net_income": 34.6,
+    "gross_profit": 100.2,
+    "fcf": 45.7,
+    "revenue": 310.8,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/acn/financials/income-statement/",
+     "https://stockanalysis.com/stocks/acn/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "cat": "soft",
+    "fx": false,
+    "capex": 0.0,
+    "net_income": 0.4,
+    "gross_profit": 2.1,
+    "fcf": 0.8,
+    "revenue": 2.9,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/duol/financials/income-statement/",
+     "https://stockanalysis.com/stocks/duol/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "applovin",
+    "name": "AppLovin",
+    "cat": "soft",
+    "fx": false,
+    "capex": 0.0,
+    "net_income": 5.1,
+    "gross_profit": 12.4,
+    "fcf": 7.9,
+    "revenue": 16.2,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/app/financials/income-statement/",
+     "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "shopify",
+    "name": "Shopify",
+    "cat": "soft",
+    "fx": false,
+    "capex": 0.2,
+    "net_income": 2.8,
+    "gross_profit": 18.8,
+    "fcf": 4.8,
+    "revenue": 37.7,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/shop/financials/income-statement/",
+     "https://stockanalysis.com/stocks/shop/financials/cash-flow-statement/"
+    ]
+   },
+   {
+    "id": "tesla",
+    "name": "Tesla",
+    "cat": "soft",
+    "fx": false,
+    "capex": 42.4,
+    "net_income": 44.0,
+    "gross_profit": 86.7,
+    "fcf": 26.7,
+    "revenue": 424.6,
+    "first": 2021,
+    "years": 5,
+    "src": [
+     "https://stockanalysis.com/stocks/tsla/financials/income-statement/",
+     "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/"
+    ]
+   }
+  ],
+  "mcap": [
+   {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "cat": "chips",
+    "ye": {
+     "2016": 57.5,
+     "2017": 117.3,
+     "2018": 81.4,
+     "2019": 144.0,
+     "2020": 323.2,
+     "2021": 735.9,
+     "2022": 359.5,
+     "2023": 1223.2,
+     "2024": 3288.8,
+     "2025": 4531.9
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/nvda/market-cap/"
+    ]
+   },
+   {
+    "id": "amd",
+    "name": "AMD",
+    "cat": "chips",
+    "ye": {
+     "2016": 10.5,
+     "2017": 9.9,
+     "2018": 18.4,
+     "2019": 51.1,
+     "2020": 110.3,
+     "2021": 173.8,
+     "2022": 104.4,
+     "2023": 238.1,
+     "2024": 196.0,
+     "2025": 348.7
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/amd/market-cap/"
+    ]
+   },
+   {
+    "id": "broadcom",
+    "name": "Broadcom",
+    "cat": "chips",
+    "ye": {
+     "2016": 70.5,
+     "2017": 105.2,
+     "2018": 103.6,
+     "2019": 125.7,
+     "2020": 178.1,
+     "2021": 274.7,
+     "2022": 233.7,
+     "2023": 522.6,
+     "2024": 1086.7,
+     "2025": 1641.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/avgo/market-cap/"
+    ]
+   },
+   {
+    "id": "tsmc",
+    "name": "TSMC",
+    "cat": "chips",
+    "ye": {
+     "2021": 574.9,
+     "2022": 378.6,
+     "2023": 501.9,
+     "2024": 850.4,
+     "2025": 1280.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/tsm/market-cap/"
+    ]
+   },
+   {
+    "id": "micron",
+    "name": "Micron",
+    "cat": "chips",
+    "ye": {
+     "2016": 22.8,
+     "2017": 47.5,
+     "2018": 35.6,
+     "2019": 59.7,
+     "2020": 83.7,
+     "2021": 104.2,
+     "2022": 54.5,
+     "2023": 94.2,
+     "2024": 93.8,
+     "2025": 321.2
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/mu/market-cap/"
+    ]
+   },
+   {
+    "id": "skhynix",
+    "name": "SK Hynix",
+    "cat": "chips",
+    "ye": {
+     "2021": 78.7,
+     "2022": 39.9,
+     "2023": 74.5,
+     "2024": 87.9,
+     "2025": 316.2
+    },
+    "src": [
+     "https://stockanalysis.com/quote/krx/000660/market-cap/"
+    ]
+   },
+   {
+    "id": "samsung",
+    "name": "Samsung Electronics",
+    "cat": "chips",
+    "ye": {
+     "2021": 459.5,
+     "2022": 287.7,
+     "2023": 397.8,
+     "2024": 259.6,
+     "2025": 541.4
+    },
+    "src": [
+     "https://stockanalysis.com/quote/krx/005930/market-cap/"
+    ]
+   },
+   {
+    "id": "asml",
+    "name": "ASML",
+    "cat": "chips",
+    "ye": {
+     "2016": 48.0,
+     "2017": 74.7,
+     "2018": 66.5,
+     "2019": 124.6,
+     "2020": 204.1,
+     "2021": 324.7,
+     "2022": 216.5,
+     "2023": 297.8,
+     "2024": 272.5,
+     "2025": 414.4
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/asml/market-cap/"
+    ]
+   },
+   {
+    "id": "intel",
+    "name": "Intel",
+    "cat": "chips",
+    "ye": {
+     "2016": 171.9,
+     "2017": 216.0,
+     "2018": 214.2,
+     "2019": 260.3,
+     "2020": 204.2,
+     "2021": 209.5,
+     "2022": 109.1,
+     "2023": 211.9,
+     "2024": 86.5,
+     "2025": 176.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/intc/market-cap/"
+    ]
+   },
+   {
+    "id": "marvell",
+    "name": "Marvell",
+    "cat": "chips",
+    "ye": {
+     "2016": 7.0,
+     "2017": 10.5,
+     "2018": 10.6,
+     "2019": 17.8,
+     "2020": 31.9,
+     "2021": 73.8,
+     "2022": 31.6,
+     "2023": 52.1,
+     "2024": 95.6,
+     "2025": 72.1
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/mrvl/market-cap/"
+    ]
+   },
+   {
+    "id": "arm",
+    "name": "Arm",
+    "cat": "chips",
+    "ye": {
+     "2023": 77.1,
+     "2024": 129.7,
+     "2025": 116.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/arm/market-cap/"
+    ]
+   },
+   {
+    "id": "dell",
+    "name": "Dell",
+    "cat": "chips",
+    "ye": {
+     "2021": 42.9,
+     "2022": 28.8,
+     "2023": 54.4,
+     "2024": 80.7,
+     "2025": 83.4
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/dell/market-cap/"
+    ]
+   },
+   {
+    "id": "supermicro",
+    "name": "Super Micro",
+    "cat": "chips",
+    "ye": {
+     "2016": 1.3,
+     "2017": 1.0,
+     "2018": 0.7,
+     "2019": 1.2,
+     "2020": 1.6,
+     "2021": 2.2,
+     "2022": 4.3,
+     "2023": 15.2,
+     "2024": 17.8,
+     "2025": 17.5
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/smci/market-cap/"
+    ]
+   },
+   {
+    "id": "arista",
+    "name": "Arista",
+    "cat": "chips",
+    "ye": {
+     "2016": 6.8,
+     "2017": 17.2,
+     "2018": 15.9,
+     "2019": 15.5,
+     "2020": 22.0,
+     "2021": 44.2,
+     "2022": 37.1,
+     "2023": 73.3,
+     "2024": 139.2,
+     "2025": 165.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/anet/market-cap/"
+    ]
+   },
+   {
+    "id": "vertiv",
+    "name": "Vertiv",
+    "cat": "chips",
+    "ye": {
+     "2018": 0.8,
+     "2019": 1.0,
+     "2020": 6.1,
+     "2021": 8.8,
+     "2022": 5.2,
+     "2023": 18.3,
+     "2024": 42.6,
+     "2025": 61.9
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/vrt/market-cap/"
+    ]
+   },
+   {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "cat": "chips",
+    "ye": {
+     "2025": 35.7
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/crwv/market-cap/"
+    ]
+   },
+   {
+    "id": "nebius",
+    "name": "Nebius",
+    "cat": "chips",
+    "ye": {
+     "2016": 6.4,
+     "2017": 10.6,
+     "2018": 8.9,
+     "2019": 14.3,
+     "2020": 24.5,
+     "2021": 21.7,
+     "2022": 6.8,
+     "2023": 6.8,
+     "2024": 5.5,
+     "2025": 21.1
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/nbis/market-cap/"
+    ]
+   },
+   {
+    "id": "smic",
+    "name": "SMIC",
+    "cat": "chips",
+    "ye": {
+     "2021": 30.5,
+     "2022": 24.3,
+     "2023": 29.9,
+     "2024": 50.1,
+     "2025": 90.1
+    },
+    "src": [
+     "https://stockanalysis.com/quote/hkg/0981/market-cap/"
+    ]
+   },
+   {
+    "id": "cambricon",
+    "name": "Cambricon",
+    "cat": "chips",
+    "ye": {
+     "2021": 5.9,
+     "2022": 3.2,
+     "2023": 7.9,
+     "2024": 38.2,
+     "2025": 79.5
+    },
+    "src": [
+     "https://stockanalysis.com/quote/sha/688256/market-cap/"
+    ]
+   },
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "cat": "big",
+    "ye": {
+     "2016": 483.2,
+     "2017": 659.9,
+     "2018": 779.7,
+     "2019": 1203.1,
+     "2020": 1681.6,
+     "2021": 2525.1,
+     "2022": 1787.7,
+     "2023": 2794.8,
+     "2024": 3133.8,
+     "2025": 3594.4
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/msft/market-cap/"
+    ]
+   },
+   {
+    "id": "alphabet",
+    "name": "Alphabet (Google)",
+    "cat": "big",
+    "ye": {
+     "2016": 546.2,
+     "2017": 731.9,
+     "2018": 726.7,
+     "2019": 923.8,
+     "2020": 1185.5,
+     "2021": 1923.0,
+     "2022": 1142.0,
+     "2023": 1748.4,
+     "2024": 2317.2,
+     "2025": 3777.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/googl/market-cap/"
+    ]
+   },
+   {
+    "id": "amazon",
+    "name": "Amazon",
+    "cat": "big",
+    "ye": {
+     "2016": 356.3,
+     "2017": 563.5,
+     "2018": 734.4,
+     "2019": 916.2,
+     "2020": 1634.2,
+     "2021": 1691.0,
+     "2022": 856.9,
+     "2023": 1570.2,
+     "2024": 2306.9,
+     "2025": 2467.5
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/amzn/market-cap/"
+    ]
+   },
+   {
+    "id": "meta",
+    "name": "Meta",
+    "cat": "big",
+    "ye": {
+     "2016": 331.6,
+     "2017": 512.8,
+     "2018": 376.7,
+     "2019": 585.3,
+     "2020": 778.0,
+     "2021": 935.6,
+     "2022": 319.1,
+     "2023": 909.6,
+     "2024": 1478.1,
+     "2025": 1663.8
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/meta/market-cap/"
+    ]
+   },
+   {
+    "id": "apple",
+    "name": "Apple",
+    "cat": "big",
+    "ye": {
+     "2016": 617.6,
+     "2017": 868.9,
+     "2018": 748.5,
+     "2019": 1304.8,
+     "2020": 2256.0,
+     "2021": 2913.3,
+     "2022": 2066.9,
+     "2023": 2994.4,
+     "2024": 3785.3,
+     "2025": 4017.1
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/aapl/market-cap/"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "cat": "big",
+    "ye": {
+     "2016": 157.7,
+     "2017": 195.7,
+     "2018": 162.0,
+     "2019": 169.9,
+     "2020": 190.4,
+     "2021": 232.9,
+     "2022": 220.4,
+     "2023": 289.8,
+     "2024": 466.1,
+     "2025": 560.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/orcl/market-cap/"
+    ]
+   },
+   {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "cat": "big",
+    "ye": {
+     "2016": 217.2,
+     "2017": 436.1,
+     "2018": 352.5,
+     "2019": 548.7,
+     "2020": 625.2,
+     "2021": 320.2,
+     "2022": 233.0,
+     "2023": 197.0,
+     "2024": 197.3,
+     "2025": 340.0
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/baba/market-cap/"
+    ]
+   },
+   {
+    "id": "tencent",
+    "name": "Tencent",
+    "cat": "big",
+    "ye": {
+     "2021": 560.7,
+     "2022": 401.3,
+     "2023": 350.7,
+     "2024": 488.1,
+     "2025": 694.1
+    },
+    "src": [
+     "https://stockanalysis.com/quote/hkg/0700/market-cap/"
+    ]
+   },
+   {
+    "id": "baidu",
+    "name": "Baidu",
+    "cat": "big",
+    "ye": {
+     "2016": 56.9,
+     "2017": 81.3,
+     "2018": 55.2,
+     "2019": 43.8,
+     "2020": 74.8,
+     "2021": 51.7,
+     "2022": 39.9,
+     "2023": 41.9,
+     "2024": 29.4,
+     "2025": 44.3
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/bidu/market-cap/"
+    ]
+   },
+   {
+    "id": "palantir",
+    "name": "Palantir",
+    "cat": "soft",
+    "ye": {
+     "2021": 36.5,
+     "2022": 13.4,
+     "2023": 37.4,
+     "2024": 172.3,
+     "2025": 423.7
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/pltr/market-cap/"
+    ]
+   },
+   {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "cat": "soft",
+    "ye": {
+     "2016": 47.7,
+     "2017": 73.8,
+     "2018": 104.8,
+     "2019": 144.3,
+     "2020": 203.6,
+     "2021": 250.3,
+     "2022": 132.6,
+     "2023": 254.7,
+     "2024": 320.0,
+     "2025": 248.2
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/crm/market-cap/"
+    ]
+   },
+   {
+    "id": "servicenow",
+    "name": "ServiceNow",
+    "cat": "soft",
+    "ye": {
+     "2016": 12.3,
+     "2017": 22.5,
+     "2018": 31.9,
+     "2019": 53.2,
+     "2020": 107.4,
+     "2021": 129.2,
+     "2022": 78.4,
+     "2023": 144.8,
+     "2024": 218.4,
+     "2025": 159.3
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/now/market-cap/"
+    ]
+   },
+   {
+    "id": "adobe",
+    "name": "Adobe",
+    "cat": "soft",
+    "ye": {
+     "2016": 51.2,
+     "2017": 86.4,
+     "2018": 110.4,
+     "2019": 159.7,
+     "2020": 239.9,
+     "2021": 269.8,
+     "2022": 156.5,
+     "2023": 271.6,
+     "2024": 195.7,
+     "2025": 146.5
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/adbe/market-cap/"
+    ]
+   },
+   {
+    "id": "sap",
+    "name": "SAP",
+    "cat": "soft",
+    "ye": {
+     "2016": 103.5,
+     "2017": 134.7,
+     "2018": 118.8,
+     "2019": 159.9,
+     "2020": 155.6,
+     "2021": 165.3,
+     "2022": 121.7,
+     "2023": 180.6,
+     "2024": 287.1,
+     "2025": 282.7
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/sap/market-cap/"
+    ]
+   },
+   {
+    "id": "ibm",
+    "name": "IBM",
+    "cat": "soft",
+    "ye": {
+     "2016": 157.8,
+     "2017": 142.0,
+     "2018": 103.3,
+     "2019": 118.7,
+     "2020": 112.2,
+     "2021": 119.9,
+     "2022": 127.4,
+     "2023": 149.3,
+     "2024": 203.3,
+     "2025": 276.9
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/ibm/market-cap/"
+    ]
+   },
+   {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "cat": "soft",
+    "ye": {
+     "2021": 103.8,
+     "2022": 46.2,
+     "2023": 65.5,
+     "2024": 51.0,
+     "2025": 75.1
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/snow/market-cap/"
+    ]
+   },
+   {
+    "id": "workday",
+    "name": "Workday",
+    "cat": "soft",
+    "ye": {
+     "2016": 13.3,
+     "2017": 21.4,
+     "2018": 35.1,
+     "2019": 37.8,
+     "2020": 57.5,
+     "2021": 68.3,
+     "2022": 43.0,
+     "2023": 72.6,
+     "2024": 68.6,
+     "2025": 56.5
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/wday/market-cap/"
+    ]
+   },
+   {
+    "id": "intuit",
+    "name": "Intuit",
+    "cat": "soft",
+    "ye": {
+     "2016": 29.4,
+     "2017": 40.3,
+     "2018": 51.1,
+     "2019": 68.2,
+     "2020": 99.8,
+     "2021": 182.1,
+     "2022": 109.3,
+     "2023": 175.0,
+     "2024": 176.0,
+     "2025": 184.4
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/intu/market-cap/"
+    ]
+   },
+   {
+    "id": "accenture",
+    "name": "Accenture",
+    "cat": "soft",
+    "ye": {
+     "2016": 79.7,
+     "2017": 101.4,
+     "2018": 93.9,
+     "2019": 138.5,
+     "2020": 172.8,
+     "2021": 273.1,
+     "2022": 175.8,
+     "2023": 234.0,
+     "2024": 237.5,
+     "2025": 177.3
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/acn/market-cap/"
+    ]
+   },
+   {
+    "id": "duolingo",
+    "name": "Duolingo",
+    "cat": "soft",
+    "ye": {
+     "2021": 4.0,
+     "2022": 2.9,
+     "2023": 9.5,
+     "2024": 14.3,
+     "2025": 8.1
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/duol/market-cap/"
+    ]
+   },
+   {
+    "id": "applovin",
+    "name": "AppLovin",
+    "cat": "soft",
+    "ye": {
+     "2021": 35.3,
+     "2022": 3.9,
+     "2023": 13.4,
+     "2024": 108.7,
+     "2025": 227.7
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/app/market-cap/"
+    ]
+   },
+   {
+    "id": "shopify",
+    "name": "Shopify",
+    "cat": "soft",
+    "ye": {
+     "2016": 3.8,
+     "2017": 10.0,
+     "2018": 14.8,
+     "2019": 45.9,
+     "2020": 138.0,
+     "2021": 173.0,
+     "2022": 44.2,
+     "2023": 100.0,
+     "2024": 137.3,
+     "2025": 209.6
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/shop/market-cap/"
+    ]
+   },
+   {
+    "id": "tesla",
+    "name": "Tesla",
+    "cat": "soft",
+    "ye": {
+     "2016": 32.0,
+     "2017": 52.3,
+     "2018": 57.2,
+     "2019": 75.4,
+     "2020": 668.9,
+     "2021": 1061.3,
+     "2022": 389.0,
+     "2023": 789.9,
+     "2024": 1296.4,
+     "2025": 1495.7
+    },
+    "src": [
+     "https://stockanalysis.com/stocks/tsla/market-cap/"
+    ]
+   }
+  ],
+  "mcap_groups": {
+   "chips": [
+    610.0,
+    556.0,
+    814.0,
+    1184.0,
+    1965.0,
+    1158.0,
+    2735.0,
+    5282.0,
+    7709.0
+   ],
+   "big": [
+    4050.0,
+    3936.0,
+    5696.0,
+    8426.0,
+    10593.0,
+    6666.0,
+    10546.0,
+    13714.0,
+    16464.0
+   ],
+   "soft": [
+    685.0,
+    721.0,
+    1002.0,
+    1956.0,
+    2692.0,
+    1378.0,
+    2372.0,
+    3140.0,
+    3237.0
+   ]
+  },
+  "mcap_years": [
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "mcap_n": 28,
+  "mcap_out": [
+   {
+    "name": "TSMC",
+    "cat": "chips"
+   },
+   {
+    "name": "SK Hynix",
+    "cat": "chips"
+   },
+   {
+    "name": "Samsung Electronics",
+    "cat": "chips"
+   },
+   {
+    "name": "Arm",
+    "cat": "chips"
+   },
+   {
+    "name": "Dell",
+    "cat": "chips"
+   },
+   {
+    "name": "Vertiv",
+    "cat": "chips"
+   },
+   {
+    "name": "CoreWeave",
+    "cat": "chips"
+   },
+   {
+    "name": "SMIC",
+    "cat": "chips"
+   },
+   {
+    "name": "Cambricon",
+    "cat": "chips"
+   },
+   {
+    "name": "Tencent",
+    "cat": "big"
+   },
+   {
+    "name": "Palantir",
+    "cat": "soft"
+   },
+   {
+    "name": "Snowflake",
+    "cat": "soft"
+   },
+   {
+    "name": "Duolingo",
+    "cat": "soft"
+   },
+   {
+    "name": "AppLovin",
+    "cat": "soft"
+   }
+  ],
+  "panel_n": 41,
+  "panel_out": [
+   "CoreWeave"
+  ],
+  "n": 42,
+  "fx_src": [
+   "https://www.federalreserve.gov/releases/g5a/current/"
+  ],
+  "milestones": [
+   {
+    "date": "2017-06",
+    "title": "'Attention Is All You Need' (Transformer) posted to arXiv",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "verified": true
+   },
+   {
+    "date": "2018-10",
+    "title": "BERT paper posted to arXiv (Google)",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "verified": true
+   },
+   {
+    "date": "2019-02",
+    "title": "GPT-2 announced by OpenAI (staged release; code repository)",
+    "url": "https://github.com/openai/gpt-2",
+    "verified": true,
+    "notes": "OpenAI's own repo; openai.com blog (https://openai.com/index/better-language-models/) returns 403 to automated clients."
+   },
+   {
+    "date": "2020-05",
+    "title": "GPT-3 paper 'Language Models are Few-Shot Learners'",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "verified": true
+   },
+   {
+    "date": "2020-11",
+    "title": "AlphaFold 2 wins CASP14 (DeepMind announcement)",
+    "url": "https://deepmind.google/discover/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/",
+    "verified": true
+   },
+   {
+    "date": "2021-07",
+    "title": "AlphaFold 2 paper published in Nature",
+    "url": "https://www.nature.com/articles/s41586-021-03819-2",
+    "verified": true
+   },
+   {
+    "date": "2022-04",
+    "title": "DALL-E 2 paper (Hierarchical Text-Conditional Image Generation with CLIP Latents)",
+    "url": "https://arxiv.org/abs/2204.06125",
+    "verified": true
+   },
+   {
+    "date": "2022-08",
+    "title": "Stable Diffusion public release (Stability AI)",
+    "url": "https://stability.ai/news/stable-diffusion-public-release",
+    "verified": true
+   },
+   {
+    "date": "2022-11",
+    "title": "ChatGPT launched (2022-11-30)",
+    "url": "https://web.archive.org/web/20221130211011/https://openai.com/blog/chatgpt/",
+    "verified": true,
+    "notes": "Wayback snapshot of OpenAI's launch post, dated November 30, 2022; live openai.com URL (https://openai.com/index/chatgpt/) returns 403 to automated clients."
+   },
+   {
+    "date": "2023-03",
+    "title": "GPT-4 Technical Report",
+    "url": "https://arxiv.org/abs/2303.08774",
+    "verified": true
+   },
+   {
+    "date": "2023-05",
+    "title": "Nvidia crosses $1 trillion market cap (2023-05-30, intraday)",
+    "url": "https://www.cnbc.com/2023/05/30/nvidia-on-track-to-hit-1-trillion-market-cap-when-market-opens.html",
+    "verified": true,
+    "notes": "News source (CNBC), not a company announcement. StockAnalysis NVDA page shows quarter-end 2023-06-30 market cap of $1.045T."
+   },
+   {
+    "date": "2024-03",
+    "title": "Claude 3 model family announced (Anthropic)",
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "verified": true
+   },
+   {
+    "date": "2025-01",
+    "title": "Stargate Project announced (2025-01-21; OpenAI, SoftBank, Oracle, MGX)",
+    "url": "https://group.softbank/en/news/press/20250122",
+    "verified": true,
+    "notes": "SoftBank's copy of the joint announcement; OpenAI's page (https://openai.com/index/announcing-the-stargate-project/) returns 403 to automated clients."
+   },
+   {
+    "date": "2025-01",
+    "title": "DeepSeek-R1 released (2025-01-20)",
+    "url": "https://api-docs.deepseek.com/news/news250120",
+    "verified": true,
+    "notes": "Paper: https://arxiv.org/abs/2501.12948"
+   },
+   {
+    "date": "2026-02",
+    "title": "SpaceX acquires xAI (announced 2026-02-02)",
+    "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/02/02/spacex-is-acquiring-xai/",
+    "verified": true,
+    "notes": "Secondary source (CNN wire via KVIA); SpaceX's own memo on spacex.com/updates is JS-rendered and could not be verified. Reported valuations ($1T + $250B) come from unnamed sources."
+   },
+   {
+    "date": "2026-05",
+    "title": "SpaceX files S-1 for IPO (2026-05-20; ticker SPCX; 424B4 final prospectus filed 2026-06-12)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/",
+    "verified": false,
+    "notes": "Filing existence and dates confirmed through EDGAR full-text search API (https://efts.sec.gov/LATEST/search-index?q=%22Space%20Exploration%20Technologies%22&forms=S-1), but www.sec.gov returns 403 to automated clients, so this URL was NOT load-tested; open it in a browser."
+   },
+   {
+    "date": "2026-10",
+    "title": "Anthropic files public S-1 (2026-10-26; ticker ANT; amendments 2026-11-02 and 2026-11-10)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/",
+    "verified": false,
+    "notes": "Filing existence and dates confirmed through EDGAR full-text search API (https://efts.sec.gov/LATEST/search-index?q=%22Anthropic%2C%20PBC%22&forms=S-1), accession 0001628280-26-067168; www.sec.gov returns 403 to automated clients, so this URL was NOT load-tested. No pricing (424B4) found as of 2026-11-13."
+   }
+  ]
+ }
 }
