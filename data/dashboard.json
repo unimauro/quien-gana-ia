@@ -3919,6 +3919,281 @@
    ]
   }
  ],
+ "net": {
+  "nodes": [
+   {
+    "id": "openai",
+    "name": "OpenAI",
+    "x": 0.28,
+    "y": 0.52,
+    "big": true,
+    "mx": 0.5,
+    "my": 0.34
+   },
+   {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "x": 0.72,
+    "y": 0.52,
+    "big": true,
+    "mx": 0.5,
+    "my": 0.68
+   },
+   {
+    "id": "nvidia",
+    "name": "Nvidia",
+    "x": 0.5,
+    "y": 0.0,
+    "mx": 0.0,
+    "my": 0.5
+   },
+   {
+    "id": "amazon",
+    "name": "Amazon",
+    "x": 0.5,
+    "y": 0.36,
+    "mx": 1.0,
+    "my": 0.42
+   },
+   {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "x": 0.5,
+    "y": 1.0,
+    "mx": 1.0,
+    "my": 0.6
+   },
+   {
+    "id": "amd",
+    "name": "AMD",
+    "x": 0.16,
+    "y": 0.02,
+    "mx": 0.08,
+    "my": 0.02
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "x": 0.0,
+    "y": 0.36,
+    "mx": 0.5,
+    "my": 0.0
+   },
+   {
+    "id": "coreweave",
+    "name": "CoreWeave",
+    "x": 0.06,
+    "y": 0.92,
+    "mx": 0.92,
+    "my": 0.06
+   },
+   {
+    "id": "google",
+    "name": "Google",
+    "x": 1.0,
+    "y": 0.26,
+    "mx": 0.1,
+    "my": 1.0
+   },
+   {
+    "id": "spacex",
+    "name": "SpaceX",
+    "x": 0.96,
+    "y": 0.9,
+    "mx": 0.9,
+    "my": 1.0
+   }
+  ],
+  "edges": [
+   {
+    "a": "nvidia",
+    "b": "openai",
+    "v": 30,
+    "kind": "inv",
+    "amt": "US$ 30 mil M",
+    "text": "Inversión en la ronda de 2026 (la carta por «hasta 100 mil M» no se firmó).",
+    "src": [
+     "https://www.bloomberg.com/news/articles/2026-03-04/nvidia-s-jensen-huang-rules-out-100-billion-openai-investment"
+    ]
+   },
+   {
+    "a": "microsoft",
+    "b": "openai",
+    "v": 13,
+    "kind": "inv",
+    "amt": "US$ 13 mil M",
+    "text": "Capital comprometido desde 2019; posee cerca de una cuarta parte.",
+    "src": [
+     "https://om.co/2026/05/01/what-microsofts-10-q-says-about-openai/"
+    ]
+   },
+   {
+    "a": "amazon",
+    "b": "openai",
+    "v": 50,
+    "kind": "inv",
+    "amt": "hasta US$ 50 mil M",
+    "text": "Participación en la ronda de marzo de 2026.",
+    "src": [
+     "https://www.verdict.co.uk/openai-122bn-funding-round/"
+    ]
+   },
+   {
+    "a": "amd",
+    "b": "openai",
+    "v": 4,
+    "kind": "inv",
+    "amt": "160 M de acciones",
+    "text": "Opciones sobre ~10 % de AMD a cambio de desplegar sus chips.",
+    "src": [
+     "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189dex991.htm"
+    ]
+   },
+   {
+    "a": "openai",
+    "b": "oracle",
+    "v": 300,
+    "kind": "buy",
+    "amt": "≈ US$ 300 mil M",
+    "text": "Contrato de nube a unos 5 años (Stargate).",
+    "src": [
+     "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+    ]
+   },
+   {
+    "a": "openai",
+    "b": "microsoft",
+    "v": 250,
+    "kind": "buy",
+    "amt": "US$ 250 mil M",
+    "text": "Compromiso de consumo de Azure.",
+    "src": [
+     "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+    ]
+   },
+   {
+    "a": "openai",
+    "b": "amazon",
+    "v": 38,
+    "kind": "buy",
+    "amt": "US$ 38 mil M",
+    "text": "Contrato de nube con AWS a 7 años.",
+    "src": [
+     "https://www.implicator.ai/openai-pays-amazon-38-billion-to-escape-microsoft/"
+    ]
+   },
+   {
+    "a": "openai",
+    "b": "coreweave",
+    "v": 22.4,
+    "kind": "buy",
+    "amt": "US$ 22.4 mil M",
+    "text": "Contratos de cómputo.",
+    "src": [
+     "https://tomtunguz.com/openai-hardware-spending-2025-2035/"
+    ]
+   },
+   {
+    "a": "nvidia",
+    "b": "coreweave",
+    "v": 2,
+    "kind": "inv",
+    "amt": "US$ 2 mil M",
+    "text": "Compra de acciones en enero de 2026.",
+    "src": [
+     "https://letsdatascience.com/news/nvidia-expands-equity-holdings-across-ai-sector-4e66c14a"
+    ]
+   },
+   {
+    "a": "amazon",
+    "b": "anthropic",
+    "v": 13,
+    "kind": "inv",
+    "amt": "US$ 13 mil M",
+    "text": "Invertido hasta abril de 2026; hasta 20 mil M más según hitos.",
+    "src": [
+     "https://siliconangle.com/2026/04/20/amazon-invest-25b-anthropic-part-expanded-cloud-partnership/"
+    ]
+   },
+   {
+    "a": "google",
+    "b": "anthropic",
+    "v": 40,
+    "kind": "inv",
+    "amt": "hasta US$ 40 mil M",
+    "text": "Acuerdo de abril de 2026: 10 mil M en efectivo y el resto según hitos.",
+    "src": [
+     "https://www.techrepublic.com/article/news-google-anthropic-40b-investment/"
+    ]
+   },
+   {
+    "a": "nvidia",
+    "b": "anthropic",
+    "v": 10,
+    "kind": "inv",
+    "amt": "hasta US$ 10 mil M",
+    "text": "Acuerdo de noviembre de 2025.",
+    "src": [
+     "https://www.khaleejtimes.com/business/tech/microsoft-nvidia-to-invest-in-anthropic-as-claude-maker-commits-30-billion-to-azure"
+    ]
+   },
+   {
+    "a": "microsoft",
+    "b": "anthropic",
+    "v": 5,
+    "kind": "inv",
+    "amt": "hasta US$ 5 mil M",
+    "text": "Acuerdo de noviembre de 2025.",
+    "src": [
+     "https://www.khaleejtimes.com/business/tech/microsoft-nvidia-to-invest-in-anthropic-as-claude-maker-commits-30-billion-to-azure"
+    ]
+   },
+   {
+    "a": "anthropic",
+    "b": "amazon",
+    "v": 110.0,
+    "kind": "buy",
+    "amt": "US$ 110 mil M",
+    "text": "Gasto mínimo en AWS hasta 2036.",
+    "src": [
+     "https://www.midgardfinance.com/research/anthropic/"
+    ]
+   },
+   {
+    "a": "anthropic",
+    "b": "google",
+    "v": 121.3,
+    "kind": "buy",
+    "amt": "US$ 121 mil M",
+    "text": "Cómputo de Google entre 2026 y 2033.",
+    "src": [
+     "https://www.midgardfinance.com/research/anthropic/"
+    ]
+   },
+   {
+    "a": "anthropic",
+    "b": "spacex",
+    "v": 120.5,
+    "kind": "buy",
+    "amt": "hasta US$ 120.5 mil M",
+    "text": "Capacidad de centros de datos de SpaceX (ex xAI) hasta 2029.",
+    "src": [
+     "https://www.midgardfinance.com/research/anthropic/"
+    ]
+   },
+   {
+    "a": "anthropic",
+    "b": "microsoft",
+    "v": 48.2,
+    "kind": "buy",
+    "amt": "≈ US$ 48 mil M",
+    "text": "Cómputo de Azure entre 2026 y 2033.",
+    "src": [
+     "https://www.midgardfinance.com/research/anthropic/"
+    ]
+   }
+  ]
+ },
  "roi": [
   {
    "value": "95 %",

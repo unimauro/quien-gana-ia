@@ -449,6 +449,41 @@ risks = {
     "forecast_2027": {"goldman": val(gs27), "morgan": val(ms27), "src": urls(gs27, 1) + urls(ms27, 1)},
 }
 
+# ───────────────────────── red de flujos ─────────────────────────
+oai_round = st["openai"]["latest_round"]
+E_ = lambda a, b, v, kind, amt, text, node: {"a": a, "b": b, "v": v, "kind": kind, "amt": amt, "text": text, "src": urls(node, 1)}
+net_edges = [
+    E_("nvidia", "openai", 30, "inv", "US$ 30 mil M", "Inversión en la ronda de 2026 (la carta por «hasta 100 mil M» no se firmó).", deal("nvidia", "OpenAI")),
+    E_("microsoft", "openai", 13, "inv", "US$ 13 mil M", "Capital comprometido desde 2019; posee cerca de una cuarta parte.", stake("microsoft", "OpenAI")),
+    E_("amazon", "openai", 50, "inv", "hasta US$ 50 mil M", "Participación en la ronda de marzo de 2026.", oai_round),
+    E_("amd", "openai", 4, "inv", "160 M de acciones", "Opciones sobre ~10 % de AMD a cambio de desplegar sus chips.", deal("amd", "OpenAI")),
+    E_("openai", "oracle", val(commit("openai", "Oracle")), "buy", "≈ US$ 300 mil M", "Contrato de nube a unos 5 años (Stargate).", commit("openai", "Oracle")),
+    E_("openai", "microsoft", val(commit("openai", "Microsoft")), "buy", "US$ 250 mil M", "Compromiso de consumo de Azure.", commit("openai", "Microsoft")),
+    E_("openai", "amazon", val(commit("openai", "Amazon Web")), "buy", "US$ 38 mil M", "Contrato de nube con AWS a 7 años.", commit("openai", "Amazon Web")),
+    E_("openai", "coreweave", val(commit("openai", "CoreWeave")), "buy", "US$ 22.4 mil M", "Contratos de cómputo.", commit("openai", "CoreWeave")),
+    E_("nvidia", "coreweave", 2, "inv", "US$ 2 mil M", "Compra de acciones en enero de 2026.", deal("nvidia", "CoreWeave")),
+    E_("amazon", "anthropic", 13, "inv", "US$ 13 mil M", "Invertido hasta abril de 2026; hasta 20 mil M más según hitos.", stake("amazon", "Anthropic")),
+    E_("google", "anthropic", 40, "inv", "hasta US$ 40 mil M", "Acuerdo de abril de 2026: 10 mil M en efectivo y el resto según hitos.", stake("alphabet", "Anthropic")),
+    E_("nvidia", "anthropic", 10, "inv", "hasta US$ 10 mil M", "Acuerdo de noviembre de 2025.", deal("nvidia", "Anthropic")),
+    E_("microsoft", "anthropic", 5, "inv", "hasta US$ 5 mil M", "Acuerdo de noviembre de 2025.", deal("nvidia", "Anthropic")),
+    E_("anthropic", "amazon", val(commit("anthropic", "Amazon")), "buy", "US$ 110 mil M", "Gasto mínimo en AWS hasta 2036.", commit("anthropic", "Amazon")),
+    E_("anthropic", "google", val(commit("anthropic", "Google")), "buy", "US$ 121 mil M", "Cómputo de Google entre 2026 y 2033.", commit("anthropic", "Google")),
+    E_("anthropic", "spacex", val(commit("anthropic", "SpaceX")), "buy", "hasta US$ 120.5 mil M", "Capacidad de centros de datos de SpaceX (ex xAI) hasta 2029.", commit("anthropic", "SpaceX")),
+    E_("anthropic", "microsoft", val(commit("anthropic", "Microsoft")), "buy", "≈ US$ 48 mil M", "Cómputo de Azure entre 2026 y 2033.", commit("anthropic", "Microsoft")),
+]
+net_nodes = [
+    {"id": "openai", "name": "OpenAI", "x": 0.28, "y": 0.52, "big": True, "mx": 0.5, "my": 0.34},
+    {"id": "anthropic", "name": "Anthropic", "x": 0.72, "y": 0.52, "big": True, "mx": 0.5, "my": 0.68},
+    {"id": "nvidia", "name": "Nvidia", "x": 0.5, "y": 0.0, "mx": 0.0, "my": 0.5},
+    {"id": "amazon", "name": "Amazon", "x": 0.5, "y": 0.36, "mx": 1.0, "my": 0.42},
+    {"id": "microsoft", "name": "Microsoft", "x": 0.5, "y": 1.0, "mx": 1.0, "my": 0.6},
+    {"id": "amd", "name": "AMD", "x": 0.16, "y": 0.02, "mx": 0.08, "my": 0.02},
+    {"id": "oracle", "name": "Oracle", "x": 0.0, "y": 0.36, "mx": 0.5, "my": 0.0},
+    {"id": "coreweave", "name": "CoreWeave", "x": 0.06, "y": 0.92, "mx": 0.92, "my": 0.06},
+    {"id": "google", "name": "Google", "x": 1.0, "y": 0.26, "mx": 0.1, "my": 1.0},
+    {"id": "spacex", "name": "SpaceX", "x": 0.96, "y": 0.9, "mx": 0.9, "my": 1.0},
+]
+
 # ───────────────────────── ganancias y pérdidas en un solo gráfico ─────────────────────────
 xai_op = loss("xai", "2025", "operating_loss")
 pnl_top = [{"name": c["name"], "cat": c["cat"], "value": c["ni"], "sub": "utilidad neta, 12 meses", "note": c.get("note"), "src": c["src"][:1]}
@@ -520,7 +555,7 @@ out = {
     "valuations": valuations, "runrate": runrate, "lab_money": lab_money, "lab_pnl": lab_pnl,
     "multiples": multiples, "labs_table": labs_table, "failures": failures,
     "ai_metrics": ai_metrics, "flows": flows, "paper_gains": paper_gains,
-    "pnl_top": pnl_top, "roi": roi, "events": events, "risks": risks, "studies": studies,
+    "pnl_top": pnl_top, "net": {"nodes": net_nodes, "edges": net_edges}, "roi": roi, "events": events, "risks": risks, "studies": studies,
 }
 (ROOT / "data" / "dashboard.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
 allu = set()

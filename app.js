@@ -1,5 +1,5 @@
 (async function () {
-  const { hbar, columns, line, fmt, el, esc } = Charts;
+  const { hbar, hgroup, network, columns, line, fmt, el, esc } = Charts;
   const $ = id => document.getElementById(id);
   const D = await fetch('data/dashboard.json').then(r => r.json());
 
@@ -76,6 +76,41 @@
     valueHead: 'Ganancia o pérdida', extraHead: ['Grupo', 'Qué mide']
   });
   src('s-pnl', D.pnl_top.flatMap(r => r.src), 'Fuentes por empresa');
+
+  /* ---------- inversión frente a ganancia ---------- */
+  const withF = D.companies.filter(c => c.f && c.f.rev != null);
+  const INV = {
+    capex: ['Las que más invierten', l => l.filter(c => c.f.capex != null).sort((a, b) => b.f.capex - a.f.capex)],
+    ni: ['Las que más ganan', l => l.slice().sort((a, b) => b.f.ni - a.f.ni)],
+    chips: ['Chips', l => l.filter(c => c.cat === 'chips').sort((a, b) => b.f.rev - a.f.rev)],
+    big: ['Gigantes', l => l.filter(c => c.cat === 'big').sort((a, b) => b.f.rev - a.f.rev)],
+    soft: ['Software', l => l.filter(c => c.cat === 'soft').sort((a, b) => b.f.rev - a.f.rev)]
+  };
+  function drawInv(k) {
+    const list = INV[k][1](withF).slice(0, 12);
+    hgroup($('c-inv'), {
+      groups: list.map(c => ({
+        label: c.name + (c.f.fx ? '*' : ''), sub: CAT[c.cat].name, tip: c.note || '',
+        bars: [
+          { name: 'Inversión (capex)', value: c.f.capex == null ? null : -c.f.capex, shown: c.f.capex, color: '--out' },
+          { name: 'Ganancia bruta', value: c.f.gp, color: '--s1' },
+          { name: 'Utilidad neta', value: c.f.ni, color: '--s3' },
+          { name: 'Caja libre', value: c.f.fcf, color: '--s4' }
+        ]
+      })),
+      legend: [{ name: 'Inversión (sale)', color: '--out' }, { name: 'Ganancia bruta', color: '--s1' }, { name: 'Utilidad neta', color: '--s3' }, { name: 'Caja libre', color: '--s4' }]
+    });
+    $('c-inv').classList.add('inview');
+    src('s-inv', list.flatMap(c => [c.links && c.links.fin, c.links && c.links.cash]), '* Reporta en otra moneda; montos convertidos (estimado). Fuentes por empresa');
+  }
+  if (withF.length) {
+    Object.entries(INV).forEach(([k, [label]], i) => {
+      const b = el('button', { type: 'button', 'aria-pressed': String(i === 0), text: label });
+      b.addEventListener('click', () => { $('f-inv').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); drawInv(k); });
+      $('f-inv').appendChild(b);
+    });
+    drawInv('capex'); $('c-inv').classList.remove('inview');
+  } else { $('c-inv').closest('.card').hidden = true; }
 
   /* ---------- 1. la apuesta ---------- */
   columns($('c-capex'), {
@@ -270,6 +305,11 @@
     el('div', { class: 'to', html: `<b>${esc(f.b)}</b>` }),
     el('div', { class: 'what', html: esc(f.what) + cite(f.src) })
   ])));
+  network($('c-net'), {
+    nodes: D.net.nodes, edges: D.net.edges, aria: 'Red de inversiones y contratos de cómputo entre proveedores y laboratorios de IA',
+    kinds: [{ id: 'inv', name: 'Inversión: el proveedor pone capital en el laboratorio', color: '--s3' }, { id: 'buy', name: 'Compra: el laboratorio se compromete a gastar en el proveedor', color: '--s2' }]
+  });
+  src('s-net', D.net.edges.flatMap(e => e.src));
   hbar($('c-paper'), { rows: D.paper_gains.map(g => ({ label: g.name, sub: g.sub, value: g.value, color: '--s2' })), labelHead: 'Empresa y periodo', valueHead: 'Ganancia contable' });
   src('s-paper', D.paper_gains.flatMap(g => g.src));
 
@@ -322,24 +362,36 @@
       if (k < 1) requestAnimationFrame(tick);
     })(t0);
   }
-  // barra de avance y sección activa en el menú
+  // páginas: cada sección es una pestaña
+  document.querySelectorAll('main > .page[hidden]').forEach(x => { const l = document.querySelector(`.nav a[href="#${x.id}"]`); if (l) l.remove(); });
+  const pages = [...document.querySelectorAll('main > .page')].filter(x => !x.hidden);
   const links = [...document.querySelectorAll('.nav a')];
-  const secs = links.map(a => document.querySelector(a.getAttribute('href')));
-  let ticking = false;
-  function onScroll() {
-    ticking = false;
-    const h = document.documentElement, max = h.scrollHeight - innerHeight;
-    $('progress').style.transform = `scaleX(${max > 0 ? Math.min(1, scrollY / max) : 0})`;
-    let cur = -1; secs.forEach((s, i) => { if (s && s.getBoundingClientRect().top < innerHeight * 0.35) cur = i; });
-    links.forEach((a, i) => {
-      const on = i === cur; if (on && !a.classList.contains('on') && a.scrollIntoView && innerWidth < 900) a.parentNode.scrollTo({ left: a.offsetLeft - 60, behavior: 'smooth' });
-      a.classList.toggle('on', on);
-    });
+  const title = id => { const l = links.find(a => a.getAttribute('href') === '#' + id); return l ? l.textContent : id; };
+  pages.forEach((pg, i) => {
+    const nav = el('div', { class: 'pager' });
+    if (i > 0) nav.appendChild(el('a', { href: '#' + pages[i - 1].id, class: 'prev', html: `<small>← Anterior</small><b>${esc(title(pages[i - 1].id))}</b>` }));
+    if (i < pages.length - 1) nav.appendChild(el('a', { href: '#' + pages[i + 1].id, class: 'next', html: `<small>Siguiente →</small><b>${esc(title(pages[i + 1].id))}</b>` }));
+    pg.querySelector('.wrap').appendChild(nav);
+  });
+  function show(id, target) {
+    pages.forEach(x => x.classList.toggle('active', x.id === id));
+    links.forEach(a => { const on = a.getAttribute('href') === '#' + id; a.classList.toggle('on', on); if (on) a.parentNode.scrollTo({ left: a.offsetLeft - 60, behavior: 'smooth' }); });
+    if (target) requestAnimationFrame(() => target.scrollIntoView({ block: 'center' })); else scrollTo(0, 0);
+    onScroll();
   }
-  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
-  onScroll();
-
-  document.querySelectorAll('section[hidden]').forEach(x => { const l = document.querySelector(`.nav a[href="#${x.id}"]`); if (l) l.remove(); });
+  function route() {
+    const h = decodeURIComponent(location.hash.slice(1)) || 'resumen';
+    if (pages.some(x => x.id === h)) return show(h);
+    const t = document.getElementById(h), host = t && t.closest('.page');
+    if (host) show(host.id, t); else show('resumen');
+  }
+  function onScroll() {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    $('progress').style.transform = `scaleX(${max > 0 ? Math.min(1, scrollY / max) : 0})`;
+  }
+  addEventListener('scroll', onScroll, { passive: true });
+  addEventListener('hashchange', route);
+  route();
 
   /* ---------- tema ---------- */
   $('theme').addEventListener('click', () => {

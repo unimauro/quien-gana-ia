@@ -287,6 +287,7 @@ https://www.fool.com/research/ai-companies-spending-on-data-centers
 https://www.glean.com/blog/glean-series-f-announcement
 https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary
 https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/execsum.pdf
+https://www.implicator.ai/openai-pays-amazon-38-billion-to-escape-microsoft/
 https://www.implicator.ai/openai-puts-revenue-run-rate-near-50-billion-sets-70-billion-year-end-target/
 https://www.khaleejtimes.com/business/tech/microsoft-nvidia-to-invest-in-anthropic-as-claude-maker-commits-30-billion-to-azure
 https://www.kucoin.com/news/flash/glean-hits-300m-arr-amid-ai-budget-cuts-valued-at-7-2b
@@ -313,6 +314,7 @@ https://www.techrepublic.com/article/news-lovable-400m-funding-13-3b-valuation/
 https://www.thestar.com.my/business/business-news/2026/07/31/microsoft-sees-strong-cash-flow-lower-capex
 https://www.thestar.com.my/tech/tech-news/2026/09/08/french-ai-company-mistral-hits-24-billion-valuation-in-funding-round
 https://www.trendingtopics.eu/replit-raises-400m-tripling-its-valuation-to-9-billion-in-six-months/
+https://www.verdict.co.uk/openai-122bn-funding-round/
 https://www.verdict.co.uk/spacex-strikes-deal-cursor/
 https://www.wealthprofessional.ca/investments/equity-markets/anthropic-files-for-ipo-as-ai-giant-nears-1t-valuation/392598
 https://www.wealthprofessional.ca/investments/equity-markets/big-techs-ai-spending-clouds-the-earnings-picture/393161

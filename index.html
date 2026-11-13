@@ -32,8 +32,9 @@
 <div class="progress" id="progress" aria-hidden="true"></div>
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="#inicio">¿Quién gana con la IA?</a>
+    <a class="brand" href="#resumen">¿Quién gana con la IA?</a>
     <nav class="nav" aria-label="Secciones">
+      <a href="#resumen">Resumen</a>
       <a href="#apuesta">La apuesta</a>
       <a href="#sepaga">¿Se paga?</a>
       <a href="#ranking">Ranking</a>
@@ -52,7 +53,7 @@
 </header>
 
 <main id="inicio">
-<div class="wrap hero">
+<section class="page" id="resumen" style="padding:0"><div class="wrap hero">
   <p class="kicker">Inversión en inteligencia artificial · corte al 13 de noviembre de 2026</p>
   <h1>La IA ya es rentable, pero sobre todo para quien vende los chips</h1>
   <p class="lede">Cuatro gigantes tecnológicos gastarán este año unos US$ 735 mil millones en centros de datos. Toda la IA generativa factura cerca de US$ 175 mil millones al año. Mientras esa cuenta se cierra, las utilidades se quedan en los fabricantes de chips y memoria.</p>
@@ -69,10 +70,17 @@
     <div id="c-pnl"></div>
     <p class="src" id="s-pnl"></p>
   </div>
+  <div class="card" style="margin-top:14px">
+    <h3>Lo que invirtió cada empresa y lo que ganó</h3>
+    <p class="sub">Últimos 12 meses, miles de millones de US$. En rojo, hacia la izquierda, el dinero que salió como inversión de capital. Hacia la derecha, lo que entró: ganancia bruta, utilidad neta y caja libre (lo que sobra después de invertir; si es negativa, va a la izquierda).</p>
+    <div class="controls"><div class="seg" id="f-inv" role="group" aria-label="Empresas"><span class="lbl">Ver</span></div></div>
+    <div id="c-inv"></div>
+    <p class="src" id="s-inv"></p>
+  </div>
   <p class="asof">Cifras en dólares de EE. UU. «Billón» significa un millón de millones. El corte cae en medio de una caída fuerte de las acciones de IA (5 de noviembre de 2026): los porcentajes de bolsa son sensibles a esa fecha.</p>
-</div>
+</div></section>
 
-<section id="apuesta"><div class="wrap">
+<section class="page" id="apuesta"><div class="wrap">
   <p class="sec-n">1 · La apuesta</p>
   <h2>El gasto en centros de datos se multiplicó por cinco en cuatro años</h2>
   <p class="sec-lede">Entre 2022 y 2025 la inversión de capital de los cuatro mayores compradores pasó de US$ 151 mil millones a US$ 376 mil millones. Sus propias guías para 2026 suman unos US$ 735 mil millones, y Goldman Sachs y Morgan Stanley proyectan entre 1.2 y 1.6 billones para 2027.</p>
@@ -87,7 +95,7 @@
   <p class="callout">La serie de Microsoft hasta 2025 es compra de activos en efectivo y su guía de 2026 incluye arrendamientos financieros, por lo que el salto de ese año está algo sobrestimado. Oracle no entra en la suma: su guía de US$ 90–95 mil millones es para un año fiscal que termina en mayo de 2027.</p>
 </div></section>
 
-<section id="sepaga"><div class="wrap">
+<section class="page" id="sepaga"><div class="wrap">
   <p class="sec-n">2 · ¿Se paga?</p>
   <h2>Todavía no: los ingresos de la IA son una fracción de lo invertido</h2>
   <p class="sec-lede">No existe una cifra única y auditada de «ingresos de IA»: Microsoft, Alphabet, Amazon y Meta no la publican. Lo que sí se puede comparar es la inversión anunciada contra lo que facturan los laboratorios y las estimaciones del mercado completo.</p>
@@ -110,7 +118,7 @@
   <p class="callout" id="bain"></p>
 </div></section>
 
-<section id="ranking"><div class="wrap">
+<section class="page" id="ranking"><div class="wrap">
   <p class="sec-n">3 · Quién gana</p>
   <h2>Chips y gigantes crearon casi el mismo valor en bolsa; los chips partían de la cuarta parte</h2>
   <p class="sec-lede">Desde el lanzamiento de ChatGPT (30 de noviembre de 2022), los proveedores de chips e infraestructura multiplicaron su valor por seis. Los gigantes lo multiplicaron por 2.4. En software hay dos ganadores enormes y varias empresas que valen menos que entonces.</p>
@@ -140,7 +148,7 @@
   </div>
 </div></section>
 
-<section id="fichas"><div class="wrap">
+<section class="page" id="fichas"><div class="wrap">
   <p class="sec-n">4 · Ficha por empresa</p>
   <h2>Inversión, ganancia bruta y rentabilidad, empresa por empresa</h2>
   <p class="sec-lede">Últimos 12 meses disponibles de cada empresa. La ganancia bruta es lo que queda de las ventas tras el costo directo de producir; el margen neto, lo que queda al final para el accionista. Cada fila enlaza a sus estados financieros y a su informe oficial.</p>
@@ -156,7 +164,7 @@
   </div>
 </div></section>
 
-<section id="chips"><div class="wrap">
+<section class="page" id="chips"><div class="wrap">
   <p class="sec-n">5 · Chips e infraestructura</p>
   <h2>El negocio seguro: vender las palas</h2>
   <p class="sec-lede">Nvidia pasó de US$ 15 mil millones a casi US$ 194 mil millones de ventas a centros de datos en tres años fiscales. En 2026 el mayor salto fue de la memoria: Micron y SK Hynix operan con márgenes cercanos a 75 %. Quien ensambla servidores vende mucho y gana poco, y las nubes de GPU siguen en pérdida.</p>
@@ -178,7 +186,7 @@
   <p class="callout" id="nvda-note"></p>
 </div></section>
 
-<section id="gigantes"><div class="wrap">
+<section class="page" id="gigantes"><div class="wrap">
   <p class="sec-n">6 · Gigantes tecnológicos</p>
   <h2>La nube crece como nunca y la caja libre se evapora</h2>
   <p class="sec-lede">Los contratos firmados son reales: cuatro empresas acumulan cerca de US$ 2.5 billones en pedidos pendientes. El costo también: el flujo de caja libre de Amazon y Oracle ya es negativo, y el de Alphabet cayó de US$ 73 mil millones a menos de 20 mil millones.</p>
@@ -200,7 +208,7 @@
   </div>
 </div></section>
 
-<section id="labs"><div class="wrap">
+<section class="page" id="labs"><div class="wrap">
   <p class="sec-n">7 · Laboratorios y startups</p>
   <h2>Ingresos que se duplican cada pocos meses, y cuentas por pagar aún mayores</h2>
   <p class="sec-lede">Anthropic superó a OpenAI en valoración e ingresos en 2026 y tuvo su primer trimestre con utilidad operativa. OpenAI proyecta flujo de caja negativo acumulado de US$ 278 mil millones hasta 2030. Ambas firmaron compromisos de cómputo de un orden de magnitud por encima de lo que facturan.</p>
@@ -246,7 +254,7 @@
   </div>
 </div></section>
 
-<section id="software"><div class="wrap">
+<section class="page" id="software"><div class="wrap">
   <p class="sec-n">8 · Software y negocios que usan IA</p>
   <h2>2026 fue el año en que el mercado castigó al software</h2>
   <p class="sec-lede">Las empresas de software venden más y ganan más que en 2022, pero la bolsa duda de que sus licencias sobrevivan a los agentes de IA. Doce de las catorce que seguimos perdieron valor este año. Las que ganan (Palantir, AppLovin) hicieron de la IA el producto, no un añadido.</p>
@@ -266,13 +274,21 @@
   </div>
 </div></section>
 
-<section id="circular"><div class="wrap">
+<section class="page" id="circular"><div class="wrap">
   <p class="sec-n">9 · Dinero circular</p>
   <h2>Proveedores que financian a sus clientes, que les compran con ese dinero</h2>
   <p class="sec-lede">Gran parte de la demanda de chips y nube viene de dos laboratorios financiados por los mismos proveedores. Mientras las valoraciones suben, todos anotan ganancias; si bajan, el circuito funciona al revés.</p>
+  <div class="grid" style="margin-bottom:14px">
+    <div class="card wide">
+      <h3>La red del dinero de la IA</h3>
+      <p class="sub">Cada flecha es dinero comprometido, en miles de millones de US$; el grosor indica el monto. Pasa el cursor o toca una empresa para aislar sus flujos. Son compromisos a varios años y varios son «hasta» ese monto.</p>
+      <div id="c-net"></div>
+      <p class="src" id="s-net"></p>
+    </div>
+  </div>
   <div class="grid two">
     <div class="card">
-      <h3>Quién pone dinero en quién</h3>
+      <h3>El detalle de cada flecha</h3>
       <div class="flows" id="flows"></div>
       <p class="src" id="s-flows"></p>
     </div>
@@ -285,7 +301,7 @@
   </div>
 </div></section>
 
-<section id="riesgos"><div class="wrap">
+<section class="page" id="riesgos"><div class="wrap">
   <p class="sec-n">10 · Riesgos</p>
   <h2>Deuda, energía y un mercado que ya dio el primer aviso</h2>
   <p class="sec-lede">La inversión dejó de pagarse solo con caja: se financia con bonos, crédito privado y vehículos fuera de balance. El FMI y el Banco de Inglaterra advirtieron en octubre de una corrección; el 5 de noviembre llegó la primera.</p>
@@ -300,7 +316,7 @@
   </div>
 </div></section>
 
-<section id="documentos"><div class="wrap">
+<section class="page" id="documentos"><div class="wrap">
   <p class="sec-n">11 · Documentos originales</p>
   <h2>Para ir a la fuente: informes, prospectos y estudios</h2>
   <p class="sec-lede">Enlaces directos a los documentos primarios detrás de las cifras. Los marcados como PDF abren el archivo original.</p>
@@ -316,7 +332,7 @@
   </div>
 </div></section>
 
-<section id="metodo"><div class="wrap">
+<section class="page" id="metodo"><div class="wrap">
   <p class="sec-n">12 · Método y límites</p>
   <h2>Cómo leer estas cifras</h2>
   <ul class="notes">
