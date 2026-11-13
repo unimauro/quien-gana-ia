@@ -1,0 +1,1333 @@
+{
+ "as_of": "2026-11-13",
+ "companies": [
+  {
+   "id": "nvidia",
+   "ir": {
+    "url": "https://investor.nvidia.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/0001045810-26-000021-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-01-25",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/0001045810-26-000073-index.htm",
+    "is_pdf": false,
+    "period": "Q2 fiscal 2027 (filed 2026-08-26)",
+    "verified": true
+   }
+  },
+  {
+   "id": "amd",
+   "ir": {
+    "url": "https://ir.amd.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/0000002488-26-000018-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2025-12-27",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "AMD Reports Third Quarter 2026 Financial Results (press release)",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "is_pdf": false,
+    "period": "Q3 2026 (ended 2026-09-26)",
+    "verified": true
+   }
+  },
+  {
+   "id": "broadcom",
+   "ir": {
+    "url": "https://investors.broadcom.com/",
+    "verified": false,
+    "note": "Sitio oficial; devuelve HTTP 403 a clientes automatizados, no se pudo abrir en esta sesion."
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/0001730168-25-000121-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2025-11-02",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/0001730168-26-000076-index.htm",
+    "is_pdf": false,
+    "period": "Q3 fiscal 2026 (ended 2026-08-02) (filed 2026-09-02)",
+    "verified": true
+   }
+  },
+  {
+   "id": "tsmc",
+   "ir": {
+    "url": "https://investor.tsmc.com/english",
+    "verified": true
+   },
+   "annual": {
+    "title": "TSMC 2025 Annual Report (PDF)",
+    "url": "https://investor.tsmc.com/sites/ir/annual-report/2025/2025%20TSMC%20Annual%20Report.E.pdf",
+    "is_pdf": true,
+    "period": "FY 2025",
+    "verified": true,
+    "note": "PDF de 6.6 MB abierto via fetch (bloquea curl). Alternativa SEC: Form 20-F FY2025 https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/0001628280-26-025362-index.htm (verificado)."
+   },
+   "quarterly": {
+    "title": "TSMC Quarterly Results (pagina con Earnings Release y Management Report 3Q26)",
+    "url": "https://investor.tsmc.com/english/quarterly-results",
+    "is_pdf": false,
+    "period": "Q3 2026",
+    "verified": true,
+    "note": "Pagina indice oficial; el PDF directo del Earnings Release devolvio 404/403 a fetch automatizado."
+   }
+  },
+  {
+   "id": "micron",
+   "ir": {
+    "url": "https://investors.micron.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (PDF)",
+    "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000723125/5dafce68-38e8-4cad-a8f3-ab56d04d73fd.pdf",
+    "is_pdf": true,
+    "period": "FY ended 2026-09-03",
+    "verified": true,
+    "note": "PDF enlazado desde el IR oficial. EDGAR: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/0000723125-26-000023-index.htm (verificado)."
+   },
+   "quarterly": {
+    "title": "Fiscal Q4 2026 Earnings Deck (PDF)",
+    "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-26-Earnings-Deck.pdf",
+    "is_pdf": true,
+    "period": "Q4 fiscal 2026",
+    "verified": true
+   }
+  },
+  {
+   "id": "skhynix",
+   "ir": {
+    "url": "https://www.skhynix.com/ir/UI-FR-IR01/",
+    "verified": true
+   },
+   "annual": null,
+   "quarterly": null
+  },
+  {
+   "id": "samsung",
+   "ir": {
+    "url": "https://www.samsung.com/global/ir/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Samsung Electronics 2025 Business Report (PDF)",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf",
+    "is_pdf": true,
+    "period": "FY 2025",
+    "verified": true,
+    "note": "El nombre del archivo dice 'Interim' pero segun el buscador es el Business Report anual 2025; PDF carga, portada no leida."
+   },
+   "quarterly": {
+    "title": "3Q 2026 Earnings Conference presentation (PDF)",
+    "url": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_3Q_conference_eng.pdf",
+    "is_pdf": true,
+    "period": "Q3 2026",
+    "verified": true
+   }
+  },
+  {
+   "id": "asml",
+   "ir": {
+    "url": "https://investor.asml.com/",
+    "verified": false,
+    "note": "Sitio oficial; devuelve HTTP 403 a clientes automatizados, no se pudo abrir en esta sesion. (www.asml.com/en/investors redirige aqui)."
+   },
+   "annual": {
+    "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/0001628280-26-011378-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "ASML reports EUR 11.7 billion total net sales and EUR 5.0 billion net income in Q3 2026",
+    "url": "https://investor.asml.com/news-releases/news-release-details/asml-reports-eu11.7-billion-total-net-sales-and-eu5.0-billion-net-income-q3-2026",
+    "is_pdf": false,
+    "period": "Q3 2026",
+    "verified": false,
+    "note": "URL oficial hallada por buscador; 403 a fetch automatizado."
+   }
+  },
+  {
+   "id": "intel",
+   "ir": {
+    "url": "https://www.intc.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2025 (PDF)",
+    "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000011/0000050863-26-000011.pdf",
+    "is_pdf": true,
+    "period": "FY ended 2025-12-27",
+    "verified": true,
+    "note": "PDF pesado (~76 MB). EDGAR: https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/0000050863-26-000011-index.htm (verificado)."
+   },
+   "quarterly": {
+    "title": "Q3 2026 Earnings Release (PDF)",
+    "url": "https://d1io3yog0oux5.cloudfront.net/_c27fc2702015d7ecf5342ea26a05a889/intel/db/887/9273/earnings_release/Q3%2726_Earnings_Release.pdf",
+    "is_pdf": true,
+    "period": "Q3 2026 (ended 2026-09-26)",
+    "verified": true
+   }
+  },
+  {
+   "id": "marvell",
+   "ir": {
+    "url": "https://investor.marvell.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/0001835632-26-000011-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-01-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Marvell Reports Second Quarter of Fiscal Year 2027 Financial Results (PDF)",
+    "url": "https://investor.marvell.com/_assets/_d3db02acfbc9a80b767712a21ae0aac2/marvell/news/2026-08-27_Marvell_Technology_Inc_Reports_Second_Quarter_of_1031.pdf",
+    "is_pdf": true,
+    "period": "Q2 fiscal 2027 (ended 2026-08-01)",
+    "verified": true
+   }
+  },
+  {
+   "id": "arm",
+   "ir": {
+    "url": "https://investors.arm.com/",
+    "verified": false,
+    "note": "Sitio oficial; devuelve HTTP 403 a clientes automatizados, no se pudo abrir en esta sesion."
+   },
+   "annual": {
+    "title": "Form 20-F fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/0001973239-26-000097-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-03-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 6-K, informe trimestral (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000142/0001973239-26-000142-index.htm",
+    "is_pdf": false,
+    "period": "Quarter ended 2026-09-30, Q2 fiscal 2027 (filed 2026-11-04)",
+    "verified": true,
+    "note": "Es el 6-K con estados financieros del trimestre, no el press release/shareholder letter."
+   }
+  },
+  {
+   "id": "dell",
+   "ir": {
+    "url": "https://investors.delltechnologies.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000008/0001571996-26-000008-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-01-30",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Dell Technologies Delivers Second Quarter Fiscal 2027 Financial Results (press release)",
+    "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/1653/dell-technologies-delivers-second-quarter-fiscal-2027-financial-results",
+    "is_pdf": false,
+    "period": "Q2 fiscal 2027 (ended 2026-07-31)",
+    "verified": true
+   }
+  },
+  {
+   "id": "supermicro",
+   "ir": {
+    "url": "https://ir.supermicro.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/0001375365-26-000022-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-06-30",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000026/0001375365-26-000026-index.htm",
+    "is_pdf": false,
+    "period": "Q1 fiscal 2027 (ended 2026-09-30) (filed 2026-11-03)",
+    "verified": true
+   }
+  },
+  {
+   "id": "arista",
+   "ir": {
+    "url": "https://investors.arista.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/0001596532-26-000013-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000252/0001596532-26-000252-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-11-03)",
+    "verified": true
+   }
+  },
+  {
+   "id": "vertiv",
+   "ir": {
+    "url": "https://investors.vertiv.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Vertiv 2025 Annual Report (PDF)",
+    "url": "https://s205.q4cdn.com/554782763/files/doc_financials/2025/ar/Vertiv-2025-Annual-Report.pdf",
+    "is_pdf": true,
+    "period": "FY 2025",
+    "verified": true,
+    "note": "EDGAR 10-K: https://www.sec.gov/Archives/edgar/data/1674101/000167410126000008/0001674101-26-000008-index.htm (verificado)."
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/0001628280-26-067707-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-10-28)",
+    "verified": true
+   }
+  },
+  {
+   "id": "coreweave",
+   "ir": {
+    "url": "https://investors.coreweave.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/0001769628-26-000104-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "CoreWeave 3Q26 Earnings Presentation (PDF)",
+    "url": "https://s205.q4cdn.com/133937190/files/content_files/CoreWeave-3Q26-Earnings-Presentation-Final.pdf",
+    "is_pdf": true,
+    "period": "Q3 2026",
+    "verified": true
+   }
+  },
+  {
+   "id": "nebius",
+   "ir": {
+    "url": "https://nebius.com/investor-hub",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/0001104659-26-052948-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 6-K filed 2026-11-12 with Ex. 99.1/99.2 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/0001104659-26-126238-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-11-12, fecha anunciada de resultados Q3)",
+    "verified": true,
+    "note": "Indice abierto; no se abrio el anexo para confirmar que es el press release de resultados Q3."
+   }
+  },
+  {
+   "id": "smic",
+   "ir": {
+    "url": "https://www.smics.com/en/site/company_financialSummary",
+    "verified": true
+   },
+   "annual": {
+    "title": "SMIC 2025 Annual Report (PDF)",
+    "url": "https://smic.cdn.shwebspace.com/uploads/AR_EN.pdf",
+    "is_pdf": true,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "2026 Third Quarter Earnings Release (PDF)",
+    "url": "https://smic.cdn.shwebspace.com/uploads/6af574c6/ER_EN.pdf",
+    "is_pdf": true,
+    "period": "Q3 2026",
+    "verified": true
+   }
+  },
+  {
+   "id": "cambricon",
+   "ir": {
+    "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=326",
+    "verified": true,
+    "note": "Seccion 'Relacion con inversionistas' del sitio oficial (en chino)."
+   },
+   "annual": {
+    "title": "Cambricon 2025 Annual Report, 2025 nian niandu baogao (PDF, chino)",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-03-13/1225007336.PDF",
+    "is_pdf": true,
+    "period": "FY 2025",
+    "verified": true,
+    "note": "Alojado en CNINFO, plataforma oficial de divulgacion de la bolsa china; PDF carga, titulo segun buscador."
+   },
+   "quarterly": null
+  },
+  {
+   "id": "microsoft",
+   "ir": {
+    "url": "https://www.microsoft.com/en-us/investor",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-06-30",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "FY27 Q1 Earnings Press Release and Webcast",
+    "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+    "is_pdf": false,
+    "period": "Q1 fiscal 2027 (ended 2026-09-30)",
+    "verified": true
+   }
+  },
+  {
+   "id": "alphabet",
+   "ir": {
+    "url": "https://abc.xyz/investor/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/0001652044-26-000018-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/0001652044-26-000080-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-10-28)",
+    "verified": true
+   }
+  },
+  {
+   "id": "amazon",
+   "ir": {
+    "url": "https://ir.aboutamazon.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/0001018724-26-000004-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/0001018724-26-000038-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-10-29)",
+    "verified": true
+   }
+  },
+  {
+   "id": "meta",
+   "ir": {
+    "url": "https://investor.atmeta.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/0001628280-26-003942-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-10-21)",
+    "verified": true
+   }
+  },
+  {
+   "id": "apple",
+   "ir": {
+    "url": "https://investor.apple.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-09-26",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/0000320193-26-000024-index.htm",
+    "is_pdf": false,
+    "period": "Q4 fiscal 2026 (filed 2026-11-02)",
+    "verified": true
+   }
+  },
+  {
+   "id": "oracle",
+   "ir": {
+    "url": "https://investor.oracle.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/0001193125-26-277521-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-05-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/0001193125-26-387905-index.htm",
+    "is_pdf": false,
+    "period": "Q1 fiscal 2027 (filed 2026-09-10)",
+    "verified": true
+   }
+  },
+  {
+   "id": "alibaba",
+   "ir": {
+    "url": "https://www.alibabagroup.com/en-US/investor-relations",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 20-F fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312526231755/0001193125-26-231755-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-03-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Alibaba Group Announces June Quarter 2026 Results (PDF)",
+    "url": "https://data.alibabagroup.com/ecms-files/1532295521/fa5d65fc-9b3e-4e82-a8fc-4ce1c3e2c407/Alibaba%20Group%20Announces%20June%20Quarter%202026%20Results.pdf",
+    "is_pdf": true,
+    "period": "June quarter 2026 (published 2026-08-20)",
+    "verified": false,
+    "note": "URL oficial hallada por buscador; 403 a curl. Resultados del trimestre de septiembre se anuncian el 2026-11-19."
+   }
+  },
+  {
+   "id": "tencent",
+   "ir": {
+    "url": "https://www.tencent.com/en-us/investors.html",
+    "verified": true
+   },
+   "annual": {
+    "title": "Tencent 2025 Annual Report (PDF)",
+    "url": "https://static.www.tencent.com/uploads/2026/04/09/62d786fcf3d3c8cb7e54791ee95439ac.pdf",
+    "is_pdf": true,
+    "period": "FY 2025",
+    "verified": false,
+    "note": "URL oficial hallada por buscador; a curl devolvio una pagina HTML de desafio, no el PDF."
+   },
+   "quarterly": {
+    "title": "Tencent Announces 2026 Second Quarter Results (PDF)",
+    "url": "https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf",
+    "is_pdf": true,
+    "period": "Q2 2026",
+    "verified": true,
+    "note": "Ultimo listado en el IR al momento del fetch; revisar si ya salio Q3 2026."
+   }
+  },
+  {
+   "id": "baidu",
+   "ir": {
+    "url": "https://ir.baidu.com/",
+    "verified": false,
+    "note": "Sitio oficial; devuelve HTTP 403 a clientes automatizados, no se pudo abrir en esta sesion."
+   },
+   "annual": {
+    "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1329099/000119312526109289/0001193125-26-109289-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Baidu Announces Second Quarter 2026 Results",
+    "url": "https://baidu.gcs-web.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results",
+    "is_pdf": false,
+    "period": "Q2 2026 (published 2026-08-18)",
+    "verified": false,
+    "note": "Host IR de Baidu hallado por buscador; 403 a fetch automatizado."
+   }
+  },
+  {
+   "id": "palantir",
+   "ir": {
+    "url": "https://investors.palantir.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/0001321655-26-000011-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/0001321655-26-000045-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-11-02)",
+    "verified": true
+   }
+  },
+  {
+   "id": "salesforce",
+   "ir": {
+    "url": "https://investor.salesforce.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/0001108524-26-000060-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-01-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/0001108524-26-000187-index.htm",
+    "is_pdf": false,
+    "period": "Q2 fiscal 2027 (filed 2026-08-26)",
+    "verified": true
+   }
+  },
+  {
+   "id": "servicenow",
+   "ir": {
+    "url": "https://www.servicenow.com/company/investor-relations.html",
+    "verified": false,
+    "note": "Sitio oficial; devuelve HTTP 403 a clientes automatizados, no se pudo abrir en esta sesion. (investors.servicenow.com redirige aqui)."
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/0001373715-26-000007-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000092/0001373715-26-000092-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-10-28)",
+    "verified": true
+   }
+  },
+  {
+   "id": "adobe",
+   "ir": {
+    "url": "https://www.adobe.com/investor-relations.html",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/0000796343-26-000003-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2025-11-28",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Q3 FY2026 earnings press release (PDF)",
+    "url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/01906202/au56y4ter.pdf",
+    "is_pdf": true,
+    "period": "Q3 fiscal 2026 (published 2026-09-10)",
+    "verified": true
+   }
+  },
+  {
+   "id": "sap",
+   "ir": {
+    "url": "https://www.sap.com/investors/en.html",
+    "verified": true,
+    "note": "Carga con curl (200); el fetcher web recibio 403."
+   },
+   "annual": {
+    "title": "Form 20-F FY2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465926020058/0001104659-26-020058-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "SAP Quarterly Statement Q3 2026 (PDF)",
+    "url": "https://www.sap.com/docs/download/investors/2026/sap-2026-q3-statement.pdf",
+    "is_pdf": true,
+    "period": "Q3 2026",
+    "verified": true
+   }
+  },
+  {
+   "id": "ibm",
+   "ir": {
+    "url": "https://www.ibm.com/investor",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000010/0000051143-26-000010-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "IBM 2026 Q3 earnings press release (PDF)",
+    "url": "https://www.ibm.com/downloads/documents/us-en/17f55bddaac4eb7f",
+    "is_pdf": true,
+    "period": "Q3 2026",
+    "verified": true
+   }
+  },
+  {
+   "id": "snowflake",
+   "ir": {
+    "url": "https://investors.snowflake.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/0001640147-26-000008-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-01-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Q2 FY2027 Investor Presentation (PDF)",
+    "url": "https://s26.q4cdn.com/463892824/files/content_files/Q2-FY2027-Investor-Presentation_vFF.pdf",
+    "is_pdf": true,
+    "period": "Q2 fiscal 2027",
+    "verified": true
+   }
+  },
+  {
+   "id": "workday",
+   "ir": {
+    "url": "https://investor.workday.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1327811/000132781126000014/0001327811-26-000014-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-01-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Q2 FY27 Earnings Prepared Remarks (PDF)",
+    "url": "https://s21.q4cdn.com/950027458/files/doc_earnings/2027/q2/generic/Q2-FY27-Earnings-Prepared-Remarks.pdf",
+    "is_pdf": true,
+    "period": "Q2 fiscal 2027",
+    "verified": true
+   }
+  },
+  {
+   "id": "intuit",
+   "ir": {
+    "url": "https://investors.intuit.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (PDF)",
+    "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000037/0000896878-26-000037.pdf",
+    "is_pdf": true,
+    "period": "FY ended 2026-07-31",
+    "verified": true,
+    "note": "EDGAR: https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/0000896878-26-000037-index.htm (verificado)."
+   },
+   "quarterly": {
+    "title": "Intuit Reports Fourth Quarter and Full Year Fiscal 2026 Results (PDF)",
+    "url": "https://investors.intuit.com/_assets/_8aa2bb45ecd28c337146c390608b0829/intuit/news/2026-08-25_Intuit_Reports_Fourth_Quarter_and_Full_Year_1320.pdf",
+    "is_pdf": true,
+    "period": "Q4 fiscal 2026 (ended 2026-07-31)",
+    "verified": true
+   }
+  },
+  {
+   "id": "accenture",
+   "ir": {
+    "url": "https://investor.accenture.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K fiscal 2026 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1467373/000146737326000049/0001467373-26-000049-index.htm",
+    "is_pdf": false,
+    "period": "FY ended 2026-08-31",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Accenture Fourth-Quarter Fiscal 2026 Earnings Release (PDF)",
+    "url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/earnings-reports/2026/accentures-fourth-quarter-fiscal-2026-earnings-release.pdf",
+    "is_pdf": true,
+    "period": "Q4 fiscal 2026",
+    "verified": true
+   }
+  },
+  {
+   "id": "duolingo",
+   "ir": {
+    "url": "https://investors.duolingo.com/",
+    "verified": false,
+    "note": "Sitio oficial; devuelve HTTP 403 a clientes automatizados, no se pudo abrir en esta sesion."
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026012494/0001628280-26-012494-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1562088/000162828026069474/0001628280-26-069474-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-11-03)",
+    "verified": true
+   }
+  },
+  {
+   "id": "applovin",
+   "ir": {
+    "url": "https://investors.applovin.com/",
+    "verified": true
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000010/0001751008-26-000010-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1751008/000175100826000068/0001751008-26-000068-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-11-04)",
+    "verified": true
+   }
+  },
+  {
+   "id": "shopify",
+   "ir": {
+    "url": "https://www.shopify.com/investors/",
+    "verified": true,
+    "note": "shopifyinvestors.com redirige aqui."
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000007/0001594805-26-000007-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000067/0001594805-26-000067-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-11-03)",
+    "verified": true
+   }
+  },
+  {
+   "id": "tesla",
+   "ir": {
+    "url": "https://ir.tesla.com/",
+    "verified": false,
+    "note": "Sitio oficial; devuelve HTTP 403 a clientes automatizados, no se pudo abrir en esta sesion."
+   },
+   "annual": {
+    "title": "Form 10-K 2025 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/0001628280-26-003952-index.htm",
+    "is_pdf": false,
+    "period": "FY 2025",
+    "verified": true
+   },
+   "quarterly": {
+    "title": "Form 8-K (Item 2.02) con press release de resultados, Ex. 99.1 (SEC EDGAR filing index)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026066738/0001628280-26-066738-index.htm",
+    "is_pdf": false,
+    "period": "Q3 2026 (filed 2026-10-21)",
+    "verified": true
+   }
+  }
+ ],
+ "studies": [
+  {
+   "org": "Anthropic, PBC",
+   "title": "Form S-1 (registration statement, IPO)",
+   "date": "2026-10",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+   "is_pdf": false,
+   "verified": true,
+   "note": "S-1 inicial presentado el 2026-10-26 (CIK 0002130357); indice EDGAR con el prospecto."
+  },
+  {
+   "org": "Anthropic, PBC",
+   "title": "Form S-1/A (Amendment No. 2)",
+   "date": "2026-11",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/0001628280-26-072484-index.htm",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Enmienda mas reciente, 2026-11-10; hay otra S-1/A del 2026-11-02 (accession 0001628280-26-068676, listada en EDGAR, indice no abierto)."
+  },
+  {
+   "org": "Space Exploration Technologies Corp. (SpaceX)",
+   "title": "Form S-1 (registration statement, IPO)",
+   "date": "2026-05",
+   "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/0001628280-26-036936-index.htm",
+   "is_pdf": false,
+   "verified": true,
+   "note": "S-1 inicial presentado el 2026-05-20 (CIK 0001181412)."
+  },
+  {
+   "org": "Space Exploration Technologies Corp. (SpaceX)",
+   "title": "Form S-1/A (latest amendment)",
+   "date": "2026-06",
+   "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/0001628280-26-040364-index.htm",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Enmienda del 2026-06-03; hay otra S-1/A del 2026-06-01."
+  },
+  {
+   "org": "MIT Media Lab, Project NANDA",
+   "title": "The GenAI Divide: State of AI in Business 2025 (acceso via pagina del grupo)",
+   "date": "2025-07",
+   "url": "https://www.media.mit.edu/groups/nanda/overview/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Estudio del '95%'. No hay PDF oficial abierto: la pagina del grupo enlaza un formulario 'REPORTS: Click here for Access' (https://docs.google.com/forms/d/e/1FAIpQLSc8rU8OpQWU44gYDeZyINUZjBFwu--1uTbxixK_PRSVrfaH8Q/viewform). Los PDF que circulan son copias de terceros."
+  },
+  {
+   "org": "McKinsey / QuantumBlack",
+   "title": "The state of AI in 2026: On the road to ROI",
+   "date": "2026",
+   "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai",
+   "is_pdf": false,
+   "verified": false,
+   "note": "Encuesta global anual de IA. URL oficial hallada por buscador; mckinsey.com dio timeout a fetch automatizado. La misma URL alojaba la edicion 2025 (ya reemplazada)."
+  },
+  {
+   "org": "McKinsey / QuantumBlack",
+   "title": "The state of AI in 2026: On the road to ROI (PDF)",
+   "date": "2026",
+   "url": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/the-state-of-ai-in-2026-on-the-road-to-roi.pdf",
+   "is_pdf": true,
+   "verified": false,
+   "note": "PDF oficial segun buscador; no se pudo abrir (timeout)."
+  },
+  {
+   "org": "BCG",
+   "title": "Applied AI Index 2026: The Formula for Winning Enterprise AI Adoption in 2026",
+   "date": "2026-09",
+   "url": "https://www.bcg.com/publications/2026/the-formula-for-agentic-ai-value",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Casi 50% de empresas ya genera valor con IA; 'future-built' sube a 7.5%."
+  },
+  {
+   "org": "BCG",
+   "title": "Press release: AI Is Starting to Pay Off. Almost 50% of Companies Now Generate Value with It",
+   "date": "2026-09",
+   "url": "https://www.bcg.com/press/30september2026-ai-starting-to-pay-off-companies-generate-value",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Nota de prensa del 2026-09-30 que resume el Applied AI Index 2026."
+  },
+  {
+   "org": "BCG",
+   "title": "The Widening AI Value Gap: Build for the Future 2025 (PDF)",
+   "date": "2025-09",
+   "url": "https://media-publications.bcg.com/The-Widening-AI-Value-Gap-Sept-2025.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "Encuesta a 1,250 ejecutivos: solo ~5% captura valor sustancial; 60% casi nada."
+  },
+  {
+   "org": "BCG",
+   "title": "Are You Generating Value from AI? The Widening Gap (landing)",
+   "date": "2025-09",
+   "url": "https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Pagina del informe 2025."
+  },
+  {
+   "org": "Stanford HAI",
+   "title": "AI Index Report 2026 (PDF)",
+   "date": "2026-04",
+   "url": "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "9a edicion, 400+ paginas: desempeno tecnico, inversion, adopcion, politica."
+  },
+  {
+   "org": "Stanford HAI",
+   "title": "The 2026 AI Index Report (landing)",
+   "date": "2026-04",
+   "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Pagina oficial con capitulos y descarga."
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Technology Report 2026 (PDF)",
+   "date": "2026-09",
+   "url": "https://www.bain.com/globalassets/noindex/2026/bain_report_technology_report_2026.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "7o informe global: la IA necesitaria ~USD 6 billones (trillion) de ingresos anuales a 2031."
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Technology Report 2026 (landing)",
+   "date": "2026-09",
+   "url": "https://www.bain.com/insights/topics/technology-report/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Pagina del informe con capitulos."
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Technology Report 2025: AI leaders are extending their edge (landing)",
+   "date": "2025-09",
+   "url": "https://www.bain.com/insights/topics/technology-report/2025/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "6o informe: USD 2 billones de ingresos anuales necesarios a 2030; brecha de USD 800 mil millones. No se hallo PDF directo."
+  },
+  {
+   "org": "Bain & Company",
+   "title": "Press release: $2 trillion in new revenue needed to fund AI's scaling trend",
+   "date": "2025-09",
+   "url": "https://www.bain.com/about/media-center/press-releases/20252/$2-trillion-in-new-revenue-needed-to-fund-ais-scaling-trend---bain--companys-6th-annual-global-technology-report/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Nota de prensa del informe 2025."
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "AI's $600B Question",
+   "date": "2024-06",
+   "url": "https://www.sequoiacap.com/article/ais-600b-question/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Brecha entre capex en GPU/centros de datos e ingresos finales necesarios."
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "AI's $200B Question (Follow the GPUs)",
+   "date": "2023-09",
+   "url": "https://www.sequoiacap.com/article/follow-the-gpus-perspective/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Pieza original de la serie."
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "Why AI Labs Are Starting to Look Like Sports Teams (actualizacion USD 840B)",
+   "date": "2025-06",
+   "url": "https://www.sequoiacap.com/article/why-ai-labs-are-starting-to-look-like-sports-teams/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Cahn la cita como la version 'USD 840B question' (junio 2025). Carga; la cifra no se leyo en la pagina."
+  },
+  {
+   "org": "David Cahn (Substack)",
+   "title": "AI's $1.5T Question",
+   "date": "2026-07",
+   "url": "https://dcahn.substack.com/p/ais-15t-question",
+   "is_pdf": false,
+   "verified": true,
+   "note": "2026-07-08: ~USD 1.5T de ingresos de por vida para justificar un ano de capex; ~USD 3T acumulado desde ChatGPT."
+  },
+  {
+   "org": "Sequoia Capital / David Cahn",
+   "title": "AI in 2026: A Tale of Two AIs",
+   "date": "2025-12",
+   "url": "https://www.sequoiacap.com/article/ai-in-2026-the-tale-of-two-ais",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Perspectiva 2026: ingresos de decenas de miles de millones frente a inversion de billones."
+  },
+  {
+   "org": "Menlo Ventures",
+   "title": "2025: The State of Generative AI in the Enterprise",
+   "date": "2025-12",
+   "url": "https://menlovc.com/perspective/2025-the-state-of-generative-ai-in-the-enterprise/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Gasto empresarial en IA generativa: USD 37 mil millones en 2025; cuotas de mercado de LLM."
+  },
+  {
+   "org": "IMF",
+   "title": "Global Financial Stability Report, October 2026: Resilience, Risk, and Transformation (landing)",
+   "date": "2026-10",
+   "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Pagina oficial con capitulos; riesgo de correccion ligada a IA."
+  },
+  {
+   "org": "IMF",
+   "title": "GFSR October 2026, full report (PDF)",
+   "date": "2026-10",
+   "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/text.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "Informe completo."
+  },
+  {
+   "org": "IMF",
+   "title": "GFSR October 2026, Chapter 1 (PDF)",
+   "date": "2026-10",
+   "url": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch1.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "Capitulo 1 (evaluacion de estabilidad; valoraciones y correccion por IA). Resumen ejecutivo: https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/execsum.pdf (verificado)."
+  },
+  {
+   "org": "Bank of England",
+   "title": "Financial Policy Committee Record, September 2026 (landing)",
+   "date": "2026-09",
+   "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026",
+   "is_pdf": false,
+   "verified": true,
+   "note": "No existe record de octubre 2026: el FPC se reunio el 25-sep y publico el 30-sep; proximo el 26-nov. Trata valoraciones de IA."
+  },
+  {
+   "org": "Bank of England",
+   "title": "FPC Summary and Record, September 2026 (PDF)",
+   "date": "2026-09",
+   "url": "https://www.bankofengland.co.uk/-/media/boe/files/financial-policy-committee-record/2026/fpc-summary-and-record-september-2026.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "Version PDF del record."
+  },
+  {
+   "org": "BIS",
+   "title": "Annual Economic Report 2026 (PDF)",
+   "date": "2026-06",
+   "url": "https://www.bis.org/publications/aer-2026_0.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "133 paginas, 2026-06-28; el cap. I 'Progress and peril' trata el auge de inversion en IA."
+  },
+  {
+   "org": "BIS",
+   "title": "Annual Economic Report 2026 (landing)",
+   "date": "2026-06",
+   "url": "https://www.bis.org/publ/arpdf/ar2026e.htm",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Pagina oficial con capitulos."
+  },
+  {
+   "org": "IEA",
+   "title": "Energy and AI (PDF)",
+   "date": "2025-04",
+   "url": "https://www.iea.org/files/de9dea13-b07d-42c5-a398-d1b3ae17d866/EnergyandAI.pdf",
+   "is_pdf": true,
+   "verified": true,
+   "note": "Informe base: demanda electrica de centros de datos a 2030. Landing: https://www.iea.org/reports/energy-and-ai (verificado)."
+  },
+  {
+   "org": "IEA",
+   "title": "Key Questions on Energy and AI (actualizacion 2026)",
+   "date": "2026-04",
+   "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Centros de datos: 485 TWh en 2025 a ~950 TWh en 2030; PDF completo requiere cuenta IEA gratuita."
+  },
+  {
+   "org": "US Census Bureau",
+   "title": "Business Trends and Outlook Survey (BTOS) data page",
+   "date": "2026",
+   "url": "https://www.census.gov/hfp/btos/data",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Visor de datos quincenales, incluye uso de IA; la pagina es una app JS (solo se confirmo carga y titulo)."
+  },
+  {
+   "org": "US Census Bureau",
+   "title": "Large Firms With at Least 20 Employees Biggest AI Users",
+   "date": "2026-05",
+   "url": "https://census.gov/library/stories/2026/05/ai-use-businesses.html",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Uso de IA: 19.8% de empresas de EE.UU. al 2026-05-03 (rango 17-20% desde dic-2025)."
+  },
+  {
+   "org": "Exponential View",
+   "title": "The State of the AI Economy",
+   "date": "2026-06",
+   "url": "https://intelligence.exponentialview.co/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Publico: ventas de IA generativa ~USD 110 mil millones en 12 meses. La pagina ofrece 'Download the report (PDF)' pero el enlace directo no se pudo extraer."
+  },
+  {
+   "org": "Goldman Sachs",
+   "title": "Global AI Investment Is Forecast to Exceed $1 Trillion in 2026",
+   "date": "2026",
+   "url": "https://www.goldmansachs.com/insights/articles/global-investment-is-forecast-to-exceed-1-trillion-in-2026",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Capex global de IA; el pronostico de hyperscalers (USD 794 mil millones) subestimaria el total en ~USD 200 mil millones."
+  },
+  {
+   "org": "Goldman Sachs",
+   "title": "Navigating a System of AI Bottlenecks",
+   "date": "2026-10",
+   "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/navigating-a-system-of-ai-bottlenecks",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Capex de IA ~USD 7.6 billones 2026-2031; USD 420 mil millones de deuda de hyperscalers en 2027."
+  },
+  {
+   "org": "Goldman Sachs",
+   "title": "Why AI Companies May Invest More than $500 Billion in 2026",
+   "date": "2025-12",
+   "url": "https://www.goldmansachs.com/insights/articles/why-ai-companies-may-invest-more-than-500-billion-in-2026",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Referencia previa (fines de 2025) sobre capex 2026."
+  },
+  {
+   "org": "Morgan Stanley",
+   "title": "AI Market Trends 2026: Global Investment, Risks, and Buildout",
+   "date": "2026",
+   "url": "https://www.morganstanley.com/insights/articles/ai-market-trends-institute-2026",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Capex de hyperscalers ~USD 800 mil millones en 2026 y ~USD 1.2 billones en 2027."
+  },
+  {
+   "org": "Morgan Stanley",
+   "title": "AI Investment Outlook: Data Centers and Political Pushback (Thoughts on the Market)",
+   "date": "2026",
+   "url": "https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/ai-data-centers-political-pushback-capital-spending-outlook-ariana-salvatore",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Podcast/transcripcion oficial sobre perspectiva de capex en centros de datos."
+  },
+  {
+   "org": "Dell'Oro Group",
+   "title": "AI Infrastructure Buildouts and Memory Cost Inflation Drove Data Center Capex Higher in 1Q 2026",
+   "date": "2026-06",
+   "url": "https://www.delloro.com/news/ai-infrastructure-buildouts-and-memory-cost-inflation-drove-data-center-capex-higher-in-1q-2026/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Capex global de centros de datos superaria USD 1 billon en 2026. Indice de notas: https://www.delloro.com/news/ (verificado)."
+  },
+  {
+   "org": "IDC",
+   "title": "AI Infrastructure Spending Jumps to $121 Billion in Q2 2026",
+   "date": "2026-11",
+   "url": "https://www.idc.com/resource-center/blog/ai-infrastructure-spending-jumps-to-121-billion-in-q2-2026/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "2026-11-06: pronostico 2026 elevado a USD 521 mil millones; USD 1.17 billones a 2029."
+  },
+  {
+   "org": "IDC",
+   "title": "AI Infrastructure Spending Holds Near $90 Billion in Q1 2026; 2026 forecast raised to $497 Billion",
+   "date": "2026-07",
+   "url": "https://www.idc.com/resource-center/blog/ai-infrastructure-spending-holds-near-90-billion-in-q1-2026-as-arm-overtakes-x86-in-accelerated-servers-2026-forecast-raised-to-497-billion/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "2026-07-21: datos del tracker trimestral de infraestructura de IA."
+  },
+  {
+   "org": "Gartner",
+   "title": "Gartner Forecasts Worldwide AI Spending to Grow 49.5% in 2026",
+   "date": "2026-09",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026",
+   "is_pdf": false,
+   "verified": false,
+   "note": "Gasto mundial en IA ~USD 2.67 billones en 2026. URL oficial hallada por buscador; gartner.com devuelve 403 a fetch automatizado."
+  },
+  {
+   "org": "Gartner",
+   "title": "Gartner Forecasts Worldwide AI Spending to Grow 47% in 2026",
+   "date": "2026-05",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-19-gartner-forecasts-worldwide-ai-spending-to-grow-47-percent-in-2026",
+   "is_pdf": false,
+   "verified": false,
+   "note": "Pronostico previo: USD 2.59 billones. 403 a fetch automatizado."
+  },
+  {
+   "org": "Gartner",
+   "title": "Gartner Says Worldwide AI Spending Will Total $2.5 Trillion in 2026",
+   "date": "2026-01",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-1-15-gartner-says-worldwide-ai-spending-will-total-2-point-5-trillion-dollars-in-2026",
+   "is_pdf": false,
+   "verified": false,
+   "note": "Primer pronostico del ano. 403 a fetch automatizado."
+  },
+  {
+   "org": "Michael Burry",
+   "title": "Cassandra Unchained (Substack)",
+   "date": "2025-11",
+   "url": "https://michaeljburry.substack.com/",
+   "is_pdf": false,
+   "verified": true,
+   "note": "Portada del Substack de Burry (de pago). No se ubico un post primario especifico sobre depreciacion; la tesis de vida util de chips proviene de sus publicaciones en X de nov-2025 y solo se hallo en cobertura secundaria."
+  }
+ ],
+ "notes": [
+  "Metodo de verificacion: 'verified': true significa que la URL se abrio en esta sesion (fetch web o curl sin suplantar navegador) y respondio con el documento o pagina descrita. Para algunos PDF y paginas solo se confirmo HTTP 200/206 y tipo de contenido, no se leyo el texto completo.",
+  "'verified': false = URL oficial hallada en resultados de busqueda o por redireccion del propio sitio, pero el servidor bloqueo el acceso automatizado (403/timeout). Abrir en navegador antes de publicar.",
+  "Empresas con registro SEC: 'annual' apunta al indice del filing en EDGAR (10-K o 20-F) salvo cuando la empresa publica PDF propio (TSMC, Micron, Intel, Vertiv, Intuit, Samsung, SMIC, Cambricon, Tencent). Cada indice EDGAR fue abierto y se confirmo tipo de formulario y periodo.",
+  "'quarterly' con 8-K: es el indice EDGAR del 8-K Item 2.02 cuyo anexo 99.1 es el press release de resultados; el anexo en si no se abrio.",
+  "Ultimo trimestre disponible al 2026-11-13: Nvidia (Q2 FY27, reporta Q3 a mediados/fines de nov), Broadcom (Q3 FY26), Salesforce, Snowflake, Workday, Marvell, Dell (Q2 FY27), Oracle (Q1 FY27), Alibaba (trimestre de junio; septiembre sale el 19-nov), Baidu y Tencent (Q2 2026) aun no publicaban el trimestre siguiente o no se hallo.",
+  "SK Hynix: IR verificado, pero los enlaces de descarga de su pagina son dinamicos (salieron rotos en el fetch); sin informe anual ni trimestral directo. Cotiza ADR desde 2026 (CIK 0002120882, F-1 y 6-K en EDGAR; aun sin 20-F); hay cuatro 6-K del 2026-10-28 no revisados.",
+  "Cambricon: sin enlace trimestral (Q3 2026) verificado. Nebius: el 6-K del 2026-11-12 no se abrio a nivel de anexo.",
+  "Arm presenta 20-F y 6-K (emisor extranjero), no 10-K/8-K. Shopify y Accenture presentan 10-K.",
+  "MIT NANDA: no hay PDF oficial de acceso abierto; se entrega la pagina del grupo y el formulario. McKinsey 2025: la URL de 'The state of AI' ahora muestra la edicion 2026; no se hallo URL oficial separada para 2025.",
+  "Bank of England: no hay record del FPC de octubre 2026; el vigente es el de septiembre 2026 (publicado 30-sep). El Financial Stability Report sale el 26-nov-2026.",
+  "Debate Burry/depreciacion: no se encontro documento primario abierto. Los datos primarios son las notas de vida util de servidores en los 10-K de Microsoft, Alphabet, Amazon, Meta y Oracle (enlazados arriba).",
+  "No se incluyeron: notas de sell-side de Goldman/Morgan Stanley detras de paywall (solo paginas publicas oficiales); TechCrunch y otra cobertura secundaria."
+ ]
+}

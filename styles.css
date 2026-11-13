@@ -317,3 +317,19 @@ details.srcs summary { display: inline; cursor: pointer; }
 .pager a small { color: var(--muted); font-size: 12px; }
 .pager a b { font-size: 15px; }
 .pager a.next { text-align: right; margin-left: auto; }
+
+/* ---------- sin movimiento (?quieto) e impresión ---------- */
+.quieto *, .quieto *::before { transition: none !important; animation: none !important; }
+.quieto .card, .quieto .tile, .quieto .vcard, .quieto .flow, .quieto .callout, .quieto .heroFig { opacity: 1 !important; transform: none !important; }
+.quieto .chart .bar, .quieto .chart .colg path { transform: none !important; }
+.quieto .chart .hv, .quieto .chart .gv, .quieto .chart .vlabel, .quieto .chart .dot, .quieto .chart .elabel, .quieto .chart .evalue { opacity: 1 !important; }
+.quieto .chart .ln { stroke-dashoffset: 0 !important; }
+@media print {
+  .top, .progress, .pager, .controls, .foot-support { display: none !important; }
+  .js main > .page { display: block !important; break-before: page; }
+  .js main > .page[hidden] { display: none !important; }
+  .card, .tile, .vcard, .flow, .callout, .heroFig { opacity: 1 !important; transform: none !important; break-inside: avoid; }
+  .chart .bar, .chart .colg path { transform: none !important; animation: none !important; }
+  .chart .hv, .chart .gv, .chart .vlabel, .chart .dot, .chart .elabel, .chart .evalue { opacity: 1 !important; animation: none !important; }
+  .chart .ln { stroke-dashoffset: 0 !important; animation: none !important; }
+}

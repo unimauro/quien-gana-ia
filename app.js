@@ -342,7 +342,7 @@
   });
 
   /* ---------- movimiento ---------- */
-  const still = matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window);
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window) || document.documentElement.classList.contains('quieto');
   const reveal = document.querySelectorAll('.card, .tile, .vcard, .flow, .callout, .heroFig');
   const charts = document.querySelectorAll('.chart');
   if (still) {
