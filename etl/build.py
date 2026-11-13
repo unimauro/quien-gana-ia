@@ -547,7 +547,7 @@ studies = [{"org": x.get("org"), "title": x.get("title"), "date": x.get("date"),
             "ok": bool(x.get("verified"))} for x in docs_raw.get("studies", []) if x.get("url")]
 
 ES_HITOS = {  # traducción de los títulos (clave: primeros 30 caracteres del original)
-    "'Attention Is All You Need' (Tr": "Se publica «Attention Is All You Need»: nace la arquitectura Transformer (Google)",
+    "'Attention Is All You Need' (T": "Se publica «Attention Is All You Need»: nace la arquitectura Transformer (Google)",
     "BERT paper posted to arXiv (Go": "Google publica BERT",
     "GPT-2 announced by OpenAI (sta": "OpenAI presenta GPT-2",
     "GPT-3 paper 'Language Models a": "OpenAI publica GPT-3",
