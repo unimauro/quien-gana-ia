@@ -502,6 +502,9 @@ for c in companies:
             "nm22": ratio(y.get("net_income"), y.get("revenue")),
             "period": t.get("period_end"), "fx": not usd, "currency": rr.get("currency"),
         }
+        for k22 in ("gm22", "om22", "nm22"):  # márgenes de 2022 sin sentido cuando casi no había ventas
+            if c["f"][k22] is not None and abs(c["f"][k22]) > 300:
+                c["f"][k22] = None
     d = dco.get(c["id"]) or {}
     c["links"] = {"fin": rr.get("source_income"), "cash": rr.get("source_cashflow"), "ir": link(d.get("ir")),
                   "annual": link(d.get("annual")), "quarterly": link(d.get("quarterly"))}

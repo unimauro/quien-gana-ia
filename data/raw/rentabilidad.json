@@ -1,0 +1,1190 @@
+{
+ "as_of": "2026-11-13",
+ "companies": [
+  {
+   "id": "nvidia",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-07-26",
+    "revenue": 302970,
+    "gross_profit": 226241,
+    "operating_income": 197579,
+    "net_income": 192880,
+    "rd": 23592,
+    "capex": 7354,
+    "operating_cash_flow": 134360,
+    "fcf": 127006,
+    "cashflow_period_end": "2026-07-26"
+   },
+   "fy2022": {
+    "period_end": "2022-01-30",
+    "revenue": 26914,
+    "gross_profit": 17475,
+    "operating_income": 10041,
+    "net_income": 9752
+   },
+   "source_income": "https://stockanalysis.com/stocks/nvda/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/nvda/financials/cash-flow-statement/",
+   "notes": "Fiscal year is February - January. Page-labelled FY 2022 ends 2022-01-30 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "amd",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-26",
+    "revenue": 45436,
+    "gross_profit": 25444,
+    "operating_income": 8097,
+    "net_income": 7619,
+    "rd": 10058,
+    "capex": 2067,
+    "operating_cash_flow": 9123,
+    "fcf": 7056,
+    "cashflow_period_end": "2026-09-26"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 23601,
+    "gross_profit": 12051,
+    "operating_income": 1264,
+    "net_income": 1320
+   },
+   "source_income": "https://stockanalysis.com/stocks/amd/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/amd/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "broadcom",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-08-02",
+    "revenue": 89104,
+    "gross_profit": 67287,
+    "operating_income": 43496,
+    "net_income": 38265,
+    "rd": 11836,
+    "capex": 1250,
+    "operating_cash_flow": 40653,
+    "fcf": 39403,
+    "cashflow_period_end": "2026-08-02"
+   },
+   "fy2022": {
+    "period_end": "2022-10-30",
+    "revenue": 33203,
+    "gross_profit": 24947,
+    "operating_income": 14286,
+    "net_income": 11495
+   },
+   "source_income": "https://stockanalysis.com/stocks/avgo/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/avgo/financials/cash-flow-statement/",
+   "notes": "Fiscal year is December - November."
+  },
+  {
+   "id": "tsmc",
+   "currency": "TWD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 4944817,
+    "gross_profit": 3255972,
+    "operating_income": 2866028,
+    "net_income": 2527571,
+    "rd": 205761,
+    "capex": 1646881,
+    "operating_cash_flow": 3127620,
+    "fcf": 1480739,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 2263891,
+    "gross_profit": 1348355,
+    "operating_income": 1122070,
+    "net_income": 992923
+   },
+   "source_income": "https://stockanalysis.com/stocks/tsm/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/tsm/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "micron",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "FY 2026",
+    "period_end": "2026-09-03",
+    "revenue": 133188,
+    "gross_profit": 107504,
+    "operating_income": 99340,
+    "net_income": 84969,
+    "rd": 5650,
+    "capex": 30712,
+    "operating_cash_flow": 89675,
+    "fcf": 58963,
+    "cashflow_period_end": "2026-09-03"
+   },
+   "fy2022": {
+    "period_end": "2022-09-01",
+    "revenue": 30758,
+    "gross_profit": 13898,
+    "operating_income": 9709,
+    "net_income": 8687
+   },
+   "source_income": "https://stockanalysis.com/stocks/mu/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/mu/financials/cash-flow-statement/",
+   "notes": "Fiscal year is October - September. Cash-flow page shows no separate TTM column (TTM period coincides with latest fiscal year FY 2026); cash-flow figures are that fiscal year. Income page shows no separate TTM column (latest quarter is fiscal year-end); figures are fiscal year FY 2026."
+  },
+  {
+   "id": "skhynix",
+   "currency": "KRW",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 269336675,
+    "gross_profit": 208415319,
+    "operating_income": 200655319,
+    "net_income": 189262287,
+    "rd": null,
+    "capex": 42869410,
+    "operating_cash_flow": 167385237,
+    "fcf": 124515827,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 44621568,
+    "gross_profit": 15627855,
+    "operating_income": 6809417,
+    "net_income": 2229560
+   },
+   "source_income": "https://stockanalysis.com/quote/krx/000660/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/krx/000660/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December. No Research & Development line shown on page (TTM)."
+  },
+  {
+   "id": "samsung",
+   "currency": "KRW",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 594479382,
+    "gross_profit": 380783598,
+    "operating_income": 274233848,
+    "net_income": 212962146,
+    "rd": 52677105,
+    "capex": 69679182,
+    "operating_cash_flow": 272759254,
+    "fcf": 203080072,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 302231360,
+    "gross_profit": 112189590,
+    "operating_income": 43376630,
+    "net_income": 54730018
+   },
+   "source_income": "https://stockanalysis.com/quote/krx/005930/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/krx/005930/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "asml",
+   "currency": "EUR",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-27",
+    "revenue": 39474,
+    "gross_profit": 21449,
+    "operating_income": 15218,
+    "net_income": 13474,
+    "rd": 4898,
+    "capex": 1563,
+    "operating_cash_flow": 22725,
+    "fcf": 21162,
+    "cashflow_period_end": "2026-09-27"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 21173,
+    "gross_profit": 10700,
+    "operating_income": 6501,
+    "net_income": 5624
+   },
+   "source_income": "https://stockanalysis.com/stocks/asml/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/asml/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "intel",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-26",
+    "revenue": 59892,
+    "gross_profit": 24048,
+    "operating_income": 6179,
+    "net_income": -12032,
+    "rd": 13452,
+    "capex": 13704,
+    "operating_cash_flow": 17472,
+    "fcf": 3768,
+    "cashflow_period_end": "2026-09-26"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 63054,
+    "gross_profit": 28446,
+    "operating_income": 3916,
+    "net_income": 8014
+   },
+   "source_income": "https://stockanalysis.com/stocks/intc/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/intc/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "marvell",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-08-01",
+    "revenue": 9450,
+    "gross_profit": 4935,
+    "operating_income": 1589,
+    "net_income": 2640,
+    "rd": 2442,
+    "capex": 470.2,
+    "operating_cash_flow": 2200,
+    "fcf": 1730,
+    "cashflow_period_end": "2026-08-01"
+   },
+   "fy2022": {
+    "period_end": "2022-01-29",
+    "revenue": 4462,
+    "gross_profit": 2258,
+    "operating_income": -59.1,
+    "net_income": -421
+   },
+   "source_income": "https://stockanalysis.com/stocks/mrvl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/mrvl/financials/cash-flow-statement/",
+   "notes": "Fiscal year is February - January. Page-labelled FY 2022 ends 2022-01-29 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "arm",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 5464,
+    "gross_profit": 5324,
+    "operating_income": 930,
+    "net_income": 936,
+    "rd": 3130,
+    "capex": 522,
+    "operating_cash_flow": 1734,
+    "fcf": 1212,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-03-31",
+    "revenue": 2703,
+    "gross_profit": 2572,
+    "operating_income": 679.8,
+    "net_income": 549
+   },
+   "source_income": "https://stockanalysis.com/stocks/arm/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/arm/financials/cash-flow-statement/",
+   "notes": "Fiscal year is April - March. Page-labelled FY 2022 ends 2022-03-31 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "dell",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-07-31",
+    "revenue": 151197,
+    "gross_profit": 30105,
+    "operating_income": 14975,
+    "net_income": 11378,
+    "rd": 3383,
+    "capex": 3592,
+    "operating_cash_flow": 12152,
+    "fcf": 8560,
+    "cashflow_period_end": "2026-07-31"
+   },
+   "fy2022": {
+    "period_end": "2022-01-28",
+    "revenue": 101197,
+    "gross_profit": 21920,
+    "operating_income": 4793,
+    "net_income": 5563
+   },
+   "source_income": "https://stockanalysis.com/stocks/dell/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/dell/financials/cash-flow-statement/",
+   "notes": "Fiscal year is February - January. Page-labelled FY 2022 ends 2022-01-28 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "supermicro",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 53991,
+    "gross_profit": 6143,
+    "operating_income": 4495,
+    "net_income": 3656,
+    "rd": 825.2,
+    "capex": 171.32,
+    "operating_cash_flow": -6326,
+    "fcf": -6498,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-06-30",
+    "revenue": 5196,
+    "gross_profit": 800,
+    "operating_income": 335.17,
+    "net_income": 285.16
+   },
+   "source_income": "https://stockanalysis.com/stocks/smci/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/smci/financials/cash-flow-statement/",
+   "notes": "Fiscal year is July - June. Page-labelled FY 2022 ends 2022-06-30 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "arista",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 11890,
+    "gross_profit": 7477,
+    "operating_income": 5211,
+    "net_income": 4752,
+    "rd": 1527,
+    "capex": 221.9,
+    "operating_cash_flow": 5239,
+    "fcf": 5017,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 4381,
+    "gross_profit": 2676,
+    "operating_income": 1527,
+    "net_income": 1352
+   },
+   "source_income": "https://stockanalysis.com/stocks/anet/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/anet/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "vertiv",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 13117,
+    "gross_profit": 4999,
+    "operating_income": 2769,
+    "net_income": 2098,
+    "rd": null,
+    "capex": 518.3,
+    "operating_cash_flow": 3666,
+    "fcf": 3147,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 5692,
+    "gross_profit": 1616,
+    "operating_income": 227.4,
+    "net_income": 76.6
+   },
+   "source_income": "https://stockanalysis.com/stocks/vrt/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/vrt/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December. No Research & Development line shown on page (TTM)."
+  },
+  {
+   "id": "coreweave",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 9886,
+    "gross_profit": 6599,
+    "operating_income": -47,
+    "net_income": -2527,
+    "rd": 5756,
+    "capex": 27618,
+    "operating_cash_flow": 7197,
+    "fcf": -20421,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 15.83,
+    "gross_profit": 3.71,
+    "operating_income": -22.88,
+    "net_income": -31.06
+   },
+   "source_income": "https://stockanalysis.com/stocks/crwv/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/crwv/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "nebius",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-06-30",
+    "revenue": 1355,
+    "gross_profit": 1006,
+    "operating_income": -507.3,
+    "net_income": 42.4,
+    "rd": 240.5,
+    "capex": 11142,
+    "operating_cash_flow": 5258,
+    "fcf": -5884,
+    "cashflow_period_end": "2026-06-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 13.5,
+    "gross_profit": -14.9,
+    "operating_income": -158,
+    "net_income": 745.6
+   },
+   "source_income": "https://stockanalysis.com/stocks/nbis/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/nbis/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December. TTM on the page ends 2026-06-30 (Q3 2026 not yet loaded)."
+  },
+  {
+   "id": "smic",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 10983,
+    "gross_profit": 2560,
+    "operating_income": 1201,
+    "net_income": 1206,
+    "rd": 871.22,
+    "capex": 6453,
+    "operating_cash_flow": 5630,
+    "fcf": -823.23,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 7273,
+    "gross_profit": 2762,
+    "operating_income": 1647,
+    "net_income": 1818
+   },
+   "source_income": "https://stockanalysis.com/quote/hkg/0981/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/hkg/0981/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "cambricon",
+   "currency": "CNY",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 11416,
+    "gross_profit": 6287,
+    "operating_income": 4204,
+    "net_income": 4169,
+    "rd": 1717,
+    "capex": 1028,
+    "operating_cash_flow": -241.46,
+    "fcf": -1270,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 729.03,
+    "gross_profit": 287.46,
+    "operating_income": -1693,
+    "net_income": -1256
+   },
+   "source_income": "https://stockanalysis.com/quote/sha/688256/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/sha/688256/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "microsoft",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 346445,
+    "gross_profit": 234394,
+    "operating_income": 163191,
+    "net_income": 142631,
+    "rd": 36463,
+    "capex": 135921,
+    "operating_cash_flow": 195878,
+    "fcf": 59957,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-06-30",
+    "revenue": 198270,
+    "gross_profit": 135620,
+    "operating_income": 83383,
+    "net_income": 72738
+   },
+   "source_income": "https://stockanalysis.com/stocks/msft/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/msft/financials/cash-flow-statement/",
+   "notes": "Fiscal year is July - June. Page-labelled FY 2022 ends 2022-06-30 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "alphabet",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 471098,
+    "gross_profit": 286698,
+    "operating_income": 156976,
+    "net_income": 235694,
+    "rd": 74463,
+    "capex": 159804,
+    "operating_cash_flow": 179551,
+    "fcf": 19747,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 282836,
+    "gross_profit": 156633,
+    "operating_income": 74842,
+    "net_income": 59972
+   },
+   "source_income": "https://stockanalysis.com/stocks/googl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/googl/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "amazon",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 797455,
+    "gross_profit": 409682,
+    "operating_income": 104366,
+    "net_income": 134779,
+    "rd": 124690,
+    "capex": 215192,
+    "operating_cash_flow": 168300,
+    "fcf": -46892,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 513983,
+    "gross_profit": 225152,
+    "operating_income": 13348,
+    "net_income": -2722
+   },
+   "source_income": "https://stockanalysis.com/stocks/amzn/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/amzn/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "meta",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 241605,
+    "gross_profit": 195782,
+    "operating_income": 91270,
+    "net_income": 75249,
+    "rd": 76544,
+    "capex": 104438,
+    "operating_cash_flow": 133087,
+    "fcf": 28649,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 116609,
+    "gross_profit": 92855,
+    "operating_income": 33555,
+    "net_income": 23200
+   },
+   "source_income": "https://stockanalysis.com/stocks/meta/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/meta/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "apple",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "FY 2026",
+    "period_end": "2026-09-26",
+    "revenue": 478834,
+    "gross_profit": 233602,
+    "operating_income": 158063,
+    "net_income": 132175,
+    "rd": 45765,
+    "capex": 9041,
+    "operating_cash_flow": 145097,
+    "fcf": 136056,
+    "cashflow_period_end": "2026-09-26"
+   },
+   "fy2022": {
+    "period_end": "2022-09-24",
+    "revenue": 394328,
+    "gross_profit": 170782,
+    "operating_income": 119437,
+    "net_income": 99803
+   },
+   "source_income": "https://stockanalysis.com/stocks/aapl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/aapl/financials/cash-flow-statement/",
+   "notes": "Fiscal year is October - September. Cash-flow page shows no separate TTM column (TTM period coincides with latest fiscal year FY 2026); cash-flow figures are that fiscal year. Income page shows no separate TTM column (latest quarter is fiscal year-end); figures are fiscal year FY 2026."
+  },
+  {
+   "id": "oracle",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-08-31",
+    "revenue": 71776,
+    "gross_profit": 45906,
+    "operating_income": 24599,
+    "net_income": 18920,
+    "rd": 10182,
+    "capex": 75660,
+    "operating_cash_flow": 46940,
+    "fcf": -28720,
+    "cashflow_period_end": "2026-08-31"
+   },
+   "fy2022": {
+    "period_end": "2022-05-31",
+    "revenue": 42440,
+    "gross_profit": 33563,
+    "operating_income": 15836,
+    "net_income": 6717
+   },
+   "source_income": "https://stockanalysis.com/stocks/orcl/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/orcl/financials/cash-flow-statement/",
+   "notes": "Fiscal year is June - May. Page-labelled FY 2022 ends 2022-05-31 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "alibaba",
+   "currency": "CNY",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-06-30",
+    "revenue": 1044971,
+    "gross_profit": 399168,
+    "operating_income": 47614,
+    "net_income": 73557,
+    "rd": 74061,
+    "capex": 155065,
+    "operating_cash_flow": 78486,
+    "fcf": -76579,
+    "cashflow_period_end": "2026-06-30"
+   },
+   "fy2022": {
+    "period_end": "2022-03-31",
+    "revenue": 853062,
+    "gross_profit": 314357,
+    "operating_income": 96497,
+    "net_income": 62249
+   },
+   "source_income": "https://stockanalysis.com/stocks/baba/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/baba/financials/cash-flow-statement/",
+   "notes": "Fiscal year is April - March. Page-labelled FY 2022 ends 2022-03-31 (fiscal year mostly covers calendar 2021). TTM on the page ends 2026-06-30 (Q3 2026 not yet loaded)."
+  },
+  {
+   "id": "tencent",
+   "currency": "CNY",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-06-30",
+    "revenue": 788483,
+    "gross_profit": 447062,
+    "operating_income": 262609,
+    "net_income": 235508,
+    "rd": null,
+    "capex": 137539,
+    "operating_cash_flow": 305848,
+    "fcf": 168309,
+    "cashflow_period_end": "2026-06-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 554552,
+    "gross_profit": 238887,
+    "operating_income": 110880,
+    "net_income": 188243
+   },
+   "source_income": "https://stockanalysis.com/quote/hkg/0700/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/quote/hkg/0700/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December. No Research & Development line shown on page (TTM). TTM on the page ends 2026-06-30 (Q3 2026 not yet loaded)."
+  },
+  {
+   "id": "baidu",
+   "currency": "CNY",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-06-30",
+    "revenue": 127314,
+    "gross_profit": 52035,
+    "operating_income": 8799,
+    "net_income": -3686,
+    "rd": 19758,
+    "capex": 22679,
+    "operating_cash_flow": 9971,
+    "fcf": -12708,
+    "cashflow_period_end": "2026-06-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 123675,
+    "gross_profit": 59808,
+    "operating_income": 15979,
+    "net_income": 7559
+   },
+   "source_income": "https://stockanalysis.com/stocks/bidu/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/bidu/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December. TTM on the page ends 2026-06-30 (Q3 2026 not yet loaded)."
+  },
+  {
+   "id": "palantir",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 7288,
+    "gross_profit": 6176,
+    "operating_income": 3326,
+    "net_income": 3669,
+    "rd": 716.77,
+    "capex": 43.24,
+    "operating_cash_flow": 4097,
+    "fcf": 4054,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 1906,
+    "gross_profit": 1497,
+    "operating_income": -161.2,
+    "net_income": -373.71
+   },
+   "source_income": "https://stockanalysis.com/stocks/pltr/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/pltr/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "salesforce",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-07-31",
+    "revenue": 43938,
+    "gross_profit": 33956,
+    "operating_income": 9455,
+    "net_income": 9662,
+    "rd": 6366,
+    "capex": 596,
+    "operating_cash_flow": 15750,
+    "fcf": 15154,
+    "cashflow_period_end": "2026-07-31"
+   },
+   "fy2022": {
+    "period_end": "2022-01-31",
+    "revenue": 26492,
+    "gross_profit": 19466,
+    "operating_income": 548,
+    "net_income": 1444
+   },
+   "source_income": "https://stockanalysis.com/stocks/crm/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/crm/financials/cash-flow-statement/",
+   "notes": "Fiscal year is February - January. Page-labelled FY 2022 ends 2022-01-31 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "servicenow",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 15431,
+    "gross_profit": 11277,
+    "operating_income": 1968,
+    "net_income": 1445,
+    "rd": 3256,
+    "capex": 584,
+    "operating_cash_flow": 5334,
+    "fcf": 4750,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 7245,
+    "gross_profit": 5672,
+    "operating_income": 379,
+    "net_income": 325
+   },
+   "source_income": "https://stockanalysis.com/stocks/now/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/now/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "adobe",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-08-28",
+    "revenue": 25970,
+    "gross_profit": 23179,
+    "operating_income": 9433,
+    "net_income": 7284,
+    "rd": 4694,
+    "capex": 214,
+    "operating_cash_flow": 10806,
+    "fcf": 10592,
+    "cashflow_period_end": "2026-08-28"
+   },
+   "fy2022": {
+    "period_end": "2022-12-02",
+    "revenue": 17606,
+    "gross_profit": 15441,
+    "operating_income": 6098,
+    "net_income": 4756
+   },
+   "source_income": "https://stockanalysis.com/stocks/adbe/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/adbe/financials/cash-flow-statement/",
+   "notes": "Fiscal year is December - November."
+  },
+  {
+   "id": "sap",
+   "currency": "EUR",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 39387,
+    "gross_profit": 28982,
+    "operating_income": 11470,
+    "net_income": 8040,
+    "rd": 7104,
+    "capex": 701,
+    "operating_cash_flow": 9883,
+    "fcf": 9182,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 29520,
+    "gross_profit": 21482,
+    "operating_income": 6051,
+    "net_income": 2284
+   },
+   "source_income": "https://stockanalysis.com/stocks/sap/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/sap/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "ibm",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 69868,
+    "gross_profit": 40499,
+    "operating_income": 12844,
+    "net_income": 11171,
+    "rd": 9046,
+    "capex": 1175,
+    "operating_cash_flow": 15831,
+    "fcf": 14656,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 60530,
+    "gross_profit": 32688,
+    "operating_income": 7521,
+    "net_income": 1639
+   },
+   "source_income": "https://stockanalysis.com/stocks/ibm/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/ibm/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "snowflake",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-07-31",
+    "revenue": 5435,
+    "gross_profit": 3643,
+    "operating_income": -1219,
+    "net_income": -1091,
+    "rd": 2107,
+    "capex": 57.98,
+    "operating_cash_flow": 1253,
+    "fcf": 1195,
+    "cashflow_period_end": "2026-07-31"
+   },
+   "fy2022": {
+    "period_end": "2022-01-31",
+    "revenue": 1219,
+    "gross_profit": 760.89,
+    "operating_income": -715.04,
+    "net_income": -679.95
+   },
+   "source_income": "https://stockanalysis.com/stocks/snow/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/snow/financials/cash-flow-statement/",
+   "notes": "Fiscal year is February - January. Page-labelled FY 2022 ends 2022-01-31 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "workday",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-07-31",
+    "revenue": 10155,
+    "gross_profit": 7697,
+    "operating_income": 1221,
+    "net_income": 1251,
+    "rd": 2808,
+    "capex": 237,
+    "operating_cash_flow": 3081,
+    "fcf": 2844,
+    "cashflow_period_end": "2026-07-31"
+   },
+   "fy2022": {
+    "period_end": "2022-01-31",
+    "revenue": 5139,
+    "gross_profit": 3711,
+    "operating_income": -116,
+    "net_income": 29
+   },
+   "source_income": "https://stockanalysis.com/stocks/wday/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/wday/financials/cash-flow-statement/",
+   "notes": "Fiscal year is February - January. Page-labelled FY 2022 ends 2022-01-31 (fiscal year mostly covers calendar 2021)."
+  },
+  {
+   "id": "intuit",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "FY 2026",
+    "period_end": "2026-07-31",
+    "revenue": 21448,
+    "gross_profit": 17369,
+    "operating_income": 6177,
+    "net_income": 4566,
+    "rd": 3376,
+    "capex": 175,
+    "operating_cash_flow": 8838,
+    "fcf": 8663,
+    "cashflow_period_end": "2026-07-31"
+   },
+   "fy2022": {
+    "period_end": "2022-07-31",
+    "revenue": 12726,
+    "gross_profit": 10460,
+    "operating_income": 2634,
+    "net_income": 2066
+   },
+   "source_income": "https://stockanalysis.com/stocks/intu/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/intu/financials/cash-flow-statement/",
+   "notes": "Fiscal year is August - July. Cash-flow page shows no separate TTM column (TTM period coincides with latest fiscal year FY 2026); cash-flow figures are that fiscal year. Income page shows no separate TTM column (latest quarter is fiscal year-end); figures are fiscal year FY 2026."
+  },
+  {
+   "id": "accenture",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "FY 2026",
+    "period_end": "2026-08-31",
+    "revenue": 74183,
+    "gross_profit": 23776,
+    "operating_income": 12180,
+    "net_income": 8367,
+    "rd": null,
+    "capex": 742.75,
+    "operating_cash_flow": 12363,
+    "fcf": 11621,
+    "cashflow_period_end": "2026-08-31"
+   },
+   "fy2022": {
+    "period_end": "2022-08-31",
+    "revenue": 61594,
+    "gross_profit": 19702,
+    "operating_income": 9367,
+    "net_income": 6877
+   },
+   "source_income": "https://stockanalysis.com/stocks/acn/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/acn/financials/cash-flow-statement/",
+   "notes": "Fiscal year is September - August. Cash-flow page shows no separate TTM column (TTM period coincides with latest fiscal year FY 2026); cash-flow figures are that fiscal year. Income page shows no separate TTM column (latest quarter is fiscal year-end); figures are fiscal year FY 2026. No Research & Development line shown on page (TTM)."
+  },
+  {
+   "id": "duolingo",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 1182,
+    "gross_profit": 860.84,
+    "operating_income": 149.98,
+    "net_income": 145.74,
+    "rd": 362.77,
+    "capex": 28.73,
+    "operating_cash_flow": 435.75,
+    "fcf": 407.03,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 369.5,
+    "gross_profit": 270.06,
+    "operating_income": -65.2,
+    "net_income": -59.57
+   },
+   "source_income": "https://stockanalysis.com/stocks/duol/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/duol/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "applovin",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 7609,
+    "gross_profit": 6755,
+    "operating_income": 5918,
+    "net_income": 5013,
+    "rd": 378.04,
+    "capex": null,
+    "operating_cash_flow": 4903,
+    "fcf": 4903,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 2817,
+    "gross_profit": 1561,
+    "operating_income": -19.51,
+    "net_income": -192.75
+   },
+   "source_income": "https://stockanalysis.com/stocks/app/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/app/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December. Capital Expenditures is blank on the page for TTM (and FY2025-FY2023); page FCF equals Operating Cash Flow."
+  },
+  {
+   "id": "shopify",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 14167,
+    "gross_profit": 6728,
+    "operating_income": 2560,
+    "net_income": 2126,
+    "rd": 1750,
+    "capex": 21,
+    "operating_cash_flow": 2682,
+    "fcf": 2661,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 5600,
+    "gross_profit": 2754,
+    "operating_income": -476,
+    "net_income": -3460
+   },
+   "source_income": "https://stockanalysis.com/stocks/shop/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/shop/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  },
+  {
+   "id": "tesla",
+   "currency": "USD",
+   "unit": "millions",
+   "ttm": {
+    "period_basis": "TTM",
+    "period_end": "2026-09-30",
+    "revenue": 103570,
+    "gross_profit": 19974,
+    "operating_income": 3134,
+    "net_income": 3218,
+    "rd": 8861,
+    "capex": 15407,
+    "operating_cash_flow": 18710,
+    "fcf": 3303,
+    "cashflow_period_end": "2026-09-30"
+   },
+   "fy2022": {
+    "period_end": "2022-12-31",
+    "revenue": 81462,
+    "gross_profit": 20853,
+    "operating_income": 13692,
+    "net_income": 12556
+   },
+   "source_income": "https://stockanalysis.com/stocks/tsla/financials/income-statement/",
+   "source_cashflow": "https://stockanalysis.com/stocks/tsla/financials/cash-flow-statement/",
+   "notes": "Fiscal year is January - December."
+  }
+ ],
+ "notes": [
+  "Source: StockAnalysis.com, pages fetched 2026-11-13. Values are as displayed on each page, in the page's currency and unit (see per-company currency/unit); no currency conversion, nothing computed.",
+  "Income items (revenue, gross_profit, operating_income, net_income, rd) are read from the HTML table of the /financials/income-statement/ page (the bare /financials/ URL is now an overview page without R&D).",
+  "operating_cash_flow is read from the HTML table of the cash-flow page. capex and fcf rows are not in the server-rendered HTML table (it stops at Operating Cash Flow); they are taken from the data payload embedded in the same page (rows 'Capital Expenditures' and 'Free Cash Flow'), which is in raw currency units and was divided by 1,000,000 to match the page's displayed unit.",
+  "capex is stored positive; the page shows it as a negative number (cash outflow).",
+  "ttm.cashflow_period_end is the period end of the cash-flow column used. fy2022 is the column the page labels 'FY 2022'; for companies with offset fiscal years this may end in early 2022 (see company notes).",
+  "ttm.period_basis is 'TTM' or, where the page has no separate TTM column because the latest quarter is the fiscal year-end (micron, apple, intuit, accenture), the latest fiscal year label.",
+  "Null fields: rd is null for skhynix, vertiv, tencent, accenture (no Research & Development line on page); capex is null for applovin. All 84 pages loaded (HTTP 200)."
+ ]
+}
