@@ -112,10 +112,10 @@
       table: { head: [o.labelHead || 'Empresa', o.valueHead || 'Valor'].concat(o.extraHead || []), rows: o.rows.map(r => [r.label, f(r.value)].concat(r.extra || [])) }
     });
     const list = el('div', { class: 'hbars' + (min < 0 ? ' neg' : '') });
-    rows.forEach(r => {
+    rows.forEach((r, ri) => {
       const w = Math.abs(r.value) / span * 100;
       const left = r.value >= 0 ? zero : zero - w;
-      const bar = el('i', { class: 'bar ' + (r.value >= 0 ? 'pos' : 'negv'), style: `left:${left}%;width:${Math.max(w, 0.4)}%;background:var(${r.color || '--s1'})` });
+      const bar = el('i', { class: 'bar ' + (r.value >= 0 ? 'pos' : 'negv'), style: `left:${left}%;width:${Math.max(w, 0.4)}%;background:var(${r.color || '--s1'});--i:${Math.min(ri, 24)}` });
       const track = el('div', { class: 'track' }, [bar]);
       if (min < 0) track.appendChild(el('i', { class: 'zero', style: `left:${zero}%` }));
       const row = el('div', { class: 'hrow', tabindex: '0' }, [
@@ -158,7 +158,7 @@
       o.cats.forEach((c, i) => {
         const cx = m.l + band * i + band / 2;
         s.appendChild(svg('text', { x: cx, y: H - 8, class: 'tick' + (o.catNote && o.catNote[i] ? ' est' : ''), 'text-anchor': 'middle' }, c));
-        const g = svg('g', { tabindex: 0, class: 'colg' });
+        const g = svg('g', { tabindex: 0, class: 'colg', style: `--i:${i}` });
         if (stacked) {
           const bw = Math.min(24 * 1.6, band * 0.56); let acc = 0;
           o.series.forEach((se, k) => {
@@ -238,7 +238,7 @@
       }
       const ends = [];
       series.forEach(se => {
-        s.appendChild(svg('path', { d: se.pts.map((p, i) => `${i ? 'L' : 'M'}${X(p.X).toFixed(1)},${y(p.y).toFixed(1)}`).join(''), fill: 'none', stroke: `var(${se.color})`, 'stroke-width': 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+        s.appendChild(svg('path', { d: se.pts.map((p, i) => `${i ? 'L' : 'M'}${X(p.X).toFixed(1)},${y(p.y).toFixed(1)}`).join(''), class: 'ln', pathLength: 1, fill: 'none', stroke: `var(${se.color})`, 'stroke-width': 2, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
         se.pts.forEach((p, i) => {
           const last = i === se.pts.length - 1;
           const c = svg('circle', { cx: X(p.X), cy: y(p.y), r: last ? 4.5 : 3, fill: `var(${se.color})`, class: 'dot', tabindex: 0 });

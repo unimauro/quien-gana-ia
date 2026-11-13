@@ -235,6 +235,51 @@
     $('refs').appendChild(li);
   });
 
+  /* ---------- apoyo: QR de Yape ---------- */
+  $('yape-btn').addEventListener('click', () => {
+    const open = $('yape-btn').getAttribute('aria-expanded') !== 'true';
+    $('yape-btn').setAttribute('aria-expanded', String(open));
+    $('yape-box').hidden = !open;
+  });
+
+  /* ---------- movimiento ---------- */
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window);
+  const reveal = document.querySelectorAll('.card, .tile, .vcard, .flow, .callout, .heroFig');
+  const charts = document.querySelectorAll('.chart');
+  if (still) {
+    reveal.forEach(n => n.classList.add('in')); charts.forEach(n => n.classList.add('inview'));
+  } else {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (!e.isIntersecting) return;
+      e.target.classList.add(e.target.classList.contains('chart') ? 'inview' : 'in'); io.unobserve(e.target);
+    }), { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    reveal.forEach((n, i) => { n.style.setProperty('--d', (i % 4) * 70 + 'ms'); io.observe(n); });
+    charts.forEach(n => io.observe(n));
+    // contador de la cifra principal
+    const target = D.gap[0].value / D.gap[1].value, t0 = performance.now();
+    (function tick(t) {
+      const k = Math.min(1, (t - t0) / 1100), e = 1 - Math.pow(1 - k, 3);
+      $('heroN').textContent = fmt.num(target * e, 1) + '×';
+      if (k < 1) requestAnimationFrame(tick);
+    })(t0);
+  }
+  // barra de avance y sección activa en el menú
+  const links = [...document.querySelectorAll('.nav a')];
+  const secs = links.map(a => document.querySelector(a.getAttribute('href')));
+  let ticking = false;
+  function onScroll() {
+    ticking = false;
+    const h = document.documentElement, max = h.scrollHeight - innerHeight;
+    $('progress').style.transform = `scaleX(${max > 0 ? Math.min(1, scrollY / max) : 0})`;
+    let cur = -1; secs.forEach((s, i) => { if (s && s.getBoundingClientRect().top < innerHeight * 0.35) cur = i; });
+    links.forEach((a, i) => {
+      const on = i === cur; if (on && !a.classList.contains('on') && a.scrollIntoView && innerWidth < 900) a.parentNode.scrollTo({ left: a.offsetLeft - 60, behavior: 'smooth' });
+      a.classList.toggle('on', on);
+    });
+  }
+  addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  onScroll();
+
   /* ---------- tema ---------- */
   $('theme').addEventListener('click', () => {
     const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');

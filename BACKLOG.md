@@ -8,7 +8,8 @@
 - [ ] Añadir resultados del 3T-2026 de Alibaba, Tencent y Baidu cuando se publiquen.
 - [ ] Capitalización exacta al 30-nov-2022 (hoy es un estimado por precio).
 - [ ] Convertir SAP a dólares con tipo de cambio documentado para incluirla en utilidades.
-- [ ] Imagen para compartir en redes (og:image).
+
 
 ## Hecho
 - [x] 13-nov-2026: investigación en 4 bloques (gigantes, chips, labs/startups, software+macro), consolidado y dashboard v1.
+- [x] 13-nov-2026: OG/Twitter card, favicon + ícono táctil, pie con Yape/café/PayPal, animaciones y barra de avance.

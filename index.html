@@ -5,15 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>¿Quién gana con la IA? · Chips, gigantes, startups y software en cifras</title>
 <meta name="description" content="Dashboard con fuentes: cuánto invierten las grandes tecnológicas en inteligencia artificial, si esa inversión se está pagando y quién gana hasta ahora: fabricantes de chips, gigantes de la nube, laboratorios y startups, o el software.">
-<meta property="og:title" content="¿Quién gana con la IA?">
-<meta property="og:description" content="Inversión, utilidades y valor en bolsa de más de 60 empresas de IA, con fuente por cada dato. Corte: 13 de noviembre de 2026.">
+<meta property="og:title" content="¿Quién gana con la IA? Chips, gigantes, startups y software en cifras">
+<meta property="og:description" content="Cuatro gigantes invierten US$ 735 mil millones en 2026 y la IA generativa factura unos US$ 175 mil millones al año. Quién gana y quién paga, con fuente por cada dato. Corte: 13-nov-2026.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://unimauro.github.io/quien-gana-ia/">
+<meta property="og:site_name" content="¿Quién gana con la IA?">
+<meta property="og:locale" content="es_PE">
+<meta property="og:image" content="https://unimauro.github.io/quien-gana-ia/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="4.2 veces: lo que cuatro gigantes invierten en infraestructura por cada dólar que ingresa la IA generativa">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="¿Quién gana con la IA? Chips, gigantes, startups y software en cifras">
+<meta name="twitter:description" content="Cuatro gigantes invierten US$ 735 mil millones en 2026 y la IA generativa factura unos US$ 175 mil millones al año. Quién gana y quién paga, con fuente por cada dato. Corte: 13-nov-2026.">
+<meta name="twitter:image" content="https://unimauro.github.io/quien-gana-ia/assets/og.png">
+<meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://unimauro.github.io/quien-gana-ia/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="styles.css">
-<script>try{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>document.documentElement.classList.add('js');try{var t=new URLSearchParams(location.search).get('tema')||localStorage.getItem('tema');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
 
+<div class="progress" id="progress" aria-hidden="true"></div>
 <header class="top">
   <div class="wrap">
     <a class="brand" href="#inicio">¿Quién gana con la IA?</a>
@@ -278,9 +294,37 @@
 </div></section>
 </main>
 
-<footer><div class="wrap">
-  Datos y código abiertos en <a href="https://github.com/unimauro/quien-gana-ia">github.com/unimauro/quien-gana-ia</a> · Elaborado por Carlos Cárdenas con asistencia de IA · Corte: 13-nov-2026 · No es asesoría financiera.
-</div></footer>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div class="foot-about">
+      <p class="foot-brand">¿Quién gana con la IA?</p>
+      <p>Elaborado por <a href="https://github.com/unimauro" rel="noopener" target="_blank">Carlos Cárdenas</a> con investigación asistida por IA y verificación de fuentes. Datos y código en <a href="https://github.com/unimauro/quien-gana-ia" rel="noopener" target="_blank">github.com/unimauro/quien-gana-ia</a>. ¿Encontraste un error? Abre un issue.</p>
+      <p>Corte: 13-nov-2026 · No es asesoría financiera.</p>
+    </div>
+    <div class="foot-support">
+      <h2 class="foot-h">Apoya este trabajo</h2>
+      <p class="foot-sub">Es independiente y gratuito. Si te sirvió, puedes invitarme un café.</p>
+      <div class="apoyo">
+        <a class="b-pay b-cafe" href="https://buymeacoffee.com/unimauro" target="_blank" rel="noopener">Invítame un café</a>
+        <button class="b-pay b-yape" id="yape-btn" type="button" aria-expanded="false" aria-controls="yape-box">Yápeame</button>
+        <a class="b-pay b-paypal" href="https://paypal.me/unimauro" target="_blank" rel="noopener">PayPal</a>
+      </div>
+      <div class="yape" id="yape-box" hidden>
+        <img src="assets/yape.png" alt="Código QR de Yape de Carlos Cárdenas Fernández" loading="lazy" width="180" height="180">
+        <p><b>Yape: Carlos Cárdenas Fernández</b><br>Escanea el código desde la app de Yape.</p>
+      </div>
+    </div>
+    <div class="foot-more">
+      <h2 class="foot-h">Otros proyectos</h2>
+      <ul>
+        <li><a href="https://unimauro.github.io/cien-dias-peru/" target="_blank" rel="noopener">100 días bajo la lupa</a></li>
+        <li><a href="https://unimauro.github.io/agenda-pais/" target="_blank" rel="noopener">Agenda País 2026–2056</a></li>
+        <li><a href="https://unimauro.github.io/datos-expuestos-peru/" target="_blank" rel="noopener">Datos expuestos Perú</a></li>
+        <li><a href="https://unimauro.github.io/" target="_blank" rel="noopener">Todos los proyectos de Carlos Cárdenas</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 <script src="charts.js"></script>
 <script src="app.js"></script>
