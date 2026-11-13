@@ -9931,104 +9931,104 @@
    },
    {
     "date": "2018-10",
-    "title": "BERT paper posted to arXiv (Google)",
+    "title": "Google publica BERT",
     "url": "https://arxiv.org/abs/1810.04805",
     "verified": true
    },
    {
     "date": "2019-02",
-    "title": "GPT-2 announced by OpenAI (staged release; code repository)",
+    "title": "OpenAI presenta GPT-2",
     "url": "https://github.com/openai/gpt-2",
     "verified": true,
     "notes": "OpenAI's own repo; openai.com blog (https://openai.com/index/better-language-models/) returns 403 to automated clients."
    },
    {
     "date": "2020-05",
-    "title": "GPT-3 paper 'Language Models are Few-Shot Learners'",
+    "title": "OpenAI publica GPT-3",
     "url": "https://arxiv.org/abs/2005.14165",
     "verified": true
    },
    {
     "date": "2020-11",
-    "title": "AlphaFold 2 wins CASP14 (DeepMind announcement)",
+    "title": "AlphaFold 2 de DeepMind resuelve el plegamiento de proteínas (CASP14)",
     "url": "https://deepmind.google/discover/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/",
     "verified": true
    },
    {
     "date": "2021-07",
-    "title": "AlphaFold 2 paper published in Nature",
+    "title": "Se publica AlphaFold 2 en Nature",
     "url": "https://www.nature.com/articles/s41586-021-03819-2",
     "verified": true
    },
    {
     "date": "2022-04",
-    "title": "DALL-E 2 paper (Hierarchical Text-Conditional Image Generation with CLIP Latents)",
+    "title": "OpenAI presenta DALL-E 2 (imágenes a partir de texto)",
     "url": "https://arxiv.org/abs/2204.06125",
     "verified": true
    },
    {
     "date": "2022-08",
-    "title": "Stable Diffusion public release (Stability AI)",
+    "title": "Stability AI libera Stable Diffusion",
     "url": "https://stability.ai/news/stable-diffusion-public-release",
     "verified": true
    },
    {
     "date": "2022-11",
-    "title": "ChatGPT launched (2022-11-30)",
+    "title": "Lanzamiento de ChatGPT (30 de noviembre)",
     "url": "https://web.archive.org/web/20221130211011/https://openai.com/blog/chatgpt/",
     "verified": true,
     "notes": "Wayback snapshot of OpenAI's launch post, dated November 30, 2022; live openai.com URL (https://openai.com/index/chatgpt/) returns 403 to automated clients."
    },
    {
     "date": "2023-03",
-    "title": "GPT-4 Technical Report",
+    "title": "OpenAI publica GPT-4",
     "url": "https://arxiv.org/abs/2303.08774",
     "verified": true
    },
    {
     "date": "2023-05",
-    "title": "Nvidia crosses $1 trillion market cap (2023-05-30, intraday)",
+    "title": "Nvidia supera por primera vez US$ 1 billón de valor en bolsa",
     "url": "https://www.cnbc.com/2023/05/30/nvidia-on-track-to-hit-1-trillion-market-cap-when-market-opens.html",
     "verified": true,
     "notes": "News source (CNBC), not a company announcement. StockAnalysis NVDA page shows quarter-end 2023-06-30 market cap of $1.045T."
    },
    {
     "date": "2024-03",
-    "title": "Claude 3 model family announced (Anthropic)",
+    "title": "Anthropic presenta la familia Claude 3",
     "url": "https://www.anthropic.com/news/claude-3-family",
     "verified": true
    },
    {
     "date": "2025-01",
-    "title": "Stargate Project announced (2025-01-21; OpenAI, SoftBank, Oracle, MGX)",
+    "title": "Se anuncia Stargate (OpenAI, SoftBank, Oracle, MGX)",
     "url": "https://group.softbank/en/news/press/20250122",
     "verified": true,
     "notes": "SoftBank's copy of the joint announcement; OpenAI's page (https://openai.com/index/announcing-the-stargate-project/) returns 403 to automated clients."
    },
    {
     "date": "2025-01",
-    "title": "DeepSeek-R1 released (2025-01-20)",
+    "title": "DeepSeek lanza R1, modelo de razonamiento abierto",
     "url": "https://api-docs.deepseek.com/news/news250120",
     "verified": true,
     "notes": "Paper: https://arxiv.org/abs/2501.12948"
    },
    {
     "date": "2026-02",
-    "title": "SpaceX acquires xAI (announced 2026-02-02)",
+    "title": "SpaceX absorbe a xAI",
     "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/02/02/spacex-is-acquiring-xai/",
     "verified": true,
     "notes": "Secondary source (CNN wire via KVIA); SpaceX's own memo on spacex.com/updates is JS-rendered and could not be verified. Reported valuations ($1T + $250B) come from unnamed sources."
    },
    {
     "date": "2026-05",
-    "title": "SpaceX files S-1 for IPO (2026-05-20; ticker SPCX; 424B4 final prospectus filed 2026-06-12)",
+    "title": "SpaceX presenta su prospecto para salir a bolsa",
     "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/",
     "verified": false,
     "notes": "Filing existence and dates confirmed through EDGAR full-text search API (https://efts.sec.gov/LATEST/search-index?q=%22Space%20Exploration%20Technologies%22&forms=S-1), but www.sec.gov returns 403 to automated clients, so this URL was NOT load-tested; open it in a browser."
    },
    {
     "date": "2026-10",
-    "title": "Anthropic files public S-1 (2026-10-26; ticker ANT; amendments 2026-11-02 and 2026-11-10)",
+    "title": "Anthropic presenta su prospecto para salir a bolsa en Nasdaq",
     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/",
     "verified": false,
     "notes": "Filing existence and dates confirmed through EDGAR full-text search API (https://efts.sec.gov/LATEST/search-index?q=%22Anthropic%2C%20PBC%22&forms=S-1), accession 0001628280-26-067168; www.sec.gov returns 403 to automated clients, so this URL was NOT load-tested. No pricing (424B4) found as of 2026-11-13."

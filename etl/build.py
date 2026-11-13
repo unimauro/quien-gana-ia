@@ -546,6 +546,26 @@ for c in companies:
 studies = [{"org": x.get("org"), "title": x.get("title"), "date": x.get("date"), "url": x["url"], "pdf": bool(x.get("is_pdf")),
             "ok": bool(x.get("verified"))} for x in docs_raw.get("studies", []) if x.get("url")]
 
+ES_HITOS = {  # traducción de los títulos (clave: primeros 30 caracteres del original)
+    "'Attention Is All You Need' (Tr": "Se publica «Attention Is All You Need»: nace la arquitectura Transformer (Google)",
+    "BERT paper posted to arXiv (Go": "Google publica BERT",
+    "GPT-2 announced by OpenAI (sta": "OpenAI presenta GPT-2",
+    "GPT-3 paper 'Language Models a": "OpenAI publica GPT-3",
+    "AlphaFold 2 wins CASP14 (DeepM": "AlphaFold 2 de DeepMind resuelve el plegamiento de proteínas (CASP14)",
+    "AlphaFold 2 paper published in": "Se publica AlphaFold 2 en Nature",
+    "DALL-E 2 paper (Hierarchical T": "OpenAI presenta DALL-E 2 (imágenes a partir de texto)",
+    "Stable Diffusion public releas": "Stability AI libera Stable Diffusion",
+    "ChatGPT launched (2022-11-30)": "Lanzamiento de ChatGPT (30 de noviembre)",
+    "GPT-4 Technical Report": "OpenAI publica GPT-4",
+    "Nvidia crosses $1 trillion mar": "Nvidia supera por primera vez US$ 1 billón de valor en bolsa",
+    "Claude 3 model family announce": "Anthropic presenta la familia Claude 3",
+    "Stargate Project announced (20": "Se anuncia Stargate (OpenAI, SoftBank, Oracle, MGX)",
+    "DeepSeek-R1 released (2025-01-": "DeepSeek lanza R1, modelo de razonamiento abierto",
+    "SpaceX acquires xAI (announced": "SpaceX absorbe a xAI",
+    "SpaceX files S-1 for IPO (2026": "SpaceX presenta su prospecto para salir a bolsa",
+    "Anthropic files public S-1 (20": "Anthropic presenta su prospecto para salir a bolsa en Nasdaq",
+}
+
 # ───────────────────────── historia anual desde 2017 ─────────────────────────
 import datetime as _dt
 
@@ -662,7 +682,7 @@ if HP.exists() and HM.exists():
     hist = {"years": YEARS, "companies": hco, "groups": groups, "totals": totals, "mcap": mc_rows, "mcap_groups": mcap_groups, "mcap_years": MY, "mcap_n": len(mc_panel), "mcap_out": mcap_out,
             "panel_n": len(panel), "panel_out": [x["name"] for x in hco if x not in panel], "n": len(hco),
             "fx_src": [MJ["fx"]["source"]] if MJ.get("fx", {}).get("source") else [],
-            "milestones": [x for x in MJ.get("milestones", []) if x.get("url")]}
+            "milestones": [{**x, "title": ES_HITOS.get(x["title"][:30], x["title"])} for x in MJ.get("milestones", []) if x.get("url")]}
 
 out = {
     "as_of": "2026-11-13",
